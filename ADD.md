@@ -81,4 +81,40 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
     <td>[ <a href="#">1</a> ] Do no harm.<br />Minimize impact on legacy project O&M development timeline/schedule to </td>
     <td>0</td>
   </tr>
+  <tr></tr>
+ <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">2</a> ] Reduce digital footprint by </td>
+    <td>75%</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Current company GUI digital footprint = </td>
+    <td>1.64MB</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Current D7460N GUI digital footprint = </td>
+    <td>112k</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Digital footprint reduction of</td>
+    <td>1464%</td>
+  </tr>
+  <tr></tr>
 </table>
+
+
+
+
+
+
+
+
+
+
