@@ -82,14 +82,14 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
     <td>0</td>
   </tr>
   <tr></tr>
- <tr>
+  <tr>
     <td>&#160;</td>
     <td>&#160;</td>
   </tr>
   <tr></tr>
   <tr>
     <td>[ <a href="#">2</a> ] Reduce digital footprint by </td>
-    <td>75%</td>
+    <td>75%+</td>
   </tr>
   <tr></tr>
   <tr>
@@ -105,6 +105,31 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
   <tr>
     <td>Digital footprint reduction of</td>
     <td>1464%</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">3</a> ] Increase load performance by</td>
+    <td>200%</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Current company load performance = </td>
+    <td>5000ms</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Current D7460N laod performance = </td>
+    <td>200ms</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Load performance increase of</td>
+    <td>700%</td>
   </tr>
   <tr></tr>
 </table>
