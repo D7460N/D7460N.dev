@@ -52,3 +52,33 @@
 <br />
 
 <h2 id="purpose">: : PURPOSE : :</h2>
+
+<br />
+
+The purpose and intent of this document is to preserve and promote foundational web industry development and O&M best practices as well as W3C/WHATWG standards compliance for the betterment, health, and longevity of D7460N and those who would use it for their businesses. 
+
+<br />
+
+---
+
+<br />
+
+<h2 id="measured-goals">: : MEASURED GOALS : :</h2>
+
+<br />
+
+All issues and metrics are driven (at least in part) by JIRA and Lighthouse and are mapped/referenced (linked) MEASURED GOALS by their [ ? ] numbers. 
+
+<br />
+
+<table>
+  <tr>
+    <td><b>GOAL</b> (** WIP **)</td>
+    <td><b>MEASURE</b> (** WIP **)</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">1</a> ] Do no harm.<br />Minimize impact on legacy project O&M development timeline/schedule to </td>
+    <td>0</td>
+  </tr>
+</table>
