@@ -114,7 +114,7 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
   <tr></tr>
   <tr>
     <td>[ <a href="#">3</a> ] Increase load performance by</td>
-    <td>200%</td>
+    <td>200%+</td>
   </tr>
   <tr></tr>
   <tr>
@@ -132,9 +132,138 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
     <td>700%</td>
   </tr>
   <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">4</a> ] Increase render performance by</td>
+    <td>200%+</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Current company render performance = </td>
+    <td>5000ms</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Current D7460N render performance = </td>
+    <td>200ms</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Load render increase of</td>
+    <td>700%</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">5</a> ] Reduce dependencies to <br />
+     Current company is dependent on Bootstrap 3 which is dependent on jQuery</td>
+    <td>0</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">6</a> ] Reduce continuitity LoE by </td>
+    <td>50%</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">7</a> ] Ensure mission continuity at minimum cost and LoE</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">8</a> ] Ensure end-user ease of use. (Usability)</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">9</a> ] Ensure developer ease of use. (Usability)</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">9</a> ] Ensure accessibility as defined by accessibility.gov</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>&#160;</td>
+    <td>&#160;</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>[ <a href="#">9</a> ] Conform to company goals and themes</td>
+    <td>&#160;</td>
+  </tr>
 </table>
 
+<br />
 
+---
+
+<br />
 
 
 
