@@ -624,7 +624,7 @@ Absolute black `#000000` and absolute white `#FFFFFF` are reserved colors for ac
 
 Base theme : :
 ```css
-
+awaiting base theme CSS
 ```
 
 <br />
@@ -648,7 +648,62 @@ The D7460N logo conforms to the following requirements : :
 <br />
  
 The D7460N logo changes color dynamically depending on on it's background-color so as to maintain the contextual theme and standard accessibility contrast ratio of `4.5:1`. The color of `#999999` (seen below) is defaulted as a safe fallback color that works in both light and dark themes. Note: (see [Accessibility](#accessibility) note above).
+
+<br />
+
+---
+
+<br />
+
+<h2 id="architecture">: : ARCHITECTURE : :</h2>
+
+<br />
+
+<h3 id="jamstack">: : JAMStack : :</h3>
+ 
+(WIP) D7460N is a static Single Page Application (SPA) GUI with a JAMStack architecture, mainly for front-loading static resources. 
+
+<br />
+
+<h3 id="htmlcss">: : HTML/CSS : :</h3>
+ 
+To separate and isolate GUI logic from business logic, the D7460N GUI is strictly separated into two exclusive halves. The HTML/CSS (GUI logic) and JavaScript (business logic).
+ 
+There should be minimal to no JavaScript in the HTML. What scripting that is there in the HTML is to assist/enhance/pollyfill the GUI logic. Even so, it is done so as to not slow down the 100 to 1000 times faster CSS.
+ 
+This works hand-in-hand with other utilized techniques to create an "air gap" between the two to allow each to benefit from modularity and independence. They can be worked on in parallel or in tandem without directly affecting the other. 
+ 
+This decoupling allows for future GUI updates to be "refaced" not "replaced".
+
+This also enforces a developemtn strategy on either side to remain exclusive and thus remain modular and minimally connected. 
+
+The two halves are connected only via the IDs in the static (JAMStack) front-loaded HTML. 
+ 
+... (WIP)
+ 
+<br />
+
+---
+
+<br />
+
+<h2 id="spa">: : SINGLE PAGE APPLICATION : :</h2>
+
+<br />
+
+<h3 id="perspective">: : PERSPECTIVE : :</h3>
+ 
+Single Page Applications are defined differently depending on context. In web design/layout world, a SPA is a web application designed and layed out using techniques that allow end-users access to all informatino and or functionality without ever leaving the _single page_ they are on. This includes not using the overused dreaded modal dialogue, if at all possible. 
+ 
+This is an important usability technique in that it allows for uninterupted concentration and workflow for end-users. This also vastly simplifies navigation and page/keyboard contraols and nullifies the need for developing content routers, saving time, LoE, and complexity 
+ 
+ <br />
  
  
+
+
+
+ 
+
 
 
