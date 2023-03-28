@@ -328,5 +328,42 @@ What happens when users come back?
 
 <br />
 
+HTML : :
+```html
+<p>
+  This is a paragraph with an
+  <a href="https://off-site-list.html" target="_new">off-site-link</a>.
+</p>
+```
 
+<br />
+
+---
+
+<br />
+
+<h2 id="principles">: : GOVERNING DESIGN/DEVELOPMENT PRINCIPLES : :</h2>
+
+<br />
+
+<h3 id="intrinsic-design">: : INTRINSIC DESIGN : :</h3>
+
+Coinded by Jen Simmons, Intrinsic design is the idea of useing modern CSS (generally Flexbox or Grid) solutions to give the browser enough information to decide when the layout will shift to a different layout instead of having to hard-code things yourself. Not only does it mean we're not left guessing what break-points things would shift at ourselves, but it also means that we're able to write less code and generally make more maintainable and adaptable solutions. 
+
+<br />
+
+<h3 id="least-power">: : LEAST POWER : :</h3>
+
+D7460N leverages the "Least Power" principle in that D7460N is purposely simple and easy to understand, not just for the end-user to user, but also for developers to develop. Why pay a team of highly trained experts to host, maintain, compile, and otherwise manage the latest monstrous JS framework and all its (possibly insecure) third party dependencies when all you need is a couple of developers to know and edit vanilla HTML, CSS, and JavaScript?
+
+The D7460N GUI runs natively in the browser with no dependencies, it requires:
+* no building
+* no compiling
+* and no serving
+
+<br />
+
+<h3 id="separation-of-concerns">: : SEPARATION OF CONCERNS : :</h3>
+
+D7460N also follows the "separation of concerns" principle.
 
