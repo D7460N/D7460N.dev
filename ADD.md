@@ -393,6 +393,54 @@ Decoupleing GUI logic from business logic allows D7460N to be:
 
 Stongly hinted in the [Least Power](#least-power) section, but bears emphasising... _What can't be done in HTML is done in CSS_.
 
+How do you create a modern future-proofed web presense that is more accessible and more enjoyable with less effort, less time, and less resources?
 
+FUTURE PROOF : :<br />
+As one of the three languages web browsers nately understand, CSS is not going away any time soon. The CSS I wrote ten years ago still works today and will work in another 10 years. 
 
+FAST : :<br />
+CSS is 100 to 1K times faster than JavaScript equivelents. 
+
+LIVE : :<br />
+CSS's always on, alway live nature combined with newly enable functionality, allows for web UIs to be "intelligently interactive". 
+
+CSS is the driving force behind D7460N design and developement. Scripting is purposely minimal so as to avoid negating the natural benefits of such CSS central design and developemnt. This focus on CSS is neither custom nor new. It is actually the original intent and how CSS was created to work. 
+
+<br />
+
+---
+
+<br />
+
+<h2 id="techniques">: : DESIGN/DEVELOPEMENT TECHNIQUES : :</h2>
+
+<br />
+
+<h3 id="classles-css">: : CLASSLESS CSS : :</h3>
+
+Classless CSS is an advanced development technique where targeted default layout and form elements are defined in the CSS itself, without the use of class selectors or "hooks" in the HTML. This minimizes HTML bulk (page loads faster), keeps the HTML clean from inline styles, and allows D7460N to lockdown and or maintain control over said targeted default layout and form elements. 
+
+<br />
+
+<h3 id="semantic-html-elements">: : SEMANTIC HTML ELEMENTS : :</h3>
+
+Web accessibility and usability begins with semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
+
+Example : :
+```
+<header></header>
+<nav></nav>
+<main>
+  <section></section>
+  <article></article>
+</main>
+<aside></aside>
+<footer></footer>
+```
+
+<br />
+
+<h3 id="custom-html-elements">: : CUSTOM HTML ELEMENTS : :</h3>
+
+The latest and final version of HTML or the WHATWG Living HTML Standard (there are no more numbered versions after May 28, 2019) allows HTML to be extended with custom HTML tags. Custom HTML tags can comprise of at least two alph numeric phrases separated by hyphens. D7460N leverages custom HTML elements for non-structural HTML to enhance HTML semantic meaning, minimize digital footprint (digital bloat), and provide developement hooks in-leu-of CSS classes (see [Classless CSS](#classless-css).
 
