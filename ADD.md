@@ -535,6 +535,8 @@ Set all descendent HTML DOM elements that do not adjust or scroll when overflowi
 
 For example, in D7460N's case, that would be : :
 
+HTML : :
+
 ```html
 <html>          <!-- set to overflow: hidden; -->
   <body>          <!-- set to overflow: hidden; -->
@@ -551,5 +553,19 @@ For example, in D7460N's case, that would be : :
     </app-container>
   </body>
 </html>
+```
+
+`<html>`, `<body>`, `<app-container>`, and `<main>` are all set to `overflow: hidden;`. Only `<ul>` is set to `overflow: auto;`
+
+<br />
+
+CSS : :
+```css
+html,
+body,
+app-container,
+main {overflow: hidden;}
+
+ul {overflow: auto;}
 ```
 
