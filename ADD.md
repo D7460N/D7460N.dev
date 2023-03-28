@@ -22,6 +22,7 @@
   * [Classess CSS](#classless-css)
   * [Semantic HTML Elements](#semantic-html-elements)
   * [Custom HTML Elements](#custom-html-elements)
+  * [CSS Variables](#css-variables)
   * [Responsive Design](#responsive-design)
   * [Progressive Enhancement](#progressive-enhancement)
   * [Minimal Third Party Dependencies](#minimal-third-party-dependencies)
@@ -412,7 +413,7 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 
 <br />
 
-<h2 id="techniques">: : DESIGN/DEVELOPEMENT TECHNIQUES : :</h2>
+<h2 id="developement-techniques">: : DESIGN/DEVELOPEMENT TECHNIQUES : :</h2>
 
 <br />
 
@@ -474,6 +475,12 @@ HTML : :
   </app-panel>
 </app-container>
 ```
+
+<br />
+
+<h3 id="css-variables">: : CSS VARIABLES : :</h3>
+
+
 
 <br />
 
@@ -568,4 +575,26 @@ main {overflow: hidden;}
 
 ul {overflow: auto;}
 ```
+This technique:
+* allows for layout for overflow content natively with no JavaScript
+* sets up browser native behavior for variable height content _(no more expensive JavaScript poling for element height)_
+* allows for sticky header and footer without extra slower JavaScript workarounds
+
+<br />
+
+<h3 id="self-aware">: : SELF-AWARE : :</h3>
+
+What if a web GUI could natively (no third party plug-ins or dependencies) know what is happening inside it, when it happens, and what to do about it? All without JavaScript? 
+
+It would : :
+* revolutionize web design/developement as we know it. Web GUIs would largely run themselves, making decisions about how they behave depending on the data (data/business logic) occuring inside them
+* split web design/development in half along the "separation of concerns" divide so sharply and completely that buttons would do nothing but fetch data 
+* work with JavaScript disabled (pure CSS), the "Holy Grail" of [Accessibility](#accessibility)
+* result in automated templates for designers, far less code logic for developers, smaller digital footprint, and a much richer experience for end-users
+
+CSS has been able to watch for things (selectors) and act on that selector for years. With the introduction of `:has()`, CSS can now watch and act on OTHER selectors and even parent selectors. This opens up CSS capabilities limited only by our imagination. 
+
+
+
+
 
