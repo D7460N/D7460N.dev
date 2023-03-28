@@ -285,7 +285,15 @@ The company website will be accessible on any device with an authorized network 
 
 <br />
 
+<h3 id="usability">: : USABILITY : :</h3>
 
+For many end-users, the difference between Apple and Microsoft is design over function (respetively). For many developers, the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. 
+
+End-user and developer accessibility and usability goversn every company design development decision. 
+
+> <i>If "content is king", then the GUI is his castle, usability is the road that leads you there, and accessibility is the key to enter his royal court."</i><br />~ Unknown
+
+<br />
 
 
 
