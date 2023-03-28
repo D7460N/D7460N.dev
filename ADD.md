@@ -426,8 +426,8 @@ Classless CSS is an advanced development technique where targeted default layout
 
 Web accessibility and usability begins with semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
 
-Example : :
-```
+HTML : :
+```html
 <header></header>
 <nav></nav>
 <main>
@@ -443,4 +443,39 @@ Example : :
 <h3 id="custom-html-elements">: : CUSTOM HTML ELEMENTS : :</h3>
 
 The latest and final version of HTML or the WHATWG Living HTML Standard (there are no more numbered versions after May 28, 2019) allows HTML to be extended with custom HTML tags. Custom HTML tags can comprise of at least two alph numeric phrases separated by hyphens. D7460N leverages custom HTML elements for non-structural HTML to enhance HTML semantic meaning, minimize digital footprint (digital bloat), and provide developement hooks in-leu-of CSS classes (see [Classless CSS](#classless-css).
+
+HTML : :
+```html
+<app-container>
+  <app-panel>
+    <panel-list>
+      <list-item>
+        <list-cell>List item 01 column 01</list-cell>
+        <list-cell>List item 01 column 02</list-cell>
+        <list-cell>List item 01 column 03</list-cell>
+        <list-cell>List item 01 column 04</list-cell>
+        <list-cell>List item 01 column 05</list-cell>
+      <list-item>
+      <list-item>
+        <list-cell>List item 02 column 01</list-cell>
+        <list-cell>List item 02 column 02</list-cell>
+        <list-cell>List item 02 column 03</list-cell>
+        <list-cell>List item 02 column 04</list-cell>
+        <list-cell>List item 02 column 05</list-cell>
+      <list-item>
+      <list-item>
+        <list-cell>List item 03 column 01</list-cell>
+        <list-cell>List item 03 column 02</list-cell>
+        <list-cell>List item 03 column 03</list-cell>
+        <list-cell>List item 03 column 04</list-cell>
+        <list-cell>List item 03 column 05</list-cell>
+      <list-item>
+    </panel-list>
+  </app-panel>
+</app-container>
+```
+
+<br />
+
+<h3 id="custom-html-elements">: : CUSTOM HTML ELEMENTS : :</h3>
 
