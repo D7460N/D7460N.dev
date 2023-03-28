@@ -319,6 +319,14 @@ What happens when users come back?
 * **No dead ends** - Privide end-users and obvious way forward and a way back. A way forward example would be, links to support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner. 
 * **Link Offsite References** - Whenever an offsite source is reference, link to the reference. 
 * **Off-site links open in new browser tab/window** - Open off-site links in a new browser tab or window with `target="_new"`.
+* **Use `text-wrap="medium"` - (WIP)
+* **Use `:focus-visible;`** - rather than just `:focus`. This allows for more accurate visible keyboard tabbing through inputs and buttons. 
+* **Use `outline-color: transparent;`** - rather than `:none;` so as to not turn off accessibility features.
+* **Use semantic custom HTML tags** - for non-layout/structural elements.
+* **Use `prefers-reduced-motion`** - for animated and transitioned elements to allow the GUI to obey end-users OS level preferences. 
+* **Use SVG format whenever possible** - so that they will dynamically/programatically change colors with the contextual theme and maintain accessibility contrast standard ratios. SVGs are alos extremely light weight and can be _inlined_ with the HTML.
+
+<br />
 
 
 
