@@ -477,5 +477,54 @@ HTML : :
 
 <br />
 
-<h3 id="custom-html-elements">: : CUSTOM HTML ELEMENTS : :</h3>
+<h3 id="responsive-design">: : RESPONSIVE DESIGN : :</h3>
 
+Responsive or adaptive web design provides optimal experience, easy reading, and easy navigation with a minimum of resizing on difference media devices such as desktops, laptops, tablets, and phones. D7460N is suitable to work on every device, and every screen size, no matter how large or small. `[ company goal ]`
+
+<br />
+
+<h3 id="progressive-enhancement">: : PROGRESSIVE ENHANCEMENT : :</h3>
+
+**Progressive Enhancement** is a design philosophy that provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code. 
+
+The word _progressive_ in _progressive enhancement_ means creating and design that achieves a simpler-but-still-usable experience for end-users of older browsers and devices with limited capabilities, while at the same time being a design the **professes the user experience** to a more compelling, fully-featured experience for users of new browsers and devices with richer capabilities. 
+
+Feature detection is generally used to determine whether browsers can handle more modern functionality, while pollyfills are often used to add missing features with JavaScript. 
+
+**Progressive Enhancement** is a useful technique that allows web developers to focus on developing the best possible webistes while making websites work multiple unkown user agents. **Graceful degradation** is related but not the same thing and is often seen as going in the opposite direction to progressive enhancement. In reality, both approaches are valid and can often compliment one another.<br />
+~ https://developer.mozilla.com/en-US/docs/Glassary/Progressive_Enhancement/
+
+CSS : :
+```css
+awaiting responsive code snippet
+```
+
+<br />
+
+<h3 id="minimal-third-party-dependencies">: : MINIMAL THIRD PARTY DEPENDENCIES : :</h3>
+
+Third party dependencies such as JS libraries like jQuery, EXT.js, Prototype.js and JavaScript frameworks like Angular, Vue, and React are helpful for when browsers don't support needed functionality natively and for launching features and or entire software projects quickly. 
+
+This party dependencies are also the eventual _death-knell_ of every software feature or software project I've even been on. 
+
+This is because third party dependencies are subject to dissassociate unwhitting third party developers with competing priorities, schedules, and security concerns. 
+
+Third party dependencies often force development decisions down inflexible "happy paths" to work as needed eventually leading to compromized or limited developement and or feature options in the near and or long term. 
+
+Additional third party software and build processes (themselves dependent on third party software) are necessary to track, sync, and keep third party dependencies up-to-date. Even so, if one dependency doesn't maintain their code, all other dependents can't move forward. A project depending on dozens of of third, fourth, and even fifth party dependencies may get up and running quickly, but will eventually grind to a screaching halt and need to be rebuilt from scratch. 
+
+<br />
+
+<h3 id="squishy-layout">: : SQUISHY LAYOUT : :</h3>
+
+D7460N leverages a **3 STOP** layout technique using native HTML and CSS that allows for dynamic functionality normally relegated to and implimented with JavaScript. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive-design), and sets the ground work for [end-user customizetin options](#customization). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
+
+<br />
+
+<h4>: : STEP 1 : :</h4>
+
+Rather than setting height on any other DOM elements, set inner most child DOM elements padding (such as buttons and form elements) to `padding: 1rem;`. This allows the DOM elements that govern interaction and content to grow on their own up to the height of the browser minus layout structuraly wrapper DOM elements - which leads to ** STEP 2**.
+
+<h4>: : STEP 2 : :</h4>
+
+Set the layout/structure HTML DOM wrapper element `<app-container>` to `height: 100vh;`. This pushed the layout/structural layout HTML DOM elements, such as `<header>`, `<app-container>`, and `<footer>` to vertically fill the entire browser which allows the remaining middle space to naturally adjust and natively scroll when overflowing content.   
