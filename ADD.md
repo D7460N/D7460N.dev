@@ -239,7 +239,7 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
   </tr>
   <tr></tr>
   <tr>
-    <td>[ <a href="#">9</a> ] Ensure accessibility as defined by accessibility.gov</td>
+    <td>[ <a href="#">10</a> ] Ensure accessibility as defined by accessibility.gov</td>
     <td>&#160;</td>
   </tr>
   <tr></tr>
@@ -254,7 +254,7 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
   </tr>
   <tr></tr>
   <tr>
-    <td>[ <a href="#">9</a> ] Conform to company goals and themes</td>
+    <td>[ <a href="#">11</a> ] Conform to company goals and themes</td>
     <td>&#160;</td>
   </tr>
 </table>
@@ -265,6 +265,25 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
 
 <br />
 
+<h2 id="standards">: : STANDARDS : :</h2>
+
+<br />
+
+<h3 id="w3c">: : W3C/WHATWG : :</h3>
+
+[^1] The best way for websites and or web applications to stay compatible with the FUTURE is to stay compatible with web browsers. The best way to stay compatible with web browsers is to be W3C/WHATWG standards compliant.
+
+The company website will be accessible on any device with an authorized network connected web browser from anywhere in the world.<br />`[ company goal ]`
+
+<br />
+
+<h3 id="accessibility">: : ACCESSIBILITY : :</h3>
+
+**ACCESSIBILITY IS NOT USABILITY**. A screen full of unstructured unformatted unstyled data is accessible, but hardly usable. Accessbility is the beginning of usability best practices. 
+
+> <i>"Whereas accessibility relates to the technical side of a website, usability relates to the quality of a person's experience when interacting with your website, the efficiency with which that person can accomplish a task, and the satisfaction of the person completing the task. Although accessibility guidelines focus primarily on people with disabilities and impairments, such as vision loss, many of the guidelines for accessibility can also improve usability for all.</i><br />~ Aug 22, 2022 - UsableNet
+
+<br />
 
 
 
