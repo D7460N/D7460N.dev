@@ -527,4 +527,29 @@ Rather than setting height on any other DOM elements, set inner most child DOM e
 
 <h4>: : STEP 2 : :</h4>
 
-Set the layout/structure HTML DOM wrapper element `<app-container>` to `height: 100vh;`. This pushed the layout/structural layout HTML DOM elements, such as `<header>`, `<app-container>`, and `<footer>` to vertically fill the entire browser which allows the remaining middle space to naturally adjust and natively scroll when overflowing content.   
+Set the layout/structure HTML DOM wrapper element `<app-container>` to `height: 100vh;`. This pushed the layout/structural layout HTML DOM elements, such as `<header>`, `<app-container>`, and `<footer>` to vertically fill the entire browser which allows the remaining middle space to naturally adjust and natively scroll when overflowing content.
+
+<h4>: : STEP 3 : :</h4>
+
+Set all descendent HTML DOM elements that do not adjust or scroll when overflowing to `overflow: hidden;`, and set the DOM elements that should adjust or scroll when overflowing to `overflow: auto;`. 
+
+For example, in D7460N's case, that would be : :
+
+```html
+<html>          <!-- set to overflow: hidden; -->
+  <body>          <!-- set to overflow: hidden; -->
+    <app-container> <!-- set to overflow: hidden; -->
+      <main>          <!-- set to overflow: hidden; -->
+        <ul>            <!-- set to overflow: auto; -->
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+          <li>List item four</li>
+          <li>List item five</li>
+        </ul>
+      </main>
+    </app-container>
+  </body>
+</html>
+```
+
