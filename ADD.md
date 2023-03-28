@@ -365,5 +365,34 @@ The D7460N GUI runs natively in the browser with no dependencies, it requires:
 
 <h3 id="separation-of-concerns">: : SEPARATION OF CONCERNS : :</h3>
 
-D7460N also follows the "separation of concerns" principle.
+D7460N also follows the "separation of concerns" principle. Most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two affectively separating the GUI logic (commonly followed design patterns and conventions coupled with ADA accessibility and usability guidelines) from the (application specific) business logic which allows for both to be independently developed, operated, and maintained. 
+
+Decoupleing GUI logic from business logic allows D7460N to be:
+* data agnostic
+* JS framework agnostic
+* Scalable
+* Modular
+* Independent
+
+<br />
+
+<h3 id="perfect-storm">: : PERFECT STORM : :</h3>
+
+**D7460N is a perfect storm of opportunities to affect and inspire positive change** in that it is...
+
+* an enterprise level web application = _high profile_
+* used by tens of thousands of end-users across multiple companies = _wide exposure_
+* used multiple times per day = _will be noticed if made attractive and enjoyable to use_
+* used for hundreds of thousands of documents and email = _will increase productivity if made fast and easy enough to use_
+* static (no dynamic data/no databases) = _removed barriers and enables capabilities not otherwise possible with dynamic applications_
+* Today's modern browsers (not you IE!) now natively do what JavaScript frameworks built to overcome years ago = _technically, JavaScript frameworks are now pure technical debt, fated to eventually go the way of Flash, ActionScript, Ext.js, and the Dodo Bird. 
+
+<br />
+
+<h3 id="css-first">: : CSS FIRST : :</h3>
+
+Stongly hinted in the [Least Power](#least-power) section, but bears emphasising... _What can't be done in HTML is done in CSS_.
+
+
+
 
