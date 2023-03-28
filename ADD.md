@@ -295,6 +295,23 @@ End-user and developer accessibility and usability goversn every company design 
 
 <br />
 
+<h3 id="user-experience">: : USER EXPERIENCE (UX) : :</h3>
+
+(WIP) User experience (UX) is where accessibility and usability come together. UX encompasses what happens from the time the user enters the web application URL to when they click the upper right hand corner "X" to cloase the web application and beyond. 
+
+What happens when users come back?
+* Is the web application just as fast or faster?
+* Does the web application remember where the user left off?
+* Does the web application handle user OS preferences?
+* Keyboard preferences?
+* Mouse preferences?
+* Do end-users like roomy or condensed content?
+* Do end-users like useful/helpful micro-transation animations or no animations?
+* What happens to the web application if an end-user disables JavaScript?
+
+<img src="/assets/images/ux3d.svg#gh-dark-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." />
+<img src="/assets/images/ux3d.svg#gh-light-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." />
+
 
 
 
