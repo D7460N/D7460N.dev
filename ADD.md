@@ -312,7 +312,13 @@ What happens when users come back?
 <img src="/assets/images/ux3d.svg#gh-dark-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." />
 <img src="/assets/images/ux3d.svg#gh-light-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." />
 
+<br />
 
+<h3 id="things-to-remember">: : THINGS TO REMEMBER : :</h3>
+
+* **No dead ends** - Privide end-users and obvious way forward and a way back. A way forward example would be, links to support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner. 
+* **Link Offsite References** - Whenever an offsite source is reference, link to the reference. 
+* **Off-site links open in new browser tab/window** - Open off-site links in a new browser tab or window with `target="_new"`.
 
 
 
