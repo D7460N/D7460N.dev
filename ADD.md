@@ -480,7 +480,7 @@ HTML : :
 
 <h3 id="css-variables">: : CSS VARIABLES : :</h3>
 
-
+(WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
 
 <br />
 
@@ -584,7 +584,7 @@ This technique:
 
 <h3 id="self-aware">: : SELF-AWARE : :</h3>
 
-What if a web GUI could natively (no third party plug-ins or dependencies) know what is happening inside it, when it happens, and what to do about it? All without JavaScript? 
+(WIP) What if a web GUI could natively (no third party plug-ins or dependencies) know what is happening inside it, when it happens, and what to do about it? All without JavaScript? 
 
 It would : :
 * revolutionize web design/developement as we know it. Web GUIs would largely run themselves, making decisions about how they behave depending on the data (data/business logic) occuring inside them
@@ -594,7 +594,61 @@ It would : :
 
 CSS has been able to watch for things (selectors) and act on that selector for years. With the introduction of `:has()`, CSS can now watch and act on OTHER selectors and even parent selectors. This opens up CSS capabilities limited only by our imagination. 
 
+<br />
 
+<h3 id="customization">: : CUSTOMIZATION : :</h3>
 
+Allow end-users to feel like they can make D7460N their own, through customization options. 
+
+Customization options : :
+* System/dark/light/high-contrast modes
+* Data/text size
+* Data-text density (spacious, comfortable, compact)
+* Save cross session
+
+<br />
+
+---
+
+<br />
+
+<h2 id="style-guide">: : STYLE GUIDE : :</h2>
+
+<br />
+
+<h3 id="color-themes">: : COLOR THEMES : :</h3>
+
+D7460N color themes are independent from the GUI and are set via [CSS Variables](#css-variables). Light and dark version are provided for each color theme. 
+
+Absolute black `#000000` and absolute white `#FFFFFF` are reserved colors for accent, shading, and light angle perspecives.
+
+Base theme : :
+```css
+
+```
+
+<br />
+
+LOGO : :
+
+The D7460N logo conforms to the following requirements : :
+* Convey or represent the idea, purpose, and or action of the web application
+* Two at most, (preferably one) reversable colors (light/dark themes)
+* Readable (text based)/recognizable (symbol based) at small (16x16px), and large (poster) sizes
+* Lossless visual quality when resizing
+* Dynamically maintain web application color scheme 
+* Dynamically maintain ADA accessibility contrast standard
+* No historical context
+* No political context
+* No relational context
+* No copyright
+
+> <span id="logo-note">NOTE : : Accessibility requirements do not apply to logos and or incidental graphics (https://accessiblity.digital.gov/visual-design/color-and-contrast/), but is nevertheless best practices for [Usability](#usability). 
+
+<br />
+ 
+The D7460N logo changes color dynamically depending on on it's background-color so as to maintain the contextual theme and standard accessibility contrast ratio of `4.5:1`. The color of `#999999` (seen below) is defaulted as a safe fallback color that works in both light and dark themes. Note: (see [Accessibility](#accessibility) note above).
+ 
+ 
 
 
