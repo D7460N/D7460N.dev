@@ -800,4 +800,4 @@ A fully capable Progressive Web Application can provide the following advantages
 
 <br />
 
-(WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
+(WIP)
