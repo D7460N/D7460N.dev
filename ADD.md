@@ -697,13 +697,107 @@ Single Page Applications are defined differently depending on context. In web de
  
 This is an important usability technique in that it allows for uninterupted concentration and workflow for end-users. This also vastly simplifies navigation and page/keyboard contraols and nullifies the need for developing content routers, saving time, LoE, and complexity 
  
- <br />
+<br />
+
+<h3 id="alternate-layouts">: : ALTERNATE LAYOUTS : :</h3>
+
+D7460N has optional alternate layout configurations that optimize master/detail workflow conventions from left to right and right to left. 
+
+<br />
+
+---
+
+<br />
  
+<h2 id="pwa">: : Progressive Web Application (PWA) : :</h2>
+
+<br />
  
+https://www.inrythm.com/pwas/best-of-the-best-and-native/
 
+<h3 id="cross-platform-interoperability">: : CROSS-PLATFORM-INTEROPERABILITY : :</h3>
 
-
+Progressive Web Applications (PWAs) provide access to open web technologies, to provide cross-platform interoperability. PWAs provide end-users with an app-like experience that's customized for their devices. PWAs can provide fully tailored, installable experiences on a desktop operating system that inherit the benefits of that environment. Yet PWAs still work across platform from the same code and servers that power your in-browser and mobile devices. **A single codebase that's shared between your website, mobile app, and desktop app (across operating systems)**. 
  
+<br />
 
+<h3 id="immersive-experience">: : EMERSIVE EXPERIENCE : :</h3>
 
+These new web developemnt capabilities provide great opportunities to build emersive experiences that deeply integrate with the desktop operating system.
 
+<br />
+
+<h3 id="progressively-enhanced">: : PROGRESSIVELY ENHANCED : :</h3>
+
+PWAs are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular website on other browsers. 
+
+<br />
+
+<h3 id="desktop-app">: : IT'S A DESKTOP APP : :</h3>
+ 
+The qualities of a PWA combine the best of the web and compiled apps. PWAs run in browsers, like websites. But PWAs also have access to desktop features;
+
+For example : :
+* A PWA can still work when the device is offline
+* PWAs can be installed on the operating system
+* PWAs support push notifications and periodic updates (continuous integration)
+* PWAs can access hardware features 
+ 
+When installed, PWAs are just like other apps on Windows.
+
+For example : :
+* A PWA can be added to the start menu
+* A PWA can be pinned to the task bar
+* PWAs can handle file directories and files
+* PWAs can run on start-up when end-users sign-in
+
+<br />
+
+<h3 id="website">: : IT'S A WEBSITE : :</h3>
+
+PWAs have the same functionality and reach as websites:
+* PWAs can be indexed by search engines
+* A PWA can be linked to and from other websites and web applications
+* A PWA can work on all devices, **from a single code base** **[ company goal ]**
+* PWAs have a much lower cross-platform development cost than compiled apps that require a specific codebase for each platform, such as a separate codebase for Android, for iOS, for each desktop operating system
+
+<br />
+
+<h3 id="advantages">: : ADVANTAGES : :</h3>
+
+A fully capable Progressive Web Application can provide the following advantages for end-users:
+* **Discoverable** - The web application is discoverable from search results and supporting app stores
+* **Installable** - Pin and launch the app from the home screen, Start menu, and the Taskbar
+* **Re-engageable** - The app can recieve push notifications, even when the app isn't active
+* **Network Independent** - The app will work offline or in "low-network conditions"
+* **Progressive** - The user experience of the app scales up or down with device capabilities
+* **Safe** - The app provides a secure `HTTPS` endpoint and other safeguards
+* **Responsive** - The app adapts to the user's screen or orientation and input method
+* **Linkable** - Share and launch the app from a standard link
+
+<br />
+
+---
+
+<br />
+ 
+<h2 id="browser-compatibility">: : BROWSER COMPATIBILITY : :</h2>
+
+<br />
+
+* Chrome Version 110.0.5481.78 (Official Build) (64-bit)
+* Edge Version 110.0.1587.46 (Official Build) (64-bit)
+* Firefox Version 102.3.0esr (Official Build) (64-bit)
+* _Not you Internet Exporer (IE)_
+
+<br />
+
+---
+
+<br />
+ 
+<h2 id="directory-structure">: : DIRECTORY STRUCTURE : :</h2>
+
+<br />
+
+(WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
