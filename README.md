@@ -67,4 +67,16 @@ Colorful Theme Switch (with :has())<br />
 https://twitter.com/jonkantner/status/1643759547981471746<br />
 https://codepen.io/jkantner/pen/eYPYppR
 
+Yesterday we released Angular v16.0.0-next.7!
+https://twitter.com/mgechev/status/1644018247748943872
+https://github.com/angular/angular/releases/tag/16.0.0-next.7<br />
+16.0.0-next.7 (2023-04-05)
 
+Breaking Changes:
+
+core<br />
+* QueryList.filter now supports type guard functions, which will result in type narrowing. Previously if you used type guard functions, it resulted in no changes to the return type. Now the type would be narrowed, which might require updates to the application code that relied on the old behavior.
+* The `ReflectiveInjector` and related symbols were removed. Please update the code to avoid references to the `ReflectiveInjector` symbol. Use `Injector.create` as a replacement to create an injector instead.
+
+platform-browser<br />
+* The deprecated `BrowserTransferStateModule` was removed, since it's no longer needed. The `TransferState` class can be injected without providing the module. The `BrowserTransferStateModule` was empty starting from v14 and you can just remove the reference to that module from your applications.
