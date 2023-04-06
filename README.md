@@ -62,3 +62,9 @@ https://codepen.io/supamike/pen/KKVqXmR
 
 Hover Glide Image Gallery<br />
 https://codepen.io/Hyperplexed/pen/VwXXPKJ
+
+Colorful Theme Switch (with :has())<br />
+https://twitter.com/jonkantner/status/1643759547981471746<br />
+https://codepen.io/jkantner/pen/eYPYppR
+
+
