@@ -1,3 +1,19 @@
+FDF
+VEHICLES:
+| STATUS   |      TYPE     |  OWNED/LEASED   |         VEHICLE       |     PURCHASED/LEASED    | MONTHLY LEASE PAYMENT | COMMENTS |
+|----------|:-------------:|:---------------:|:---------------------:|:-----------------------:|:---------------------:|:--------:|
+| check    |     Vehicle   |      Owned      | Year, Make, model, ID |   Year, original amount |         blank         | Paid off |
+| check    |     Vehicle   |      Owned      |                       |                         |                       |          |
+| check    |     Vehicle   |      Owned      |                       |                         |                       |          |
+
+DEBT/LIABILITIES:
+| STATUS   |      TYPE     |  DEBT/LIABILITY | ACCOUNT HOLDER(S) | CREDITOR | ORIGINAL BALANCE | MINIMUM MONTTHLY PAYMENT | YEAR END BALANCE | COMMENTS |
+|----------|:-------------:|:---------------:|:-----------------:|:--------:|:----------------:|:------------------------:|:----------------:|:--------:|
+| col 1 is |  left-aligned | $1600           |                   |          |                  |                          |                  |          |
+| col 2 is |    centered   |   $12           |                   |          |                  |                          |                  |          |
+| col 3 is | right-aligned |    $1           |                   |          |                  |                          |                  |          |
+
+
 # ui
 
 Hover Glide Image Gallery<br />
