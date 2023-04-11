@@ -188,7 +188,11 @@ Report all types of trusts in the Assets/Valuables section. Please provide the n
 _Am I required to report financial infromation on my spouse and dependent children?_<br />
 Yes. Spouses, dependent children, and other individuals with whom you share any financial responsibilities, ownership interests, or control over assets regarless of personal financial arrangements.
 
+<br />
 
+---
+
+<br />
 
 # ui
 
