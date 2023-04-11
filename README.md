@@ -47,6 +47,12 @@ ASSETS/VALUABLES : :
 | check  |      none      |          |                         |                |                |                            |          |
 | check  |      none      |          |                         |                |                |                            |          |
 
+FAQ : :<br />
+Am I required to report financial infromation on my spouse and dependent children?<br />
+Yes. Spouses, dependent children, and other individuals with whom you share any financial responsibilities, ownership interests, or control over assets regarless of personal financial arrangements.
+
+
+
 # ui
 
 Hover Glide Image Gallery<br />
