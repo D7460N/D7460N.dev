@@ -15,6 +15,12 @@ Examples of non-taxable income (exceeding $500) include ingeritances, gifts, chi
 
 Examples of other income (exceeding $500) include business income not reported as salary (S Corp or LLC), gambling winnings, procees from the sale of investments or property, alimony, pensions, court awards or settlements for personal injury, punitive awards, life insurance if cashed out, and any other sources of income not defined otherwise. 
 
+<br />
+
+---
+
+<br />
+
 BANKING & INVESTMENTS : :
 | STATUS   |       TYPE      |   ACCOUNT HOLDER(S)  |   FINANCIAL INSTITUTION  | AMOUNT INVESTED | YEAR END BALANCE | COMMENTS |
 |----------|:---------------:|:--------------------:|:------------------------:|:---------------:|:----------------:|:--------:|
@@ -48,8 +54,11 @@ Banking and investment accounts at the same institution must be reported separat
 
 On those accounts where you, your spouse, and/or dependent children maintain signature access only in the event of an emergency, you are not requred to report the account balances on these types of accounts. 
 
+<br />
 
+---
 
+<br />
 
 HOUSING : :
 | STATUS   |      TYPE       | OWNER(S)/RENTER(S) |  ADDRESS  |        PURCHASED/RENTED       | CAPITAL IMPROVEMENT COSTS | MONTHLY/LEASE/RENTAL PAYMENT | COMMENTS |
