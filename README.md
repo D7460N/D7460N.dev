@@ -93,6 +93,21 @@ Enter the total cost of any capital improvements to the property since it was pu
 | check  | Vehicle |     Owned    |                       |                       |                       |          |
 | check  | Vehicle |     Owned    |                       |                       |                       |          |
 
+<h4>FAQ : :</h4>
+
+_I sold a car last year and purchased a new one. Do I list both cars? Do I need to list the proceeds from the sale of my old car anywhere?_<br />
+No, only list the vehincles you owned on 31 December of the reporting year. If proceeds of the sold behicle were applied toward the purchase of the new car, do not list the proceeds as Other Income. If the proceeds were not rolled over towards the purchase of another vehicle, list the amount under Other Income, with a comment in the comment section. Vehicle loan information must be entered as debt in the Debts & Liabilities section. 
+
+_I sold a car last yaer and purchased a new one. Do I list both cars? Do I need to list the proceeds from the sale of my old care anywhere?_<br />
+No, only list the behicles you owned on 31 December of the reporting year. If proceeds of the sold behicle were applied toward the purchase of the new car, do not list the proceeds as Other Income. If the proceeds were not rolled over towards the purchase of another vehicle, list the amount under Other Income, with a comment in the comment section. Vehicle loan information must be entered as debt in the Debts & Liabilities section. 
+
+_What if my spouse, any of my dependent children, or I are part owner(s) or inherited a vehicle?<br />
+If you, your spouse, and/or dependent children are part owner of a vehicle or assisted another in purchasing a vehicle, enter the amount you/your spouse/your dependents contributed to the purchase. If you received a vehicle as a gift or an ingeritance, enter the fair market value at the time you acquired the vehicle. If the vehicle, boat, airplane, or other was acquired by gift or inheritance during the filing year, the amount should also be reflected in the Income (under Other Income), with details being explained in the comments section.
+
+_Should I report vehicles that are paid off?<br />
+Yes, all vehicles should be listed with a comment that it has been paid in full. 
+
+
 <h3>DEBT/LIABILITIES : :</h3>
 
 | STATUS | TYPE |  DEBT/LIABILITY | ACCOUNT HOLDER(S) | CREDITOR | ORIGINAL BALANCE | MINIMUM MONTTHLY PAYMENT | YEAR END BALANCE | COMMENTS |
