@@ -1,5 +1,11 @@
 FDF : : <br />
 
+INCOME : :
+| STATUS   |   EARNED BY   |   US/FOREIGN    |  GROSS ANNUAL SALARY  |    NON TAXBALE INCOME   |    INTEREST INCOME    | DIVIDENDS | GROSS RENTAL | OTHER INCOME | COMMENTS |
+|----------|:-------------:|:---------------:|:---------------------:|:-----------------------:|:---------------------:|:---------:|:------------:|:------------:|:--------:|
+|          |     Spouse    |        US       |                       |                         |                       |           |              |              |          |
+|          |     Filer     |        US       |                       |                         |                       |           |              |              |          |
+
 BANKING & INVESTMENTS : :
 | STATUS   |       TYPE      |   ACCOUNT HOLDER(S)  |   FINANCIAL INSTITUTION  | AMOUNT INVESTED | YEAR END BALANCE | COMMENTS |
 |----------|:---------------:|:--------------------:|:------------------------:|:---------------:|:----------------:|:--------:|
@@ -11,11 +17,11 @@ BANKING & INVESTMENTS : :
 |          |    Investment   |        Filer         | 2 account(s), bank name  |                 |                  |          |
 |          |    Investment   |        Filer         | 1 account(s), bank name  |                 |                  |          |
 
-INCOME : :
-| STATUS   |   EARNED BY   |   US/FOREIGN    |  GROSS ANNUAL SALARY  |    NON TAXBALE INCOME   |    INTEREST INCOME    | DIVIDENDS | GROSS RENTAL | OTHER INCOME | COMMENTS |
-|----------|:-------------:|:---------------:|:---------------------:|:-----------------------:|:---------------------:|:---------:|:------------:|:------------:|:--------:|
-|          |     Spouse    |        US       |                       |                         |                       |           |              |              |          |
-|          |     Filer     |        US       |                       |                         |                       |           |              |              |          |
+HOUSING : :
+| STATUS   |      TYPE       | OWNER(S)/RENTER(S) |  ADDRESS  |        PURCHASED/RENTED       | CAPITAL IMPROVEMENT COSTS | MONTHLY/LEASE/RENTAL PAYMENT | COMMENTS |
+|----------|:---------------:|:------------------:|:---------:|:-----------------------------:|:-------------------------:|:----------------------------:|:--------:|
+|          | Owned/Mortgaged |    Filer, Spouse   |           | year started, original amount |                           |                              |          |
+
 
 VEHICLES : :
 | STATUS   |      TYPE     |  OWNED/LEASED   |         VEHICLE       |     PURCHASED/LEASED    | MONTHLY LEASE PAYMENT | COMMENTS |
