@@ -1,5 +1,12 @@
 FDF : : <br />
 
+BANKING & INVESTMENTS : :
+| STATUS   |       TYPE      |   ACCOUNT HOLDER(S)  |  FINANCIAL INSTITUTION  | AMOUNT INVESTED | YEAR END BALANCE | COMMENTS |
+|----------|:---------------:|:--------------------:|:-----------------------:|:---------------:|:----------------:|:--------:|
+|          |       Bank      |       Spouse         |       Bank name         |                                    |          |
+|          |    Investment   |        Filer         |                         |                                    |          |
+|          |    Investment   |    Filer, spouse     |                         |                                    |          |
+
 INCOME : :
 | STATUS   |   EARNED BY   |   US/FOREIGN    |  GROSS ANNUAL SALARY  |    NON TAXBALE INCOME   |    INTEREST INCOME    | DIVIDENDS | GROSS RENTAL | OTHER INCOME | COMMENTS |
 |----------|:-------------:|:---------------:|:---------------------:|:-----------------------:|:---------------------:|:---------:|:------------:|:------------:|:--------:|
