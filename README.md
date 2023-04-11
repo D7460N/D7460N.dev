@@ -1,10 +1,19 @@
-FDF : : <br />
+SAMPLE REPORT : : <br />
 
 INCOME : :
 | STATUS   |   EARNED BY   |   US/FOREIGN    |  GROSS ANNUAL SALARY  |    NON TAXBALE INCOME   |    INTEREST INCOME    | DIVIDENDS | GROSS RENTAL | OTHER INCOME | COMMENTS |
 |----------|:-------------:|:---------------:|:---------------------:|:-----------------------:|:---------------------:|:---------:|:------------:|:------------:|:--------:|
 |          |     Spouse    |        US       |                       |                         |                       |           |              |              |          |
 |          |     Filer     |        US       |                       |                         |                       |           |              |              |          |
+
+FAQ : :<br />
+How do I report income if I worked for more than one company during the reporting period?<br />
+Report the total income you, your spouse, and/or dependent children earned between 1 January to 31 December of the preceding calendar year. Include comments to specify the amount earned from each company. 
+
+What is the difference between non-taxable income and other income?<br />
+Examples of non-taxable income (exceeding $500) include ingeritances, gifts, child support, beteran's disability benefits, welfare payments, worker's compensation, foster care payments, combat pay, municipal bond interest, and life insurance proceeds due to death.
+
+Examples of other income (exceeding $500) include business income not reported as salary (S Corp or LLC), gambling winnings, procees from the sale of investments or property, alimony, pensions, court awards or settlements for personal injury, punitive awards, life insurance if cashed out, and any other sources of income not defined otherwise. 
 
 BANKING & INVESTMENTS : :
 | STATUS   |       TYPE      |   ACCOUNT HOLDER(S)  |   FINANCIAL INSTITUTION  | AMOUNT INVESTED | YEAR END BALANCE | COMMENTS |
