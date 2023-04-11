@@ -58,6 +58,15 @@ Banking and investment accounts at the same institution must be reported separat
 
 On those accounts where you, your spouse, and/or dependent children maintain signature access only in the event of an emergency, you are not requred to report the account balances on these types of accounts. 
 
+_For 401K investments in the employer matching contribution included or just the account holder's contribution in the Amount Invested section?_<br />
+When reporting the amount invested, do not included the employer matching contributions, only the amount the account holder personally contributed to the acccount during the preceding calendar year.
+
+_What is the Year-End Fair Market Value?_<br />
+Enter the total year-end fair market value of all investments at each insitution as of 31 December of the preceding calendar year. You may use the year-end market value as reported on your year-end statement. For stock holdings, the market value may also be determined by multiplying the number of shares you own as of 31 December of the preceding calendar year by price per share as posted on the New Yourk Stock Exchange, American Stock Exchange, or other market reference. The market value includes the amount you invested, plus any subsequent appreciation or depreciation. 
+
+_What is the Amount Invested?_<br />
+The amount invested is the amount the account holder personally contributed to the account during the preceding calendar year. Additional remarks can be added into the comments section. 
+
 <br />
 
 ---
@@ -70,6 +79,11 @@ On those accounts where you, your spouse, and/or dependent children maintain sig
 |----------|:---------------:|:------------------:|:---------:|:-----------------------------:|:-------------------------:|:----------------------------:|:--------:|
 |          | Owned/Mortgaged |    Filer, Spouse   |           | year started, original amount |                           |                              |          |
 |          |    Mortgaged    |    Filer, Spouse   |           |     2005, original amount     |            none           |                              |          |
+
+<h4>FAQ : :</h4>
+
+_What are capital improvements?_<br />
+Enter the total cost of any capital improvements to the property since it was purchased. Capital improvements are alterations that add to the value of the property, such as remodeling of kitchents or adding a bathroom. Repair and replacement of worn out items does not constitute capital improvements. You do not have to include capital improvement costs that totaled less that $5,000 in the total amount you report. 
 
 <h3>VEHICLES : :</h3>
 
