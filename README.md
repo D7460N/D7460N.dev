@@ -131,6 +131,26 @@ Yes, all vehicles should be listed with a comment that it has been paid in full.
 | alert  | debt |  2nd mortgage   |       Filer       |          |                  |                          |                  |          |
 | alert  | debt |    Mortgage     |       Filer       |          |                  |                          |                  |          |
 
+<h4>FAQ : :</h4>
+
+_If credit cards are paid in full each month, do I still need to report them?_<br />
+No. If you, your spouse, and/or dependent children maintain a caredit card balance of less than $500 or pay the card off each month, it does not need to be listed. Only report credit cards with a balance that exceeds $500 each month. 
+
+_What is the deiffernce between a debt and liability?_<br />
+A debt is an amount of money borrowed from another party. Corporations, individuals, and governments use debt as a method of making purchases that they could not afford under normal ciercumstances. A debt arrangement gives the borrowing party permission to borrow money under the condition that it is to be paid back at a later date, usualy with interest. 
+
+Exmamples of debt types include: Mortgages, Second (2nd) Mortgages, Auto loans, Equity, and Bankruptcy filing installment payments, Line of Credit payments, Personal Loans, and Student Loans.
+
+A liability is a payment made for a service already received. It is defined as an obligation of an entity arising from past transactions or events, the settlement of which may results in the transfrer or use of assets, provision of services, or other yielding of economic benefits in the future. Often an amount owed to another individual or entity for a service or event. 
+
+Examples of liabilities include: Alimony, Child Support, Credit Card payments for merchandise or services you already received, Divorce Settlement payments, Garnishments, Judgments, Professional Development Course Expenses, Timeshare Payments, Tuition Payments, etc. 
+
+<br />
+
+---
+
+<br />
+
 <h3>ASSETS/VALUABLES : :</h3>
 
 | STATUS | ASSET/VALUABLE | OWNER(S) | YEAR PURCHASED/ACQUIRED | PURCHASE PRICE | YEAR END VALUE | SAFE DEPOSITE BOX LOCATION | COMMENTS |
