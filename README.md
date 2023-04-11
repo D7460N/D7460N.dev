@@ -26,6 +26,31 @@ BANKING & INVESTMENTS : :
 |          |    Investment   |        Filer         | 2 account(s), bank name  |                 |                  |          |
 |          |    Investment   |        Filer         | 1 account(s), bank name  |                 |                  |          |
 
+FAQ : :<br />
+_How should I list my LLC or S corporations?_<br />
+If you, your spouse, and/or any dependent children are a shareholder of a limited liability company (LLC) or S corporation, it should be reported in two places:
+ 1. as an investment in the Banking & Investments section and with a comment and 
+ 2. as Other Income under the Income section with the profit (after expenses) with comments providing details. The reporting of an LLC should mirror the reporting to the Internal Revenue Service (IRS). 
+ 
+_Where do I report trusts, including educational trusts?_<br />
+Trusts, including educational trusts, are listed in the Assets/Valuables section. Provide the name of the trust, the trustee, and the type of asset(s) held by the trust. If you are a trustee and not a beneficiary, you are not required to provide account balances. If you are named or oversee your parental trust, give an explanation in the comment section, which indicates the name of the trust, the trustee, and the type of asset(s) help by the trust. 
+
+On those accounts where you, your spouse, and/or dependent children maintain signature access only in the event of an emergency, you are not requred to report the account balances on these types of accounts. 
+
+_Do I report 529s listed under Investments or Assets?_<br />
+529 plans should be reported as an investment in the Banking & Investments section.
+
+_Do I need to report all individual stocks owned?_<br />
+Individual stocks must be reported for you, your spouse, and/or your dependent children. However, if you, your spouse, and/or dependent children own stocks purchased through a broker or firm, report the brokerage account as a single invetment account. 
+
+_Do I need to report multiple accounts at the same institution separately?_<br />
+Banking and investment accounts at the same institution must be reported separately. Multiple bank accounts at the same insitution or muiltple investment accounts at the same insitution can be reported together. Use one line to report all accounts held by one or more individuals at the same institution. Enter the total number of accounts held at a financial insitution for which you, your spouse, and/or dependent children hold signature authority. Do not include account numbers. 
+
+On those accounts where you, your spouse, and/or dependent children maintain signature access only in the event of an emergency, you are not requred to report the account balances on these types of accounts. 
+
+
+
+
 HOUSING : :
 | STATUS   |      TYPE       | OWNER(S)/RENTER(S) |  ADDRESS  |        PURCHASED/RENTED       | CAPITAL IMPROVEMENT COSTS | MONTHLY/LEASE/RENTAL PAYMENT | COMMENTS |
 |----------|:---------------:|:------------------:|:---------:|:-----------------------------:|:-------------------------:|:----------------------------:|:--------:|
