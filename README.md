@@ -7,10 +7,10 @@ INCOME : :
 |          |     Filer     |        US       |                       |                         |                       |           |              |              |          |
 
 FAQ : :<br />
-How do I report income if I worked for more than one company during the reporting period?<br />
+_How do I report income if I worked for more than one company during the reporting period?_<br />
 Report the total income you, your spouse, and/or dependent children earned between 1 January to 31 December of the preceding calendar year. Include comments to specify the amount earned from each company. 
 
-What is the difference between non-taxable income and other income?<br />
+_What is the difference between non-taxable income and other income?_<br />
 Examples of non-taxable income (exceeding $500) include ingeritances, gifts, child support, beteran's disability benefits, welfare payments, worker's compensation, foster care payments, combat pay, municipal bond interest, and life insurance proceeds due to death.
 
 Examples of other income (exceeding $500) include business income not reported as salary (S Corp or LLC), gambling winnings, procees from the sale of investments or property, alimony, pensions, court awards or settlements for personal injury, punitive awards, life insurance if cashed out, and any other sources of income not defined otherwise. 
@@ -58,7 +58,7 @@ ASSETS/VALUABLES : :
 | check  |      none      |          |                         |                |                |                            |          |
 
 FAQ : :<br />
-Am I required to report financial infromation on my spouse and dependent children?<br />
+_Am I required to report financial infromation on my spouse and dependent children?_<br />
 Yes. Spouses, dependent children, and other individuals with whom you share any financial responsibilities, ownership interests, or control over assets regarless of personal financial arrangements.
 
 
