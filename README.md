@@ -1,12 +1,19 @@
-FDF
-VEHICLES:
+FDF : : <br />
+
+INCOME : :
+| STATUS   |   EARNED BY   |   US/FOREIGN    |  GROSS ANNUAL SALARY  |    NON TAXBALE INCOME   |    INTEREST INCOME    | DIVIDENDS | GROSS RENTAL | OTHER INCOME | COMMENTS |
+|----------|:-------------:|:---------------:|:---------------------:|:-----------------------:|:---------------------:|:---------:|:------------:|:------------:|:--------:|
+|          |     Spouse    |        US       |                       |                         |                       |           |              |              |          |
+|          |     Filer     |        US       |                       |                         |                       |           |              |              |          |
+
+VEHICLES : :
 | STATUS   |      TYPE     |  OWNED/LEASED   |         VEHICLE       |     PURCHASED/LEASED    | MONTHLY LEASE PAYMENT | COMMENTS |
 |----------|:-------------:|:---------------:|:---------------------:|:-----------------------:|:---------------------:|:--------:|
 | check    |     Vehicle   |      Owned      | Year, Make, model, ID |   Year, original amount |         blank         | Paid off |
 | check    |     Vehicle   |      Owned      |                       |                         |                       |          |
 | check    |     Vehicle   |      Owned      |                       |                         |                       |          |
 
-DEBT/LIABILITIES:
+DEBT/LIABILITIES : :
 | STATUS   |      TYPE     |  DEBT/LIABILITY | ACCOUNT HOLDER(S) | CREDITOR | ORIGINAL BALANCE | MINIMUM MONTTHLY PAYMENT | YEAR END BALANCE | COMMENTS |
 |----------|:-------------:|:---------------:|:-----------------:|:--------:|:----------------:|:------------------------:|:----------------:|:--------:|
 | col 1 is |  left-aligned | $1600           |                   |          |                  |                          |                  |          |
