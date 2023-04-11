@@ -1,11 +1,15 @@
 FDF : : <br />
 
 BANKING & INVESTMENTS : :
-| STATUS   |       TYPE      |   ACCOUNT HOLDER(S)  |  FINANCIAL INSTITUTION  | AMOUNT INVESTED | YEAR END BALANCE | COMMENTS |
-|----------|:---------------:|:--------------------:|:-----------------------:|:---------------:|:----------------:|:--------:|
-|          |       Bank      |       Spouse         |       Bank name         |                                    |          |
-|          |    Investment   |        Filer         |                         |                                    |          |
-|          |    Investment   |    Filer, spouse     |                         |                                    |          |
+| STATUS   |       TYPE      |   ACCOUNT HOLDER(S)  |   FINANCIAL INSTITUTION  | AMOUNT INVESTED | YEAR END BALANCE | COMMENTS |
+|----------|:---------------:|:--------------------:|:------------------------:|:---------------:|:----------------:|:--------:|
+|          |       Bank      |       Spouse         | 1 account(s), bank name  |                 |                  |          |
+|          |       Bank      |    Filer, spouse     | 4 account(s), bank name  |                 |                  |          |
+|          |       Bank      |    Filer, spouse     | 3 account(s), bank name  |                 |                  |          |
+|          |    Investment   |        Filer         | 2 account(s), bank name  |                 |                  |          |
+|          |    Investment   |        Filer         | 1 account(s), bank name  |                 |                  |          |
+|          |    Investment   |        Filer         | 2 account(s), bank name  |                 |                  |          |
+|          |    Investment   |        Filer         | 1 account(s), bank name  |                 |                  |          |
 
 INCOME : :
 | STATUS   |   EARNED BY   |   US/FOREIGN    |  GROSS ANNUAL SALARY  |    NON TAXBALE INCOME   |    INTEREST INCOME    | DIVIDENDS | GROSS RENTAL | OTHER INCOME | COMMENTS |
