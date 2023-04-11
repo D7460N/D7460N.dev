@@ -40,6 +40,12 @@ DEBT/LIABILITIES : :
 | alert  | debt |  2nd mortgage   |       Filer       |          |                  |                          |                  |          |
 | alert  | debt |    Mortgage     |       Filer       |          |                  |                          |                  |          |
 
+ASSETS/VALUABLES : :
+| STATUS | ASSET/VALUABLE | OWNER(S) | YEAR PURCHASED/ACQUIRED | PURCHASE PRICE | YEAR END VALUE | SAFE DEPOSITE BOX LOCATION | COMMENTS |
+|--------|:--------------:|:--------:|:-----------------------:|:--------------:|:--------------:|:--------------------------:|:--------:|
+| check  |      none      |          |                         |                |                |                            |          |
+| check  |      none      |          |                         |                |                |                            |          |
+| check  |      none      |          |                         |                |                |                            |          |
 
 # ui
 
