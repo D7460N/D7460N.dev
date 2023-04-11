@@ -22,20 +22,23 @@ HOUSING : :
 |----------|:---------------:|:------------------:|:---------:|:-----------------------------:|:-------------------------:|:----------------------------:|:--------:|
 |          | Owned/Mortgaged |    Filer, Spouse   |           | year started, original amount |                           |                              |          |
 
-
 VEHICLES : :
-| STATUS   |      TYPE     |  OWNED/LEASED   |         VEHICLE       |     PURCHASED/LEASED    | MONTHLY LEASE PAYMENT | COMMENTS |
-|----------|:-------------:|:---------------:|:---------------------:|:-----------------------:|:---------------------:|:--------:|
-| check    |     Vehicle   |      Owned      | Year, Make, model, ID |   Year, original amount |         blank         | Paid off |
-| check    |     Vehicle   |      Owned      |                       |                         |                       |          |
-| check    |     Vehicle   |      Owned      |                       |                         |                       |          |
+| STATUS |  TYPE   | OWNED/LEASED |        VEHICLE        |   PURCHASED/LEASED    | MONTHLY LEASE PAYMENT | COMMENTS |
+|--------|:-------:|:------------:|:---------------------:|:---------------------:|:---------------------:|:--------:|
+| check  | Vehicle |     Owned    | Year, Make, model, ID | Year, original amount |         blank         | Paid off |
+| check  | Vehicle |     Owned    |                       |                       |                       |          |
+| check  | Vehicle |     Owned    |                       |                       |                       |          |
 
 DEBT/LIABILITIES : :
-| STATUS   |      TYPE     |  DEBT/LIABILITY | ACCOUNT HOLDER(S) | CREDITOR | ORIGINAL BALANCE | MINIMUM MONTTHLY PAYMENT | YEAR END BALANCE | COMMENTS |
-|----------|:-------------:|:---------------:|:-----------------:|:--------:|:----------------:|:------------------------:|:----------------:|:--------:|
-| col 1 is |  left-aligned | $1600           |                   |          |                  |                          |                  |          |
-| col 2 is |    centered   |   $12           |                   |          |                  |                          |                  |          |
-| col 3 is | right-aligned |    $1           |                   |          |                  |                          |                  |          |
+| STATUS | TYPE |  DEBT/LIABILITY | ACCOUNT HOLDER(S) | CREDITOR | ORIGINAL BALANCE | MINIMUM MONTTHLY PAYMENT | YEAR END BALANCE | COMMENTS |
+|--------|:----:|:---------------:|:-----------------:|:--------:|:----------------:|:------------------------:|:----------------:|:--------:|
+| alert  | debt |      Other      |      Spouse       |          |                  |                          |                  |          |
+| alert  | debt |   Installment   |       Filer       |          |                  |                          |                  |          |
+| alert  | debt | Line of credit  |      Spouse       |          |                  |                          |                  |          |
+| alert  | debt |    Personal     |       Filer       |          |                  |                          |                  |          |
+| alert  | debt |      Auto       |       Filer       |          |                  |                          |                  |          |
+| alert  | debt |  2nd mortgage   |       Filer       |          |                  |                          |                  |          |
+| alert  | debt |    Mortgage     |       Filer       |          |                  |                          |                  |          |
 
 
 # ui
