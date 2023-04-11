@@ -145,6 +145,15 @@ A liability is a payment made for a service already received. It is defined as a
 
 Examples of liabilities include: Alimony, Child Support, Credit Card payments for merchandise or services you already received, Divorce Settlement payments, Garnishments, Judgments, Professional Development Course Expenses, Timeshare Payments, Tuition Payments, etc. 
 
+_If my spouse, dependent children, or I co-sign a loan, do I need to include pertinent informantion on that property and its associated loan?_<br />
+Yes. If you/your spouse/your dependents have co-signed on a loan, all information for that loan must be provided in Debts & Lianbilities section. Add a comment that the loan is signd and for whom. If the co-signer is aon the deed or title, the property information should also be added to Housing or Vehicles sections, whichever applies. 
+
+_How should I report multiple loans for the same lender?_<br />
+Each loan must be listed separately. Provide the correct identifier such as Auto, Mortgage, Credit Card, etc. Also provide starting/ending balances and the monthly payment amounts for each. 
+
+_Should I report other recuring liabilities (e.g., child care, other family support, etc.?_<br />
+Yes, list the monthly payments you, your spouse, and/or any of your dependent children pay each month as a liability, and the total of these payments as the year-end balance. Include details in the comments section. 
+
 <br />
 
 ---
@@ -160,6 +169,21 @@ Examples of liabilities include: Alimony, Child Support, Credit Card payments fo
 | check  |      none      |          |                         |                |                |                            |          |
 
 <h4>FAQ : :</h4>
+
+_Are shared assets reported (e.g., art/card/stampcollections?_<br />
+Yes. List the collection, the total value, and indicate the percentage owned by you, your spouse, and/or any dependent children in the comments section. If the asset(s) is a trust, indicate the name of the trust, the trustee, and the type of assets held by the trust. 
+
+_What is considered an asset?_<br />
+Estimated value of $5,000 or more owned totally or in part by you, your spouse, and/or any of your dependent children on December 31 of the preceding calendar year. This includes but is not limited to, antiques, art, and other collectibles*, jewelry, livestock, cash on hand or other monetary instruments (money orders, savings bonds, traveler's checks, etc.); trusts, cash value of whole life insurance policies, self-held securities, net worth of personal business(s) or any other assets that are not listed elsewhere on this form. 
+
+The $5,000 threshold applies to th category of the asset. For example, if you personally hold the certificates for $8,000 worth of stock in Company A and your spouse holds certificates for $4,000 worth of stock in Company B, you would report $12,000 worth of stock in this section. 
+
+Report nothing for a particular asset category if the total year-end fair market value of assets in that category is less that $5,000.
+
+*A collectible can be defined as a rare object collected by investors with the expectation of appreciation. Examples are stamps, coins, oriental rugs, antiques, baseball cards, and photographs. While it is important to have a reliable baseline figure, it is not necessary to have an appraisal. Please provide the year-end market value to the best of your ability. If you do not have records, provide your best honest estimate of the value. 
+
+_What are tursts listed?_<br />
+Report all types of trusts in the Assets/Valuables section. Please provide the name of the trust, the trustee, and the type of asset(s) held by the trust. 
 
 _Am I required to report financial infromation on my spouse and dependent children?_<br />
 Yes. Spouses, dependent children, and other individuals with whom you share any financial responsibilities, ownership interests, or control over assets regarless of personal financial arrangements.
