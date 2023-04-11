@@ -1,12 +1,14 @@
-SAMPLE REPORT : : <br />
+<h1>SAMPLE REPORT : :</h1>
 
-INCOME : :
+<h3>INCOME : :</h3>
+
 | STATUS   |   EARNED BY   |   US/FOREIGN    |  GROSS ANNUAL SALARY  |    NON TAXBALE INCOME   |    INTEREST INCOME    | DIVIDENDS | GROSS RENTAL | OTHER INCOME | COMMENTS |
 |----------|:-------------:|:---------------:|:---------------------:|:-----------------------:|:---------------------:|:---------:|:------------:|:------------:|:--------:|
 |          |     Spouse    |        US       |                       |                         |                       |           |              |              |          |
 |          |     Filer     |        US       |                       |                         |                       |           |              |              |          |
 
-FAQ : :<br />
+<h4>FAQ : :</h4>
+
 _How do I report income if I worked for more than one company during the reporting period?_<br />
 Report the total income you, your spouse, and/or dependent children earned between 1 January to 31 December of the preceding calendar year. Include comments to specify the amount earned from each company. 
 
@@ -21,7 +23,8 @@ Examples of other income (exceeding $500) include business income not reported a
 
 <br />
 
-BANKING & INVESTMENTS : :
+<h3>BANKING & INVESTMENTS : :</h3>
+
 | STATUS   |       TYPE      |   ACCOUNT HOLDER(S)  |   FINANCIAL INSTITUTION  | AMOUNT INVESTED | YEAR END BALANCE | COMMENTS |
 |----------|:---------------:|:--------------------:|:------------------------:|:---------------:|:----------------:|:--------:|
 |          |       Bank      |       Spouse         | 1 account(s), bank name  |                 |                  |          |
@@ -32,7 +35,8 @@ BANKING & INVESTMENTS : :
 |          |    Investment   |        Filer         | 2 account(s), bank name  |                 |                  |          |
 |          |    Investment   |        Filer         | 1 account(s), bank name  |                 |                  |          |
 
-FAQ : :<br />
+<h4>FAQ : :</h4>
+
 _How should I list my LLC or S corporations?_<br />
 If you, your spouse, and/or any dependent children are a shareholder of a limited liability company (LLC) or S corporation, it should be reported in two places:
  1. as an investment in the Banking & Investments section and with a comment and 
@@ -60,20 +64,23 @@ On those accounts where you, your spouse, and/or dependent children maintain sig
 
 <br />
 
-HOUSING : :
+<h3>HOUSING : :</h3>
+
 | STATUS   |      TYPE       | OWNER(S)/RENTER(S) |  ADDRESS  |        PURCHASED/RENTED       | CAPITAL IMPROVEMENT COSTS | MONTHLY/LEASE/RENTAL PAYMENT | COMMENTS |
 |----------|:---------------:|:------------------:|:---------:|:-----------------------------:|:-------------------------:|:----------------------------:|:--------:|
 |          | Owned/Mortgaged |    Filer, Spouse   |           | year started, original amount |                           |                              |          |
 |          |    Mortgaged    |    Filer, Spouse   |           |     2005, original amount     |            none           |                              |          |
 
-VEHICLES : :
+<h3>VEHICLES : :</h3>
+
 | STATUS |  TYPE   | OWNED/LEASED |        VEHICLE        |   PURCHASED/LEASED    | MONTHLY LEASE PAYMENT | COMMENTS |
 |--------|:-------:|:------------:|:---------------------:|:---------------------:|:---------------------:|:--------:|
 | check  | Vehicle |     Owned    | Year, Make, model, ID | Year, original amount |         blank         | Paid off |
 | check  | Vehicle |     Owned    |                       |                       |                       |          |
 | check  | Vehicle |     Owned    |                       |                       |                       |          |
 
-DEBT/LIABILITIES : :
+<h3>DEBT/LIABILITIES : :</h3>
+
 | STATUS | TYPE |  DEBT/LIABILITY | ACCOUNT HOLDER(S) | CREDITOR | ORIGINAL BALANCE | MINIMUM MONTTHLY PAYMENT | YEAR END BALANCE | COMMENTS |
 |--------|:----:|:---------------:|:-----------------:|:--------:|:----------------:|:------------------------:|:----------------:|:--------:|
 | alert  | debt |      Other      |      Spouse       |          |                  |                          |                  |          |
@@ -84,14 +91,16 @@ DEBT/LIABILITIES : :
 | alert  | debt |  2nd mortgage   |       Filer       |          |                  |                          |                  |          |
 | alert  | debt |    Mortgage     |       Filer       |          |                  |                          |                  |          |
 
-ASSETS/VALUABLES : :
+<h3>ASSETS/VALUABLES : :</h3>
+
 | STATUS | ASSET/VALUABLE | OWNER(S) | YEAR PURCHASED/ACQUIRED | PURCHASE PRICE | YEAR END VALUE | SAFE DEPOSITE BOX LOCATION | COMMENTS |
 |--------|:--------------:|:--------:|:-----------------------:|:--------------:|:--------------:|:--------------------------:|:--------:|
 | check  |      none      |          |                         |                |                |                            |          |
 | check  |      none      |          |                         |                |                |                            |          |
 | check  |      none      |          |                         |                |                |                            |          |
 
-FAQ : :<br />
+<h4>FAQ : :</h4>
+
 _Am I required to report financial infromation on my spouse and dependent children?_<br />
 Yes. Spouses, dependent children, and other individuals with whom you share any financial responsibilities, ownership interests, or control over assets regarless of personal financial arrangements.
 
