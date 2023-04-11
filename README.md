@@ -85,6 +85,12 @@ The amount invested is the amount the account holder personally contributed to t
 _What are capital improvements?_<br />
 Enter the total cost of any capital improvements to the property since it was purchased. Capital improvements are alterations that add to the value of the property, such as remodeling of kitchents or adding a bathroom. Repair and replacement of worn out items does not constitute capital improvements. You do not have to include capital improvement costs that totaled less that $5,000 in the total amount you report. 
 
+<br />
+
+---
+
+<br />
+
 <h3>VEHICLES : :</h3>
 
 | STATUS |  TYPE   | OWNED/LEASED |        VEHICLE        |   PURCHASED/LEASED    | MONTHLY LEASE PAYMENT | COMMENTS |
@@ -104,9 +110,14 @@ No, only list the behicles you owned on 31 December of the reporting year. If pr
 _What if my spouse, any of my dependent children, or I are part owner(s) or inherited a vehicle?<br />
 If you, your spouse, and/or dependent children are part owner of a vehicle or assisted another in purchasing a vehicle, enter the amount you/your spouse/your dependents contributed to the purchase. If you received a vehicle as a gift or an ingeritance, enter the fair market value at the time you acquired the vehicle. If the vehicle, boat, airplane, or other was acquired by gift or inheritance during the filing year, the amount should also be reflected in the Income (under Other Income), with details being explained in the comments section.
 
-_Should I report vehicles that are paid off?<br />
+_Should I report vehicles that are paid off?_<br />
 Yes, all vehicles should be listed with a comment that it has been paid in full. 
 
+<br />
+
+---
+
+<br />
 
 <h3>DEBT/LIABILITIES : :</h3>
 
