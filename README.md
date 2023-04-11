@@ -21,6 +21,7 @@ HOUSING : :
 | STATUS   |      TYPE       | OWNER(S)/RENTER(S) |  ADDRESS  |        PURCHASED/RENTED       | CAPITAL IMPROVEMENT COSTS | MONTHLY/LEASE/RENTAL PAYMENT | COMMENTS |
 |----------|:---------------:|:------------------:|:---------:|:-----------------------------:|:-------------------------:|:----------------------------:|:--------:|
 |          | Owned/Mortgaged |    Filer, Spouse   |           | year started, original amount |                           |                              |          |
+|          |    Mortgaged    |    Filer, Spouse   |           |     2005, original amount     |            none           |                              |          |
 
 VEHICLES : :
 | STATUS |  TYPE   | OWNED/LEASED |        VEHICLE        |   PURCHASED/LEASED    | MONTHLY LEASE PAYMENT | COMMENTS |
