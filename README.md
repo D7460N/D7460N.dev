@@ -7,8 +7,10 @@
   width="400" />
 </p>
 
-<p align="center">Data/framework/resolution agnostic self-aware GUI</p>
+<p align="center">Your data your way | Fast/easy/secure</p>
 
----
+<p align="center"><i>Data/framework/resolution agnostic self-aware GUI</i></p>
+
+
 
 <p align="center">Simply download and double click to load HTML file into default browser.</p>
