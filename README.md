@@ -7,10 +7,10 @@
   width="400" />
 </p>
 
-<p align="center">Your data your way | Fast/easy/secure</p>
+<p align="center"><b>Your data your way | Fast/easy/secure</b></p>
 
 <p align="center"><i>Data/framework/resolution agnostic self-aware GUI</i></p>
 
-
-
-<p align="center">Simply download and double click to load HTML file into default browser.</p>
+<p align="center">
+To run : :<br />
+Download, unzip, and double click <i>.html</i> file to load into default browser.</p>
