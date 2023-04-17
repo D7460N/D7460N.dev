@@ -13,4 +13,4 @@
 
 <p align="center">
 : : To run : :<br />
-Download, unzip, and double click <i>.html</i> file to load into default browser.</p>
+Download, extract, and double click <i>.html</i> file to load into default browser.</p>
