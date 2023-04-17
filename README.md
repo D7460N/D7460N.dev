@@ -7,7 +7,7 @@
   width="400" />
 </p>
 
-<p align="center">Data/framework/media platform agnostic self-aware GUI</p>
+<p align="center">Data/framework/resolution agnostic self-aware GUI</p>
 
 ---
 
