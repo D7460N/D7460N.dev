@@ -13,7 +13,7 @@
   * [Usability](#usability)
   * [User Experience (UX)](#user-experience)
   * [Things To Remember](#things-to-remember)
-* [Governing Development Principles](#governing-development-principles)
+* [Governing Development Principles](#principles)
   * [Intrinsic Design](#intrinsic-design)
   * [Least Power](#least-power)
   * [Separation of Concerns](#separaton-of-concerns)
