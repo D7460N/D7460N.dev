@@ -62,8 +62,6 @@ The purpose and intent of this document is to preserve and promote foundational 
 
 ---
 
-<br />
-
 <!-- <h2 id="measured-goals">: : MEASURED GOALS : :</h2>
 
 <br />
