@@ -268,7 +268,7 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
 
 <br />
 
-<h3 id="w3c">: : W3C/WHATWG : :</h3>
+<h3 id="w3c">: : W3C/WHATWG LIVING STANDARD: :</h3>
 
 [^1] The best way for websites and or web applications to stay compatible with the FUTURE is to stay compatible with web browsers. The best way to stay compatible with web browsers is to be W3C/WHATWG standards compliant.
 
