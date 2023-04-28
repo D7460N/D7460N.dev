@@ -6,7 +6,7 @@
 
 * [Table of Contents](#toc)
 * [Purpose](#purpose)
-* [Measured Goals](#measured-goals)
+<!-- * [Measured Goals](#measured-goals) -->
 * [Standards](#standards)
   * [W3C](#w3c)
   * [Accessibility](#accessibility)
@@ -64,7 +64,7 @@ The purpose and intent of this document is to preserve and promote foundational 
 
 <br />
 
-<h2 id="measured-goals">: : MEASURED GOALS : :</h2>
+<!-- <h2 id="measured-goals">: : MEASURED GOALS : :</h2>
 
 <br />
 
@@ -260,9 +260,7 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
   </tr>
 </table>
 
-<br />
-
----
+<br /> -->
 
 <br />
 
@@ -417,7 +415,7 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 
 <br />
 
-<h3 id="classles-css">: : CLASSLESS CSS : :</h3>
+<h3 id="classless-css">: : CLASSLESS CSS : :</h3>
 
 Classless CSS is an advanced development technique where targeted default layout and form elements are defined in the CSS itself, without the use of class selectors or "hooks" in the HTML. This minimizes HTML bulk (page loads faster), keeps the HTML clean from inline styles, and allows D7460N to lockdown and or maintain control over said targeted default layout and form elements. 
 
