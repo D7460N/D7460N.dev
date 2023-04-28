@@ -38,7 +38,6 @@
   <!-- * [JavaScript Rules Engine](#javascript-rules-engine) -->
 * [Single Page Application (SPA)](#spa)
   * [Perspective](#perspective)
-  * [Level Of Effort (LoE)](#loe)
   * [Alternate Layouts](#alternate-layouts)
 * [Progressive Web Application (PWA)](#pwa)
   * [Cross Platform Interoperability](#cross-platform-interoperability)
