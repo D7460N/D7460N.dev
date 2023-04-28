@@ -35,8 +35,8 @@
 * [Architecture](#architecture)
   * [JAMstack](#jamstack)
   * [HTML/CSS](#html-css)
-  * [JavaScript Rules Engine](#javascript-rules-engine)
-* [Single Page Application (SPA)](#single-page-application)
+  <!-- * [JavaScript Rules Engine](#javascript-rules-engine) -->
+* [Single Page Application (SPA)](#spa)
   * [Perspective](#perspective)
   * [Level Of Effort (LoE)](#loe)
   * [Alternate Layouts](#alternate-layouts)
