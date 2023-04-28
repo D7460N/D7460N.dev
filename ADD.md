@@ -663,7 +663,7 @@ The D7460N logo changes color dynamically depending on on it's background-color 
 
 <br />
 
-<h3 id="htmlcss">: : HTML/CSS : :</h3>
+<h3 id="html-css">: : HTML/CSS : :</h3>
  
 To separate and isolate GUI logic from business logic, the D7460N GUI is strictly separated into two exclusive halves. The HTML/CSS (GUI logic) and JavaScript (business logic).
  
