@@ -16,7 +16,7 @@
 * [Governing Development Principles](#principles)
   * [Intrinsic Design](#intrinsic-design)
   * [Least Power](#least-power)
-  * [Separation of Concerns](#separaton-of-concerns)
+  * [Separation of Concerns](#separation-of-concerns)
   * [Perfect Storm](#perfect-storm)
 * [Development Techniques](#development-techniques)
   * [Classess CSS](#classless-css)
@@ -409,7 +409,7 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 
 <br />
 
-<h2 id="developement-techniques">: : DESIGN/DEVELOPEMENT TECHNIQUES : :</h2>
+<h2 id="development-techniques">: : DESIGN/DEVELOPMENT TECHNIQUES : :</h2>
 
 <br />
 
@@ -624,6 +624,8 @@ awaiting base theme CSS
 ```
 
 <br />
+
+<h3 id="corporate-branding">: : CORPORATE BRANDING : :</h3>
 
 LOGO : :
 
