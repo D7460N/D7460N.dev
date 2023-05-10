@@ -55,7 +55,7 @@
 
 <br />
 
-The purpose and intent of this document is to preserve and promote foundational web industry development and O&M best practices as well as W3C/WHATWG standards compliance for the betterment, health, and longevity of D7460N and those who would use it for their businesses. 
+This document outlines best practices and standards for web development and operations and maintenance (O&M) with the goal of improving and maintaining the health and longevity of D7460N and its users. 
 
 <br />
 
@@ -267,13 +267,13 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
 
 <h3 id="w3c">: : W3C/WHATWG "LIVING" STANDARD : :</h3>
 
-[^1] The best way for websites and or web applications to stay compatible with the FUTURE is to stay compatible with web browsers. The best way to stay compatible with web browsers is to be W3C/WHATWG standards compliant.
-
-The company website will be accessible on any device with an authorized network connected web browser from anywhere in the world.<br />`[ company goal ]`
+[^1] The best way for websites and or web applications to stay compatible with the future is to be W3C/WHATWG standards compliant and accessible on any device with an authorized network connected web browser from anywhere in the world.<br />`[ company goal ]`
 
 <br />
 
 <h3 id="accessibility">: : ACCESSIBILITY : :</h3>
+
+Accessibility relates to the technical side of a website, while usability refers to the quality of a person's experience when interacting with it. Accessibility guidelines can improve usability for all users, including those with disabilities or impairments.
 
 **ACCESSIBILITY IS NOT USABILITY**. A screen full of unstructured unformatted unstyled data is accessible, but hardly usable. Accessbility is the beginning of usability best practices. 
 
@@ -344,13 +344,13 @@ HTML : :
 
 <h3 id="intrinsic-design">: : INTRINSIC DESIGN : :</h3>
 
-Coinded by Jen Simmons, Intrinsic design is the idea of useing modern CSS (generally Flexbox or Grid) solutions to give the browser enough information to decide when the layout will shift to a different layout instead of having to hard-code things yourself. Not only does it mean we're not left guessing what break-points things would shift at ourselves, but it also means that we're able to write less code and generally make more maintainable and adaptable solutions. 
+Coinded by Jen Simmons, Intrinsic Design is a way of using modern CSS (Flexbox or Grid) to let the browser decide how to layout content instead of hard-coding it. This reduces code and creates more maintainable, adaptable solutions.
 
 <br />
 
 <h3 id="least-power">: : LEAST POWER : :</h3>
 
-D7460N leverages the "Least Power" principle in that D7460N is purposely simple and easy to understand, not just for the end-user to user, but also for developers to develop. Why pay a team of highly trained experts to host, maintain, compile, and otherwise manage the latest monstrous JS framework and all its (possibly insecure) third party dependencies when all you need is a couple of developers to know and edit vanilla HTML, CSS, and JavaScript?
+D7460N leverages the "Least Power" principle in that D7460N is purposely simple and easy to understand, not just for the end-user to user, but also for developers to develop.
 
 The D7460N GUI runs natively in the browser with no dependencies, it requires:
 * no building
@@ -414,13 +414,13 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 
 <h3 id="classless-css">: : CLASSLESS CSS : :</h3>
 
-Classless CSS is an advanced development technique where targeted default layout and form elements are defined in the CSS itself, without the use of class selectors or "hooks" in the HTML. This minimizes HTML bulk (page loads faster), keeps the HTML clean from inline styles, and allows D7460N to lockdown and or maintain control over said targeted default layout and form elements. 
+Classless CSS is a development technique that lets developers define default layout and form elements in the CSS without needing to use class selectors or "hooks" in the HTML, reducing page size and keeping the HTML clean.
 
 <br />
 
 <h3 id="semantic-html-elements">: : SEMANTIC HTML ELEMENTS : :</h3>
 
-Web accessibility and usability begins with semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
+Web accessibility and usability utilize semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
 
 HTML : :
 ```html
@@ -438,7 +438,7 @@ HTML : :
 
 <h3 id="custom-html-elements">: : CUSTOM HTML ELEMENTS : :</h3>
 
-The latest and final version of HTML or the WHATWG Living HTML Standard (there are no more numbered versions after May 28, 2019) allows HTML to be extended with custom HTML tags. Custom HTML tags can comprise of at least two alph numeric phrases separated by hyphens. D7460N leverages custom HTML elements for non-structural HTML to enhance HTML semantic meaning, minimize digital footprint (digital bloat), and provide developement hooks in-leu-of CSS classes (see [Classless CSS](#classless-css).
+Custom HTML elements are alphanumeric phrases separated by hyphens that are used to extend HTML with semantic meaning, reduce digital bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css).
 
 HTML : :
 ```html
@@ -481,7 +481,7 @@ HTML : :
 
 <h3 id="responsive-design">: : RESPONSIVE DESIGN : :</h3>
 
-Responsive or adaptive web design provides optimal experience, easy reading, and easy navigation with a minimum of resizing on difference media devices such as desktops, laptops, tablets, and phones. D7460N is suitable to work on every device, and every screen size, no matter how large or small. `[ company goal ]`
+Responsive or adaptive web design provides optimal experience, easy reading, and easy navigation with a minimum of resizing on difference media devices such as desktops, laptops, tablets, and phones. D7460N work on every device, and every screen size, no matter how large or small. `[ company goal ]`
 
 <br />
 
