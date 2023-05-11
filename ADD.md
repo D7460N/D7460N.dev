@@ -440,6 +440,9 @@ HTML : :
 
 Custom HTML elements are alphanumeric phrases separated by hyphens that are used to extend HTML with semantic meaning, reduce digital bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css).
 
+Jim Nielson's Blog<br />
+[Custom Elements Without JavaScript?](https://blog.jim-nielsen.com/2021/custom-elements-without-js/)
+
 HTML : :
 ```html
 <app-container>
