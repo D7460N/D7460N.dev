@@ -372,6 +372,14 @@ Decoupleing GUI logic from business logic allows D7460N to be:
 
 <br />
 
+Web Application Firewall 
+
+<br />
+
+Web Components 
+
+<br />
+
 <h3 id="perfect-storm">: : PERFECT STORM : :</h3>
 
 **D7460N is a perfect storm of opportunities to affect and inspire positive change** in that it is...
@@ -590,6 +598,13 @@ It would : :
 * result in automated templates for designers, far less code logic for developers, smaller digital footprint, and a much richer experience for end-users
 
 CSS has been able to watch for things (selectors) and act on that selector for years. With the introduction of `:has()`, CSS can now watch and act on OTHER selectors and even parent selectors. This opens up CSS capabilities limited only by our imagination. 
+<br />
+Container Queries 
+<br />
+Style Queries 
+<br />
+Counting Queries 
+<br />
 
 <br />
 
