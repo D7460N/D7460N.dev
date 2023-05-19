@@ -10,13 +10,14 @@ const T = new Twit({
   strictSSL: true,
 });
 
-T.get('statuses/user_timeline', { screen_name: 'your_twitter_handle', count: 10 }, (err, data, response) => {
+T.get('statuses/user_timeline', { screen_name: 'dragontheory', count: 10 }, (err, data, response) => {
   if (err) {
     console.error('Error fetching tweets:', err);
   } else {
     const articles = data.map(tweet => ({
       // transform tweet data to your article schema
-      // ...
+      ...tweet,  // Include all fields from the tweet
+      url: `https://twitter.com/${tweet.user.screen_name}/status/${tweet.id_str}`  // Add the "url" field
     }));
 
     fs.writeFile('./assets/js/articles.json', JSON.stringify(articles, null, 2), (err) => {
