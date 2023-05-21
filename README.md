@@ -9,7 +9,7 @@
 
 <p align="center"><b><i>Your data your way | Fast/easy/secure</i></b></p>
 
-<p align="center">Data/framework/resolution/platform/browser agnostic,<br />minimal,<br />scalable,<br />symantic,<br />standards compliant,<br />responsive,<br />self-aware,<br />GUI template</p>
+<p align="center">Data/framework/resolution/platform/browser agnostic,<br />minimal,<br />scalable,<br />simantic,<br />standards compliant,<br />responsive,<br />self-aware,<br />GUI template</p>
 
 ---
 
