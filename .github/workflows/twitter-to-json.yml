@@ -1,7 +1,7 @@
 name: Update JSON with Twitter Data
 on:
   schedule:
-  #  - cron: '0 * * * *' # Run every hour
+    - cron: '0 * * * *' # Run every hour
 jobs:
   update:
     runs-on: ubuntu-latest
