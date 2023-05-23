@@ -267,7 +267,7 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
 
 <h3 id="w3c">: : W3C/WHATWG "LIVING" STANDARD : :</h3>
 
-[^1] The best way for websites and or web applications to stay compatible with the future is to be W3C/WHATWG standards compliant and accessible on any device with an authorized network connected web browser from anywhere in the world.<br />`[ company goal ]`
+[^1] To ensure future compatibility for websites or web applications, adherence to W3C/WHATWG standards is crucial. Additionally, accessibility across any device equipped with an authorized network-connected web browser, from any location worldwide, is key.<br />`[ company goal ]`
 
 <br />
 
@@ -283,9 +283,12 @@ Accessibility relates to the technical side of a website, while usability refers
 
 <h3 id="usability">: : USABILITY : :</h3>
 
-For many end-users, the difference between Apple and Microsoft is design over function (respetively). For many developers, the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. 
+For many end-users (not all), the difference between Apple and Microsoft is design over function (respetively). For many developers (not all), the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. 
 
-End-user and developer accessibility and usability goversn every company design development decision. 
+End-user **and** developer accessibility and usability governs every design development decision. 
+
+Links:<br/>
+[https://off-site-list.html](https://digital.gov/)
 
 > <i>If "content is king", then the GUI is his castle, usability is the road that leads you there, and accessibility is the key to enter his royal court."</i><br />~ Unknown
 
