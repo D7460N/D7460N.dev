@@ -336,8 +336,8 @@ Such as:
 * **Use `outline-color: transparent;`** - rather than `:none;` so as to not turn off accessibility features.
 * **Use semantic custom HTML tags** - for non-layout/structural elements.
 * **Use `prefers-reduced-motion`** - for animated and transitioned elements to allow the GUI to obey end-users OS level preferences. 
-* **Use SVG format whenever possible** - so that they will dynamically/programatically change colors with the contextual theme and maintain accessibility contrast standard ratios. SVGs are alos extremely light weight and can be _inlined_ with the HTML.
-* **Use `mix-blend-mode` with SVGs** - to dynamically ensure accessibility color contrast ratio of at least 1:4. 
+* **Use SVG format whenever possible** - SVGs are extremely light weight and can be _inlined_ with the HTML.
+* **Use `mix-blend-mode` with SVGs** whenever possible - This enables SVGs to be controlled dynamically/programmatically and ensures accessibility color contrast ratio of at least 1:4, regardless of the color theme. 
 
 <br />
 
