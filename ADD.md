@@ -404,7 +404,7 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 <br />
 
 <h3 id="web-components">Web Components (native)</h3>
-(WIP) Allows for JS framework independence, nuetrallity, flexibility. If **Angular** or **Vue.js** is no longer "the thing", and the team feels they want to switch to **React**, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
+(WIP) Allows for JS framework independence, nuetrallity, flexibility. If <b>Angular</b> or <b>Vue.js</b> is no longer "the thing", and the team feels they want to switch to <b>React</b>, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
 
 <br />
 
