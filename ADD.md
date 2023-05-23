@@ -409,6 +409,8 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 
 <br />
 
+<br />
+
 <h3 id="perfect-storm">: : PERFECT STORM : :</h3>
 
 **The D7460N Template is a perfect storm of opportunities to affect and inspire positive change** in that it is...
