@@ -361,7 +361,9 @@ Offsite link HTML example : :
 
 <h3 id="intrinsic-design">: : INTRINSIC DESIGN : :</h3>
 
-Coinded by Jen Simmons, Intrinsic Design is a way of using modern CSS (Flexbox or Grid) to let the browser decide how to layout content instead of hard-coding it. This reduces code and creates more maintainable, adaptable solutions.
+Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed](https://www.youtube.com/watch?v=jBwBACbRuGY). 
+
+Most DEVs use CSS to control and lockdown the UI. Intrinsic design leverages modern design engineering techniques, fueled by new(_er_) CSS functionality such as `Grid`, `Flexbox`, `:has()`, and `container-queries` to allow the web GUI to intuitively present content on it's own. Instead of hard-coding the layout, Intrinsic design allows the browser to determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions.
 
 <br />
 
