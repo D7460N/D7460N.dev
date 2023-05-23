@@ -46,6 +46,7 @@
   * [It's A Desktop App](#desktop-app)
   * [It's A Website](#website)
   * [Advantages](#advantages)
+* [Security](#security)
 * [Browser Compatibility](#browser-compatibility)
 * [Directory Structure](#directory-structure)
 
