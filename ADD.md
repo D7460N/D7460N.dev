@@ -365,7 +365,7 @@ Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" ev
 
 Most developers use CSS to control and or lockdown their web UIs. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` that allow web UIs to **intrinsically** or **naturally** or **natively** present content on it's own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to naturally determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. 
 
-Almost as if the UI is [SELF-AWARE](#self-aware)...
+Almost as if the web UI is [SELF-AWARE](#self-aware)...
 
 <br />
 
@@ -376,9 +376,9 @@ The "Least Power" principle simplifyies the codebase and development workflow pr
 > "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br />
 [W3C - Web Technologies and the Rule of Least Power - 2001](https://www.w3.org/2001/tag/doc/leastPower.html)
 
-Least Power allows developers to more easily separate data or business logic form GUI logic. See [SEPARATION OF CONCERNS](#separation-of-concerns).
+The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation-of-concerns).
 
-Since the D7460N Template is only HTML and CSS, it runs natively in the browser with no servers requiered:
+Since the D7460N Template separates the HTML and CSS from the JavaScript, it runs natively in the browser with no servers requiered:
 * no building
 * no compiling
 * and no serving
@@ -387,28 +387,30 @@ Since the D7460N Template is only HTML and CSS, it runs natively in the browser 
 
 <h3 id="separation-of-concerns">: : SEPARATION OF CONCERNS : :</h3>
 
-The D7460N template also follows the "separation of concerns" principle. That is, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two affectively separating the GUI logic (commonly followed design patterns and conventions coupled with ADA accessibility and usability guidelines) from the (application specific) business logic which allows for both to be independently developed, operated, and maintained. 
+The D7460N template also follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions coupled with ADA accessibility and usability guidelines) from the (application specific) business logic, allowing for BOTH to be independently developed, operated, and maintained. 
 
-Decoupleing GUI logic from business logic allows D7460N to be:
+Decoupleing GUI logic from business logic allows the D7460N template to be:
 * data agnostic
-* JS framework agnostic
+* JS framework agnostic - see [WEB COMPONENTS](#web-components)
 * Scalable
 * Modular
 * Independent
 
 <br />
 
-Web Application Firewall 
+<h3 id="web-application-firewall">Web Application Firewall</h3>
+(WIP)
 
 <br />
 
-Web Components 
+<h3 id="web-components">Web Components (native)</h3>
+(WIP) Allows for JS framework independence, nuetrallity, flexibility. If **Angular** or **Vue.js** is no longer "the thing", and the team feels they want to switch to **React**, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
 
 <br />
 
 <h3 id="perfect-storm">: : PERFECT STORM : :</h3>
 
-**D7460N is a perfect storm of opportunities to affect and inspire positive change** in that it is...
+**The D7460N Template is a perfect storm of opportunities to affect and inspire positive change** in that it is...
 
 * an enterprise level web application = _high profile_
 * used by tens of thousands of end-users across multiple companies = _wide exposure_
