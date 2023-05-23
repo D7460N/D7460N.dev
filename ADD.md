@@ -301,20 +301,28 @@ Links:<br/>
 
 <h3 id="user-experience">: : USER EXPERIENCE (UX) : :</h3>
 
-(WIP) User experience (UX) is where accessibility and usability come together. UX encompasses what happens from the time the user enters the web application URL to when they click the upper right hand corner "X" to cloase the web application and beyond. 
+User Experience (UX) is the intersection of accessibility and usability. It encapsulates the entire journey of a user, from the moment they input the web application's URL, to the point they click the "X" in the upper right corner to close the application, and even beyond. 
 
-What happens when users come back?
-* Is the web application just as fast or faster?
-* Does the web application remember where the user left off?
-* Does the web application handle user OS preferences?
-* Keyboard preferences?
-* Mouse preferences?
-* Do end-users like roomy or condensed content?
-* Do end-users like useful/helpful micro-transation animations or no animations?
+Such as:
+* What happens when users come back?
+* Does the web app remember the user?
+* Is the web application just as fast or faster when end-users return?
+* Does the web application remember and return the user where the user left off?
 * What happens to the web application if an end-user disables JavaScript?
 
-<img src="/assets/images/ux3d.svg#gh-dark-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." />
-<img src="/assets/images/ux3d.svg#gh-light-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." />
+What if end-users could easily customize the web application to make it their own? 
+
+Such as:
+* Does the web application handle user OS preferences such as:
+  * Color and contrast preferences?
+  * Keyboard preferences?
+  * Mouse preferences?
+  * Roomy or condensed content preferences?
+  * Do end-users like useful/helpful micro-transation animations or no animations?
+  
+
+<!-- <img src="/assets/images/ux3d.svg#gh-dark-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." />
+<img src="/assets/images/ux3d.svg#gh-light-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." /> -->
 
 <br />
 
