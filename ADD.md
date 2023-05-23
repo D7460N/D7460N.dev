@@ -819,6 +819,22 @@ A fully capable Progressive Web Application can provide the following advantages
 
 <br />
 
+ ---
+
+<br />
+ 
+<h2 id="security">: : SECURITY : :</h2>
+
+<h3 id="web-application-firewall">: : WEB APPLICATION FIREWALL (WAF) : :</h3>
+(WIP)
+ 
+<br />
+ 
+<h3 id="HTTP3">: : HTTP/3 : :</h3>
+(WIP)
+ 
+<br />
+ 
 ---
 
 <br />
