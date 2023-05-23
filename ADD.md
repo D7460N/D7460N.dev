@@ -313,7 +313,7 @@ Such as:
 What if end-users could easily customize the web application to make it their own? 
 
 Such as:
-* Does the web application handle user OS preferences such as:
+* Does the web application handle user OS preferences, such as:
   * Color and contrast preferences?
   * Keyboard preferences?
   * Mouse preferences?
@@ -363,7 +363,7 @@ Offsite link HTML example : :
 
 Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed](https://www.youtube.com/watch?v=jBwBACbRuGY). 
 
-Most DEVs use CSS to control and lockdown the UI. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, and `container-queries` to allow the web GUI to intuitively present content on it's own. Instead of hard-coding the layout, Intrinsic design allows the browser to determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions.
+Most developers use CSS as to control and lockdown the web UI. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` to allow web UIs to intuitively present content on it's own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. Almost as if the UI is [SELF-AWARE](#self-aware)...
 
 <br />
 
