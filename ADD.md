@@ -55,7 +55,7 @@
 
 <br />
 
-This document outlines best practices and standards for web development and operations and maintenance (O&M) with the goal of improving and maintaining the health and longevity of D7460N and its users. 
+This document presents guidelines and standards for web development, as well as operations and maintenance (O&M). The objective is to enhance and sustain the performance and lifespan of the D7460N template, ultimately benefiting its users. 
 
 <br />
 
