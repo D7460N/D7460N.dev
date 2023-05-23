@@ -363,7 +363,9 @@ Offsite link HTML example : :
 
 Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed](https://www.youtube.com/watch?v=jBwBACbRuGY). 
 
-Most developers use CSS as to control and lockdown the web UI. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` to allow web UIs to intuitively present content on it's own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. Almost as if the UI is [SELF-AWARE](#self-aware)...
+Most developers use CSS to control and or lockdown their web UIs. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` that allow web UIs to **intrinsically** or **naturally** or **natively** present content on it's own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to naturally determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. 
+
+Almost as if the UI is [SELF-AWARE](#self-aware)...
 
 <br />
 
