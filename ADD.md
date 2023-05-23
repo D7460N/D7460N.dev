@@ -341,7 +341,7 @@ Such as:
 
 <br />
 
-HTML : :
+Offsite link HTML example : :
 ```html
 <p>
   This is a paragraph with an
