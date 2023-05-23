@@ -12,7 +12,7 @@
   * [Accessibility](#accessibility)
   * [Usability](#usability)
   * [User Experience (UX)](#user-experience)
-  * [Things To Remember](#things-to-remember)
+  * [Things To Remember](#ux-to-remember)
 * [Governing Development Principles](#principles)
   * [Intrinsic Design](#intrinsic-design)
   * [Least Power](#least-power)
@@ -326,7 +326,7 @@ Such as:
 
 <br />
 
-<h3 id="things-to-remember">: : THINGS TO REMEMBER : :</h3>
+<h4 id="ux-to-remember">: : UX TO REMEMBER : :</h4>
 
 * **No dead ends** - Privide end-users and obvious way forward and a way back. A way forward example would be, links to support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner. 
 * **Link Offsite References** - Whenever an offsite source is reference, link to the reference. 
@@ -337,6 +337,7 @@ Such as:
 * **Use semantic custom HTML tags** - for non-layout/structural elements.
 * **Use `prefers-reduced-motion`** - for animated and transitioned elements to allow the GUI to obey end-users OS level preferences. 
 * **Use SVG format whenever possible** - so that they will dynamically/programatically change colors with the contextual theme and maintain accessibility contrast standard ratios. SVGs are alos extremely light weight and can be _inlined_ with the HTML.
+* **Use `mix-blend-mode` with SVGs** - to dynamically ensure accessibility color contrast ratio of at least 1:4. 
 
 <br />
 
