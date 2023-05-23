@@ -369,14 +369,14 @@ Most DEVs use CSS to control and lockdown the UI. Intrinsic design leverages mod
 
 <h3 id="least-power">: : LEAST POWER : :</h3>
 
-The "Least Power" principle is purposely simple and easy to understand, not just for the end-user to user, but also for developers to develop.
+The "Least Power" principle simplifyies the codebase and development workflow processes.
 
 > "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br />
 [W3C - Web Technologies and the Rule of Least Power - 2001](https://www.w3.org/2001/tag/doc/leastPower.html)
 
-Least Power allows to more easily separate data or business logic form GUI logic. See [SEPARATION OF CONCERNS](#separation-of-concerns).
+Least Power allows developers to more easily separate data or business logic form GUI logic. See [SEPARATION OF CONCERNS](#separation-of-concerns).
 
-Since the D7460N Template is only HTML and CSS, it runs natively in the browser with no dependencies or servers. It requires:
+Since the D7460N Template is only HTML and CSS, it runs natively in the browser with no servers requiered:
 * no building
 * no compiling
 * and no serving
@@ -385,7 +385,7 @@ Since the D7460N Template is only HTML and CSS, it runs natively in the browser 
 
 <h3 id="separation-of-concerns">: : SEPARATION OF CONCERNS : :</h3>
 
-D7460N also follows the "separation of concerns" principle. Most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two affectively separating the GUI logic (commonly followed design patterns and conventions coupled with ADA accessibility and usability guidelines) from the (application specific) business logic which allows for both to be independently developed, operated, and maintained. 
+The D7460N template also follows the "separation of concerns" principle. That is, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two affectively separating the GUI logic (commonly followed design patterns and conventions coupled with ADA accessibility and usability guidelines) from the (application specific) business logic which allows for both to be independently developed, operated, and maintained. 
 
 Decoupleing GUI logic from business logic allows D7460N to be:
 * data agnostic
