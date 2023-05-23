@@ -363,15 +363,20 @@ Offsite link HTML example : :
 
 Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed](https://www.youtube.com/watch?v=jBwBACbRuGY). 
 
-Most DEVs use CSS to control and lockdown the UI. Intrinsic design leverages modern design engineering techniques, fueled by new(_er_) CSS functionality such as `Grid`, `Flexbox`, `:has()`, and `container-queries` to allow the web GUI to intuitively present content on it's own. Instead of hard-coding the layout, Intrinsic design allows the browser to determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions.
+Most DEVs use CSS to control and lockdown the UI. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, and `container-queries` to allow the web GUI to intuitively present content on it's own. Instead of hard-coding the layout, Intrinsic design allows the browser to determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions.
 
 <br />
 
 <h3 id="least-power">: : LEAST POWER : :</h3>
 
-D7460N leverages the "Least Power" principle in that D7460N is purposely simple and easy to understand, not just for the end-user to user, but also for developers to develop.
+The "Least Power" principle is purposely simple and easy to understand, not just for the end-user to user, but also for developers to develop.
 
-The D7460N GUI runs natively in the browser with no dependencies, it requires:
+> "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br />
+[W3C - Web Technologies and the Rule of Least Power - 2001](https://www.w3.org/2001/tag/doc/leastPower.html)
+
+Least Power allows to more easily separate data or business logic form GUI logic. See [SEPARATION OF CONCERNS](#separation-of-concerns).
+
+Since the D7460N Template is only HTML and CSS, it runs natively in the browser with no dependencies or servers. It requires:
 * no building
 * no compiling
 * and no serving
