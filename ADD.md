@@ -287,10 +287,15 @@ For many end-users (not all), the difference between Apple and Microsoft is desi
 
 End-user **and** developer accessibility and usability governs every design development decision. 
 
-Links:<br/>
-[https://off-site-list.html](https://digital.gov/)
-
 > <i>If "content is king", then the GUI is his castle, usability is the road that leads you there, and accessibility is the key to enter his royal court."</i><br />~ Unknown
+
+<br />
+
+Links:<br/>
+[https://digital.gov/](https://digital.gov/)<br />
+[https://www.section508.gov/test/web-software/](https://www.section508.gov/test/web-software/)<br />
+[https://www.w3.org/WAI/standards-guidelines/wcag/](https://www.w3.org/WAI/standards-guidelines/wcag/)<br />
+[https://www.ada.gov/resources/web-guidance/](https://www.ada.gov/resources/web-guidance/)
 
 <br />
 
