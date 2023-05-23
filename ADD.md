@@ -292,10 +292,10 @@ End-user **and** developer accessibility and usability governs every design deve
 <br />
 
 Links:<br/>
-[https://digital.gov/](https://digital.gov/)<br />
-[https://www.section508.gov/test/web-software/](https://www.section508.gov/test/web-software/)<br />
-[https://www.w3.org/WAI/standards-guidelines/wcag/](https://www.w3.org/WAI/standards-guidelines/wcag/)<br />
-[https://www.ada.gov/resources/web-guidance/](https://www.ada.gov/resources/web-guidance/)
+[Guidance on building better digital services in government.](https://digital.gov/)<br />
+[Government-wide Section 508 Assessment](https://www.section508.gov/)<br />
+[WCAG 2 Overview | Web Accessibility Initiative (WAI) - W3C](https://www.w3.org/WAI/standards-guidelines/wcag/)<br />
+[Guidance on Web Accessibility and the ADA](https://www.ada.gov/resources/web-guidance/)
 
 <br />
 
