@@ -427,4 +427,9 @@ html:after {
 
 span-bold {font-weight: 900;}
 
-iframe {background-color: transparent;}
+iframe {
+  margin: 1rem;
+  background-color: transparent;
+}
+
+panel-list div {overflow: auto;}
