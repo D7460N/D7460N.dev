@@ -6,14 +6,15 @@
 */  *:before, *:after, *, ::after, ::before {box-sizing: border-box;}
     body {padding: 0; margin: 0;}
     body,html,iframe,app-container {
-  background-color: var(--bg-color);
-}
+    background-color: var(--bg-color);
+  }
 
 
 /*  LAYOUT | Vertical --------------------------------
 */  :root {
       --app-container-grid-template-rows: 
-        auto auto 1fr minmax(1rem, 7rem) minmax(1rem, 7rem);
+        auto auto 1fr auto;
+        /* auto auto 1fr minmax(1rem, 7rem) minmax(1rem, 7rem); */
       --nav-justify-content: start;
       --nav-border-radius: .25rem .25rem 0 0;
       --main-margin-block: -1rem 0;
@@ -22,6 +23,7 @@
       --tab-grid-auto-flow: column;
       --sub-header-display: none;
       --grid-gap: 1rem;
+      --aside-display: none;
     }
 
 
@@ -52,6 +54,7 @@
         --tab-grid-auto-flow: row;
         --sub-header-display: grid;
         --grid-row-span: span 2;
+        --aside-display: grid;
       }
     }
 
@@ -194,12 +197,18 @@ demo-buttons {cursor: pointer;}
 
 
 /*  ASIDE ---------------------------------- 
-*/  aside {border-radius: .3rem;}
+*/  aside {
+      display: var(--aside-display);
+      border-radius: .3rem;
+    }
     /* aside {resize: var(--aside-resize-v);} */
 
 
 /*  ASIDE-2 ---------------------------------- 
-*/  aside-2 {border-radius: .3rem;}
+*/  aside-2 {
+      display: var(--aside-display);
+      border-radius: .3rem;
+    }
 
 
 /*  HEADER/FOOTER --------------------------------
@@ -427,9 +436,10 @@ html:after {
 
 span-bold {font-weight: 900;}
 
-iframe {
-  margin: 1rem;
-  background-color: transparent;
-}
+iframe {background-color: transparent;}
 
 panel-list div {overflow: auto;}
+
+iframe html body section article img {
+  mix-blend-mode: multiply;
+}
