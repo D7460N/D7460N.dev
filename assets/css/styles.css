@@ -90,7 +90,7 @@
 
 
 /*  THEME | Light ----------------------------------
-*/  @media (prefers-color-scheme: light) {
+*/  @media (prefers-color-scheme: dark) {
       :root:has(#toggleTheme:checked) {
         --bg-color: 0,0,0;
         --bg-opacity: 0.8;
@@ -160,7 +160,8 @@
     nav:has(#radio02:checked) ~ main #tab02,
     nav:has(#radio03:checked) ~ main #tab03,
     nav:has(#radio04:checked) ~ main #tab04,
-    nav:has(#radio05:checked) ~ main #tab05 {display: grid;}
+    nav:has(#radio05:checked) ~ main #tab05,
+    nav:has(#radio06:checked) ~ main #tab06{display: grid;}
 
     /* rounded corner for MAIN */
     nav:not(:has(#radio01:checked)) ~ main {border-radius: .25rem;}
