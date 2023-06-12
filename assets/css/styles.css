@@ -445,8 +445,9 @@ iframe {background-color: transparent;}
 
 panel-list div {overflow: auto;}
 
-iframe html body section article img {
+iframe section article img {
   mix-blend-mode: multiply;
+  opacity: 50%!important;
 }
 
 a {
