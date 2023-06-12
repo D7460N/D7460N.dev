@@ -42,7 +42,7 @@
 /*  LAYOUT | Horizontal ------------------------------
 */  @media (width >= 600px) {
       :root:has(#toggleLayout:checked) {
-        --app-container-grid-template-columns: 10rem 1fr 12rem;
+        --app-container-grid-template-columns: 10rem 1fr 15rem;
         --app-container-grid-template-rows: auto 1fr 1fr auto;
         --nav-border-radius: .25rem 0 0 .25rem;
         --nav-justify-content: auto;
