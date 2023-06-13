@@ -2,6 +2,12 @@
 
 <br />
 
+<h2 id="whatif">: : WHAT IF? : :</h2>
+
+What if a development project could be set up and running, just like it is typically done today with today's JS frameworks, in half the time and with half the code and with half the effort? What if it could also be done without third-party dependencies? What if it could be done in a way that allows for fast and easy hotswapping major components? What if it could be done in a way that us framework agnostic and this compatible with any framework? What if it was easy to use minimizing ramp-up time for new developers? What if it was 100% accessible and usable out of the box? 
+
+<br />
+
 <h2 id="toc">: : TABLE OF CONTENTS : :</h2>
 
 * [Table of Contents](#toc)
@@ -57,7 +63,7 @@
 
 <br />
 
-This document presents guidelines and standards for web development, as well as operations and maintenance (O&M). The objective is to enhance and sustain the performance and lifespan of the D7460N template, ultimately benefiting its users. 
+This document presents guidelines and standards for web development as well as O&M with the D7460N Template. The objective is to enhance and sustain the project performance and lifespan with the D7460N Template, ultimately benefiting both developers and end-users alike. 
 
 <br />
 
@@ -373,7 +379,7 @@ Almost as if the web UI is [SELF-AWARE](#self-aware)...
 
 <h3 id="least-power">: : LEAST POWER : :</h3>
 
-The "Least Power" principle simplifyies the codebase and development workflow processes.
+The "Least Power" principle simplifyies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks. 
 
 > "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br />
 [W3C - Web Technologies and the Rule of Least Power - 2001](https://www.w3.org/2001/tag/doc/leastPower.html)
@@ -406,7 +412,7 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 <br />
 
 <h3 id="web-components">Web Components (native)</h3>
-(WIP) Allows for JS framework independence, nuetrallity, flexibility. If <b>Angular</b> or <b>Vue.js</b> is no longer "the thing", and the team feels they want to switch to <b>React</b>, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
+(WIP) Allows for JS framework independence, nuetrallity, and flexibility. If <b>Angular</b> or <b>Vue.js</b> is no longer "the thing", and the team feels they want to switch to <b>React</b>, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
 
 <br />
 
@@ -444,15 +450,15 @@ Stongly hinted in the [Least Power](#least-power) section, but bears emphasising
 How do you create a modern future-proofed web presense that is more accessible and more enjoyable with less effort, less time, and less resources?
 
 FUTURE PROOF : :<br />
-As one of the three languages web browsers nately understand, CSS is not going away any time soon. The CSS I wrote ten years ago still works today and will work in another 10 years. 
+As one of the three core languages web browsers nately understand, CSS is not going away any time soon. The CSS I wrote ten years ago still works today and will work in another 10 years. 
 
 FAST : :<br />
 CSS is 100 to 1K times faster than JavaScript equivelents. 
 
-LIVE : :<br />
-CSS's always on, alway live nature combined with newly enable functionality, allows for web UIs to be "intelligently interactive". 
+REACTIVE : :<br />
+CSS's always on, alway reactive nature combined with newly enable CSS `has();` functionality, allows for web UIs to be "intelligently interactive". 
 
-CSS is the driving force behind D7460N design and developement. Scripting is purposely minimal so as to avoid negating the natural benefits of such CSS central design and developemnt. This focus on CSS is neither custom nor new. It is actually the original intent and how CSS was created to work. 
+CSS is the driving force behind D7460N design and developement. Scripting is purposely minimal so as to avoid negating the natural benefits of such CSS first, data centric design and developemnt. This focus on CSS is neither custom nor new. It is actually the original intent and purpose behind how and why CSS was created. 
 
 <br />
 
@@ -466,21 +472,29 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 
 <h3 id="classless-css">: : CLASSLESS CSS : :</h3>
 
-Classless CSS is a development technique that lets developers define default layout and form elements in the CSS without needing to use class selectors or "hooks" in the HTML, reducing page size and keeping the HTML clean.
+Classless CSS is a development technique that lets developers define default layout and form elements in the CSS without needing to use class selectors or "hooks" in the HTML. This reduces HTML bloat, page load size, and hepls to keep the HTML clean, readable, and intuitive.
 
 <br />
 
 <h3 id="layer">: : CSS @LAYER</h3>
 
-CSS `@layer` is utilized to lessen the precedence of D7460N Template default CSS so as to allow custom or third party or other themes and or styles to more easily take precedence or override default D7460N styles.
+CSS `@layer` is utilized ub the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, or other themes and or styles to more easily take precedence or override default D7460N Template styles.
 
 > The `@layer` CSS at-rule is used to declare a cascade layer and can also be used to define the order of precedence in case of multiple cascade layers.
 >
->Rules within a cascade layer cascade together, giving more control over the cascade to web developers. Any styles not in a layer are gathered together and placed into a single anonymous layer that comes after all the declared layers, named and anonymous. This means that any styles declared outside of a layer will override styles declared in a layer, regardless of specificity.
+> Rules within a cascade layer cascade together, giving more control over the cascade to web developers. Any styles not in a layer are gathered together and placed into a single anonymous layer that comes after all the declared layers, named and anonymous. This means that any styles declared outside of a layer will override styles declared in a layer, regardless of specificity.
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
+
+<br />
+
+<h3 id="support">: : CSS @SUPPORT</h3>
+
+CSS `@support` is utilized for feature detection and <b>Progressive Enhancement</b>.
+
+(WIP) (WIP) (WIP) (WIP) (WIP)
 
 <br />
 
@@ -510,7 +524,7 @@ HTML : :
 
 <h3 id="custom-html-elements">: : CUSTOM HTML ELEMENTS : :</h3>
 
-Custom HTML elements are alphanumeric phrases separated by hyphens that are used to extend HTML with semantic meaning, reduce digital bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css).
+Custom HTML elements are alphanumeric hyphonated phrases that are used to extend HTML with semantic meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css).
 
 [Custom Elements Without JavaScript?](https://blog.jim-nielsen.com/2021/custom-elements-without-js/) - Jim Nielson's Blog
 
@@ -547,7 +561,9 @@ HTML : :
 
 <br />
 
-<h3 id="css-variables">: : CSS VARIABLES : :</h3>
+<h3 id="css-variables">: : CSS CustomProperties, AKA CSS VARIABLES : :</h3>
+
+The D7460N Template leverages CSS custom properties or variables to pre define layout states, color theme, user preferences, and many other dynamic GUI logic features. 
 
 (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
 
@@ -555,7 +571,7 @@ HTML : :
 
 <h3 id="responsive-design">: : RESPONSIVE DESIGN : :</h3>
 
-Responsive or adaptive web design provides optimal experience, easy reading, and easy navigation with a minimum of resizing on difference media devices such as desktops, laptops, tablets, and phones. D7460N work on every device, and every screen size, no matter how large or small. `[ company goal ]`
+Responsive or adaptive web design provides optimal experiences, easy reading, and intuitive navigation with a minimum of resizing on difference media devices such as desktops, laptops, tablets, and phones regardless of OS. The D7460N Template works on every device (WIP), and every screen size, no matter how large or small. `[ company goal ]`
 
 <br />
 
@@ -563,7 +579,11 @@ Responsive or adaptive web design provides optimal experience, easy reading, and
 
 **Progressive Enhancement** is a design philosophy that provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code. 
 
-The word _progressive_ in _progressive enhancement_ means creating and design that achieves a simpler-but-still-usable experience for end-users of older browsers and devices with limited capabilities, while at the same time being a design the **professes the user experience** to a more compelling, fully-featured experience for users of new browsers and devices with richer capabilities. 
+The word _progressive_ in _progressive enhancement_ means creating and design that achieves a simpler-but-still-usable experience for end-users of older browsers and devices with limited capabilities, while at the same time being a design that **professes the user experience** to a more compelling, fully-featured experience for users of new browsers and devices with richer capabilities. 
+
+For example, the current production version of the Firefox browser does not yet support native CSS scroll-based animation without a flag to enable it. In an upcoming version that does support it, a scroll-progress indicator will be visible when end-users scroll through individual sections that contain scrollable content, just like it does in other browsers that already support this underlying CSS functionality (WIP).
+
+This is done with CSS [@support](#support) to detect feature support. 
 
 Feature detection is generally used to determine whether browsers can handle more modern functionality, while pollyfills are often used to add missing features with JavaScript. 
 
@@ -581,35 +601,41 @@ awaiting responsive code snippet
 
 Third party dependencies such as JS libraries like jQuery, EXT.js, Prototype.js and JavaScript frameworks like Angular, Vue, and React are helpful for when browsers don't support needed functionality natively and for launching features and or entire software projects quickly. 
 
-This party dependencies are also the eventual _death-knell_ of every software feature or software project I've even been on. 
+Third party dependencies are also the eventual _death-knell_ of almost every software feature or software project I've even been on. 
 
-This is because third party dependencies are subject to dissassociate unwhitting third party developers with competing priorities, schedules, and security concerns. 
+One of the major reasons is because third party dependencies are subject to and controlled by dissassociated unwhitting third party developers with competing priorities, schedules, and security concerns. 
 
-Third party dependencies often force development decisions down inflexible "happy paths" to work as needed eventually leading to compromized or limited developement and or feature options in the near and or long term. 
+Third party dependencies very often force design and development decisions down limited and inflexible "happy paths" to work as needed (AKA "opinionated") eventually leading to compromized or limited feature options or subpar development in the near and or long term. 
 
-Additional third party software and build processes (themselves dependent on third party software) are necessary to track, sync, and keep third party dependencies up-to-date. Even so, if one dependency doesn't maintain their code, all other dependents can't move forward. A project depending on dozens of of third, fourth, and even fifth party dependencies may get up and running quickly, but will eventually grind to a screaching halt and need to be rebuilt from scratch. 
+Additional third party software and build processes (themselves dependent on third party software/plugins/dependencies) are necessary to track and keep them all synced and up to date. 
+
+Even so, if just one dependency fails to maintain, update, and sync their code and becomes incompatible with other dependents, the entire project can't move forward. A project depending on dozens, if not hundreds of third, fourth, and even fifth party dependencies may get up and running quickly, but at what cost if said project will grind to a screaching halt under it's own weight and need to be rebuilt from scratch?
+
+<br />
+
+There is a better way!
 
 <br />
 
 <h3 id="squishy-layout">: : SQUISHY LAYOUT : :</h3>
 
-D7460N leverages a **3 STOP** layout technique using native HTML and CSS that allows for dynamic functionality normally relegated to and implimented with JavaScript. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive-design), and sets the ground work for [end-user customizetin options](#customization). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
+The D7460N Template leverages an undocumented but valid **3 STEP** layout technique using just native HTML and CSS. This technique allows for dynamic functionality normally relegated to and implimented with expensive JavaScript tracking and poling. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive-design), and sets the ground work for [end-user customizetin options](#customization). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
 
 <br />
 
 <h4>: : STEP 1 : :</h4>
 
-Rather than setting height on any other DOM elements, set inner most child DOM elements padding (such as buttons and form elements) to `padding: 1rem;`. This allows the DOM elements that govern interaction and content to grow on their own up to the height of the browser minus layout structuraly wrapper DOM elements - which leads to ** STEP 2**.
+Rather than declaring height for DOM elements, set the inner most child DOM element's padding or margin (such as buttons and form elements) to `padding: 1rem;`. This allows the DOM elements that govern interaction and content to grow on their own, up to the height of the browser, minus structural layout wrapper elements.
 
 <h4>: : STEP 2 : :</h4>
 
-Set the layout/structure HTML DOM wrapper element `<app-container>` to `height: 100vh;`. This pushed the layout/structural layout HTML DOM elements, such as `<header>`, `<app-container>`, and `<footer>` to vertically fill the entire browser which allows the remaining middle space to naturally adjust and natively scroll when overflowing content.
+Set the layout/structure HTML DOM wrapper element `<app-container>` to `height: 100vh;`. This pushes the structural layout elements, such as `<header>`, `<app-container>`, and `<footer>` to vertically fill the entire browser. This allows the remaining middle space to naturally adjust and natively scroll when overflowing content.
 
 <h4>: : STEP 3 : :</h4>
 
-Set all descendent HTML DOM elements that do not adjust or scroll when overflowing to `overflow: hidden;`, and set the DOM elements that should adjust or scroll when overflowing to `overflow: auto;`. 
+Set all descendent structural layout elements that do not adjust or scroll when overflowing to `overflow: hidden;`. Then set the DOM elements that should adjust or scroll when overflowing to `overflow: auto;`. 
 
-For example, in D7460N's case, that would be : :
+For example, in D7460N Template's case, that would be : :
 
 HTML : :
 
@@ -645,15 +671,17 @@ main {overflow: hidden;}
 ul {overflow: auto;}
 ```
 This technique:
-* allows for layout for overflow content natively with no JavaScript
+* allows for layout for overflow content natively with no JavaScript or third party dependencies
 * sets up browser native behavior for variable height content _(no more expensive JavaScript poling for element height)_
-* allows for sticky header and footer without extra slower JavaScript workarounds
+* allows for sticky header and footer without markup or scripting with slower JavaScript workarounds
 
 <br />
 
 <h3 id="self-aware">: : SELF-AWARE : :</h3>
 
-(WIP) What if a web GUI could natively (no third party plug-ins or dependencies) know what is happening inside it, when it happens, and what to do about it? All without JavaScript? 
+(WIP) 
+
+if a web GUI could natively (no third party plug-ins or dependencies) know what is happening inside it, when it happens, and what to do about it? All without JavaScript? 
 
 It would : :
 * revolutionize web design/developement as we know it. Web GUIs would largely run themselves, making decisions about how they behave depending on the data (data/business logic) occuring inside them
