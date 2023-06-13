@@ -473,6 +473,12 @@ Classless CSS is a development technique that lets developers define default lay
 
 Web accessibility and usability utilize semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
 
+> Elements in HTML can have semantics, meaning they are one of several predefined things, and not another. Semantics answer the question ‘what is this thing?’, out of a list of standardised things. This information is then relied upon by browsers and assistive technologies in their UIs.
+
+https://hidde.blog/popover-semantics/
+
+<br />
+
 HTML : :
 ```html
 <header></header>
