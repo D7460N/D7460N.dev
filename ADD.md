@@ -20,6 +20,7 @@
   * [Perfect Storm](#perfect-storm)
 * [Development Techniques](#development-techniques)
   * [Classess CSS](#classless-css)
+  * [CSS @layer](#layer)
   * [Semantic HTML Elements](#semantic-html-elements)
   * [Custom HTML Elements](#custom-html-elements)
   * [CSS Variables](#css-variables)
@@ -466,6 +467,20 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 <h3 id="classless-css">: : CLASSLESS CSS : :</h3>
 
 Classless CSS is a development technique that lets developers define default layout and form elements in the CSS without needing to use class selectors or "hooks" in the HTML, reducing page size and keeping the HTML clean.
+
+<br />
+
+<h3 id="layer">: : CSS @LAYER</h3>
+
+CSS `@layer` is utilized to lessen the precedence of D7460N Template default CSS so as to allow custom or third party or other themes and or styles to more easily take precedence or override default D7460N styles.
+
+> The `@layer` CSS at-rule is used to declare a cascade layer and can also be used to define the order of precedence in case of multiple cascade layers.
+>
+>Rules within a cascade layer cascade together, giving more control over the cascade to web developers. Any styles not in a layer are gathered together and placed into a single anonymous layer that comes after all the declared layers, named and anonymous. This means that any styles declared outside of a layer will override styles declared in a layer, regardless of specificity.
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
 
 <br />
 
