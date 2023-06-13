@@ -419,7 +419,7 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 > 
 > <i>Learning about Web Components now is an investment for the future.</i>
 
-[Web Components are Dead: Long Live Web Components](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
+[Web Components are Dead: Long Live Web Components -2022](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
 
 <br />
 
