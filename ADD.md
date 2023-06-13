@@ -411,6 +411,18 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 
 <br />
 
+> <i><b>Why would you want to try Web Components?</b></i>
+>
+> <i>The actual question you should be asking yourself is: why would you only focus on a single framework that could be replaced anytime soon instead of focusing on the standard the entire industry is setting for the future?</i>
+> 
+> <i>Remember, Web Components are a standard to build on top of, they’ve been approved by the major leaders of this industry and are being actively implemented and pushed forward. You’ll be using Web Components in the future whether you know it or not, better get started understanding them now and get a head start.</i>
+> 
+> <i>Learning about Web Components now is an investment for the future.</i>
+
+[Web Components are Dead: Long Live Web Components](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
+
+<br />
+
 <h3 id="perfect-storm">: : PERFECT STORM : :</h3>
 
 **The D7460N Template is a perfect storm of opportunities to affect and inspire positive change** in that it is...
