@@ -26,8 +26,8 @@ What if a development project could be set up and running, just like it is typic
   * [Perfect Storm](#perfect-storm)
 * [Development Techniques](#development-techniques)
   * [Classess CSS](#classless-css)
+  * [Logical Properties](#logical)
   * [CSS @layer](#layer)
-  * [Logical Properties](#logical-propwrties)
   * [Semantic HTML Elements](#semantic-html-elements)
   * [Custom HTML Elements](#custom-html-elements)
   * [CSS Variables](#css-variables)
@@ -477,6 +477,12 @@ Classless CSS is a development technique that lets developers define default lay
 
 <br />
 
+<h3 id="logical">: : LOGICAL PROPERTIES</h3>
+
+(WIP) (WIP) (WIP) (WIP) (WIP)
+
+<br />
+
 <h3 id="layer">: : CSS @LAYER</h3>
 
 CSS `@layer` is utilized ub the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, or other themes and or styles to more easily take precedence or override default D7460N Template styles.
@@ -488,12 +494,6 @@ CSS `@layer` is utilized ub the D7460N Template to lessen the precedence of the 
 https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
-
-<br />
-
-<h3 id="logical-properties">: : LOGICAL PROPERTIES</h3>
-
-(WIP) (WIP) (WIP) (WIP) (WIP)
 
 <br />
 
