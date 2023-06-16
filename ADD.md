@@ -27,6 +27,7 @@ What if a development project could be set up and running, just like it is typic
 * [Development Techniques](#development-techniques)
   * [Classess CSS](#classless-css)
   * [CSS @layer](#layer)
+  * [Logical Properties](#logical-propwrties)
   * [Semantic HTML Elements](#semantic-html-elements)
   * [Custom HTML Elements](#custom-html-elements)
   * [CSS Variables](#css-variables)
@@ -487,6 +488,12 @@ CSS `@layer` is utilized ub the D7460N Template to lessen the precedence of the 
 https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
+
+<br />
+
+<h3 id="logical-properties">: : LOGICAL PROPERTIES</h3>
+
+(WIP) (WIP) (WIP) (WIP) (WIP)
 
 <br />
 
