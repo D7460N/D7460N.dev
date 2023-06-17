@@ -479,7 +479,18 @@ Classless CSS is a development technique that lets developers define default lay
 
 <h3 id="logical">: : LOGICAL PROPERTIES</h3>
 
+> <i>The CSS logical properties and values module introduces logical properties and values that provide the ability to control layout through logical, rather than physical, direction and dimension mappings. The module also defines logical properties and values for properties previously defined in CSS 2.1.
+> 
+> Logical properties define direction‐relative equivalents of their corresponding physical properties.
+
+
+> </i>
+
+
 (WIP) (WIP) (WIP) (WIP) (WIP)
+[drafts.csswg.org - CSS Logical Properties and Values Level 1](https://drafts.csswg.org/css-logical/)
+[MDN Web Docs - CSS logical properties and values](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values)
+[css-tricks.com - CSS Logical Properties and Values](https://css-tricks.com/css-logical-properties-and-values/)
 
 <br />
 
