@@ -29,8 +29,8 @@ What if a development project could be set up and running, just like it is typic
   * [Logical Properties](#logical)
   * [CSS @layer](#layer)
   * [Semantic HTML Elements](#semantic)
-  * [DIV-less](#divless)
-  * [Custom HTML Elements](#custom-html-elements)
+  * [DIV-less HTML](#divless)
+  * [Custom (semantic) HTML](#custom-html-elements)
   * [CSS Variables](#css-variables)
   * [Responsive Design](#responsive-design)
   * [Progressive Enhancement](#progressive-enhancement)
@@ -59,7 +59,6 @@ What if a development project could be set up and running, just like it is typic
 * [Security](#security)
 * [Browser Compatibility](#browser-compatibility)
 * [Directory Structure](#directory-structure)
-
 <br />
 
 <h2 id="purpose">: : PURPOSE : :</h2>
@@ -775,6 +774,13 @@ Customization options : :
 
 <h2 id="seo">: : SEARCH ENGINE OPTIMIZATION (SEO) : :</h2>
 
+> Semantic HTML tags are important for SEO (search engine optimization) because they indicate the role of the content within the tags. 
+>
+> That information gives search engine crawlers, like Googlebot, a better understanding of your content. This increases the chances that your content will be selected as a candidate for ranking on the search engine results page (SERP) for relevant keywords.
+>
+>To put it simply, pages with correctly implemented semantic HTML have an advantage in SEO over those that don’t.<br />
+https://www.semrush.com/blog/semantic-html5-guide/
+       
 (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
 
 <br />
