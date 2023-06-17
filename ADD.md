@@ -473,7 +473,7 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 
 <h3 id="classless-css">: : CLASSLESS CSS : :</h3>
 
-Classless CSS is a development technique that lets developers define default layout and form elements in the CSS without needing to use class selectors or "hooks" in the HTML. This reduces HTML bloat, page load size, and hepls to keep the HTML clean, readable, and intuitive.
+Classless CSS is a minimalist development technique that allows developers to define semantic html layouts and form elements in CSS without needing to use class selectors or "hooks" in the HTML. This reduces HTML bloat, page load size, helps boost [SEO](#seo) and helps to keep the HTML clean, readable, and intuitive for developers.
 
 <br />
 
@@ -728,6 +728,16 @@ Customization options : :
 * Data/text size
 * Data-text density (spacious, comfortable, compact)
 * Save cross session
+
+<br />
+
+---
+
+<br />
+
+<h2 id="seo">: : SEARCH ENGINE OPTIMIZATION (SEO) : :</h2>
+
+(WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
 
 <br />
 
