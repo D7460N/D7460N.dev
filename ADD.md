@@ -29,6 +29,7 @@ What if a development project could be set up and running, just like it is typic
   * [Logical Properties](#logical)
   * [CSS @layer](#layer)
   * [Semantic HTML Elements](#semantic)
+  * [DIV-less](#divless)
   * [Custom HTML Elements](#custom-html-elements)
   * [CSS Variables](#css-variables)
   * [Responsive Design](#responsive-design)
@@ -569,9 +570,19 @@ HTML : :
 
 <br />
 
+<h3 id="divless">: : DIV-LESS HTML : :</h3>
+
+> DIVs are played out. We all love our <div> tags. They've been around for decades, and for decades they've been the go-to element when you need to wrap some stuff in a block for styling or structural purposes. It's still very common to look through production websites
+
+https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
+ 
+(WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
+
+<br />
+
 <h3 id="custom-html-elements">: : CUSTOM HTML ELEMENTS : :</h3>
 
-Custom HTML elements are alphanumeric hyphonated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css).
+Custom HTML elements are alphanumeric hyphonated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css)).
 
 [Custom Elements Without JavaScript?](https://blog.jim-nielsen.com/2021/custom-elements-without-js/) - Jim Nielson's Blog
 
