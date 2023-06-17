@@ -529,7 +529,7 @@ https://www.pluralsight.com/guides/semantic-html
 
 <br />
 
-D7460N uses a custom tag elemtent wrapper for easy integration into existing projects with JS frameworks such as Angular, Vue.js, and React. 
+D7460N Template features a custom tag element wrapper to facilitate multiple integration options when integrating with existing projects using JS frameworks, such as Angular, Vue.js, and React. 
 
 HTML : :
 ```html
