@@ -780,6 +780,8 @@ Customization options : :
 >
 >To put it simply, pages with correctly implemented semantic HTML have an advantage in SEO over those that don’t.<br />
 https://www.semrush.com/blog/semantic-html5-guide/
+
+...and or with semantically meaningless `<div>` elements. (see [DIV-less](#divless)
        
 (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
 
