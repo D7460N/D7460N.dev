@@ -38,7 +38,7 @@ What if a development project could be set up and running, just like it is typic
   * [Squishy Layout](#squishy-layout)
   * [Self-Aware](#self-aware)
   * [Customization](#customization)
-* [Search Engine Optimization](#seo)
+* [Search Engine Optimization (SEO)](#seo)
 * [Style Guide](#style-guide)
   * [Color Themes](#color-themes)
   * [Corporate Branding](#corporate-branding)
