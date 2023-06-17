@@ -572,8 +572,7 @@ HTML : :
 
 <h3 id="divless">: : DIV-LESS HTML : :</h3>
 
-> DIVs are played out. We all love our <div> tags. They've been around for decades, and for decades they've been the go-to element when you need to wrap some stuff in a block for styling or structural purposes. It's still very common to look through production websites
-
+> <i>DIVs are played out. We all love our `<div>` tags. They've been around for decades, and for decades they've been the go-to element when you need to wrap some stuff in a block for styling or structural purposes. It's still very common to look through production websites.</i><br />
 https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
  
 (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
