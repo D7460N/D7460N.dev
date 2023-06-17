@@ -344,7 +344,7 @@ Such as:
 * **Use `text-wrap="medium"` - (WIP)
 * **Use `:focus-visible;`** - rather than just `:focus`. This allows for more accurate visible keyboard tabbing through inputs and buttons. 
 * **Use `outline-color: transparent;`** - rather than `:none;` so as to not turn off accessibility features.
-* **Use [#semantic](semantic) custom HTML tags** - for non-layout/structural elements.
+* **Use [semantic](#semantic) custom HTML tags** - for non-layout/structural elements.
 * **Use `prefers-reduced-motion`** - for animated and transitioned elements to allow the GUI to obey end-users OS level preferences. 
 * **Use SVG format whenever possible** - SVGs are extremely light weight and can be _inlined_ with the HTML.
 * **Use `mix-blend-mode` with SVGs** whenever possible - This enables SVGs to be controlled dynamically/programmatically and ensures accessibility color contrast ratio of at least 1:4, regardless of the color theme. 
