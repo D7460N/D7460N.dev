@@ -539,8 +539,28 @@ HTML : :
   <body>
     <app-container> <-- start custom HTML wrapper tag -->
       <header></header>
-      <main></main>
-      <aside></aside>
+      <main>
+        <article>
+          <h1></h1>
+          <desc></desc>
+          <section>
+            <h2></h2>
+            <p></p>
+          </section>
+          <section>
+            <h2></h2>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul> 
+          </section>
+        </article>
+      </main>
+      <aside>
+        <h3></h3>
+        <p></p>
+      </aside>
       <footer></footer>
     <app-container> <-- end custom HTML wrapper tag -->
   </body>
