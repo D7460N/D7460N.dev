@@ -28,7 +28,7 @@ What if a development project could be set up and running, just like it is typic
   * [Classess CSS](#classless-css)
   * [Logical Properties](#logical)
   * [CSS @layer](#layer)
-  * [Semantic HTML Elements](#semantic-html-elements)
+  * [Semantic HTML Elements](#semantic)
   * [Custom HTML Elements](#custom-html-elements)
   * [CSS Variables](#css-variables)
   * [Responsive Design](#responsive-design)
@@ -344,7 +344,7 @@ Such as:
 * **Use `text-wrap="medium"` - (WIP)
 * **Use `:focus-visible;`** - rather than just `:focus`. This allows for more accurate visible keyboard tabbing through inputs and buttons. 
 * **Use `outline-color: transparent;`** - rather than `:none;` so as to not turn off accessibility features.
-* **Use semantic custom HTML tags** - for non-layout/structural elements.
+* **Use [#semantic](semantic) custom HTML tags** - for non-layout/structural elements.
 * **Use `prefers-reduced-motion`** - for animated and transitioned elements to allow the GUI to obey end-users OS level preferences. 
 * **Use SVG format whenever possible** - SVGs are extremely light weight and can be _inlined_ with the HTML.
 * **Use `mix-blend-mode` with SVGs** whenever possible - This enables SVGs to be controlled dynamically/programmatically and ensures accessibility color contrast ratio of at least 1:4, regardless of the color theme. 
@@ -474,7 +474,7 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 
 <h3 id="classless-css">: : CLASSLESS CSS : :</h3>
 
-Classless CSS is a minimalist development technique that allows developers to define semantic html layouts and form elements in CSS without needing to use class selectors or "hooks" in the HTML. This reduces HTML bloat, page load size, helps boost [SEO](#seo) and helps to keep the HTML clean, readable, and intuitive for developers.
+Classless CSS is a minimalist development technique that allows developers to define [semantic](#semantic) html layouts and form elements in CSS without needing to use class selectors or "hooks" in the HTML. This reduces HTML bloat, page load size, helps boost [SEO](#seo) and helps to keep the HTML clean, readable, and intuitive for developers.
 
 <br />
 
@@ -518,16 +518,15 @@ CSS `@support` is utilized for feature detection and <b>Progressive Enhancement<
 
 <br />
 
-<h3 id="semantic-html-elements">: : SEMANTIC HTML ELEMENTS : :</h3>
+<h3 id="semantic">: : SEMANTIC HTML ELEMENTS : :</h3>
 
 Web accessibility and usability utilize semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
 
 > Elements in HTML can have semantics, meaning they are one of several predefined things, and not another. Semantics answer the question ‘what is this thing?’, out of a list of standardised things. This information is then relied upon by browsers and assistive technologies in their UIs.
 
+https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html<br />
 https://hidde.blog/popover-semantics/<br />
 https://www.pluralsight.com/guides/semantic-html
-
-<br />
 
 D7460N Template features a custom tag element wrapper to facilitate multiple integration options when integrating with existing projects using JS frameworks, such as Angular, Vue.js, and React. 
 
@@ -552,7 +551,7 @@ HTML : :
 
 <h3 id="custom-html-elements">: : CUSTOM HTML ELEMENTS : :</h3>
 
-Custom HTML elements are alphanumeric hyphonated phrases that are used to extend HTML with semantic meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css).
+Custom HTML elements are alphanumeric hyphonated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css).
 
 [Custom Elements Without JavaScript?](https://blog.jim-nielsen.com/2021/custom-elements-without-js/) - Jim Nielson's Blog
 
