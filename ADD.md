@@ -524,20 +524,28 @@ Web accessibility and usability utilize semantic structural HTML. Semantic struc
 
 > Elements in HTML can have semantics, meaning they are one of several predefined things, and not another. Semantics answer the question ‘what is this thing?’, out of a list of standardised things. This information is then relied upon by browsers and assistive technologies in their UIs.
 
-https://hidde.blog/popover-semantics/
+https://hidde.blog/popover-semantics/<br />
+https://www.pluralsight.com/guides/semantic-html
 
 <br />
 
+D7460N uses a custom tag elemtent wrapper for easy integration into existing projects with JS frameworks such as Angular, Vue.js, and React. 
+
 HTML : :
 ```html
-<header></header>
-<nav></nav>
-<main>
-  <section></section>
-  <article></article>
-</main>
-<aside></aside>
-<footer></footer>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <app-container> <-- start custom HTML wrapper tag -->
+      <header></header>
+      <main></main>
+      <aside></aside>
+      <footer></footer>
+    <app-container> <-- end custom HTML wrapper tag -->
+  </body>
+</html>
 ```
 
 <br />
