@@ -75,7 +75,7 @@ Would not such a project require significatly less ramp-up time, be much more ef
 
 New(ish) browser supported modern HTML and CSS functionality and accompanying design and development techniques allow for literally "doing more with less". ([Least Power Principle](#least-power))
 
-The ever improving outline, guidelines, how-tos, and notes of which are detailed below. 
+The ever improving (<i>read... always changing sometimes braking</i>) outline, guidelines, how-tos, and notes of which are detailed below. 
 
 ---
 
