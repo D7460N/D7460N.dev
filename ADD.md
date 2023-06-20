@@ -71,7 +71,7 @@
 
 Would not such a project require significatly less ramp-up time, be much more efficient, flexible, performant, longer lasting, and less costly to build and maintain? Ultimately benefiting developers, end-users, and stakeholders alike? 
 
-<b>These are the questions this project seeks to answer.</b> 
+<b><i>These are the questions this project seeks to answer.</i></b> 
 
 New(ish) browser supported modern HTML and CSS functionality and accompanying design and development techniques allow for literally "doing more with less". ([Least Power Principle](#least-power))
 
