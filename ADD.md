@@ -2,16 +2,11 @@
 
 <br />
 
-<h2 id="whatif">: : WHAT IF? : :</h2>
-
-What if a development project could be set up and running, just like it is typically done today with today's JS frameworks, in half the time and with half the code and with half the effort? What if it could also be done without third-party dependencies? What if it could be done in a way that allows for fast and easy hotswapping major components? What if it could be done in a way that us framework agnostic and this compatible with any framework? What if it was easy to use minimizing ramp-up time for new developers? What if it was 100% accessible and usable out of the box? 
-
-<br />
-
 <h2 id="toc">: : TABLE OF CONTENTS : :</h2>
 
 * [Table of Contents](#toc)
 * [Purpose](#purpose)
+* [What if?](#whatif)
 <!-- * [Measured Goals](#measured-goals) -->
 * [Standards](#standards)
   * [W3C](#w3c)
@@ -65,9 +60,24 @@ What if a development project could be set up and running, just like it is typic
 
 <br />
 
-This document presents guidelines and standards for web development as well as O&M with the D7460N Template. The objective is to enhance and sustain the project performance and lifespan with the D7460N Template, ultimately benefiting both developers and end-users alike. 
+This document presents guidelines, how-tos, and standards for web development as it relates to using the D7460N Template. The objective of the D7460N Template is to leverage modern CSS and HTML to enhance, sustain, and promote performance and lifespan of a project that uses the D7460N Template. This ultimately benefits developers, end-users, and stakeholders alike. 
 
 <br />
+
+---
+
+<br />
+
+<h2 id="whatif">: : WHAT IF? : :</h2>
+
+What if a development project could be set up and running, just as they are typically today with JS frameworks, but in less than half the time, with less than half the code, and with less than half the effort? 
+
+What if that development project's front-end could be decoupled and independent from yet compatible with any standards-compliant JS framework? 
+(Separation of concerns - GUI and business logic from data logic)
+
+What if that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, self-aware, and worked with all modern and future browsers out-of-the-box?
+
+What if that development project's front-end was easy to understand, implement, and maintain for fellow engineers? 
 
 ---
 
