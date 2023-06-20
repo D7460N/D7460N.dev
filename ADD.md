@@ -7,7 +7,6 @@
 * [Table of Contents](#toc)
 * [Purpose](#purpose)
 * [What if?](#whatif)
-<!-- * [Measured Goals](#measured-goals) -->
 * [Standards](#standards)
   * [W3C](#w3c)
   * [Accessibility](#accessibility)
@@ -56,14 +55,6 @@
 * [Directory Structure](#directory-structure)
 <br />
 
-<h2 id="purpose">: : PURPOSE : :</h2>
-
-<br />
-
-This document presents guidelines, how-tos, and standards for web development as it relates to using the D7460N Template. The objective of the D7460N Template is to leverage modern CSS and HTML to enhance, sustain, and promote performance and lifespan of a project that uses the D7460N Template. This ultimately benefits developers, end-users, and stakeholders alike. 
-
-<br />
-
 ---
 
 <br />
@@ -77,7 +68,15 @@ What if that development project's front-end could be decoupled and independent 
 
 What if that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, self-aware, and worked with all modern and future browsers out-of-the-box?
 
-What if that development project's front-end was easy to understand, implement, and maintain for fellow engineers? 
+What if that development project's front-end was easy and intuitive to understand, implement, and maintain for fellow engineers? 
+
+Would such a project require less ramp-up time, be significantly more efficient, flexible, performant, longer lasting, and less costly to build and maintain? Ultimately benefiting developers, end-users, and stakeholders alike? 
+
+These are the questions this project seeks to answer. 
+
+New(ish) browser supported modern HTML and CSS functionality and accompanying design and development techniques allow for literally "doing more with less". [#least-power](Least Power Principle)
+
+These are outlined in the ever improving guidelines, how-tos, and notes below. 
 
 ---
 
