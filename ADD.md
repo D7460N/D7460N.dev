@@ -5,7 +5,6 @@
 <h2 id="toc">: : TABLE OF CONTENTS : :</h2>
 
 * [Table of Contents](#toc)
-* [Purpose](#purpose)
 * [What if?](#whatif)
 * [Standards](#standards)
   * [W3C](#w3c)
