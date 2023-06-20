@@ -63,7 +63,7 @@
 What if a development project could be set up and running, just as they are typically today with JS frameworks, but in less than half the time, with less than half the code, and with less than half the effort? 
 
 What if that development project's front-end could be decoupled and independent from yet compatible with any standards-compliant JS framework? 
-(Separation of concerns - GUI and business logic from data logic)
+([Separation of Concerns](#separation-of-concerns) - GUI and business logic from data logic)
 
 What if that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, self-aware, and worked with all modern and future browsers out-of-the-box?
 
@@ -73,7 +73,7 @@ Would such a project require less ramp-up time, be significantly more efficient,
 
 These are the questions this project seeks to answer. 
 
-New(ish) browser supported modern HTML and CSS functionality and accompanying design and development techniques allow for literally "doing more with less". [#least-power](Least Power Principle)
+New(ish) browser supported modern HTML and CSS functionality and accompanying design and development techniques allow for literally "doing more with less". ([Least Power Principle](#least-power))
 
 These are outlined in the ever improving guidelines, how-tos, and notes below. 
 
