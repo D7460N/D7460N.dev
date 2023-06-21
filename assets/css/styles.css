@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300&display=swap');
 @import url('https://fonts.cdnfonts.com/css/agencyfb-2');
-@import url(https://fonts.googleapis.com/css?family=Electrolize);
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
 
-/*  RESET -------------------------------------------- 
+/*  RESET --------------------------------------------
 */  *:before, *:after, *, ::after, ::before {box-sizing: border-box;}
     body {padding: 0; margin: 0;}
     body,html,iframe,app-container {
@@ -12,7 +12,7 @@
 
 /*  LAYOUT | Vertical --------------------------------
 */  :root {
-      --app-container-grid-template-rows: 
+      --app-container-grid-template-rows:
         auto auto 1fr auto;
         /* auto auto 1fr minmax(1rem, 7rem) minmax(1rem, 7rem); */
       --nav-justify-content: start;
@@ -71,8 +71,8 @@
       --bg-active-opacity: 0.05;
       --bg-accent-color: 48,190,255;
       --bg-accent-opacity: 0.5;
-      --bg-grd: linear-gradient(180deg, 
-                rgba(50,70,80,0.9) 0, 
+      --bg-grd: linear-gradient(180deg,
+                rgba(50,70,80,0.9) 0,
                 #0d101b 100%);
       --txt-color: 255,255,255;
       --txt-opacity: 0.7;
@@ -82,7 +82,7 @@
       --txt-link-opacity: .5;
       --txt-muted: 255,255,255;
       --txt-muted-opacity: 0.5;
-      --txt-shadow: -1px 1px rgba(var(--txt-shadow-color), 
+      --txt-shadow: -1px 1px rgba(var(--txt-shadow-color),
         var(--txt-shadow-opacity));
       --txt-shadow-color: 0,0,0;
       --txt-shadow-opacity: 1.0;
@@ -100,8 +100,8 @@
         --bg-panel-opacity: 0.2;
         --bg-active-color: 255,255,255;
         --bg-active-opacity: 0.2;
-        --bg-grd: linear-gradient(180deg, 
-                  rgba(255,255,255,0.7) 0, 
+        --bg-grd: linear-gradient(180deg,
+                  rgba(255,255,255,0.7) 0,
                   rgba(255,255,255,0.4) 100%);
         --txt-color: 0,0,0;
         --txt-opacity: 1.0;
@@ -109,7 +109,7 @@
         --txt-active-opacity: 1.0;
         --txt-muted: 0,0,0;
         --txt-muted-opacity: 0.5;
-        --txt-shadow: -1px 1px 0 rgba(var(--txt-shadow-color), 
+        --txt-shadow: -1px 1px 0 rgba(var(--txt-shadow-color),
           var(--txt-shadow-opacity));
         --txt-shadow-color: 255,255,255;
         --txt-shadow-opacity: 0.3;
@@ -155,7 +155,7 @@
     }
 
 
-/*  NAV ---------------------------------- 
+/*  NAV ----------------------------------
 */  nav:has(#radio01:checked) ~ main #tab01,
     nav:has(#radio02:checked) ~ main #tab02,
     nav:has(#radio03:checked) ~ main #tab03,
@@ -180,7 +180,7 @@
       border-radius: var(--nav-border-radius);
     }
 
-    
+
 app-logo,
 powered-by,
 app-version,
@@ -189,7 +189,7 @@ demo-buttons {padding: 1rem;}
 demo-buttons {cursor: pointer;}
 
 
-/*  MAIN ---------------------------------- 
+/*  MAIN ----------------------------------
 */  main {
       grid-row: var(--grid-row-span);
       margin-block: var(--main-margin-block);
@@ -199,7 +199,7 @@ demo-buttons {cursor: pointer;}
     }
 
 
-/*  ASIDE ---------------------------------- 
+/*  ASIDE ----------------------------------
 */  aside {
       display: var(--aside-display);
       border-radius: .3rem;
@@ -207,14 +207,14 @@ demo-buttons {cursor: pointer;}
     /* aside {resize: var(--aside-resize-v);} */
 
 
-/*  ASIDE-2 ---------------------------------- 
+/*  ASIDE-2 ----------------------------------
 */  aside-2 {
       display: var(--aside-display);
       border-radius: .3rem;
     }
 
 
-/*  HEADER/FOOTER --------------------------------
+/*  HEADER/FOOTER ----------------------------
 */  header, footer {
       display: grid;
       grid-auto-flow: column;
@@ -230,7 +230,7 @@ demo-buttons {cursor: pointer;}
     footer {grid-template-columns: 1fr auto;}
 
 
-/*  SUB HEADERS ---------------------------------- 
+/*  SUB HEADERS -------------------------------
 */  h4 {
       display: var(--sub-header-display);
       padding-left: 1rem;
@@ -239,14 +239,14 @@ demo-buttons {cursor: pointer;}
     }
 
 
-/*  LIST ITEMS ---------------------------------- 
+/*  LIST ITEMS ---------------------------------
 */  list-item {
       display: grid;
       grid-auto-flow: column;
     }
 
 
-/*  LABELS -------------------------------------- 
+/*  LABELS -------------------------------------
 */  label {
       display: grid;
       grid-auto-flow: column;
@@ -254,9 +254,9 @@ demo-buttons {cursor: pointer;}
 
     label:hover,
     label:has(> input:checked) {
-      background-color: rgba(var(--bg-active-color), 
+      background-color: rgba(var(--bg-active-color),
         var(--bg-active-opacity));
-      color: rgba(var(--txt-active), 
+      color: rgba(var(--txt-active),
         var(--txt-active-opacity));
     }
 
@@ -264,13 +264,13 @@ demo-buttons {cursor: pointer;}
 /* AUTO COLUMNS ---------------------------------- */
 
 /* 2 Children
-:where(label, list-item):has(> 
+:where(label, list-item):has(>
 :last-child:nth-child(2)) {
   grid-template-columns: auto 1fr;
 } */
 
 /* 3 Children
-:where(label, list-item):has(> 
+:where(label, list-item):has(>
 :last-child:nth-child(3)) {
   grid-template-columns: 1fr auto auto;
 } */
@@ -297,14 +297,14 @@ panel-list {
   position: relative;
   background:
     /* cover */
-    linear-gradient(var(--bg-panel-color) 33%, 
+    linear-gradient(var(--bg-panel-color) 33%,
       rgba(var(--bg-panel-color),0.0)),
-    linear-gradient(rgba(var(--bg-panel-color),0.0), 
+    linear-gradient(rgba(var(--bg-panel-color),0.0),
       var(--bg-panel-color) 66%) 0 100%,
     /* drop-shadow */
-    radial-gradient(farthest-side at 50% 0, 
+    radial-gradient(farthest-side at 50% 0,
       rgba(0,0,0,0.5), rgba(0,0,0,0.0)),
-    radial-gradient(farthest-side at 50% 100%, 
+    radial-gradient(farthest-side at 50% 100%,
       rgba(0,0,0,0.5), rgba(0,0,0,0.0)) 0 100%;
   background-color: rgba(var(--bg-panel-color),--bg-panel-opacity);
   background-repeat: no-repeat;
@@ -380,7 +380,7 @@ html:after {
 }
 
 
-/*  SCROLLBARS ---------------------------------- 
+/*  SCROLLBARS ----------------------------------
 */  *::-webkit-scrollbar {display: block; width: 1rem;}
     *::-webkit-scrollbar-button {display: none;}
     *::-webkit-scrollbar-track {background-color: rgba(48,190,255,0.0);}
@@ -412,7 +412,7 @@ html:after {
 
 
 
-/*  MENUS -------------------------------------- 
+/*  MENUS --------------------------------------
 */  label[for='oneMenu'] {position: relative;}
 
     label[for='oneMenu']:hover menu {display: grid;}
@@ -422,7 +422,7 @@ html:after {
       top: 20px;
       list-style: none;
       padding: 0;
-      display: grid;      
+      display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: auto;
     }
@@ -447,13 +447,13 @@ panel-list div {overflow: auto;}
 
 iframe section article img {
   mix-blend-mode: multiply;
-  opacity: 50%!important;
+  opacity: 50% !important;
 }
 
 a {
   color: rgba(var(--txt-link), 0.7);
   text-decoration: none;
-  
+
   box-shadow: 0 1px 0 rgba(0,255,255,0.0);
   transition: all 250ms;
 }
@@ -496,9 +496,9 @@ a:hover {
 }
 @keyframes spin01 {
 	0% {transform: rotate(0deg);}
-	100% {transform: rotate(720deg);}	
+	100% {transform: rotate(720deg);}
 }
 @keyframes spin02 {
 	0% {transform: rotate(720deg);}
-	100% {transform: rotate(0deg);}	
+	100% {transform: rotate(0deg);}
 }
