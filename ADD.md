@@ -902,23 +902,39 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 <h2 id="pwa">: : PROGRESSIVE WEB APPLICATION (PWA) : :</h2>
 
 <br />
- 
-https://www.inrythm.com/pwas/best-of-the-best-and-native/
+
+> A Progressive Web App (PWA) is a web app that uses progressive enhancement to provide users with a more reliable experience, uses new capabilities to provide a more integrated experience, and can be installed. And, because it's a web app, it can reach anyone, anywhere, on any device, all with a single codebase. Once installed, a PWA looks like any other app, specifically:
+>
+> * It has an icon on the home screen, app launcher, launchpad, or start menu.
+> * It appears when you search for apps on the device.
+> * It opens in a standalone window, wholly separated from a browser's user interface.
+> * It has access to higher levels of integration with the OS, for example, URL handling or title bar customization.
+> * It works offline.<br />
+[Progressive Web Apps | web.dev](https://web.dev/learn/pwa/progressive-web-apps/)
+
+> PWAs are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular websites on other browsers.
+>
+> Progressive Web Apps (PWAs) provide access to open web technologies, to provide cross-platform interoperability. PWAs provide users with an app-like experience that’s customized for their devices.<br />
+[Progressive Web Applications: The Best Of Web And Native](https://www.inrhythm.com/pwas-best-of-web-and-native/)
+
+<br />
 
 <h3 id="cross-platform-interoperability">: : CROSS-PLATFORM-INTEROPERABILITY : :</h3>
 
-Progressive Web Applications (PWAs) provide access to open web technologies, to provide cross-platform interoperability. PWAs provide end-users with an app-like experience that's customized for their devices. PWAs can provide fully tailored, installable experiences on a desktop operating system that inherit the benefits of that environment. Yet PWAs still work across platform from the same code and servers that power your in-browser and mobile devices. **A single codebase that's shared between your website, mobile app, and desktop app (across operating systems)**. 
+(WIP)
  
 <br />
 
 <h3 id="immersive-experience">: : EMERSIVE EXPERIENCE : :</h3>
 
+(WIP)<br />
 These new web developemnt capabilities provide great opportunities to build emersive experiences that deeply integrate with the desktop operating system.
 
 <br />
 
 <h3 id="progressively-enhanced">: : PROGRESSIVELY ENHANCED : :</h3>
 
+(WIP)<br />
 PWAs are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular website on other browsers. 
 
 <br />
