@@ -188,6 +188,10 @@ demo-buttons {padding: 1rem;}
 
 demo-buttons {cursor: pointer;}
 
+@media screen and (max-width: 600px) {
+  header label:first-of-type demo-buttons {display: none;}
+}
+
 
 /*  MAIN ----------------------------------
 */  main {
