@@ -50,6 +50,7 @@
   * [It's A Website](#website)
   * [Advantages](#advantages)
 * [Security](#security)
+  * [HTTP/3](#http3) 
 * [Browser Compatibility](#browser-compatibility)
 * [Directory Structure](#directory-structure)
 <br />
@@ -976,8 +977,7 @@ A fully capable Progressive Web Application can provide the following advantages
  
 <br />
  
-<h3 id="HTTP3">: : HTTP/3 : :</h3>
-(WIP)
+<h3 id="http3">: : HTTP/3 : :</h3>
 
 > QUIC understands that a site is made up of multiple files, and it won’t blight the entire connection just because one file hasn’t finished loading.
 >
