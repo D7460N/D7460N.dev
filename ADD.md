@@ -899,7 +899,7 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 
 <br />
  
-<h2 id="pwa">: : Progressive Web Application (PWA) : :</h2>
+<h2 id="pwa">: : PROGRESSIVE WEB APPLICATION (PWA) : :</h2>
 
 <br />
  
