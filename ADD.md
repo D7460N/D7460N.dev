@@ -981,6 +981,7 @@ A fully capable Progressive Web Application can provide the following advantages
 <br />
 
 <h3 id="web-application-firewall">: : WEB APPLICATION FIREWALL (WAF) : :</h3>
+
 > A web application firewall enhances and complements traditional firewalls which have no visibility into the content of encrypted HTTPS traffic and therefore can’t block dangerous HTTPs streams.
 >
 > In contrast to traditional firewalls, WAF operates at Layer 7 of the network stack between standard firewalls and web servers, decrypting HTTPS traffic and inspecting the data within. With anomaly detection and lists of attack methods, the web application firewall can block access to web servers when malicious activity is spotted.<br />
