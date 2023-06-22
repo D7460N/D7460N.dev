@@ -746,7 +746,7 @@ This technique:
 
 (WIP) 
 
-if a web GUI could natively (no third party plug-ins or dependencies) know what is happening inside it, when it happens, and what to do about it? All without JavaScript? 
+What if a web GUI could natively (no third party plug-ins or dependencies) know what is happening inside it, when it happens, and what to do about it? All without JavaScript? 
 
 It would : :
 * revolutionize web design/developement as we know it. Web GUIs would largely run themselves, making decisions about how they behave depending on the data (data/business logic) occuring inside them
