@@ -30,6 +30,7 @@
   * [Minimal Third Party Dependencies](#minimal-third-party-dependencies)
   * [Squishy Layout](#squishy-layout)
   * [Self-Aware](#self-aware)
+    * [Natural "Truthful" Loading State](#loading)
   * [Customization](#customization)
 * [Search Engine Optimization (SEO)](#seo)
 * [Style Guide](#style-guide)
@@ -752,16 +753,37 @@ It would : :
 * revolutionize web design/developement as we know it. Web GUIs would largely run themselves, making decisions about how they behave depending on the data (data/business logic) occuring inside them
 * split web design/development in half along the "separation of concerns" divide so sharply and completely that buttons would do nothing but fetch data 
 * work with JavaScript disabled (pure CSS), the "Holy Grail" of [Accessibility](#accessibility)
-* result in automated templates for designers, far less code logic for developers, smaller digital footprint, and a much richer experience for end-users
+* result in automated templates for designers, far less code logic for developers, smaller digital footprint, and a much richer experience for end-users.
 
-CSS has been able to watch for things (selectors) and act on that selector for years. With the introduction of `:has()`, CSS can now watch and act on OTHER selectors and even parent selectors. This opens up CSS capabilities limited only by our imagination. 
+<b>Web browsers have the ability to persistantly and actively watch for and react to (live without penalty) changes in the DOM. All without the use of heavy slow JS frameworks or any front-end or back-end scripting.</b> 
+
+<i>This is a natural function of</i> <b>CSS</b>.
+
+For example, the `:has()` pseudo-class function allows for watching one or more combinations of DOM elements or selectors and instantly act on OTHER disassociated selectors and even parent selectors.
+
+[`:has()` pseudo-class function](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)
+
 <br />
-Container Queries 
-<br />
-Style Queries 
-<br />
-Counting Queries 
-<br />
+
+<h3 id="loading">: : NATURAL "TRUTHFUL" LOADING STATE</h3>
+
+Between when an end-user clicks a button to fetch data and when the data arrives and is ready to be displayed, is a natural built-in "truthful" loading state where loading spinners and / or helpful informative messages can be displayed. No JavaScript or third-party plug-ins or dependencies needed.
+
+This built-in natural loading state can be used to communicate to end-users what is happening while they wait for the data to load. For example, if after a certain set time period, maybe 5s or so (whatever is natural but not spammy), a truthful message such as "It is taking an unusual amount of time for data to arrive. There maybe something wrong. If this persists, please contact...". All without a single line of scripting from the back-end or front-end. 
+
+Of course, scripting can be added to enhance and or add even more functionality.
+
+<h3>CONTAINER QUERIES</h3>
+
+(WIP)
+
+<h3>STYLE QUERIES</h3>
+
+(WIP)
+
+<h3>COUNTING QUERIES</h3>
+
+(WIP)
 
 <br />
 
