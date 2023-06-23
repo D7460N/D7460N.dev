@@ -5,6 +5,7 @@
 <h2 id="toc">: : TABLE OF CONTENTS : :</h2>
 
 * [Table of Contents](#toc)
+* [Disclaimer](#disclaimer)
 * [What if?](#whatif)
 * [Standards](#standards)
   * [W3C](#w3c)
@@ -61,7 +62,7 @@
 
 <br />
 
-<h2 id="whatif">: : WHAT IF? : :</h2>
+<h2 id="whatif">WHAT IF?</h2>
 
 <i>What if</i> a development project could be set up and running, just as they are typically today with JS frameworks, but in <b>less than half the time</b>, with <b>less than half the code</b>, and with <b>less than half the effort</b>? 
 
@@ -76,9 +77,13 @@ Would not such a project require significatly less ramp-up time, be much more ef
 
 <b><i>These are the questions this project seeks to answer.</i></b> 
 
-New(ish) browser supported modern HTML and CSS functionality and accompanying design and development techniques allow for literally "doing more with less". ([Least Power Principle](#least-power))
+New(_ish_) browser support for modern HTML and CSS functionality and accompanying design and development techniques may allow for these questions to be answered by literally "doing more with less". ([Least Power Principle](#least-power))
 
-The ever improving (<i>read... always changing sometimes braking</i>) outline, guidelines, how-tos, and notes of which are detailed below. 
+_We shall see..._
+
+<h2 id="disclaimer">DISCLAIMER</h3>
+
+Ever improving (<i>Read... always changing sometimes breaking...</i>) thoughts, philosophies, approaches, techniques, notes, guidelines, and how-tos for this _first of it's kind_ project detailed below.
 
 ---
 
@@ -276,33 +281,49 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
     <td>[ <a href="#">11</a> ] Conform to company goals and themes</td>
     <td>&#160;</td>
   </tr>
-</table>
-
-<br /> -->
+</table> -->
 
 <br />
 
-<h2 id="standards">: : STANDARDS : :</h2>
+_Let's start with the..._ 
+<h3>MUST-HAVES</h3>
 
 <br />
 
-<h3 id="w3c">: : W3C/WHATWG "LIVING" STANDARD : :</h3>
+<h3 id="standards">WEB STANDARDS</h3>
 
-[^1] To ensure future compatibility for websites or web applications, adherence to W3C/WHATWG standards is crucial. Additionally, accessibility across any device equipped with an authorized network-connected web browser, from any location worldwide, is key.<br />`[ company goal ]`
+> <i>Web standards are the building blocks of a consistent and harmonious digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the Web.</i>
+>
+> <i>W3C is an international community where Member organizations, a full-time staff, and the public work together to develop web standards.</i><br />
+[Web Standards | W3C.org](https://www.w3.org/standards/)
 
 <br />
 
-<h3 id="accessibility">: : ACCESSIBILITY : :</h3>
+<h3 id="w3c">W3C/WHATWG "LIVING" STANDARD</h3>
+
+> <i>To ensure future compatibility for websites or web applications, adherence to W3C/WHATWG standards is crucial. Additionally, accessibility across any device equipped with an authorized network-connected web browser, from any location worldwide, is key.</i>
+>
+> <i>These standards exist as long technical documents called specifications, which detail exactly how the technology should work. These documents are not very useful for learning how to use the technologies they describe (this is why we have sites like MDN Web Docs), but instead are intended to be used by software engineers to implement these technologies (usually in web browsers).</i>
+>
+> <i>For example, the HTML Living Standard describes exactly how HTML (all the HTML elements, and their associated APIs, and other surrounding technologies) should be implemented.</i>
+>
+> <i>Web standards are created by standards bodies — institutions that invite groups of people from different technology companies to come together and agree on how the technologies should work in the best way to fulfill all of their use cases. The W3C is the best known web standards body, but there are others such as the WHATWG (who maintain the living standards for the HTML language), ECMA (who publish the standard for ECMAScript, which JavaScript is based on), Khronos (who publish technologies for 3D graphics, such as WebGL), and others.</i><br />
+[The Web and Web Standards | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards)
+
+<br />
+
+<h3 id="accessibility">ACCESSIBILITY</h3>
 
 Accessibility relates to the technical side of a website, while usability refers to the quality of a person's experience when interacting with it. Accessibility guidelines can improve usability for all users, including those with disabilities or impairments.
 
 **ACCESSIBILITY IS NOT USABILITY**. A screen full of unstructured unformatted unstyled data is accessible, but hardly usable. Accessbility is the beginning of usability best practices. 
 
-> <i>"Whereas accessibility relates to the technical side of a website, usability relates to the quality of a person's experience when interacting with your website, the efficiency with which that person can accomplish a task, and the satisfaction of the person completing the task. Although accessibility guidelines focus primarily on people with disabilities and impairments, such as vision loss, many of the guidelines for accessibility can also improve usability for all.</i><br />~ Aug 22, 2022 - UsableNet
+> <i>"Whereas accessibility relates to the technical side of a website, usability relates to the quality of a person's experience when interacting with your website, the efficiency with which that person can accomplish a task, and the satisfaction of the person completing the task. Although accessibility guidelines focus primarily on people with disabilities and impairments, such as vision loss, many of the guidelines for accessibility can also improve usability for all.</i><br />
+[UsableNet Aug 22, 2022](https://blog.usablenet.com/accessibility-vs-usability-what-is-the-difference-to-the-disability-community)
 
 <br />
 
-<h3 id="usability">: : USABILITY : :</h3>
+<h3 id="usability">USABILITY</h3>
 
 For many end-users (not all), the difference between Apple and Microsoft is design over function (respetively). For many developers (not all), the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. 
 
