@@ -304,7 +304,7 @@ _Let's start with the..._
 
 To ensure future compatibility for websites or web applications, adherence to W3C/WHATWG standards is crucial. Additionally, accessibility across any device equipped with an authorized network-connected web browser, from any location worldwide, is key.
 
-> <i>These standards exist as long technical documents called specifications, which detail exactly how the technology should work. These documents are not very useful for learning how to use the technologies they describe (this is why we have sites like MDN Web Docs), but instead are intended to be used by software engineers to implement these technologies (usually in web browsers).</i>
+> <i>These standards exist as long technical documents called specifications, which detail exactly how the technology should work. These documents are not very useful for learning how to use the technologies they describe (this is why we have sites like [MDN Web Docs](https://developer.mozilla.org/en-US/)), but instead are intended to be used by software engineers to implement these technologies (usually in web browsers).</i>
 >
 > <i>For example, the [HTML Living Standard](https://html.spec.whatwg.org/multipage/) describes exactly how HTML (all the HTML elements, and their associated APIs, and other surrounding technologies) should be implemented.</i>
 >
