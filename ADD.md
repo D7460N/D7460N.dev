@@ -7,7 +7,8 @@
 * [Table of Contents](#toc)
 * [Disclaimer](#disclaimer)
 * [What if?](#whatif)
-* [Standards](#standards)
+* [Must Haves](#must)
+  * [Standards](#standards)
   * [W3C](#w3c)
   * [Accessibility](#accessibility)
   * [Usability](#usability)
@@ -286,7 +287,7 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
 <br />
 
 _Let's start with the..._ 
-<h3>MUST-HAVES</h3>
+<h2 id="must">MUST-HAVES</h2>
 
 <br />
 
