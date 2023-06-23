@@ -645,33 +645,37 @@ Responsive or adaptive web design provides optimal experiences, easy reading, an
 
 **Progressive Enhancement** is a design philosophy that provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code. 
 
-The word _progressive_ in _progressive enhancement_ means creating and design that achieves a simpler-but-still-usable experience for end-users of older browsers and devices with limited capabilities, while at the same time being a design that **professes the user experience** to a more compelling, fully-featured experience for users of new browsers and devices with richer capabilities. 
+The word _progressive_ in _progressive enhancement_ means creating and design that achieves a simpler-but-still-usable experience for end-users of older browsers and devices with limited capabilities, while at the same time being a design that **progresses the user experience** to a more compelling, fully-featured experience for users of new browsers and devices with richer capabilities. 
 
-For example, the current production version of the Firefox browser does not yet support native CSS scroll-based animation without a flag to enable it. In an upcoming version that does support it, a scroll-progress indicator will be visible when end-users scroll through individual sections that contain scrollable content, just like it does in other browsers that already support this underlying CSS functionality (WIP).
+For example, the current production version of the Firefox browser does not yet support native CSS scroll-based animation without a "flag" to enable it. In an upcoming version that does support it, a scroll-progress indicator/back-to-top button will be visible when end-users scroll through individual sections that contain scrollable content, just like it does in other browsers that already support this underlying CSS functionality.
+
+(WIP)
 
 This is done with CSS [@support](#support) to detect feature support. 
 
-Feature detection is generally used to determine whether browsers can handle more modern functionality, while pollyfills are often used to add missing features with JavaScript. 
+Feature detection is generally used to determine whether browsers can handle more modern functionality, while pollyfills are often used to "fill-in" for missing features with JavaScript. 
 
-**Progressive Enhancement** is a useful technique that allows web developers to focus on developing the best possible webistes while making websites work multiple unkown user agents. **Graceful degradation** is related but not the same thing and is often seen as going in the opposite direction to progressive enhancement. In reality, both approaches are valid and can often compliment one another.<br />
-~ https://developer.mozilla.com/en-US/docs/Glassary/Progressive_Enhancement/
-
-CSS : :
-```css
-awaiting responsive code snippet
-```
+> **Progressive Enhancement** is a useful technique that allows web developers to focus on developing the best possible webistes while making websites work multiple unkown user agents. **Graceful degradation** is related but not the same thing and is often seen as going in the opposite direction to progressive enhancement. In reality, both approaches are valid and can often compliment one another.<br />[Progressive Enhancement | MDN](https://developer.mozilla.com/en-US/docs/Glassary/Progressive_Enhancement/)
 
 <br />
 
 <h3 id="minimal-third-party-dependencies">: : MINIMAL THIRD PARTY DEPENDENCIES : :</h3>
 
-Third party dependencies such as JS libraries like jQuery, EXT.js, Prototype.js and JavaScript frameworks like Angular, Vue, and React are helpful for when browsers don't support needed functionality natively and for launching features and or entire software projects quickly. 
+Third party dependencies such as JS libraries like jQuery, EXT.js, Prototype.js and JavaScript frameworks like Angular, Vue, and React are helpful for launching features and or entire software projects quickly and when browsers don't support needed functionality natively. 
 
-Third party dependencies are also the eventual _death-knell_ of almost every software feature or software project I've even been on. 
+In my experience, third party dependencies are also the eventual _death-knell_ of almost every software feature or software project I've ever been on. 
 
-One of the major reasons is because third party dependencies are subject to and controlled by dissassociated unwhitting third party developers with competing priorities, schedules, and security concerns. 
+One of the major reasons for this is that third party dependencies (especially JS frameworks that relly on tens, if not hundreds, of dependencies themselves from all over the world) are subject to and controlled by dissassociated unwhitting third party developers with diverse and / or even competing priorities, schedules, and security concerns. 
 
-Third party dependencies very often force design and development decisions down limited and inflexible "happy paths" to work as needed (AKA "opinionated") eventually leading to compromized or limited feature options or subpar development in the near and or long term. 
+Third party dependencies often force design and development decisions down limited and / or inflexible "happy paths" to work as needed (_AKA_ "opinionated"), eventually leading to compromized and / or limited feature options or development "dead-ends" in the near and or long term feature planning and development life cycle of the project. 
+
+In my experience (again), at the end of the day, when all is said and done, the time and effort for development rework and workarounds, and resulting less stable error-prone codebase and associated documentation and eventual added ramp-up time for new DEVs, far outway alternative less monolithic "Thor's hammer for a nail" AKA "Mjölnir" approach. 
+
+"Opinionated" functionality and or features often must be customized or retrofitted into place, thus breaking the "update/upgrade path" to future third-party updates. 
+
+The nature of iteritive development is that third-party dependencies will inevitably have critical updates that include a myriad of (sometimes breaking) code changes and security vulnerability fixes. 
+
+The software project is now stuck with a security vulnerable third-party dependency codebase, having broken the "update/upgrade path".
 
 Additional third party software and build processes (themselves dependent on third party software/plugins/dependencies) are necessary to track and keep them all synced and up to date. 
 
