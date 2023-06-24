@@ -1170,7 +1170,7 @@ A fully capable Progressive Web Application can provide the following advantages
 
 <details>
  <p></p>
-<summary id="csp"><h3>Content-Security-Policy (CSP)</h3></summary>
+<summary id="csp"><h3>CONTENT SECURITY POLICY (CSP)</h3></summary>
 
 > The HTTP Content-Security-Policy response header allows website administrators to control resources the user agent is allowed to load for a given page. With a few exceptions, policies mostly involve specifying server origins and script endpoints. This helps guard against cross-site scripting attacks (Cross-site_scripting).<br />
 [~ Content-Security-Policy | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
