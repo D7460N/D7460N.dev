@@ -1168,6 +1168,8 @@ A fully capable Progressive Web Application can provide the following advantages
  <p></p>
 <summary id="security"><h2>: : SECURITY : :</h2></summary>
 
+<br />
+
 <details>
  <p></p>
 <summary id="csp"><h3>CONTENT SECURITY POLICY (CSP)</h3></summary>
@@ -1197,10 +1199,10 @@ A fully capable Progressive Web Application can provide the following advantages
 >The other trend that QUIC follows up on is built-in security. Whereas encryption was optional before (i.e. HTTP or HTTPS) QUIC is always encrypted. It is a given these days that every site should be encrypted — despite the overhead. This isn’t just to ensure that a man in the middle can’t see what type of orange juice you are ordering; it confirms that you are actually talking to your genuine orange juice supplier.<br />
 [~ HTTP/3 Is Now a Standard: Why Use It and How to Get Started | thenewstack.io](https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/)
 
-[What is HTTP/3? | cloudflare.com](https://www.cloudflare.com/learning/performance/what-is-http3/)<br />
-[What is QUIC? | en.wikipedia.org](https://en.wikipedia.org/wiki/QUIC)<br />
-[HTTP/3: the past, the present, and the future | blog.cloudflare.com](https://blog.cloudflare.com/http3-the-past-present-and-future/)
-[A Comprehensive Guide To HTTP/3 And QUIC | debugbear.com](https://www.debugbear.com/blog/http3-quic-protocol-guide)
+* [What is HTTP/3? | cloudflare.com](https://www.cloudflare.com/learning/performance/what-is-http3/)<br />
+* [What is QUIC? | en.wikipedia.org](https://en.wikipedia.org/wiki/QUIC)<br />
+* [HTTP/3: the past, the present, and the future | blog.cloudflare.com](https://blog.cloudflare.com/http3-the-past-present-and-future/)
+* [A Comprehensive Guide To HTTP/3 And QUIC | debugbear.com](https://www.debugbear.com/blog/http3-quic-protocol-guide)
 
 </details>
 </details>
