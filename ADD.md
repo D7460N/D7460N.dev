@@ -291,25 +291,30 @@ _Let's start with the..._
 
 <br />
 
-<h3 id="standards">WEB STANDARDS</h3>
+<details>
+  <summary id="standards">: : WEB STANDARDS : :</summary>
+  <p></p>
+  <p><i>Web standards are the building blocks of a consistent and harmonious digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the Web.</i></p>
 
-> <i>Web standards are the building blocks of a consistent and harmonious digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the Web.</i>
->
-> <i>W3C is an international community where Member organizations, a full-time staff, and the public work together to develop web standards.</i><br />
-[Web Standards | W3C.org](https://www.w3.org/standards/)
+  <p><i>W3C is an international community where Member organizations, a full-time staff, and the public work together to develop web standards.</i></p>
+  <a href="https://www.w3.org/standards/">Web Standards | W3C.org</a>
+</details>
 
 <br />
 
-<h3 id="w3c">W3C/WHATWG "LIVING" STANDARD</h3>
+<details>
+ <p></p>
+  <summary id="w3c">: : W3C/WHATWG "LIVING" STANDARD : :</summary>
 
-To ensure future compatibility for websites or web applications, adherence to W3C/WHATWG standards is crucial. Additionally, accessibility across any device equipped with an authorized network-connected web browser, from any location worldwide, is key.
+  <p>To ensure future compatibility for websites or web applications, adherence to W3C/WHATWG standards is crucial. Additionally, accessibility across any device equipped with an authorized network-connected web browser, from any location worldwide, is key.</p>
 
-> <i>These standards exist as long technical documents called specifications, which detail exactly how the technology should work. These documents are not very useful for learning how to use the technologies they describe (this is why we have sites like [MDN Web Docs](https://developer.mozilla.org/en-US/)), but instead are intended to be used by software engineers to implement these technologies (usually in web browsers).</i>
->
-> <i>For example, the [HTML Living Standard](https://html.spec.whatwg.org/multipage/) describes exactly how HTML (all the HTML elements, and their associated APIs, and other surrounding technologies) should be implemented.</i>
->
-> <i>Web standards are created by standards bodies — institutions that invite groups of people from different technology companies to come together and agree on how the technologies should work in the best way to fulfill all of their use cases. The W3C is the best known web standards body, but there are others such as the [WHATWG](https://whatwg.org/) (who maintain the living standards for the HTML language), [ECMA](https://www.ecma-international.org/) (who publish the standard for ECMAScript, which JavaScript is based on), [Khronos](https://www.khronos.org/) (who publish technologies for 3D graphics, such as WebGL), and others.</i><br />
-[The Web and Web Standards | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards)
+  <p><i>These standards exist as long technical documents called specifications, which detail exactly how the technology should work. These documents are not very useful for learning how to use the technologies they describe (this is why we have sites like [MDN Web Docs](https://developer.mozilla.org/en-US/)), but instead are intended to be used by software engineers to implement these technologies (usually in web browsers).</i></p>
+
+  <p><i>For example, the [HTML Living Standard](https://html.spec.whatwg.org/multipage/) describes exactly how HTML (all the HTML elements, and their associated APIs, and other surrounding technologies) should be implemented.</i></p>
+
+  <p><i>Web standards are created by standards bodies — institutions that invite groups of people from different technology companies to come together and agree on how the technologies should work in the best way to fulfill all of their use cases. The W3C is the best known web standards body, but there are others such as the [WHATWG](https://whatwg.org/) (who maintain the living standards for the HTML language), [ECMA](https://www.ecma-international.org/) (who publish the standard for ECMAScript, which JavaScript is based on), [Khronos](https://www.khronos.org/) (who publish technologies for 3D graphics, such as WebGL), and others.</i></p>
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards">The Web and Web Standards | MDN Web Docs</a>
+</details>
 
 <br />
 
@@ -322,10 +327,10 @@ Accessibility relates to the technical side of a website, while usability refers
 > <i>"Whereas accessibility relates to the technical side of a website, usability relates to the quality of a person's experience when interacting with your website, the efficiency with which that person can accomplish a task, and the satisfaction of the person completing the task. Although accessibility guidelines focus primarily on people with disabilities and impairments, such as vision loss, many of the guidelines for accessibility can also improve usability for all.</i><br />
 [UsableNet Aug 22, 2022](https://blog.usablenet.com/accessibility-vs-usability-what-is-the-difference-to-the-disability-community)
 
-[Government-wide Section 508 Assessment | section508.gov](https://www.section508.gov/manage/section-508-assessment/)</br >
-[Guidance on Web Accessibility and the ADA | ada.gov](https://www.ada.gov/resources/web-guidance/)<br />
-[Guidance on building better digital services in government | digital.gov](https://digital.gov/)<br />
-[U.S. Access Board Revised 508 Standards and 255 Guidelines | access-board.gov](https://www.access-board.gov/ict/)
+* [Government-wide Section 508 Assessment | section508.gov](https://www.section508.gov/manage/section-508-assessment/)</br >
+* [Guidance on Web Accessibility and the ADA | ada.gov](https://www.ada.gov/resources/web-guidance/)<br />
+* [Guidance on building better digital services in government | digital.gov](https://digital.gov/)<br />
+* [U.S. Access Board Revised 508 Standards and 255 Guidelines | access-board.gov](https://www.access-board.gov/ict/)
 
 <br />
 
@@ -339,11 +344,10 @@ End-user **and** developer accessibility and usability governs every design deve
 
 <br />
 
-Links:<br/>
-[Guidance on building better digital services in government.](https://digital.gov/)<br />
-[Government-wide Section 508 Assessment](https://www.section508.gov/)<br />
-[WCAG 2 Overview | Web Accessibility Initiative (WAI) - W3C](https://www.w3.org/WAI/standards-guidelines/wcag/)<br />
-[Guidance on Web Accessibility and the ADA](https://www.ada.gov/resources/web-guidance/)
+* [Guidance on building better digital services in government.](https://digital.gov/)<br />
+* [Government-wide Section 508 Assessment](https://www.section508.gov/)<br />
+* [WCAG 2 Overview | Web Accessibility Initiative (WAI) - W3C](https://www.w3.org/WAI/standards-guidelines/wcag/)<br />
+* [Guidance on Web Accessibility and the ADA](https://www.ada.gov/resources/web-guidance/)
 
 <br />
 
