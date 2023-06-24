@@ -439,9 +439,10 @@ _Almost as if the web UI is [SELF-AWARE](#self-aware)..._
 <p>The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation-of-concerns).</p>
 
 <p>Since the D7460N Template separates the HTML and CSS from the JavaScript, it runs natively in the browser with no servers requiered:
-* no building
-* no compiling
-* and no serving
+
+ * no building
+ * no compiling
+ * and no serving
 </p>
 </details>
 
