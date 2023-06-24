@@ -693,7 +693,7 @@ HTML : :
 
 <details>
  <p></p>
-<summary id="css-variables"><h3>CSS Custom Properties (AKA CSS VARIABLES)</h3></summary>
+<summary id="css-variables"><h3>CSS CUSTOM PROPERTIES (AKA CSS VARIABLES)</h3></summary>
 
 The D7460N Template leverages CSS custom properties or variables to pre define layout states, color theme, user preferences, and many other dynamic GUI logic features. 
 
