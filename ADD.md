@@ -292,7 +292,7 @@ _Let's start with the..._
 <br />
 
 <details>
-  <summary id="standards">: : WEB STANDARDS : :</summary>
+  <summary id="standards"><h3>: : WEB STANDARDS : :</h3></summary>
   <p></p>
   <p><i>Web standards are the building blocks of a consistent and harmonious digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the Web.</i></p>
 
@@ -300,67 +300,73 @@ _Let's start with the..._
   <a href="https://www.w3.org/standards/">Web Standards | W3C.org</a>
 </details>
 
-<br />
-
 <details>
  <p></p>
-  <summary id="w3c">: : W3C/WHATWG "LIVING" STANDARD : :</summary>
+  <summary id="w3c"><h3>: : W3C/WHATWG "LIVING" STANDARD : :</h3></summary>
 
   <p>To ensure future compatibility for websites or web applications, adherence to W3C/WHATWG standards is crucial. Additionally, accessibility across any device equipped with an authorized network-connected web browser, from any location worldwide, is key.</p>
 
-  <p><i>These standards exist as long technical documents called specifications, which detail exactly how the technology should work. These documents are not very useful for learning how to use the technologies they describe (this is why we have sites like [MDN Web Docs](https://developer.mozilla.org/en-US/)), but instead are intended to be used by software engineers to implement these technologies (usually in web browsers).</i></p>
+> <i>These standards exist as long technical documents called specifications, which detail exactly how the technology should work. These documents are not very useful for learning how to use the technologies they describe (this is why we have sites like [MDN Web Docs](https://developer.mozilla.org/en-US/)), but instead are intended to be used by software engineers to implement these technologies (usually in web browsers).</i>
+>
+> <i>For example, the [HTML Living Standard](https://html.spec.whatwg.org/multipage/) describes exactly how HTML (all the HTML elements, and their associated APIs, and other surrounding technologies) should be implemented.</i>
+>
+> <i>Web standards are created by standards bodies — institutions that invite groups of people from different technology companies to come together and agree on how the technologies should work in the best way to fulfill all of their use cases. The W3C is the best known web standards body, but there are others such as the [WHATWG](https://whatwg.org/) (who maintain the living standards for the HTML language), [ECMA](https://www.ecma-international.org/) (who publish the standard for ECMAScript, which JavaScript is based on), [Khronos](https://www.khronos.org/) (who publish technologies for 3D graphics, such as WebGL), and others.</i><br />
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards">~ The Web and Web Standards | MDN Web Docs</a>
 
-  <p><i>For example, the [HTML Living Standard](https://html.spec.whatwg.org/multipage/) describes exactly how HTML (all the HTML elements, and their associated APIs, and other surrounding technologies) should be implemented.</i></p>
-
-  <p><i>Web standards are created by standards bodies — institutions that invite groups of people from different technology companies to come together and agree on how the technologies should work in the best way to fulfill all of their use cases. The W3C is the best known web standards body, but there are others such as the [WHATWG](https://whatwg.org/) (who maintain the living standards for the HTML language), [ECMA](https://www.ecma-international.org/) (who publish the standard for ECMAScript, which JavaScript is based on), [Khronos](https://www.khronos.org/) (who publish technologies for 3D graphics, such as WebGL), and others.</i></p>
-  <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards">The Web and Web Standards | MDN Web Docs</a>
 </details>
 
-<br />
+<details>
+ <p></p>
+  <summary id="accessibility"><h3>: : ACCESSIBILITY : :</h3></summary>
 
-<h3 id="accessibility">ACCESSIBILITY</h3>
+<p>Accessibility relates to the technical side of a website, while usability refers to the quality of a person's experience when interacting with it. Accessibility guidelines can improve usability for all users, including those with disabilities or impairments.</p>
 
-Accessibility relates to the technical side of a website, while usability refers to the quality of a person's experience when interacting with it. Accessibility guidelines can improve usability for all users, including those with disabilities or impairments.
-
-**ACCESSIBILITY IS NOT USABILITY**. A screen full of unstructured unformatted unstyled data is accessible, but hardly usable. Accessbility is the beginning of usability best practices. 
+<p><b>ACCESSIBILITY IS NOT USABILITY.</b> A screen full of unstructured unformatted unstyled data is accessible, but hardly usable. Accessbility is the beginning of usability best practices.</p> 
 
 > <i>"Whereas accessibility relates to the technical side of a website, usability relates to the quality of a person's experience when interacting with your website, the efficiency with which that person can accomplish a task, and the satisfaction of the person completing the task. Although accessibility guidelines focus primarily on people with disabilities and impairments, such as vision loss, many of the guidelines for accessibility can also improve usability for all.</i><br />
-[UsableNet Aug 22, 2022](https://blog.usablenet.com/accessibility-vs-usability-what-is-the-difference-to-the-disability-community)
+<a href="https://blog.usablenet.com/accessibility-vs-usability-what-is-the-difference-to-the-disability-community">~ UsableNet Aug 22, 2022</a>
+  
+  <ul>
+    <li><a href="https://www.section508.gov/manage/section-508-assessment/">Government-wide Section 508 Assessment | section508.gov</a></li>
+    <li><a href="https://www.ada.gov/resources/web-guidance/">Guidance on Web Accessibility and the ADA | ada.gov</a></li>
+    <li><a href="https://digital.gov/">Guidance on building better digital services in government | digital.gov</a></li>
+    <li><a href="https://www.access-board.gov/ict/">U.S. Access Board Revised 508 Standards and 255 Guidelines | access-board.gov</a></li>
+  </ul>
+</details>
 
-* [Government-wide Section 508 Assessment | section508.gov](https://www.section508.gov/manage/section-508-assessment/)</br >
-* [Guidance on Web Accessibility and the ADA | ada.gov](https://www.ada.gov/resources/web-guidance/)<br />
-* [Guidance on building better digital services in government | digital.gov](https://digital.gov/)<br />
-* [U.S. Access Board Revised 508 Standards and 255 Guidelines | access-board.gov](https://www.access-board.gov/ict/)
+<details>
+ <p></p>
+  <summary id="usability"><h3>: : USABILITY : :</h3></summary>
 
-<br />
+<p>For many end-users (not all), the difference between Apple and Microsoft is design over function (respetively). For many developers (not all), the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. </p>
 
-<h3 id="usability">USABILITY</h3>
-
-For many end-users (not all), the difference between Apple and Microsoft is design over function (respetively). For many developers (not all), the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. 
-
-End-user **and** developer accessibility and usability governs every design development decision. 
+<p>End-user **and** developer accessibility and usability governs every design development decision.</p>
 
 > <i>If "content is king", then the GUI is his castle, usability is the road that leads you there, and accessibility is the key to enter his royal court."</i><br />~ Unknown
 
-<br />
+<ul>
+  <li><a href="https://digital.gov/">Guidance on building better digital services in government</a></li>
+  <li><a href="https://www.section508.gov/">Government-wide Section 508 Assessment</a></li>
+  <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG 2 Overview | Web Accessibility Initiative (WAI) - W3C</a></li>
+  <li><a href="https://www.ada.gov/resources/web-guidance/">Guidance on Web Accessibility and the ADA</a></li>
+</ul>
+</details>
 
-* [Guidance on building better digital services in government.](https://digital.gov/)<br />
-* [Government-wide Section 508 Assessment](https://www.section508.gov/)<br />
-* [WCAG 2 Overview | Web Accessibility Initiative (WAI) - W3C](https://www.w3.org/WAI/standards-guidelines/wcag/)<br />
-* [Guidance on Web Accessibility and the ADA](https://www.ada.gov/resources/web-guidance/)
+<details>
+ <p></p>
+  <summary id="user-experience"><h3>: : USER EXPERIENCE (UX) : :</h3></summary>
 
-<br />
+  <p>User Experience (UX) is the intersection of accessibility and usability. It encapsulates the entire journey of a user, from the moment they input the web application's URL, to the point they click the "X" in the upper right corner to close the application, and even beyond.</p>
 
-<h3 id="user-experience">: : USER EXPERIENCE (UX) : :</h3>
-
-User Experience (UX) is the intersection of accessibility and usability. It encapsulates the entire journey of a user, from the moment they input the web application's URL, to the point they click the "X" in the upper right corner to close the application, and even beyond. 
-
-Such as:
-* What happens when users come back?
-* Does the web app remember the user?
-* Is the web application just as fast or faster when end-users return?
-* Does the web application remember and return the user where the user left off?
-* What happens to the web application if an end-user disables JavaScript?
+<p>Such as:
+ <ul>
+  <li>What happens when users come back?</li>
+  <li>Does the web app remember the user?</li>
+  <li>Is the web application just as fast or faster when end-users return?</li>
+  <li>Does the web application remember and return the user where the user left off?</li>
+  <li>What happens to the web application if an end-user disables JavaScript?</li>
+</ul>
+</p>
 
 What if end-users could easily customize the web application to make it their own? 
 
@@ -371,14 +377,13 @@ Such as:
   * Mouse preferences?
   * Roomy or condensed content preferences?
   * Do end-users like useful/helpful micro-transation animations or no animations?
-  
 
 <!-- <img src="/assets/images/ux3d.svg#gh-dark-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." />
 <img src="/assets/images/ux3d.svg#gh-light-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." /> -->
 
-<br />
-
-<h4 id="ux-to-remember">: : UX TO REMEMBER : :</h4>
+<details>
+ <p></p>
+  <summary id="ux-to-remember"><h3>: : UX TO REMEMBER : :</h3></summary>
 
 * **No dead ends** - Privide end-users and obvious way forward and a way back. A way forward example would be, links to support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner. 
 * **Link Offsite References** - Whenever an offsite source is reference, link to the reference. 
@@ -400,8 +405,8 @@ Offsite link HTML example : :
   <a href="https://off-site-list.html" target="_new">off-site-link</a>.
 </p>
 ```
-
-<br />
+</details>
+</details>
 
 ---
 
@@ -411,35 +416,40 @@ Offsite link HTML example : :
 
 <br />
 
-<h3 id="intrinsic-design">: : INTRINSIC DESIGN : :</h3>
+<details>
+ <p></p>
+  <summary id="intrinsic-design"><h3>: : INTRINSIC DESIGN : :</h3></summary>
 
 Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed](https://www.youtube.com/watch?v=jBwBACbRuGY). 
 
 Most developers use CSS to control and or lockdown their web UIs. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` that allow web UIs to **intrinsically** or **naturally** or **natively** present content on it's own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to naturally determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. 
 
 Almost as if the web UI is [SELF-AWARE](#self-aware)...
+</details>
 
-<br />
+<details>
+ <p></p>
+  <summary id="least-power"><h3>: : LEAST POWER : :</h3></summary>
 
-<h3 id="least-power">: : LEAST POWER : :</h3>
-
-The "Least Power" principle simplifyies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks. 
+<p>The "Least Power" principle simplifyies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks.</p>
 
 > "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br />
-[W3C - Web Technologies and the Rule of Least Power - 2001](https://www.w3.org/2001/tag/doc/leastPower.html)
+[~ Web Technologies and the Rule of Least Power | W3C - 2001](https://www.w3.org/2001/tag/doc/leastPower.html)
 
-The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation-of-concerns).
+<p>The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation-of-concerns).</p>
 
-Since the D7460N Template separates the HTML and CSS from the JavaScript, it runs natively in the browser with no servers requiered:
+<p>Since the D7460N Template separates the HTML and CSS from the JavaScript, it runs natively in the browser with no servers requiered:
 * no building
 * no compiling
 * and no serving
+</p>
+</details>
 
-<br />
+<details>
+ <p></p>
+<summary id="separation-of-concerns"><h3>: : SEPARATION OF CONCERNS : :</h3></summary>
 
-<h3 id="separation-of-concerns">: : SEPARATION OF CONCERNS : :</h3>
-
-The D7460N template also follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions coupled with ADA accessibility and usability guidelines) from the (application specific) business logic, allowing for BOTH to be independently developed, operated, and maintained. 
+The D7460N template also follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions coupled with ADA accessibility and usability guidelines) from the (application specific) business logic, allowing for BOTH to be independently developed, operated, and maintained.
 
 Decoupleing GUI logic from business logic allows the D7460N template to be:
 * data agnostic
@@ -448,19 +458,23 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 * Modular
 * Independent
 
-<br />
+</details>
 
-<h3 id="web-application-firewall">Web Application Firewall</h3>
+<details>
+ <p></p>
+<summary id="web-application-firewall"><h3>Web Application Firewall</h3></summary>
+ 
 (WIP)
 
-<br />
+</details>
 
-<h3 id="web-components">Web Components (native)</h3>
-(WIP) Allows for JS framework independence, nuetrallity, and flexibility. If <b>Angular</b> or <b>Vue.js</b> is no longer "the thing", and the team feels they want to switch to <b>React</b>, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
+<details>
+ <p></p>
+<summary id="web-components"><h3>Web Components (native)</h3></summary>
+ 
+(WIP) 
 
-<br />
-
-<br />
+Allows for JS framework independence, nuetrallity, and flexibility. If <b>Angular</b> or <b>Vue.js</b> is no longer "the thing", and the team feels they want to switch to <b>React</b>, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
 
 > <i><b>Why would you want to try Web Components?</b></i>
 >
@@ -472,9 +486,11 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 
 [Web Components are Dead: Long Live Web Components -2022](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
 
-<br />
+</details>
 
-<h3 id="perfect-storm">: : PERFECT STORM : :</h3>
+<details>
+ <p></p>
+<summary id="perfect-storm"><h3>: : PERFECT STORM : :</h3></summary>
 
 **The D7460N Template is a perfect storm of opportunities to affect and inspire positive change** in that it is...
 
@@ -485,9 +501,11 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 * static (no dynamic data/no databases) = _removed barriers and enables capabilities not otherwise possible with dynamic applications_
 * Today's modern browsers (not you IE!) now natively do what JavaScript frameworks built to overcome years ago = _technically, JavaScript frameworks are now pure technical debt, fated to eventually go the way of Flash, ActionScript, Ext.js, and the Dodo Bird. 
 
-<br />
+</details>
 
-<h3 id="css-first">: : CSS FIRST : :</h3>
+<details>
+ <p></p>
+<summary id="css-first"><h3>: : CSS FIRST : :</h3></summary>
 
 Stongly hinted in the [Least Power](#least-power) section, but bears emphasising... _What can't be done in HTML is done in CSS_.
 
@@ -504,7 +522,7 @@ CSS's always on, alway reactive nature combined with newly enable CSS `has();` f
 
 CSS is the driving force behind D7460N design and developement. Scripting is purposely minimal so as to avoid negating the natural benefits of such CSS first, data centric design and developemnt. This focus on CSS is neither custom nor new. It is actually the original intent and purpose behind how and why CSS was created. 
 
-<br />
+</details>
 
 ---
 
