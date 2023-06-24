@@ -949,7 +949,7 @@ awaiting base theme CSS
 
 <details>
  <p></p>
-<summary id="corporate-branding"><h3>: : CORPORATE BRANDING : :</h3></summary>
+<summary id="corporate-branding"><h3>CORPORATE BRANDING</h3></summary>
 
 LOGO : :
 
@@ -1030,7 +1030,7 @@ This is an important usability technique in that it allows for uninterupted conc
 
 <details>
  <p></p>
-<summary id="alternate-layouts"><h3>: : ALTERNATE LAYOUTS : :</h3></summary>
+<summary id="alternate-layouts"><h3>ALTERNATE LAYOUTS</h3></summary>
 
 D7460N has optional alternate layout configurations that optimize master/detail workflow conventions from left to right and right to left. 
 
@@ -1162,7 +1162,7 @@ A fully capable Progressive Web Application can provide the following advantages
 
 <details>
  <p></p>
-<summary id="web-application-firewall"><h3>: : WEB APPLICATION FIREWALL (WAF) : :</h3></summary>
+<summary id="web-application-firewall"><h3>WEB APPLICATION FIREWALL (WAF)</h3></summary>
 
 > A web application firewall enhances and complements traditional firewalls which have no visibility into the content of encrypted HTTPS traffic and therefore can’t block dangerous HTTPs streams.
 >
@@ -1173,7 +1173,7 @@ A fully capable Progressive Web Application can provide the following advantages
  
 <details>
  <p></p>
-<summary id="http3"><h3>: : HTTP/3 | QUIC : :</h3></summary>
+<summary id="http3"><h3>HTTP/3 | QUIC</h3></summary>
 
 > QUIC understands that a site is made up of multiple files, and it won’t blight the entire connection just because one file hasn’t finished loading.
 >
