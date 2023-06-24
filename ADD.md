@@ -1097,7 +1097,7 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 
 These new web developemnt capabilities provide great opportunities to build emersive experiences that deeply integrate with the desktop operating system.
 
-<br />
+</details>
 
 <details>
  <p></p>
