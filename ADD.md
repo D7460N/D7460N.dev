@@ -887,7 +887,7 @@ Of course, scripting can be added to enhance and or add even more functionality.
  <p></p>
 <summary id="style"><h3>STYLE QUERIES</h3></summary>
 
-> The [CSS Containment Module Level 3 spec](https://www.w3.org/TR/css-contain-3/), which covers size and style queries, allows for any styles to be queried from a parent, including property and value pairs such as `font-weight: 800`. However, in the rollout of this feature, style queries currently only work with CSS custom property values. This is still very useful for combining styles and separating data from design. Let’s take a look at how you use style queries with CSS custom properties.
+> The [CSS Containment Module Level 3 spec | drafts.csswg.org](https://drafts.csswg.org/css-contain-3/), which covers size and style queries, allows for any styles to be queried from a parent, including property and value pairs such as `font-weight: 800`. However, in the rollout of this feature, style queries currently only work with CSS custom property values. This is still very useful for combining styles and separating data from design. Let’s take a look at how you use style queries with CSS custom properties.
 >
 > Style queries are particularly useful when you either have a reusable component with multiple variations, or when you don’t have control over all of your styles but need to apply changes in certain cases. 
 >
@@ -896,7 +896,7 @@ Of course, scripting can be added to enhance and or add even more functionality.
 
 * [A Primer On CSS Container Queries | smashingmagazine.com](https://www.smashingmagazine.com/2021/05/complete-guide-css-container-queries/)
 * [CSS Style Queries | ishadeed.com](https://ishadeed.com/article/css-container-style-queries/)
-* [CSS Containment Module Level 3 | W3.org](https://www.w3.org/TR/css-contain-3/)
+* [CSS Containment Module Level 3 | drafts.csswg.org](https://drafts.csswg.org/css-contain-3/)
 
 </details>
 
