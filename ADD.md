@@ -292,7 +292,7 @@ _Let's start with the..._
 <br />
 
 <details>
-  <summary id="standards"><h3>: : WEB STANDARDS : :</h3></summary>
+  <summary id="standards"><h3>WEB STANDARDS</h3></summary>
   <p></p>
   <p><i>Web standards are the building blocks of a consistent and harmonious digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the Web.</i></p>
 
@@ -302,7 +302,7 @@ _Let's start with the..._
 
 <details>
  <p></p>
-  <summary id="w3c"><h3>: : W3C/WHATWG "LIVING" STANDARD : :</h3></summary>
+  <summary id="w3c"><h3>W3C/WHATWG "LIVING" STANDARD</h3></summary>
 
   <p>To ensure future compatibility for websites or web applications, adherence to W3C/WHATWG standards is crucial. Additionally, accessibility across any device equipped with an authorized network-connected web browser, from any location worldwide, is key.</p>
 
@@ -317,7 +317,7 @@ _Let's start with the..._
 
 <details>
  <p></p>
-  <summary id="accessibility"><h3>: : ACCESSIBILITY : :</h3></summary>
+  <summary id="accessibility"><h3>ACCESSIBILITY</h3></summary>
 
 <p>Accessibility relates to the technical side of a website, while usability refers to the quality of a person's experience when interacting with it. Accessibility guidelines can improve usability for all users, including those with disabilities or impairments.</p>
 
@@ -336,7 +336,7 @@ _Let's start with the..._
 
 <details>
  <p></p>
-  <summary id="usability"><h3>: : USABILITY : :</h3></summary>
+  <summary id="usability"><h3>USABILITY</h3></summary>
 
 <p>For many end-users (not all), the difference between Apple and Microsoft is design over function (respetively). For many developers (not all), the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. </p>
 
@@ -354,7 +354,7 @@ _Let's start with the..._
 
 <details>
  <p></p>
-  <summary id="user-experience"><h3>: : USER EXPERIENCE (UX) : :</h3></summary>
+  <summary id="user-experience"><h3>USER EXPERIENCE (UX)</h3></summary>
 
   <p>User Experience (UX) is the intersection of accessibility and usability. It encapsulates the entire journey of a user, from the moment they input the web application's URL, to the point they click the "X" in the upper right corner to close the application, and even beyond.</p>
 
@@ -383,7 +383,7 @@ Such as:
 
 <details>
  <p></p>
-  <summary id="ux-to-remember"><h3>: : UX TO REMEMBER : :</h3></summary>
+  <summary id="ux-to-remember"><h3>UX TO REMEMBER</h3></summary>
 
 * **No dead ends** - Privide end-users and obvious way forward and a way back. A way forward example would be, links to support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner. 
 * **Link Offsite References** - Whenever an offsite source is reference, link to the reference. 
@@ -418,7 +418,7 @@ Offsite link HTML example : :
 
 <details>
  <p></p>
-  <summary id="intrinsic-design"><h3>: : INTRINSIC DESIGN : :</h3></summary>
+  <summary id="intrinsic-design"><h3>INTRINSIC DESIGN</h3></summary>
 
 Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed | YouTube.com](https://www.youtube.com/watch?v=jBwBACbRuGY). 
 
@@ -429,12 +429,12 @@ Almost as if the web UI is [SELF-AWARE](#self-aware)...
 
 <details>
  <p></p>
-  <summary id="least-power"><h3>: : LEAST POWER : :</h3></summary>
+  <summary id="least-power"><h3>LEAST POWER</h3></summary>
 
 <p>The "Least Power" principle simplifyies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks.</p>
 
 > "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br />
-[~ Web Technologies and the Rule of Least Power | W3C.org - 2001](https://www.w3.org/2001/tag/doc/leastPower.html)
+[~ Web Technologies and the Rule of Least Power | W3C.org](https://www.w3.org/2001/tag/doc/leastPower.html)
 
 <p>The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation-of-concerns).</p>
 
@@ -447,7 +447,7 @@ Almost as if the web UI is [SELF-AWARE](#self-aware)...
 
 <details>
  <p></p>
-<summary id="separation-of-concerns"><h3>: : SEPARATION OF CONCERNS : :</h3></summary>
+<summary id="separation-of-concerns"><h3>SEPARATION OF CONCERNS</h3></summary>
 
 The D7460N template also follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions coupled with ADA accessibility and usability guidelines) from the (application specific) business logic, allowing for BOTH to be independently developed, operated, and maintained.
 
@@ -483,13 +483,13 @@ Allows for JS framework independence, nuetrallity, and flexibility. If <b>Angula
 > <i>Remember, Web Components are a standard to build on top of, they’ve been approved by the major leaders of this industry and are being actively implemented and pushed forward. You’ll be using Web Components in the future whether you know it or not, better get started understanding them now and get a head start.</i>
 > 
 > <i>Learning about Web Components now is an investment for the future.</i><br />
-[~ Web Components are Dead: Long Live Web Components | blog.bitsrc.io - 2022](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
+[~ Web Components are Dead: Long Live Web Components | blog.bitsrc.io](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
 
 </details>
 
 <details>
  <p></p>
-<summary id="perfect-storm"><h3>: : PERFECT STORM : :</h3></summary>
+<summary id="perfect-storm"><h3>PERFECT STORM</h3></summary>
 
 **The D7460N Template is a perfect storm of opportunities to affect and inspire positive change** in that it is...
 
@@ -504,7 +504,7 @@ Allows for JS framework independence, nuetrallity, and flexibility. If <b>Angula
 
 <details>
  <p></p>
-<summary id="css-first"><h3>: : CSS FIRST : :</h3></summary>
+<summary id="css-first"><h3>CSS FIRST</h3></summary>
 
 Stongly hinted in the [Least Power](#least-power) section, but bears emphasising... _What can't be done in HTML is done in CSS_.
 
@@ -533,7 +533,7 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 
 <details>
  <p></p>
-<summary id="classless-css"><h3>: : CLASSLESS CSS : :</h3></summary>
+<summary id="classless-css"><h3>CLASSLESS CSS</h3></summary>
 
 Classless CSS is a minimalist development technique that allows developers to define [semantic](#semantic) html layouts and form elements in CSS without needing to use class selectors or "hooks" in the HTML. This reduces HTML bloat, page load size, helps boost [SEO](#seo) and helps to keep the HTML clean, readable, and intuitive for developers.
 
@@ -542,7 +542,7 @@ Classless CSS is a minimalist development technique that allows developers to de
 
 <details>
  <p></p>
-<summary id="logical"><h3>: : LOGICAL PROPERTIES : :</h3></summary>
+<summary id="logical"><h3>LOGICAL PROPERTIES</h3></summary>
 
 > <i>The CSS logical properties and values module introduces logical properties and values that provide the ability to control layout through logical, rather than physical, direction and dimension mappings. The module also defines logical properties and values for properties previously defined in CSS 2.1.</i>
 > 
@@ -558,7 +558,7 @@ Classless CSS is a minimalist development technique that allows developers to de
 
 <details>
  <p></p>
-<summary id="layer"><h3>: : CSS @LAYER</h3></summary>
+<summary id="layer"><h3>CSS @LAYER</h3></summary>
 
 CSS `@layer` is utilized ub the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, or other themes and or styles to more easily take precedence or override default D7460N Template styles.
 
@@ -571,7 +571,7 @@ CSS `@layer` is utilized ub the D7460N Template to lessen the precedence of the 
 
 <details>
  <p></p>
-<summary id="support"><h3>: : CSS @SUPPORT</h3></summary>
+<summary id="support"><h3>CSS @SUPPORT</h3></summary>
 
 CSS `@support` is utilized for feature detection and <b>Progressive Enhancement</b>.
 
@@ -581,7 +581,7 @@ CSS `@support` is utilized for feature detection and <b>Progressive Enhancement<
 
 <details>
  <p></p>
-<summary id="semantic"><h3>: : SEMANTIC HTML ELEMENTS : :</h3></summary>
+<summary id="semantic"><h3>SEMANTIC HTML ELEMENTS</h3></summary>
 
 Web accessibility and usability utilize semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
 
@@ -634,7 +634,7 @@ HTML : :
 
 <details>
  <p></p>
-<summary id="divless"><h3>: : DIV-LESS HTML : :</h3></summary>
+<summary id="divless"><h3>DIV-LESS HTML</h3></summary>
 
 > <i>DIVs are played out. We all love our `<div>` tags. They've been around for decades, and for decades they've been the go-to element when you need to wrap some stuff in a block for styling or structural purposes. It's still very common to look through production websites.</i><br />
 [Stop Using So Many Divs - An Intro to Semantic HTML | dev.to](https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i)
@@ -645,7 +645,7 @@ HTML : :
 
 <details>
  <p></p>
-<summary id="custom-html-elements"><h3>: : CUSTOM HTML ELEMENTS : :</h3></summary>
+<summary id="custom-html-elements"><h3>CUSTOM HTML ELEMENTS</h3></summary>
 
 Custom HTML elements are alphanumeric hyphonated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css)).
 
@@ -686,7 +686,7 @@ HTML : :
 
 <details>
  <p></p>
-<summary id="css-variables"><h3>: : CSS CustomProperties, AKA CSS VARIABLES : :</h3></summary>
+<summary id="css-variables"><h3>CSS CustomProperties, AKA CSS VARIABLES</h3></summary>
 
 The D7460N Template leverages CSS custom properties or variables to pre define layout states, color theme, user preferences, and many other dynamic GUI logic features. 
 
@@ -696,7 +696,7 @@ The D7460N Template leverages CSS custom properties or variables to pre define l
 
 <details>
  <p></p>
-<summary id="responsive-design"><h3>: : RESPONSIVE DESIGN : :</h3></summary>
+<summary id="responsive-design"><h3>RESPONSIVE DESIGN</h3></summary>
 
 (WIP)
 
@@ -706,7 +706,7 @@ Responsive or adaptive web design provides optimal experiences, easy reading, an
 
 <details>
  <p></p>
-<summary id="progressive-enhancement"><h3>: : PROGRESSIVE ENHANCEMENT : :</h3></summary>
+<summary id="progressive-enhancement"><h3>PROGRESSIVE ENHANCEMENT</h3></summary>
 
 **Progressive Enhancement** is a design philosophy that provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code. 
 
@@ -727,7 +727,7 @@ Feature detection is generally used to determine whether browsers can handle mor
 
 <details>
  <p></p>
-<summary id="minimal-third-party-dependencies"><h3>: : MINIMAL THIRD PARTY DEPENDENCIES : :</h3></summary>
+<summary id="minimal-third-party-dependencies"><h3>MINIMAL THIRD PARTY DEPENDENCIES</h3></summary>
 
 Third party dependencies such as JS libraries like jQuery, EXT.js, Prototype.js and JavaScript frameworks like Angular, Vue, and React are helpful for launching features and or entire software projects quickly and when browsers don't support needed functionality natively. 
 
@@ -755,7 +755,7 @@ _There is a better way!_
 
 <details>
  <p></p>
-<summary id="squishy-layout"><h3>: : SQUISHY LAYOUT : :</h3></summary>
+<summary id="squishy-layout"><h3>SQUISHY LAYOUT</h3></summary>
 
 The D7460N Template leverages an undocumented but valid **3 STEP** layout technique using just native HTML and CSS. This technique allows for dynamic functionality normally relegated to and implimented with expensive JavaScript tracking and poling. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive-design), and sets the ground work for [end-user customizetin options](#customization). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
 
@@ -815,7 +815,7 @@ This technique:
 
 <details>
  <p></p>
-<summary id="self-aware"><h3>: : SELF-AWARE : :</h3></summary>
+<summary id="self-aware"><h3>SELF-AWARE</h3></summary>
 
 (WIP) 
 
@@ -839,7 +839,7 @@ For example, the `:has()` pseudo-class function allows for watching one or more 
 
 <details>
  <p></p>
-<summary id="loading"><h3>: : NATURAL "TRUTHFUL" LOADING STATE</h3></summary>
+<summary id="loading"><h3>NATURAL "TRUTHFUL" LOADING STATE</h3></summary>
 
 Between when an end-user clicks a button to fetch data and when the data arrives and is ready to be displayed, is a natural built-in "truthful" loading state where loading spinners and / or helpful informative messages can be displayed. No JavaScript or third-party plug-ins or dependencies needed.
 
@@ -875,7 +875,7 @@ Of course, scripting can be added to enhance and or add even more functionality.
 
 <details>
  <p></p>
-<summary id="customization"><h3>: : CUSTOMIZATION : :</h3></summary>
+<summary id="customization"><h3>CUSTOMIZATION</h3></summary>
 
 Allow end-users to feel like they can make D7460N their own, through customization options. 
 
@@ -898,11 +898,11 @@ Customization options : :
 > That information gives search engine crawlers, like Googlebot, a better understanding of your content. This increases the chances that your content will be selected as a candidate for ranking on the search engine results page (SERP) for relevant keywords.
 >
 >To put it simply, pages with correctly implemented semantic HTML have an advantage in SEO over those that don’t.<br />
-https://www.semrush.com/blog/semantic-html5-guide/
+[~ Semantic HTML5 Guide | semrush.com](https://www.semrush.com/blog/semantic-html5-guide/)
 
 ...and or with semantically meaningless `<div>` elements. (see [DIV-less](#divless)
        
-(WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
+(WIP) (WIP) (WIP)
 
 <br />
 
@@ -914,20 +914,24 @@ https://www.semrush.com/blog/semantic-html5-guide/
 
 <br />
 
-<h3 id="color-themes">: : COLOR THEMES : :</h3>
+<details>
+ <p></p>
+<summary id="color-themes"><h3>COLOR THEMES</h3></summary>
 
 D7460N color themes are independent from the GUI and are set via [CSS Variables](#css-variables). Light and dark version are provided for each color theme. 
 
-Absolute black `#000000` and absolute white `#FFFFFF` are reserved colors for accent, shading, and light angle perspecives.
+Absolute black `#000000` and absolute white `#FFFFFF` are reserved colors for accent, shading, and 3D angled perspecives.
 
 Base theme : :
 ```css
 awaiting base theme CSS
 ```
 
-<br />
+</details>
 
-<h3 id="corporate-branding">: : CORPORATE BRANDING : :</h3>
+<details>
+ <p></p>
+<summary id="corporate-branding"><h3>: : CORPORATE BRANDING : :</h3></summary>
 
 LOGO : :
 
@@ -943,13 +947,12 @@ The D7460N logo conforms to the following requirements : :
 * No relational context
 * No copyright
 
-> <span id="logo-note">NOTE : : Accessibility requirements do not apply to logos and or incidental graphics (https://accessiblity.digital.gov/visual-design/color-and-contrast/), but is nevertheless best practices for [Usability](#usability). 
+> <span id="logo-note">NOTE : : Accessibility requirements do not apply to logos and or incidental graphics, but is nevertheless best practices for [Usability](#usability).<br />
+[Color and Contrast | accessibility.digital.gov](https://accessiblity.digital.gov/visual-design/color-and-contrast/)
 
-<br />
- 
 The D7460N logo changes color dynamically depending on on it's background-color so as to maintain the contextual theme and standard accessibility contrast ratio of `4.5:1`. The color of `#999999` (seen below) is defaulted as a safe fallback color that works in both light and dark themes. Note: (see [Accessibility](#accessibility) note above).
 
-<br />
+</details>
 
 ---
 
