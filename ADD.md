@@ -856,7 +856,11 @@ For example, the `:has()` pseudo-class function allows for watching one or more 
 
 Between when an end-user clicks a button to fetch data and when the data arrives and is ready to be displayed, is a natural built-in "truthful" loading state where loading spinners and / or helpful informative messages can be displayed. No JavaScript or third-party plug-ins or dependencies needed.
 
-This built-in natural loading state can be used to communicate to end-users what is happening while they wait for the data to load. For example, if after a certain set time period, maybe 5s or so (whatever is natural but not spammy), a truthful message such as "It is taking an unusual amount of time for data to arrive. There maybe something wrong. If this persists, please contact...". All without a single line of scripting from the back-end or front-end. 
+This built-in natural loading state can be used to communicate to end-users what is happening while they wait for the data to load. For example, if after a certain set time period, maybe 5s or so (whatever is natural but not spammy), a truthful message such as... 
+
+> "It is taking an unusual amount of time for data to arrive. There maybe something wrong. If this persists, please contact...". 
+
+All without a single line of scripting from the back-end or front-end. 
 
 Of course, scripting can be added to enhance and or add even more functionality.
 
