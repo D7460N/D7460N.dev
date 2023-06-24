@@ -515,6 +515,16 @@ CSS's always on, alway reactive nature combined with newly enable CSS `has();` f
 
 CSS is the driving force behind D7460N design and developement. Scripting is purposely minimal so as to avoid negating the natural benefits of such CSS first, data centric design and developemnt. This focus on CSS is neither custom nor new. It is actually the original intent and purpose behind how and why CSS was created. 
 
+>HTML and CSS over JS : :<br />
+>Whenever possible, we (Bootstrap) prefer to write HTML and CSS over JavaScript. In general, HTML and CSS are more prolific and accessible to more people of all different experience levels. HTML and CSS are also faster in your browser than JavaScript, and your browser generally provides a great deal of functionality for you.
+>
+>This principle is our first-class JavaScript API using data attributes. You don’t need to write nearly any JavaScript to use our JavaScript plugins; instead, write HTML.
+>
+>Lastly, our styles build on the fundamental behaviors of common web elements. Whenever possible, we prefer to use what the browser provides. 
+>
+>The same goes for more complex components. While we could write our own form validation plugin to add classes to a parent element based on an input’s state, thereby allowing us to style the text say red, we prefer using the :valid/:invalid pseudo-elements every browser provides us.
+[~ HTML and CSS over JS](https://getbootstrap.com/docs/5.3/extend/approach/#html-and-css-over-js)
+
 </details>
 
 ---
