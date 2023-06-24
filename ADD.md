@@ -594,7 +594,7 @@ The `@supports` CSS at-rule lets you specify CSS declarations that depend on a b
 Web accessibility and usability utilize semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
 
 > Elements in HTML can have semantics, meaning they are one of several predefined things, and not another. Semantics answer the question ‘what is this thing?’, out of a list of standardised things. This information is then relied upon by browsers and assistive technologies in their UIs.<br />
-[Semantics in HTML | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
+[~ Semantics in HTML | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
 
 * https://hidde.blog/popover-semantics/<br />
 * https://www.pluralsight.com/guides/semantic-html
@@ -714,7 +714,7 @@ Custom properties (sometimes referred to as CSS variables or cascading variables
 Responsive or adaptive web design provides optimal experiences, easy reading, and intuitive navigation with a minimum of resizing on difference media devices such as desktops, laptops, tablets, and phones regardless of OS. The D7460N Template works on every device (WIP), and every screen size, no matter how large or small.
 
 Responsive web design (RWD) is a web design approach to make web pages render well on all screen sizes and resolutions while ensuring good usability. It is the way to design for a multi-device web. In this article, we'll help you understand some techniques that can be used to master it.<br />
-[Responsive Design | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+[~ Responsive Design | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 
 </details>
 
