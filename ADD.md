@@ -424,7 +424,7 @@ Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" ev
 
 Most developers use CSS to control and or lockdown their web UIs. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` that allow web UIs to **intrinsically** or **naturally** or **natively** present content on it's own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to naturally determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. 
 
-Almost as if the web UI is [SELF-AWARE](#self-aware)...
+_Almost as if the web UI is [SELF-AWARE](#self-aware)..._
 </details>
 
 <details>
@@ -962,13 +962,19 @@ The D7460N logo changes color dynamically depending on on it's background-color 
 
 <br />
 
-<h3 id="jamstack">: : JAMStack : :</h3>
+<details>
+ <p></p>
+<summary id="jamstack"><h3>JAMStack</h3></summary>
  
-(WIP) D7460N is a static Single Page Application (SPA) GUI with a JAMStack architecture, mainly for front-loading static resources. 
+(WIP) 
 
-<br />
+D7460N Template is a static Single Page Application (SPA) GUI with a JAMStack architecture, mainly for front-loading static resources. 
 
-<h3 id="html-css">: : HTML/CSS : :</h3>
+</details>
+
+<details>
+ <p></p>
+<summary id="html-css"><h3>HTML/CSS</h3></summary>
  
 To separate and isolate GUI logic from business logic, the D7460N GUI is strictly separated into two exclusive halves. The HTML/CSS (GUI logic) and JavaScript (business logic).
  
@@ -982,9 +988,9 @@ This also enforces a developemtn strategy on either side to remain exclusive and
 
 The two halves are connected only via the IDs in the static (JAMStack) front-loaded HTML. 
  
-... (WIP)
+(WIP)
  
-<br />
+</details>
 
 ---
 
@@ -994,25 +1000,33 @@ The two halves are connected only via the IDs in the static (JAMStack) front-loa
 
 <br />
 
-<h3 id="perspective">: : PERSPECTIVE : :</h3>
- 
+<details>
+ <p></p>
+<summary id="perspective"><h3>PERSPECTIVE</h3></summary>
+
 Single Page Applications are defined differently depending on context. In web design/layout world, a SPA is a web application designed and layed out using techniques that allow end-users access to all informatino and or functionality without ever leaving the _single page_ they are on. This includes not using the overused dreaded modal dialogue, if at all possible. 
  
 This is an important usability technique in that it allows for uninterupted concentration and workflow for end-users. This also vastly simplifies navigation and page/keyboard contraols and nullifies the need for developing content routers, saving time, LoE, and complexity 
  
-<br />
+</details>
 
-<h3 id="alternate-layouts">: : ALTERNATE LAYOUTS : :</h3>
+<details>
+ <p></p>
+<summary id="alternate-layouts"><h3>: : ALTERNATE LAYOUTS : :</h3></summary>
 
 D7460N has optional alternate layout configurations that optimize master/detail workflow conventions from left to right and right to left. 
 
-<br />
+(WIP)
+
+</details>
 
 ---
 
 <br />
  
-<h2 id="pwa">: : PROGRESSIVE WEB APPLICATION (PWA) : :</h2>
+<details>
+ <p></p>
+<summary id="pwa"><h2>: : PROGRESSIVE WEB APPLICATION (PWA) : :</h2></summary>
 
 <br />
 
@@ -1023,36 +1037,46 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 > * It opens in a standalone window, wholly separated from a browser's user interface.
 > * It has access to higher levels of integration with the OS, for example, URL handling or title bar customization.
 > * It works offline.<br />
-[Progressive Web Apps | web.dev](https://web.dev/learn/pwa/progressive-web-apps/)
+[~ Progressive Web Apps | web.dev](https://web.dev/learn/pwa/progressive-web-apps/)
 
 > PWAs are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular websites on other browsers.
 >
 > Progressive Web Apps (PWAs) provide access to open web technologies, to provide cross-platform interoperability. PWAs provide users with an app-like experience that’s customized for their devices.<br />
-[Progressive Web Applications: The Best Of Web And Native](https://www.inrhythm.com/pwas-best-of-web-and-native/)
+[~ Progressive Web Applications: The Best Of Web And Native | inrhythm.com](https://www.inrhythm.com/pwas-best-of-web-and-native/)
 
 <br />
 
-<h3 id="cross-platform-interoperability">: : CROSS-PLATFORM-INTEROPERABILITY : :</h3>
+<details>
+ <p></p>
+<summary id="cross-platform-interoperability"><h3>CROSS-PLATFORM-INTEROPERABILITY</h3></summary>
 
 (WIP)
  
-<br />
+</details>
 
-<h3 id="immersive-experience">: : EMERSIVE EXPERIENCE : :</h3>
+<details>
+ <p></p>
+<summary id="immersive-experience"><h3>EMERSIVE EXPERIENCE</h3></summary>
 
-(WIP)<br />
+(WIP)
+
 These new web developemnt capabilities provide great opportunities to build emersive experiences that deeply integrate with the desktop operating system.
 
 <br />
 
-<h3 id="progressively-enhanced">: : PROGRESSIVELY ENHANCED : :</h3>
+<details>
+ <p></p>
+<summary id="progressively-enhanced"><h3>PROGRESSIVELY ENHANCED</h3></summary>
 
-(WIP)<br />
+(WIP)
+
 PWAs are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular website on other browsers. 
 
-<br />
+</details>
 
-<h3 id="desktop-app">: : IT'S A DESKTOP APP : :</h3>
+<details>
+ <p></p>
+<summary id="desktop-app"><h3>IT'S A DESKTOP APP</h3></summary>
  
 The qualities of a PWA combine the best of the web and compiled apps. PWAs run in browsers, like websites. But PWAs also have access to desktop features;
 
@@ -1070,9 +1094,11 @@ For example : :
 * PWAs can handle file directories and files
 * PWAs can run on start-up when end-users sign-in
 
-<br />
+</details>
 
-<h3 id="website">: : IT'S A WEBSITE : :</h3>
+<details>
+ <p></p>
+<summary id="website"><h3>IT'S A WEBSITE</h3></summary>
 
 PWAs have the same functionality and reach as websites:
 * PWAs can be indexed by search engines
@@ -1080,9 +1106,11 @@ PWAs have the same functionality and reach as websites:
 * A PWA can work on all devices, **from a single code base** **[ company goal ]**
 * PWAs have a much lower cross-platform development cost than compiled apps that require a specific codebase for each platform, such as a separate codebase for Android, for iOS, for each desktop operating system
 
-<br />
+</details>
 
-<h3 id="advantages">: : ADVANTAGES : :</h3>
+<details>
+ <p></p>
+<summary id="advantages"><h3>ADVANTAGES</h3></summary>
 
 A fully capable Progressive Web Application can provide the following advantages for end-users:
 * **Discoverable** - The web application is discoverable from search results and supporting app stores
@@ -1094,31 +1122,40 @@ A fully capable Progressive Web Application can provide the following advantages
 * **Responsive** - The app adapts to the user's screen or orientation and input method
 * **Linkable** - Share and launch the app from a standard link
 
-<br />
+</details>
+</details>
 
  ---
 
 <br />
 
-<h2 id="security">: : SECURITY : :</h2>
+<details>
+ <p></p>
+<summary id="security"><h2>: : SECURITY : :</h2></summary>
 
-<h3 id="csp">: : Content-Security-Policy (CSP) : :</h3>
+<details>
+ <p></p>
+<summary id="csp"><h3>Content-Security-Policy (CSP)</h3></summary>
 
 > The HTTP Content-Security-Policy response header allows website administrators to control resources the user agent is allowed to load for a given page. With a few exceptions, policies mostly involve specifying server origins and script endpoints. This helps guard against cross-site scripting attacks (Cross-site_scripting).<br />
-[Content-Security-Policy | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
+[~ Content-Security-Policy | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
 
-<br />
+</details>
 
-<h3 id="web-application-firewall">: : WEB APPLICATION FIREWALL (WAF) : :</h3>
+<details>
+ <p></p>
+<summary id="web-application-firewall"><h3>: : WEB APPLICATION FIREWALL (WAF) : :</h3></summary>
 
 > A web application firewall enhances and complements traditional firewalls which have no visibility into the content of encrypted HTTPS traffic and therefore can’t block dangerous HTTPs streams.
 >
 > In contrast to traditional firewalls, WAF operates at Layer 7 of the network stack between standard firewalls and web servers, decrypting HTTPS traffic and inspecting the data within. With anomaly detection and lists of attack methods, the web application firewall can block access to web servers when malicious activity is spotted.<br />
-[What is a Web Application Firewall (WAF) and Why Do You Need One?](https://www.progress.com/blogs/what-web-application-firewall-waf-why-you-need-one)
+[~ What is a Web Application Firewall (WAF) and Why Do You Need One? | progress.com](https://www.progress.com/blogs/what-web-application-firewall-waf-why-you-need-one)
 
-<br />
+</details>
  
-<h3 id="http3">: : HTTP/3 | QUIC : :</h3>
+<details>
+ <p></p>
+<summary id="http3"><h3>: : HTTP/3 | QUIC : :</h3></summary>
 
 > QUIC understands that a site is made up of multiple files, and it won’t blight the entire connection just because one file hasn’t finished loading.
 >
@@ -1130,7 +1167,8 @@ A fully capable Progressive Web Application can provide the following advantages
 [HTTP/3: the past, the present, and the future](https://blog.cloudflare.com/http3-the-past-present-and-future/)
 [A Comprehensive Guide To HTTP/3 And QUIC](https://www.debugbear.com/blog/http3-quic-protocol-guide)
 
-<br />
+</details>
+</details>
  
 ---
 
