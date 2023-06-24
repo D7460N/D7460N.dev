@@ -297,7 +297,7 @@ _Let's start with the..._
   <p><i>Web standards are the building blocks of a consistent and harmonious digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the Web.</i></p>
 
   <p><i>W3C is an international community where Member organizations, a full-time staff, and the public work together to develop web standards.</i></p>
-  <a href="https://www.w3.org/standards/">Web Standards | W3C.org</a>
+  <a href="https://www.w3.org/standards/">Web Standards | W3.org</a>
 </details>
 
 <details>
@@ -434,7 +434,7 @@ _Almost as if the web UI is [SELF-AWARE](#self-aware)..._
 <p>The "Least Power" principle simplifyies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks.</p>
 
 > "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br />
-[~ Web Technologies and the Rule of Least Power | W3C.org](https://www.w3.org/2001/tag/doc/leastPower.html)
+[~ Web Technologies and the Rule of Least Power | W3.org](https://www.w3.org/2001/tag/doc/leastPower.html)
 
 <p>The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation-of-concerns).</p>
 
