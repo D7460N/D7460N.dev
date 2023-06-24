@@ -858,8 +858,8 @@ Between when an end-user clicks a button to fetch data and when the data arrives
 
 This built-in natural loading state can be used to communicate to end-users what is happening while they wait for the data to load. For example, if after a certain set time period, maybe 5s or so (whatever is natural but not spammy), a truthful message such as... 
 
-> <i>It is taking an unusual amount of time for data to arrive.
-> There maybe something wrong.
+> <i>It is taking an unusual amount of time for data to arrive.<br />
+> There maybe something wrong.<br />
 > If this persists, please contact...</i> 
 
 All without a single line of scripting from the back-end or front-end. 
