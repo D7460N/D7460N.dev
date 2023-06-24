@@ -570,7 +570,7 @@ CSS `@layer` is utilized ub the D7460N Template to lessen the precedence of the 
 > The `@layer` CSS at-rule is used to declare a cascade layer and can also be used to define the order of precedence in case of multiple cascade layers.
 >
 > Rules within a cascade layer cascade together, giving more control over the cascade to web developers. Any styles not in a layer are gathered together and placed into a single anonymous layer that comes after all the declared layers, named and anonymous. This means that any styles declared outside of a layer will override styles declared in a layer, regardless of specificity.<br />
-[~ @layer | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer)
+[~ CSS @layer | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer)
 
 </details>
 
