@@ -5,8 +5,8 @@
 <h2 id="toc">: : TABLE OF CONTENTS : :</h2>
 
 * [Table of Contents](#toc)
-* [Disclaimer](#disclaimer)
 * [What if?](#whatif)
+* [Disclaimer](#disclaimer)
 * [Must Haves](#must)
   * [Standards](#standards)
   * [W3C](#w3c)
@@ -65,6 +65,8 @@
 
 <h2 id="whatif">WHAT IF?</h2>
 
+Forgive my probably _delusions of grandeur_ but... 
+
 ***What if*** a development project could be set up and running, just as they are typically today with JS frameworks, but in <b>less than half the time</b>, with <b>less than half the code</b>, and with <b>less than half the effort</b>? 
 
 ***What if*** that development project's front-end could be <b>decoupled</b> and <b>independent</b> from yet <b>compatible</b> with any standards-compliant JS framework? 
@@ -74,7 +76,7 @@
 
 ***What if*** that development project's front-end was **easy and intuitive** to understand, implement, and maintain for **current and future fellow designers/developers**?
 
-Would not such a project require significatly less ramp-up time, be much more efficient, flexible, performant, longer lasting, and less costly to build and maintain? Ultimately benefiting developers, end-users, and stakeholders alike? 
+Would not such a project require significantly less ramp-up time, be much more efficient, flexible, performant, longer lasting, and less costly to build and maintain? Ultimately benefiting developers, end-users, and stakeholders alike? 
 
 ***These are the questions this project seeks to answer.***
 
@@ -84,7 +86,7 @@ _We shall see..._
 
 <h2 id="disclaimer">DISCLAIMER</h3>
 
-Ever improving (_read... always changing sometimes breaking..._) thoughts, philosophies, approaches, techniques, notes, guidelines, and how-tos for this _first of it's kind_ project detailed below.
+Ever improving (_read... always changing sometimes breaking..._) thoughts, philosophies, approaches, techniques, notes, guidelines, and how-tos for this _first of its kind_ project detailed below.
 
 ---
 
@@ -321,7 +323,7 @@ _Let's start with the..._
 
 <p>Accessibility relates to the technical side of a website, while usability refers to the quality of a person's experience when interacting with it. Accessibility guidelines can improve usability for all users, including those with disabilities or impairments.</p>
 
-<p><b>ACCESSIBILITY IS NOT USABILITY.</b> A screen full of unstructured unformatted unstyled data is accessible, but hardly usable. Accessbility is the beginning of usability best practices.</p> 
+<p><b>ACCESSIBILITY IS NOT USABILITY.</b> A screen full of unstructured unformatted unstyled data is accessible, but hardly usable. Accessibility is the beginning of usability best practices.</p> 
 
 > <i>"Whereas accessibility relates to the technical side of a website, usability relates to the quality of a person's experience when interacting with your website, the efficiency with which that person can accomplish a task, and the satisfaction of the person completing the task. Although accessibility guidelines focus primarily on people with disabilities and impairments, such as vision loss, many of the guidelines for accessibility can also improve usability for all.</i><br />
 <a href="https://blog.usablenet.com/accessibility-vs-usability-what-is-the-difference-to-the-disability-community">~ UsableNet Aug 22, 2022</a>
@@ -338,7 +340,7 @@ _Let's start with the..._
  <p></p>
   <summary id="usability"><h3>USABILITY</h3></summary>
 
-<p>For many end-users (not all), the difference between Apple and Microsoft is design over function (respetively). For many developers (not all), the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. </p>
+<p>For many end-users (not all), the difference between Apple and Microsoft is design over function (respectively). For many developers (not all), the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. </p>
 
 <p>End-user **and** developer accessibility and usability governs every design development decision.</p>
 
@@ -376,7 +378,7 @@ Such as:
   * Keyboard preferences?
   * Mouse preferences?
   * Roomy or condensed content preferences?
-  * Do end-users like useful/helpful micro-transation animations or no animations?
+  * Do end-users like useful/helpful micro-transaction animations or no animations?
 
 <!-- <img src="/assets/images/ux3d.svg#gh-dark-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." />
 <img src="/assets/images/ux3d.svg#gh-light-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." /> -->
@@ -385,7 +387,7 @@ Such as:
  <p></p>
   <summary id="ux-to-remember"><h3>UX TO REMEMBER</h3></summary>
 
-* **No dead ends** - Privide end-users and obvious way forward and a way back. A way forward example would be, links to support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner. 
+* **No dead ends** - Provide end-users and obvious way forward and a way back. A way forward example would be, links to the support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner. 
 * **Link Offsite References** - Whenever an offsite source is reference, link to the reference. 
 * **Off-site links open in new browser tab/window** - Open off-site links in a new browser tab or window with `target="_new"`.
 * **Use `text-wrap="medium"` - (WIP)
@@ -422,7 +424,7 @@ Offsite link HTML example : :
 
 Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed | YouTube.com](https://www.youtube.com/watch?v=jBwBACbRuGY). 
 
-Most developers use CSS to control and or lockdown their web UIs. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` that allow web UIs to **intrinsically** or **naturally** or **natively** present content on it's own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to naturally determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. 
+Most developers use CSS to control and or lockdown their web UIs. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` that allow web UIs to **intrinsically** or **naturally** or **natively** present content on its own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to naturally determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. 
 
 _Almost as if the web UI is [SELF-AWARE](#self-aware)..._
 </details>
@@ -431,14 +433,14 @@ _Almost as if the web UI is [SELF-AWARE](#self-aware)..._
  <p></p>
   <summary id="least-power"><h3>LEAST POWER</h3></summary>
 
-<p>The "Least Power" principle simplifyies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks.</p>
+<p>The "Least Power" principle simplifies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks.</p>
 
 > "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br />
 [~ Web Technologies and the Rule of Least Power | W3.org](https://www.w3.org/2001/tag/doc/leastPower.html)
 
 <p>The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation-of-concerns).</p>
 
-<p>Since the D7460N Template separates the HTML and CSS from the JavaScript, it runs natively in the browser with no servers requiered:
+<p>Since the D7460N Template separates the HTML and CSS from the JavaScript, it runs natively in the browser with no servers required:
 
  * no building
  * no compiling
@@ -452,7 +454,7 @@ _Almost as if the web UI is [SELF-AWARE](#self-aware)..._
 
 The D7460N template also follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions coupled with ADA accessibility and usability guidelines) from the (application specific) business logic, allowing for BOTH to be independently developed, operated, and maintained.
 
-Decoupleing GUI logic from business logic allows the D7460N template to be:
+Decoupling GUI logic from business logic allows the D7460N template to be:
 * data agnostic
 * JS framework agnostic - see [WEB COMPONENTS](#web-components)
 * Scalable
@@ -467,7 +469,7 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
  
 (WIP) 
 
-Allows for JS framework independence, nuetrallity, and flexibility. If <b>Angular</b> or <b>Vue.js</b> is no longer "the thing", and the team feels they want to switch to <b>React</b>, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
+Allows for JS framework independence, neutrality, and flexibility. If <b>Angular</b> or <b>Vue.js</b> is no longer "the thing", and the team feels they want to switch to <b>React</b>, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
 
 > <i><b>Why would you want to try Web Components?</b></i>
 >
@@ -501,20 +503,20 @@ Allows for JS framework independence, nuetrallity, and flexibility. If <b>Angula
  <p></p>
 <summary id="css-first"><h3>CSS FIRST</h3></summary>
 
-Stongly hinted in the [Least Power](#least-power) section, but bears emphasising... _What can't be done in HTML is done in CSS_.
+Strongly hinted in the [Least Power](#least-power) section, but bears emphasizing... _What can't be done in HTML is done in CSS_.
 
-How do you create a modern future-proofed web presense that is more accessible and more enjoyable with less effort, less time, and less resources?
+How do you create a modern future-proofed web presence that is more accessible and more enjoyable with less effort, less time, and less resources?
 
 FUTURE PROOF : :<br />
-As one of the three core languages web browsers nately understand, CSS is not going away any time soon. The CSS I wrote ten years ago still works today and will work in another 10 years. 
+As one of the three core languages web browsers natively understand, CSS is not going away any time soon. The CSS I wrote ten years ago still works today and will work in another 10 years. 
 
 FAST : :<br />
-CSS is 100 to 1K times faster than JavaScript equivelents. 
+CSS is 100 to 1K times faster than JavaScript equivalents. 
 
 REACTIVE : :<br />
-CSS's always on, alway reactive nature combined with newly enable CSS `has();` functionality, allows for web UIs to be "intelligently interactive". 
+CSS's always on, always reactive nature combined with newly enable CSS `has();` functionality, allows for web UIs to be "intelligently interactive". 
 
-CSS is the driving force behind D7460N design and developement. Scripting is purposely minimal so as to avoid negating the natural benefits of such CSS first, data centric design and developemnt. This focus on CSS is neither custom nor new. It is actually the original intent and purpose behind how and why CSS was created. 
+CSS is the driving force behind D7460N design and development. Scripting is purposely minimal so as to avoid negating the natural benefits of such CSS first, data centric design and development. This focus on CSS is neither custom nor new. It is actually the original intent and purpose behind how and why CSS was created. 
 
 >HTML and CSS over JS : :<br />
 >Whenever possible, we (Bootstrap) prefer to write HTML and CSS over JavaScript. In general, HTML and CSS are more prolific and accessible to more people of all different experience levels. HTML and CSS are also faster in your browser than JavaScript, and your browser generally provides a great deal of functionality for you.
@@ -565,7 +567,7 @@ Classless CSS is a minimalist development technique that allows developers to de
  <p></p>
 <summary id="layer"><h3>CSS @LAYER</h3></summary>
 
-CSS `@layer` is utilized ub the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, or other themes and or styles to more easily take precedence or override default D7460N Template styles.
+CSS `@layer` is utilized by the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, or other themes and or styles to more easily take precedence or override default D7460N Template styles.
 
 > The `@layer` CSS at-rule is used to declare a cascade layer and can also be used to define the order of precedence in case of multiple cascade layers.
 >
@@ -593,7 +595,7 @@ The `@supports` CSS at-rule lets you specify CSS declarations that depend on a b
 
 Web accessibility and usability utilize semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
 
-> Elements in HTML can have semantics, meaning they are one of several predefined things, and not another. Semantics answer the question ‘what is this thing?’, out of a list of standardised things. This information is then relied upon by browsers and assistive technologies in their UIs.<br />
+> Elements in HTML can have semantics, meaning they are one of several predefined things, and not another. Semantics answer the question ‘what is this thing?’, out of a list of standardized things. This information is then relied upon by browsers and assistive technologies in their UIs.<br />
 [~ Semantics in HTML | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
 
 * https://hidde.blog/popover-semantics/<br />
@@ -655,7 +657,7 @@ HTML : :
  <p></p>
 <summary id="custom-html-elements"><h3>CUSTOM HTML ELEMENTS</h3></summary>
 
-Custom HTML elements are alphanumeric hyphonated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css)).
+Custom HTML elements are alphanumeric hyphenated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css)).
 
 [Custom Elements Without JavaScript? | blog.jim-nielsen.com](https://blog.jim-nielsen.com/2021/custom-elements-without-js/)
 
@@ -696,7 +698,7 @@ HTML : :
  <p></p>
 <summary id="css-variables"><h3>CSS CUSTOM PROPERTIES (AKA CSS VARIABLES)</h3></summary>
 
-The D7460N Template leverages CSS custom properties or variables to pre define layout states, color theme, user preferences, and many other dynamic GUI logic features. 
+The D7460N Template leverages CSS custom properties or variables to predefine layout states, color theme, user preferences, and many other dynamic GUI logic features. 
 
 Custom properties (sometimes referred to as CSS variables or cascading variables) are entities defined by CSS authors that contain specific values to be reused throughout a document. They are set using custom property notation (e.g., `--main-color: black;`) and are accessed using the `var()` function (e.g., `color: var(--main-color);`).<br />
 [~ Using CSS Custom Properties | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
@@ -732,9 +734,9 @@ For example, the current production version of the Firefox browser does not yet 
 
 This is done with CSS [@support](#support) to detect feature support. 
 
-Feature detection is generally used to determine whether browsers can handle more modern functionality, while pollyfills are often used to "fill-in" for missing features with JavaScript. 
+Feature detection is generally used to determine whether browsers can handle more modern functionality, while polyfills are often used to "fill-in" for missing features with JavaScript. 
 
-> **Progressive Enhancement** is a useful technique that allows web developers to focus on developing the best possible webistes while making websites work multiple unkown user agents. **Graceful degradation** is related but not the same thing and is often seen as going in the opposite direction to progressive enhancement. In reality, both approaches are valid and can often compliment one another.<br />
+> **Progressive Enhancement** is a useful technique that allows web developers to focus on developing the best possible websites while making websites work multiple unknown user agents. **Graceful degradation** is related but not the same thing and is often seen as going in the opposite direction to progressive enhancement. In reality, both approaches are valid and can often complement one another.<br />
 [~ Progressive Enhancement | MDN Web Docs](https://developer.mozilla.com/en-US/docs/Glassary/Progressive_Enhancement/)
 
 </details>
@@ -747,21 +749,21 @@ Third party dependencies such as JS libraries like jQuery, EXT.js, Prototype.js 
 
 In my experience, third party dependencies are also the eventual _death-knell_ of almost every software feature or software project I've ever been on. 
 
-One of the major reasons for this is that third party dependencies (especially JS frameworks that relly on tens, if not hundreds, of dependencies themselves from all over the world) are subject to and controlled by dissassociated unwhitting third party developers with diverse and / or even competing priorities, schedules, and security concerns. 
+One of the major reasons for this is that third party dependencies (especially JS frameworks that rely on tens, if not hundreds, of dependencies themselves from all over the world) are subject to and controlled by disassociated unwitting third party developers with diverse and / or even competing priorities, schedules, and security concerns. 
 
-Third party dependencies often force design and development decisions down limited and / or inflexible "happy paths" to work as needed (_AKA_ "opinionated"), eventually leading to compromized and / or limited feature options or development "dead-ends" in the near and or long term feature planning and development life cycle of the project. 
+Third party dependencies often force design and development decisions down limited and / or inflexible "happy paths" to work as needed (_AKA_ "opinionated"), eventually leading to compromised and / or limited feature options or development "dead-ends" in the near and or long-term feature planning and development life cycle of the project. 
 
-In my experience (again), at the end of the day, when all is said and done, the time and effort for development rework and workarounds, and resulting less stable error-prone codebase and associated documentation and eventual added ramp-up time for new DEVs, far outway alternative less monolithic "Thor's hammer for a nail" AKA "Mjölnir" approach. 
+In my experience (again), at the end of the day, when all is said and done, the time and effort for development rework and workarounds, and resulting less stable error-prone codebase and associated documentation and eventual added ramp-up time for new DEVs, far out way alternative less monolithic "Thor's hammer for a nail" AKA "Mjölnir" approach. 
 
 "Opinionated" functionality and or features often must be customized or retrofitted into place, thus breaking the "update/upgrade path" to future third-party updates. 
 
-The nature of iteritive development is that third-party dependencies will inevitably have critical updates that include a myriad of (sometimes breaking) code changes and security vulnerability fixes. 
+The nature of iterative development is that third-party dependencies will inevitably have critical updates that include a myriad of (sometimes breaking) code changes and security vulnerability fixes. 
 
 The software project is now stuck with a security vulnerable third-party dependency codebase, having broken the "update/upgrade path".
 
-Additional third party software and build processes (themselves dependent on third party software/plugins/dependencies) are necessary to track and keep them all synced and up to date. 
+Additional third-party software and build processes (themselves dependent on third party software/plugins/dependencies) are necessary to track and keep them all synced and up to date. 
 
-Even so, if just one dependency fails to maintain, update, and sync their code and becomes incompatible with other dependents, the entire project can't move forward. A project depending on dozens, if not hundreds of third, fourth, and even fifth party dependencies may get up and running quickly, but at what cost if said project will grind to a screaching halt under it's own weight and need to be rebuilt from scratch?
+Even so, if just one dependency fails to maintain, update, and sync their code and becomes incompatible with other dependents, the entire project can't move forward. A project depending on dozens, if not hundreds of third, fourth, and even fifth party dependencies may get up and running quickly, but at what cost if said project will grind to a screeching halt under its own weight and need to be rebuilt from scratch?
 
 _There is a better way!_
 
@@ -771,7 +773,7 @@ _There is a better way!_
  <p></p>
 <summary id="squishy-layout"><h3>SQUISHY LAYOUT</h3></summary>
 
-The D7460N Template leverages an undocumented but valid **3 STEP** layout technique using just native HTML and CSS. This technique allows for dynamic functionality normally relegated to and implimented with expensive JavaScript tracking and poling. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive-design), and sets the ground work for [end-user customizetin options](#customization). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
+The D7460N Template leverages an undocumented but valid **3 STEP** layout technique using just native HTML and CSS. This technique allows for dynamic functionality normally relegated to and implemented with expensive JavaScript tracking and poling. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive-design), and sets the groundwork for [end-user customization options](#customization). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
 
 <h4>: : STEP 1 : :</h4>
 
@@ -821,7 +823,7 @@ main {overflow: hidden;}
 ul {overflow: auto;}
 ```
 This technique:
-* allows for layout for overflow content natively with no JavaScript or third party dependencies
+* allows for layout for overflow content natively with no JavaScript or third-party dependencies
 * sets up browser native behavior for variable height content _(no more expensive JavaScript poling for element height)_
 * allows for sticky header and footer without markup or scripting with slower JavaScript workarounds
 
@@ -833,15 +835,15 @@ This technique:
 
 (WIP) 
 
-What if a web GUI could natively (no third party plug-ins or dependencies) know what is happening inside it, when it happens, and what to do about it? All without JavaScript? 
+What if a web GUI could natively (no third-party plug-ins or dependencies) know what is happening inside it, when it happens, and what to do about it? All without JavaScript? 
 
 It would : :
-* revolutionize web design/developement as we know it. Web GUIs would largely run themselves, making decisions about how they behave depending on the data (data/business logic) occuring inside them
+* revolutionize web design/development as we know it. Web GUIs would largely run themselves, making decisions about how they behave depending on the data (data/business logic) occurring inside them
 * split web design/development in half along the "separation of concerns" divide so sharply and completely that buttons would do nothing but fetch data 
 * work with JavaScript disabled (pure CSS), the "Holy Grail" of [Accessibility](#accessibility)
 * result in automated templates for designers, far less code logic for developers, smaller digital footprint, and a much richer experience for end-users.
 
-<b>Web browsers have the ability to persistantly and actively watch for and react to (live without penalty) changes in the DOM. All without the use of heavy slow JS frameworks or any front-end or back-end scripting.</b> 
+<b>Web browsers have the ability to persistently and actively watch for and react to (live without penalty) changes in the DOM. All without the use of heavy slow JS frameworks or any front-end or back-end scripting.</b> 
 
 <i>This is a natural function of</i> <b>CSS</b>.
 
@@ -955,7 +957,7 @@ Customization options : :
 
 D7460N color themes are independent from the GUI and are set via [CSS Variables](#css-variables). Light and dark version are provided for each color theme. 
 
-Absolute black `#000000` and absolute white `#FFFFFF` are reserved colors for accent, shading, and 3D angled perspecives.
+Absolute black `#000000` and absolute white `#FFFFFF` are reserved colors for accent, shading, and 3D angled perspectives.
 
 Base theme : :
 ```css
@@ -985,7 +987,7 @@ The D7460N logo conforms to the following requirements : :
 > <span id="logo-note">NOTE : : Accessibility requirements do not apply to logos and or incidental graphics, but is nevertheless best practices for [Usability](#usability).<br />
 [Color and Contrast | accessibility.digital.gov](https://accessiblity.digital.gov/visual-design/color-and-contrast/)
 
-The D7460N logo changes color dynamically depending on on it's background-color so as to maintain the contextual theme and standard accessibility contrast ratio of `4.5:1`. The color of `#999999` (seen below) is defaulted as a safe fallback color that works in both light and dark themes. Note: (see [Accessibility](#accessibility) note above).
+The D7460N logo changes color dynamically depending on its `background-color` so as to maintain the contextual theme and standard accessibility contrast ratio of `4.5:1`. The color of `#999999` is defaulted as a safe fallback color that works in both light and dark themes. Note: (see [Accessibility](#accessibility) note above).
 
 </details>
 
@@ -1013,13 +1015,13 @@ D7460N Template is a static Single Page Application (SPA) GUI with a JAMStack ar
  
 To separate and isolate GUI logic from business logic, the D7460N GUI is strictly separated into two exclusive halves. The HTML/CSS (GUI logic) and JavaScript (business logic).
  
-There should be minimal to no JavaScript in the HTML. What scripting that is there in the HTML is to assist/enhance/pollyfill the GUI logic. Even so, it is done so as to not slow down the 100 to 1000 times faster CSS.
+There should be minimal to no JavaScript in the HTML. What scripting that is there in the HTML is to assist/enhance/polyfill the GUI logic. Even so, it is done so as to not slow down the 100 to 1000 times faster CSS.
  
 This works hand-in-hand with other utilized techniques to create an "air gap" between the two to allow each to benefit from modularity and independence. They can be worked on in parallel or in tandem without directly affecting the other. 
  
 This decoupling allows for future GUI updates to be "refaced" not "replaced".
 
-This also enforces a developemtn strategy on either side to remain exclusive and thus remain modular and minimally connected. 
+This also enforces a development strategy on either side to remain exclusive and thus remain modular and minimally connected. 
 
 The two halves are connected only via the IDs in the static (JAMStack) front-loaded HTML. 
  
@@ -1039,9 +1041,9 @@ The two halves are connected only via the IDs in the static (JAMStack) front-loa
  <p></p>
 <summary id="perspective"><h3>PERSPECTIVE</h3></summary>
 
-Single Page Applications are defined differently depending on context. In web design/layout world, a SPA is a web application designed and layed out using techniques that allow end-users access to all informatino and or functionality without ever leaving the _single page_ they are on. This includes not using the overused dreaded modal dialogue, if at all possible. 
+Single Page Applications are defined differently depending on context. In web design/layout world, a SPA is a web application designed and laid out using techniques that allow end-users access to all information and or functionality without ever leaving the _single page_ they are on. This includes not using the overused dreaded modal dialogue, if at all possible. 
  
-This is an important usability technique in that it allows for uninterupted concentration and workflow for end-users. This also vastly simplifies navigation and page/keyboard contraols and nullifies the need for developing content routers, saving time, LoE, and complexity 
+This is an important usability technique in that it allows for uninterrupted concentration and workflow for end-users. This also vastly simplifies navigation and page/keyboard controls and nullifies the need for developing content routers, saving time, LoE, and complexity 
  
 </details>
 
@@ -1095,7 +1097,7 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 
 (WIP)
 
-These new web developemnt capabilities provide great opportunities to build emersive experiences that deeply integrate with the desktop operating system.
+These new web development capabilities provide great opportunities to build immersive experiences that deeply integrate with the desktop operating system.
 
 </details>
 
@@ -1113,7 +1115,7 @@ PWAs are websites that are progressively enhanced to function like installed, na
  <p></p>
 <summary id="desktop-app"><h3>IT'S A DESKTOP APP</h3></summary>
  
-The qualities of a PWA combine the best of the web and compiled apps. PWAs run in browsers, like websites. But PWAs also have access to desktop features;
+The qualities of a PWA combine the best of the web and compiled apps. PWAs run in browsers, like websites. But PWAs also have access to desktop features.
 
 For example : :
 * A PWA can still work when the device is offline
@@ -1150,7 +1152,7 @@ PWAs have the same functionality and reach as websites:
 A fully capable Progressive Web Application can provide the following advantages for end-users:
 * **Discoverable** - The web application is discoverable from search results and supporting app stores
 * **Installable** - Pin and launch the app from the home screen, Start menu, and the Taskbar
-* **Re-engageable** - The app can recieve push notifications, even when the app isn't active
+* **Re-engageable** - The app can receive push notifications, even when the app isn't active
 * **Network Independent** - The app will work offline or in "low-network conditions"
 * **Progressive** - The user experience of the app scales up or down with device capabilities
 * **Safe** - The app provides a secure `HTTPS` endpoint and other safeguards
@@ -1218,7 +1220,7 @@ A fully capable Progressive Web Application can provide the following advantages
 * Chrome Version 110.0.5481.78 (Official Build) (64-bit)
 * Edge Version 110.0.1587.46 (Official Build) (64-bit)
 * Firefox Version 102.3.0esr (Official Build) (64-bit)
-* _Not you Internet Exporer (IE)_
+* _Not you Internet Explorer (IE)_
 
 <br />
 
