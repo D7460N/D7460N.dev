@@ -462,7 +462,7 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 
 <details>
  <p></p>
-<summary id="web-components"><h3>: : WEB COMPONENTS (native) : :</h3></summary>
+<summary id="web-components"><h3>WEB COMPONENTS (native)</h3></summary>
  
 (WIP) 
 
@@ -476,6 +476,8 @@ Allows for JS framework independence, nuetrallity, and flexibility. If <b>Angula
 > 
 > <i>Learning about Web Components now is an investment for the future.</i><br />
 [~ Web Components are Dead: Long Live Web Components | blog.bitsrc.io](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
+
+* [Web Components | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
 
 </details>
 
