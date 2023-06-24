@@ -65,18 +65,18 @@
 
 <h2 id="whatif">WHAT IF?</h2>
 
-<i>What if</i> a development project could be set up and running, just as they are typically today with JS frameworks, but in <b>less than half the time</b>, with <b>less than half the code</b>, and with <b>less than half the effort</b>? 
+***What if*** a development project could be set up and running, just as they are typically today with JS frameworks, but in <b>less than half the time</b>, with <b>less than half the code</b>, and with <b>less than half the effort</b>? 
 
-<i>What if</i> that development project's front-end could be <b>decoupled</b> and <b>independent</b> from yet <b>compatible</b> with any standards-compliant JS framework? 
+***What if*** that development project's front-end could be <b>decoupled</b> and <b>independent</b> from yet <b>compatible</b> with any standards-compliant JS framework? 
 ([Separation of Concerns](#separation-of-concerns) - GUI and business logic from data logic)
 
-<i>What if</i> that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, self-aware, and <b>worked with all modern and future browsers out-of-the-box</b>?
+***What if*** that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, self-aware, and <b>worked with all modern and future browsers out-of-the-box</b>?
 
-<i>What if</i> that development project's front-end was <b>easy and intuitive</b> to understand, implement, and maintain for <b>current and future fellow designers/developers</b>?
+***What if*** that development project's front-end was **easy and intuitive** to understand, implement, and maintain for **current and future fellow designers/developers**?
 
 Would not such a project require significatly less ramp-up time, be much more efficient, flexible, performant, longer lasting, and less costly to build and maintain? Ultimately benefiting developers, end-users, and stakeholders alike? 
 
-<b><i>These are the questions this project seeks to answer.</i></b> 
+***These are the questions this project seeks to answer.***
 
 New(_ish_) browser support for modern HTML and CSS functionality and accompanying design and development techniques may allow for these questions to be answered by literally "doing more with less". ([Least Power Principle](#least-power))
 
@@ -84,7 +84,7 @@ _We shall see..._
 
 <h2 id="disclaimer">DISCLAIMER</h3>
 
-Ever improving (<i>Read... always changing sometimes breaking...</i>) thoughts, philosophies, approaches, techniques, notes, guidelines, and how-tos for this _first of it's kind_ project detailed below.
+Ever improving (_read... always changing sometimes breaking..._) thoughts, philosophies, approaches, techniques, notes, guidelines, and how-tos for this _first of it's kind_ project detailed below.
 
 ---
 
