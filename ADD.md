@@ -420,7 +420,7 @@ Offsite link HTML example : :
  <p></p>
   <summary id="intrinsic-design"><h3>: : INTRINSIC DESIGN : :</h3></summary>
 
-Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed](https://www.youtube.com/watch?v=jBwBACbRuGY). 
+Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed | YouTube.com](https://www.youtube.com/watch?v=jBwBACbRuGY). 
 
 Most developers use CSS to control and or lockdown their web UIs. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` that allow web UIs to **intrinsically** or **naturally** or **natively** present content on it's own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to naturally determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. 
 
@@ -434,7 +434,7 @@ Almost as if the web UI is [SELF-AWARE](#self-aware)...
 <p>The "Least Power" principle simplifyies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks.</p>
 
 > "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br />
-[~ Web Technologies and the Rule of Least Power | W3C - 2001](https://www.w3.org/2001/tag/doc/leastPower.html)
+[~ Web Technologies and the Rule of Least Power | W3C.org - 2001](https://www.w3.org/2001/tag/doc/leastPower.html)
 
 <p>The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation-of-concerns).</p>
 
@@ -462,7 +462,7 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 
 <details>
  <p></p>
-<summary id="web-application-firewall"><h3>Web Application Firewall</h3></summary>
+<summary id="web-application-firewall"><h3>: : WEB APPLICATION FIREWALL : :</h3></summary>
  
 (WIP)
 
@@ -470,7 +470,7 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 
 <details>
  <p></p>
-<summary id="web-components"><h3>Web Components (native)</h3></summary>
+<summary id="web-components"><h3>: : WEB COMPONENTS (native) : :</h3></summary>
  
 (WIP) 
 
@@ -482,9 +482,8 @@ Allows for JS framework independence, nuetrallity, and flexibility. If <b>Angula
 > 
 > <i>Remember, Web Components are a standard to build on top of, they’ve been approved by the major leaders of this industry and are being actively implemented and pushed forward. You’ll be using Web Components in the future whether you know it or not, better get started understanding them now and get a head start.</i>
 > 
-> <i>Learning about Web Components now is an investment for the future.</i>
-
-[Web Components are Dead: Long Live Web Components -2022](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
+> <i>Learning about Web Components now is an investment for the future.</i><br />
+[~ Web Components are Dead: Long Live Web Components | blog.bitsrc.io - 2022](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
 
 </details>
 
@@ -532,60 +531,65 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 
 <br />
 
-<h3 id="classless-css">: : CLASSLESS CSS : :</h3>
+<details>
+ <p></p>
+<summary id="classless-css"><h3>: : CLASSLESS CSS : :</h3></summary>
 
 Classless CSS is a minimalist development technique that allows developers to define [semantic](#semantic) html layouts and form elements in CSS without needing to use class selectors or "hooks" in the HTML. This reduces HTML bloat, page load size, helps boost [SEO](#seo) and helps to keep the HTML clean, readable, and intuitive for developers.
 
-<br />
+</details>
 
-<h3 id="logical">: : LOGICAL PROPERTIES</h3>
+
+<details>
+ <p></p>
+<summary id="logical"><h3>: : LOGICAL PROPERTIES : :</h3></summary>
 
 > <i>The CSS logical properties and values module introduces logical properties and values that provide the ability to control layout through logical, rather than physical, direction and dimension mappings. The module also defines logical properties and values for properties previously defined in CSS 2.1.</i>
 > 
 > <i>Logical properties define direction‐relative equivalents of their corresponding physical properties.</i>
 
-
 (WIP) (WIP) (WIP) (WIP) (WIP)
 
-<br />
+* [CSS Logical Properties and Values Level 1 | drafts.csswg.org](https://drafts.csswg.org/css-logical/)<br />
+* [CSS logical properties and values | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values)<br />
+* [CSS Logical Properties and Values | css-tricks.com](https://css-tricks.com/css-logical-properties-and-values/)
 
-[drafts.csswg.org - CSS Logical Properties and Values Level 1](https://drafts.csswg.org/css-logical/)<br />
-[MDN Web Docs - CSS logical properties and values](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values)<br />
-[css-tricks.com - CSS Logical Properties and Values](https://css-tricks.com/css-logical-properties-and-values/)
+</details>
 
-<br />
-
-<h3 id="layer">: : CSS @LAYER</h3>
+<details>
+ <p></p>
+<summary id="layer"><h3>: : CSS @LAYER</h3></summary>
 
 CSS `@layer` is utilized ub the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, or other themes and or styles to more easily take precedence or override default D7460N Template styles.
 
 > The `@layer` CSS at-rule is used to declare a cascade layer and can also be used to define the order of precedence in case of multiple cascade layers.
 >
-> Rules within a cascade layer cascade together, giving more control over the cascade to web developers. Any styles not in a layer are gathered together and placed into a single anonymous layer that comes after all the declared layers, named and anonymous. This means that any styles declared outside of a layer will override styles declared in a layer, regardless of specificity.
+> Rules within a cascade layer cascade together, giving more control over the cascade to web developers. Any styles not in a layer are gathered together and placed into a single anonymous layer that comes after all the declared layers, named and anonymous. This means that any styles declared outside of a layer will override styles declared in a layer, regardless of specificity.<br />
+[~ @layer | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer)
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/@layer
+</details>
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
-
-<br />
-
-<h3 id="support">: : CSS @SUPPORT</h3>
+<details>
+ <p></p>
+<summary id="support"><h3>: : CSS @SUPPORT</h3></summary>
 
 CSS `@support` is utilized for feature detection and <b>Progressive Enhancement</b>.
 
 (WIP) (WIP) (WIP) (WIP) (WIP)
 
-<br />
+</details>
 
-<h3 id="semantic">: : SEMANTIC HTML ELEMENTS : :</h3>
+<details>
+ <p></p>
+<summary id="semantic"><h3>: : SEMANTIC HTML ELEMENTS : :</h3></summary>
 
 Web accessibility and usability utilize semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
 
-> Elements in HTML can have semantics, meaning they are one of several predefined things, and not another. Semantics answer the question ‘what is this thing?’, out of a list of standardised things. This information is then relied upon by browsers and assistive technologies in their UIs.
+> Elements in HTML can have semantics, meaning they are one of several predefined things, and not another. Semantics answer the question ‘what is this thing?’, out of a list of standardised things. This information is then relied upon by browsers and assistive technologies in their UIs.<br />
+[Semantics in HTML | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
 
-https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html<br />
-https://hidde.blog/popover-semantics/<br />
-https://www.pluralsight.com/guides/semantic-html
+* https://hidde.blog/popover-semantics/<br />
+* https://www.pluralsight.com/guides/semantic-html
 
 D7460N Template features a custom tag element wrapper to facilitate multiple integration options when integrating with existing projects using JS frameworks, such as Angular, Vue.js, and React. 
 
@@ -626,22 +630,26 @@ HTML : :
 </html>
 ```
 
-<br />
+</details>
 
-<h3 id="divless">: : DIV-LESS HTML : :</h3>
+<details>
+ <p></p>
+<summary id="divless"><h3>: : DIV-LESS HTML : :</h3></summary>
 
 > <i>DIVs are played out. We all love our `<div>` tags. They've been around for decades, and for decades they've been the go-to element when you need to wrap some stuff in a block for styling or structural purposes. It's still very common to look through production websites.</i><br />
-https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
+[Stop Using So Many Divs - An Intro to Semantic HTML | dev.to](https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i)
  
 (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
 
-<br />
+</details>
 
-<h3 id="custom-html-elements">: : CUSTOM HTML ELEMENTS : :</h3>
+<details>
+ <p></p>
+<summary id="custom-html-elements"><h3>: : CUSTOM HTML ELEMENTS : :</h3></summary>
 
 Custom HTML elements are alphanumeric hyphonated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css)).
 
-[Custom Elements Without JavaScript?](https://blog.jim-nielsen.com/2021/custom-elements-without-js/) - Jim Nielson's Blog
+[Custom Elements Without JavaScript? | blog.jim-nielsen.com](https://blog.jim-nielsen.com/2021/custom-elements-without-js/)
 
 HTML : :
 ```html
@@ -674,23 +682,31 @@ HTML : :
 </app-container>
 ```
 
-<br />
+</details>
 
-<h3 id="css-variables">: : CSS CustomProperties, AKA CSS VARIABLES : :</h3>
+<details>
+ <p></p>
+<summary id="css-variables"><h3>: : CSS CustomProperties, AKA CSS VARIABLES : :</h3></summary>
 
 The D7460N Template leverages CSS custom properties or variables to pre define layout states, color theme, user preferences, and many other dynamic GUI logic features. 
 
 (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
 
-<br />
+</details>
 
-<h3 id="responsive-design">: : RESPONSIVE DESIGN : :</h3>
+<details>
+ <p></p>
+<summary id="responsive-design"><h3>: : RESPONSIVE DESIGN : :</h3></summary>
 
-Responsive or adaptive web design provides optimal experiences, easy reading, and intuitive navigation with a minimum of resizing on difference media devices such as desktops, laptops, tablets, and phones regardless of OS. The D7460N Template works on every device (WIP), and every screen size, no matter how large or small. `[ company goal ]`
+(WIP)
 
-<br />
+Responsive or adaptive web design provides optimal experiences, easy reading, and intuitive navigation with a minimum of resizing on difference media devices such as desktops, laptops, tablets, and phones regardless of OS. The D7460N Template works on every device (WIP), and every screen size, no matter how large or small.
 
-<h3 id="progressive-enhancement">: : PROGRESSIVE ENHANCEMENT : :</h3>
+</details>
+
+<details>
+ <p></p>
+<summary id="progressive-enhancement"><h3>: : PROGRESSIVE ENHANCEMENT : :</h3></summary>
 
 **Progressive Enhancement** is a design philosophy that provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code. 
 
@@ -704,11 +720,14 @@ This is done with CSS [@support](#support) to detect feature support.
 
 Feature detection is generally used to determine whether browsers can handle more modern functionality, while pollyfills are often used to "fill-in" for missing features with JavaScript. 
 
-> **Progressive Enhancement** is a useful technique that allows web developers to focus on developing the best possible webistes while making websites work multiple unkown user agents. **Graceful degradation** is related but not the same thing and is often seen as going in the opposite direction to progressive enhancement. In reality, both approaches are valid and can often compliment one another.<br />[Progressive Enhancement | MDN](https://developer.mozilla.com/en-US/docs/Glassary/Progressive_Enhancement/)
+> **Progressive Enhancement** is a useful technique that allows web developers to focus on developing the best possible webistes while making websites work multiple unkown user agents. **Graceful degradation** is related but not the same thing and is often seen as going in the opposite direction to progressive enhancement. In reality, both approaches are valid and can often compliment one another.<br />
+[~ Progressive Enhancement | MDN Web Docs](https://developer.mozilla.com/en-US/docs/Glassary/Progressive_Enhancement/)
 
-<br />
+</details>
 
-<h3 id="minimal-third-party-dependencies">: : MINIMAL THIRD PARTY DEPENDENCIES : :</h3>
+<details>
+ <p></p>
+<summary id="minimal-third-party-dependencies"><h3>: : MINIMAL THIRD PARTY DEPENDENCIES : :</h3></summary>
 
 Third party dependencies such as JS libraries like jQuery, EXT.js, Prototype.js and JavaScript frameworks like Angular, Vue, and React are helpful for launching features and or entire software projects quickly and when browsers don't support needed functionality natively. 
 
@@ -730,17 +749,15 @@ Additional third party software and build processes (themselves dependent on thi
 
 Even so, if just one dependency fails to maintain, update, and sync their code and becomes incompatible with other dependents, the entire project can't move forward. A project depending on dozens, if not hundreds of third, fourth, and even fifth party dependencies may get up and running quickly, but at what cost if said project will grind to a screaching halt under it's own weight and need to be rebuilt from scratch?
 
-<br />
+_There is a better way!_
 
-There is a better way!
+</details>
 
-<br />
-
-<h3 id="squishy-layout">: : SQUISHY LAYOUT : :</h3>
+<details>
+ <p></p>
+<summary id="squishy-layout"><h3>: : SQUISHY LAYOUT : :</h3></summary>
 
 The D7460N Template leverages an undocumented but valid **3 STEP** layout technique using just native HTML and CSS. This technique allows for dynamic functionality normally relegated to and implimented with expensive JavaScript tracking and poling. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive-design), and sets the ground work for [end-user customizetin options](#customization). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
-
-<br />
 
 <h4>: : STEP 1 : :</h4>
 
@@ -794,9 +811,11 @@ This technique:
 * sets up browser native behavior for variable height content _(no more expensive JavaScript poling for element height)_
 * allows for sticky header and footer without markup or scripting with slower JavaScript workarounds
 
-<br />
+</details>
 
-<h3 id="self-aware">: : SELF-AWARE : :</h3>
+<details>
+ <p></p>
+<summary id="self-aware"><h3>: : SELF-AWARE : :</h3></summary>
 
 (WIP) 
 
@@ -814,11 +833,13 @@ It would : :
 
 For example, the `:has()` pseudo-class function allows for watching one or more combinations of DOM elements or selectors and instantly act on OTHER disassociated selectors and even parent selectors.
 
-[`:has()` pseudo-class function](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)
+[`:has()` pseudo-class function | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)
 
-<br />
+</details>
 
-<h3 id="loading">: : NATURAL "TRUTHFUL" LOADING STATE</h3>
+<details>
+ <p></p>
+<summary id="loading"><h3>: : NATURAL "TRUTHFUL" LOADING STATE</h3></summary>
 
 Between when an end-user clicks a button to fetch data and when the data arrives and is ready to be displayed, is a natural built-in "truthful" loading state where loading spinners and / or helpful informative messages can be displayed. No JavaScript or third-party plug-ins or dependencies needed.
 
@@ -826,21 +847,35 @@ This built-in natural loading state can be used to communicate to end-users what
 
 Of course, scripting can be added to enhance and or add even more functionality.
 
-<h3>CONTAINER QUERIES</h3>
+</details>
+
+<details>
+ <p></p>
+<summary id="container"><h3>CONTAINER QUERIES</h3></summary>
 
 (WIP)
 
-<h3>STYLE QUERIES</h3>
+</details>
+
+<details>
+ <p></p>
+<summary id="style"><h3>STYLE QUERIES</h3></summary>
 
 (WIP)
 
-<h3>COUNTING QUERIES</h3>
+</details>
+
+<details>
+ <p></p>
+<summary id="counting"><h3>COUNTING QUERIES</h3></summary>
 
 (WIP)
 
-<br />
+</details>
 
-<h3 id="customization">: : CUSTOMIZATION : :</h3>
+<details>
+ <p></p>
+<summary id="customization"><h3>: : CUSTOMIZATION : :</h3></summary>
 
 Allow end-users to feel like they can make D7460N their own, through customization options. 
 
@@ -850,7 +885,7 @@ Customization options : :
 * Data-text density (spacious, comfortable, compact)
 * Save cross session
 
-<br />
+</details>
 
 ---
 
