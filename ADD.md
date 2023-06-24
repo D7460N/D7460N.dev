@@ -322,6 +322,11 @@ Accessibility relates to the technical side of a website, while usability refers
 > <i>"Whereas accessibility relates to the technical side of a website, usability relates to the quality of a person's experience when interacting with your website, the efficiency with which that person can accomplish a task, and the satisfaction of the person completing the task. Although accessibility guidelines focus primarily on people with disabilities and impairments, such as vision loss, many of the guidelines for accessibility can also improve usability for all.</i><br />
 [UsableNet Aug 22, 2022](https://blog.usablenet.com/accessibility-vs-usability-what-is-the-difference-to-the-disability-community)
 
+[Government-wide Section 508 Assessment | section508.gov](https://www.section508.gov/manage/section-508-assessment/)</br >
+[Guidance on Web Accessibility and the ADA | ada.gov](https://www.ada.gov/resources/web-guidance/)<br />
+[Guidance on building better digital services in government | digital.gov](https://digital.gov/)<br />
+[U.S. Access Board Revised 508 Standards and 255 Guidelines | access-board.gov](https://www.access-board.gov/ict/)
+
 <br />
 
 <h3 id="usability">USABILITY</h3>
