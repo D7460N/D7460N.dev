@@ -523,8 +523,8 @@ CSS is the driving force behind D7460N design and developement. Scripting is pur
 >
 >Lastly, our styles build on the fundamental behaviors of common web elements. Whenever possible, we prefer to use what the browser provides. 
 >
->The same goes for more complex components. While we could write our own form validation plugin to add classes to a parent element based on an input’s state, thereby allowing us to style the text say red, we prefer using the :valid/:invalid pseudo-elements every browser provides us.
-[~ HTML and CSS over JS](https://getbootstrap.com/docs/5.3/extend/approach/#html-and-css-over-js)
+>The same goes for more complex components. While we could write our own form validation plugin to add classes to a parent element based on an input’s state, thereby allowing us to style the text say red, we prefer using the :valid/:invalid pseudo-elements every browser provides us.<br />
+[~ HTML and CSS over JS | getbootstrap.com](https://getbootstrap.com/docs/5.3/extend/approach/#html-and-css-over-js)
 
 </details>
 
