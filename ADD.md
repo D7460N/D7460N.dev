@@ -462,14 +462,6 @@ Decoupleing GUI logic from business logic allows the D7460N template to be:
 
 <details>
  <p></p>
-<summary id="web-application-firewall"><h3>: : WEB APPLICATION FIREWALL : :</h3></summary>
- 
-(WIP)
-
-</details>
-
-<details>
- <p></p>
 <summary id="web-components"><h3>: : WEB COMPONENTS (native) : :</h3></summary>
  
 (WIP) 
