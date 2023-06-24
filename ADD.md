@@ -870,9 +870,9 @@ Of course, scripting can be added to enhance and or add even more functionality.
  <p></p>
 <summary id="style"><h3>STYLE QUERIES</h3></summary>
 
-> The CSS Containment Module Level 3 spec, which covers size and style queries, allows for any styles to be queried from a parent, including property and value pairs such as `font-weight: 800`. However, in the rollout of this feature, style queries currently only work with CSS custom property values. This is still very useful for combining styles and separating data from design. Let’s take a look at how you use style queries with CSS custom properties.
+> The [CSS Containment Module Level 3 spec](https://www.w3.org/TR/css-contain-3/), which covers size and style queries, allows for any styles to be queried from a parent, including property and value pairs such as `font-weight: 800`. However, in the rollout of this feature, style queries currently only work with CSS custom property values. This is still very useful for combining styles and separating data from design. Let’s take a look at how you use style queries with CSS custom properties.
 >
-> Style queries are particularly useful when you either have a reusable component with multiple variations, or when you don’t have control over all of your styles but need to apply changes in certain cases. This example shows a set of product cards which share the same card component. Some product cards have additional details/notes such as “New” or “Low Stock”, triggered by a custom property named `--detail`. Additionally, if a product is in “Low Stock”, it gets a deep red border background.
+> Style queries are particularly useful when you either have a reusable component with multiple variations, or when you don’t have control over all of your styles but need to apply changes in certain cases. 
 >
 > There’s a structural benefit of separating the data layer (DOM that would be rendered on the page) from the styles applied. The styles are written as possible variants that live within the components style, while an endpoint could send the data that it would then use to style the component by.<br />
 [~ Getting Started with Style Queries | developer.chrome.com](https://developer.chrome.com/blog/style-queries/)
