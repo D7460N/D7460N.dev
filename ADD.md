@@ -565,11 +565,14 @@ CSS `@layer` is utilized ub the D7460N Template to lessen the precedence of the 
 
 <details>
  <p></p>
-<summary id="support"><h3>CSS @SUPPORT</h3></summary>
+<summary id="supports"><h3>CSS @SUPPORTS</h3></summary>
 
 CSS `@support` is utilized for feature detection and <b>Progressive Enhancement</b>.
 
-(WIP) (WIP) (WIP) (WIP) (WIP)
+The `@supports` CSS at-rule lets you specify CSS declarations that depend on a browser's support for CSS features. Using this at-rule is commonly called a feature query. The rule must be placed at the top level of your code or nested inside any other conditional group at-rule.</br >
+[CSS @supports | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports)
+
+(WIP) (WIP) (WIP)
 
 </details>
 
@@ -631,9 +634,9 @@ HTML : :
 <summary id="divless"><h3>DIV-LESS HTML</h3></summary>
 
 > <i>DIVs are played out. We all love our `<div>` tags. They've been around for decades, and for decades they've been the go-to element when you need to wrap some stuff in a block for styling or structural purposes. It's still very common to look through production websites.</i><br />
-[Stop Using So Many Divs - An Intro to Semantic HTML | dev.to](https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i)
+[~ Stop Using So Many Divs - An Intro to Semantic HTML | dev.to](https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i)
  
-(WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
+(WIP) (WIP) (WIP)
 
 </details>
 
@@ -680,11 +683,14 @@ HTML : :
 
 <details>
  <p></p>
-<summary id="css-variables"><h3>CSS CustomProperties, AKA CSS VARIABLES</h3></summary>
+<summary id="css-variables"><h3>CSS Custom Properties (AKA CSS VARIABLES)</h3></summary>
 
 The D7460N Template leverages CSS custom properties or variables to pre define layout states, color theme, user preferences, and many other dynamic GUI logic features. 
 
-(WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) (WIP) 
+Custom properties (sometimes referred to as CSS variables or cascading variables) are entities defined by CSS authors that contain specific values to be reused throughout a document. They are set using custom property notation (e.g., `--main-color: black;`) and are accessed using the `var()` function (e.g., `color: var(--main-color);`).<br />
+[~ Using CSS Custom Properties | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+
+(WIP) (WIP) (WIP)
 
 </details>
 
@@ -695,6 +701,9 @@ The D7460N Template leverages CSS custom properties or variables to pre define l
 (WIP)
 
 Responsive or adaptive web design provides optimal experiences, easy reading, and intuitive navigation with a minimum of resizing on difference media devices such as desktops, laptops, tablets, and phones regardless of OS. The D7460N Template works on every device (WIP), and every screen size, no matter how large or small.
+
+Responsive web design (RWD) is a web design approach to make web pages render well on all screen sizes and resolutions while ensuring good usability. It is the way to design for a multi-device web. In this article, we'll help you understand some techniques that can be used to master it.<br />
+[Responsive Design | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 
 </details>
 
@@ -849,13 +858,28 @@ Of course, scripting can be added to enhance and or add even more functionality.
 
 (WIP)
 
+> Container queries enable you to apply styles to an element based on the size of the element's container. If, for example, a container has less space available in the surrounding context, you can hide certain elements or use smaller fonts. Container queries are an alternative to media queries, which apply styles to elements based on viewport size or other device characteristics.<br />
+[~ CSS Container Queries | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries)
+
+> A new approach to responsive design is upon us and follows a Component-Driven (CDD) pattern. CDD is not a new concept. For decades, modularization has been a fundamental principle of software engineering.<br />
+[~ A Complete Guide To CSS Container Queries | lambdatest.com](https://www.lambdatest.com/blog/css-container-queries/)
+
 </details>
 
 <details>
  <p></p>
 <summary id="style"><h3>STYLE QUERIES</h3></summary>
 
-(WIP)
+> The CSS Containment Module Level 3 spec, which covers size and style queries, allows for any styles to be queried from a parent, including property and value pairs such as `font-weight: 800`. However, in the rollout of this feature, style queries currently only work with CSS custom property values. This is still very useful for combining styles and separating data from design. Let’s take a look at how you use style queries with CSS custom properties.
+>
+> Style queries are particularly useful when you either have a reusable component with multiple variations, or when you don’t have control over all of your styles but need to apply changes in certain cases. This example shows a set of product cards which share the same card component. Some product cards have additional details/notes such as “New” or “Low Stock”, triggered by a custom property named `--detail`. Additionally, if a product is in “Low Stock”, it gets a deep red border background.
+>
+> There’s a structural benefit of separating the data layer (DOM that would be rendered on the page) from the styles applied. The styles are written as possible variants that live within the components style, while an endpoint could send the data that it would then use to style the component by.<br />
+[~ Getting Started with Style Queries | developer.chrome.com](https://developer.chrome.com/blog/style-queries/)
+
+* [A Primer On CSS Container Queries | smashingmagazine.com](https://www.smashingmagazine.com/2021/05/complete-guide-css-container-queries/)
+* [CSS Style Queries | ishadeed.com](https://ishadeed.com/article/css-container-style-queries/)
+* [CSS Containment Module Level 3 | W3.org](https://www.w3.org/TR/css-contain-3/)
 
 </details>
 
