@@ -452,9 +452,38 @@ _Almost as if the web UI is [SELF-AWARE](#self-aware)..._
  <p></p>
 <summary id="separation-of-concerns"><h3>SEPARATION OF CONCERNS</h3></summary>
 
-The D7460N template also follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions coupled with ADA accessibility and usability guidelines) from the (application specific) business logic, allowing for BOTH to be independently developed, operated, and maintained.
+The D7460N Template follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions common among most web appliation GUIs coupled with ADA [accessibility](#accessibility) and [usability](#usability) guidelines) from the fetch, push, and CRUD data logic, allowing for BOTH to be independently developed, operated, and maintained.
 
-Decoupling GUI logic from business logic allows the D7460N template to be:
+If possible, their should not be any "touch points" between the GUI and data logic as they are defined above. While this may require a "heavier lift" up front without necessarily seeing the benefits right away, the long term strategi benefits and LoE savings are well worth it. 
+
+Remember, the goal is to have script free, class free, `div` free semantic HTML. All dynamic content should remotely hook into the HTML via the custom HTML tags. 
+
+The smaller the dynamic footprint, (ideally, it is JUST the data or content itself that is dynamic, that loads into the preloaded semantic HTML elements that is watching for it) the more flexible, easily maintainable, and future proofed the GUI will be. This design and development technique forces almost all the GUI hide/show, open/close, and expand/collapse functionality onto semantic HTML and CSS (GUI logic) and data functionality, required for CRUD operations, onto (remote) scripting.
+
+To do this, the HTML should be preloaded up front and shown only when there is content via `:has()`. So the menu doesn't show until the menu items contain content or the right content. 
+
+Example:
+
+Semantic HTML menu
+```HTML
+<ul>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+</ul>
+
+```
+
+CSS
+```css
+
+
+
+```
+
+
+Decoupling GUI logic from business logic allows the D7460N Template to be:
 * data agnostic
 * JS framework agnostic - see [WEB COMPONENTS](#web-components)
 * Scalable
