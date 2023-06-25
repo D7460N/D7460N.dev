@@ -596,7 +596,7 @@ Classless CSS is a minimalist development technique that allows developers to de
  <p></p>
 <summary id="layer"><h3>CSS @LAYER</h3></summary>
 
-CSS `@layer` is utilized by the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, or other themes and or styles to more easily take precedence or override default D7460N Template styles.
+CSS `@layer` is utilized by the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, and / or other themes and / or page builders to take precphysic and override default D7460N Template styles. In other words, easier integration with other projects and / or with other tools. 
 
 > The `@layer` CSS at-rule is used to declare a cascade layer and can also be used to define the order of precedence in case of multiple cascade layers.
 >
