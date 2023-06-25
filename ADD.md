@@ -866,6 +866,8 @@ This technique:
 
 What if a web GUI could natively (no third-party plug-ins or dependencies) knows what is happening inside it, when it happens, and what to do about it? All without JavaScript? We would not have to handle each state of the DOM, resulting in less logic and code to write. 
 
+* [Hiding an Element If Its Empty | tobiasahlin.com](https://tobiasahlin.com/blog/hiding-an-element-if-its-empty/)
+
 It would : :
 * revolutionize web design/development as we know it. Web GUIs would largely run themselves, making decisions about how they behave depending on the data (data/business logic) occurring inside them
 * split web design/development in half along the "separation of concerns" divide so sharply and completely that buttons would do nothing but fetch data 
