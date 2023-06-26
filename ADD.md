@@ -75,27 +75,80 @@
 
 <br />
 
-<h2 id="whatif">: : WHAT IF? : :</h2>
+<h2 id="whatif">: : WHAT IF : :</h2>
 
-- [x] . . . a development project could be set up and running, just as they are typically today with JS frameworks, but . . .
+<i>What if</i> . . . a development project could be set up and running, just as they are typically today with JS frameworks, but . . .
 - in <b>less than half the time</b>,
 - with <b>less than half the codebase</b>,
 - and with <b>less than half the effort</b>? 
 
-- [x] . . . that development project's front-end could be <b>decoupled</b> and <b>independent</b> from yet <b>compatible</b> with any standards-compliant JS framework? 
+<br />
+
+<i>What if</i> . . . that development project's front-end could be <b>decoupled</b> and <b>independent</b> from, yet <b>compatible</b> with, any standards-compliant JS framework?<br />
 ([Separation of Concerns](#separation-of-concerns) - GUI and business logic from data logic)
 
-- [x] . . . that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, and <b>worked with all modern and future browsers out-of-the-box</b>?
+<br />
 
-- [x] . . . that development project's front-end was **easy and intuitive** to understand, implement, and maintain for **current and future fellow designers/developers**?
-
-- [x] . . . that development project's front-end (because it's decoupled and independent) is able to ***change on the fly for rapid prototyping***? 
-
-- [x] . . . that development project's front-end (because it's decoupled and independent) is able to automatically rearrange itself _***on the fly***_ depending on dynamically changing data inside it? As if it was "_***self-aware***_"? 
-
-- [x] . . . that development project's front-end (because it's decoupled and independent) could be iterated and maintained across multiple projects from a single source?
+<i>What if</i> . . . that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, and <b>worked with all modern and future browsers out-of-the-box</b>?
 
 <br />
+
+<i>What if</i> . . . that development project's front-end was <b>easy and intuitive</b> to understand, implement, and maintain for <b>current and future fellow designers/developers</b>?
+
+<br />
+
+<i>What if</i> . . . that development project's front-end (because it's decoupled and independent) is able to <b>change on the fly for rapid prototyping</b>? 
+
+<br />
+
+<i>What if</i> . . . that development project's (<i>decoupled and independent</i>) front-end is able to automatically rearrange itself <b><i>on the fly</i></b> depending on dynamically changing data inside it? As if it was . . . "<b><i>self-aware</i></b>"? 
+
+<br />
+
+<i>What if</i> . . . that development project's (<i>decoupled and independent</i>) front-end could be iterated and maintained across multiple projects from a single enterprise repo'd source?
+
+<br />
+
+<i>( . . . evil meniacal giggle . . . )</i> 
+
+<br />
+
+```
+            )       *     
+   *   ) ( /(     (  `    
+ ` )  /( )\())(   )\))(   
+  ( )(_)|(_)\ )\ ((_)()\  
+ (_(_()) _((_|(_)(_()((_)    
+ /   _   \|   \|   |  __|         
+|   (_)   |   .`   |  _|          
+ \_______/|___|\___|____|__
+|    |   |    |____    ____|              
+|    |___|    |___|    |___    
+ \___________/|____________|     
+|_    _| /  _  \    ( `
+  |  |  |  (_)  |   ( ))\      *  
+ _|__| __\_____/__ ) )(_)`     (  `    
+| __  \  | |  |  |  | ___|    )\))(   
+|     /  |_|  |  |__| __|    ((_)()\  
+|__|__\\_____/|_____|____|__)(_()((_)  
+|__    __||  |__|  |   __|    \/    | 
+   |  |   |  ___   |   _||   |\/|   | 
+   |__|   |__|  |__|_____|___| _|___|
+    /         \   |     |     |     |   `
+   /     ^     \  |     |     |     |   ()    
+  /     ___     \ |     |_____|     |__((_\       
+ /_____/   \_____\|___________|___________|     
+
+
+```
+
+<br />
+
+<i>. . . err . . . umm . . .
+
+<br />
+
+<i>Where was I . . .</i>
 
 - Significantly less developer ramp-up time
 - much more efficient
