@@ -67,16 +67,20 @@
 
 Forgive my probably _delusions of grandeur_ but... 
 
-***What if*** a development project could be set up and running, just as they are typically today with JS frameworks, but in <b>less than half the time</b>, with <b>less than half the code</b>, and with <b>less than half the effort</b>? 
+***What if*** a development project could be set up and running, just as they are typically today with JS frameworks, but in <b>less than half the time</b>, with <b>less than half the codebase</b>, and with <b>less than half the effort</b>? 
 
 ***What if*** that development project's front-end could be <b>decoupled</b> and <b>independent</b> from yet <b>compatible</b> with any standards-compliant JS framework? 
 ([Separation of Concerns](#separation-of-concerns) - GUI and business logic from data logic)
 
-***What if*** that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, self-aware, and <b>worked with all modern and future browsers out-of-the-box</b>?
+***What if*** that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, and <b>worked with all modern and future browsers out-of-the-box</b>?
 
 ***What if*** that development project's front-end was **easy and intuitive** to understand, implement, and maintain for **current and future fellow designers/developers**?
 
-Would not such a project require significantly less ramp-up time, be much more efficient, flexible, performant, longer lasting, and less costly to build and maintain? Ultimately benefiting developers, end-users, and stakeholders alike? 
+***What if*** that development project's front-end was able to ***change on the fly for rapid prototyping*** and dynamically rearrange itself _on the fly_ depending on dynamically changing data inside it, as if it was "_***self-aware***_"? 
+
+Significantly less ramp-up time, much more efficient, flexible, performant, scalable, longer lasting, much smaller digital footprint, less costly to maintain, accessible, intuitive, standards compliant, and works across all media platforms. 
+
+This front-end would be a win for developers, end-users, and stakeholders alike. 
 
 ***These are the questions this project seeks to answer.***
 
