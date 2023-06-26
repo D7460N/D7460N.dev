@@ -5,8 +5,8 @@
 <h2 id="toc">: : TABLE OF CONTENTS : :</h2>
 
 * [Table of Contents](#toc)
+* [Fair Warning](#fair)
 * [What if?](#whatif)
-* [Disclaimer](#disclaimer)
 * [Must Haves](#must)
   * [Standards](#standards)
   * [W3C](#w3c)
@@ -63,22 +63,53 @@
 
 <br />
 
-<h2 id="whatif">WHAT IF?</h2>
+<h2 id="fair">: : FAIR WARNING : :</h3>
 
-Forgive my probably _delusions of grandeur_ but... 
+> _Clinical studies have shown that prolonged exposure to ***DELUSIONS OF GRANDEUR*** may, in severe cases, be linked to or even cause industry changing inovativation._
+>
+> PROCEED WITH CAUTION
 
-***What if*** a development project could be set up and running, just as they are typically today with JS frameworks, but in <b>less than half the time</b>, with <b>less than half the codebase</b>, and with <b>less than half the effort</b>? 
+<br />
 
-***What if*** that development project's front-end could be <b>decoupled</b> and <b>independent</b> from yet <b>compatible</b> with any standards-compliant JS framework? 
+---
+
+<br />
+
+<h2 id="whatif">: : WHAT IF? : :</h2>
+
+Pardon the _delusions of grandeur_ but... 
+
+- [x] ***What if . . .*** a development project could be set up and running, just as they are typically today with JS frameworks, but...
+- in <b>less than half the time</b>,
+- with <b>less than half the codebase</b>,
+- and with <b>less than half the effort</b>? 
+
+- [x] ***What if . . .*** that development project's front-end could be <b>decoupled</b> and <b>independent</b> from yet <b>compatible</b> with any standards-compliant JS framework? 
 ([Separation of Concerns](#separation-of-concerns) - GUI and business logic from data logic)
 
-***What if*** that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, and <b>worked with all modern and future browsers out-of-the-box</b>?
+- [x] ***What if . . .*** that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, and <b>worked with all modern and future browsers out-of-the-box</b>?
 
-***What if*** that development project's front-end was **easy and intuitive** to understand, implement, and maintain for **current and future fellow designers/developers**?
+- [x] ***What if . . .*** that development project's front-end was **easy and intuitive** to understand, implement, and maintain for **current and future fellow designers/developers**?
 
-***What if*** that development project's front-end was able to ***change on the fly for rapid prototyping*** and dynamically rearrange itself _on the fly_ depending on dynamically changing data inside it, as if it was "_***self-aware***_"? 
+- [x] ***What if . . .*** that development project's front-end (because it's decoupled and independent) is able to ***change on the fly for rapid prototyping***? 
 
-Significantly less ramp-up time, much more efficient, flexible, performant, scalable, longer lasting, much smaller digital footprint, less costly to maintain, accessible, intuitive, standards compliant, and works across all media platforms. 
+- [x] ***What if . . .*** that development project's front-end (because it's decoupled and independent) is able to automatically rearrange itself _***on the fly***_ depending on dynamically changing data inside it? As if it was "_***self-aware***_"? 
+
+- [x] ***What if . . .*** that development project's front-end (because it's decoupled and independent) could be iterated and maintained across multiple projects from a single source?
+
+- Significantly less ramp-up time
+- much more efficient
+- flexible
+- performant
+- scalable
+- longer lasting
+- much smaller digital footprint
+- less costly to maintain
+- accessible
+- intuitive
+- secure
+- standards compliant
+- works across all media platforms 
 
 This front-end would be a win for developers, end-users, and stakeholders alike. 
 
@@ -88,9 +119,7 @@ New(_ish_) browser support for modern HTML and CSS functionality and accompanyin
 
 _We shall see..._
 
-<h2 id="disclaimer">DISCLAIMER</h3>
 
-Ever improving (_read... always changing sometimes breaking..._) thoughts, philosophies, approaches, techniques, notes, guidelines, and how-tos for this _first of its kind_ project detailed below.
 
 ---
 
@@ -293,7 +322,7 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
 <br />
 
 _Let's start with the..._ 
-<h2 id="must">MUST-HAVES</h2>
+<h2 id="must">: : MUST-HAVES : :</h2>
 
 <br />
 
