@@ -65,7 +65,7 @@
 
 <h2 id="fair">: : FAIR WARNING : :</h3>
 
-> Clinical studies have shown that prolonged exposure to _***DELUSIONS OF GRANDEUR***_ may, in severe cases, be linked to or even cause industry changing inovativation.
+> Clinical studies have shown that prolonged exposure to _***DELUSIONS OF GRANDEUR***_ may, in severe cases, be linked to or even cause _industry changing inovativation_.
 >
 > PROCEED WITH CAUTION
 
