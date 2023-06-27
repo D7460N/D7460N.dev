@@ -32,7 +32,7 @@
   * [Minimal Third Party Dependencies](#minimal-third-party-dependencies)
   * [Squishy Layout](#squishy-layout)
   * [Self-Aware](#self)
-    * [Natural "Truthful" Loading State](#loading)
+  * [Natural "Truthful" Loading State](#loading)
   * [Customization](#customization)
 * [Search Engine Optimization (SEO)](#seo)
 * [Style Guide](#style-guide)
