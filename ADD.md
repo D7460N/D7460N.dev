@@ -78,9 +78,9 @@
 <h2 id="whatif">: : WHAT IF : :</h2>
 
 <i>What if</i> . . . a development project could be set up and running, just as they are typically today with JS frameworks, but . . .
-- in <b>less than half the time</b>,
-- with <b>less than half the codebase</b>,
-- and with <b>less than half the effort</b>? 
+- in <b>< 50% the time</b>,
+- with <b>< 50% the codebase</b>,
+- and with <b>< 50% the effort</b>? 
 
 <br />
 
