@@ -991,7 +991,7 @@ Of course, scripting can be added to enhance and or add even more functionality.
 The default D7460N Template automatically shows a minimal CSS only loading animation to clicked buttons and links during the loading state. No scripting needed. 
 
 [Loading State for links | codepen.io](https://codepen.io/dragontheory/pen/JjorrKL)<br />
-[Loading State for buttons](https://codepen.io/dragontheory/pen/NJOzdX | codepen.io)
+[Loading State for buttons | codepen.io](https://codepen.io/dragontheory/pen/NJOzdX)
 
 </details>
 
