@@ -31,7 +31,7 @@
   * [Progressive Enhancement](#progressive-enhancement)
   * [Minimal Third Party Dependencies](#minimal-third-party-dependencies)
   * [Squishy Layout](#squishy-layout)
-  * [Self-Aware](#self-aware)
+  * [Self-Aware](#self)
     * [Natural "Truthful" Loading State](#loading)
   * [Customization](#customization)
 * [Search Engine Optimization (SEO)](#seo)
@@ -89,19 +89,19 @@
 
 <br />
 
-<i>What if</i> . . . that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, and <b>worked with all modern and future browsers out-of-the-box</b>?
+<i>What if</i> . . . that development project's front-end was dependency free, fully responsive, accessible, usable, keyboard navigable, and <b>worked with all modern and future browsers</b> and <b>across all media platforms out-of-the-box</b>?
 
 <br />
 
-<i>What if</i> . . . that development project's front-end was <b>easy and intuitive</b> to understand, implement, and maintain for <b>current and future fellow designers/developers</b>?
+<i>What if</i> . . . that development project's front-end was <b>easy and intuitive</b> to understand, implement, and maintain for <b>current and future developers</b>?
 
 <br />
 
-<i>What if</i> . . . that development project's front-end (because it's decoupled and independent) is able to <b>change on the fly for rapid prototyping</b>? 
+<i>What if</i> . . . that development project's (<i>decoupled and independent</i>) front-end is able to be <b>changed on the fly for rapid prototyping</b>? 
 
 <br />
 
-<i>What if</i> . . . that development project's (<i>decoupled and independent</i>) front-end is able to automatically rearrange itself <b><i>on the fly</i></b> depending on dynamically changing data inside it? As if it was . . . "<b><i>self-aware</i></b>"? 
+<i>What if</i> . . . that development project's (<i>decoupled and independent</i>) front-end is able to automatically rearrange itself <b><i>on the fly</i></b> based on dynamically changing data inside it? As if it were . . . "<i>[self-aware](#self)</i>"? 
 
 <br />
 
@@ -514,7 +514,7 @@ Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" ev
 
 Most developers use CSS to control and or lockdown their web UIs. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` that allow web UIs to **intrinsically** or **naturally** or **natively** present content on its own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to naturally determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. 
 
-_Almost as if the web UI is [SELF-AWARE](#self-aware)..._
+_Almost as if the web UI is [SELF-AWARE](#self)..._
 </details>
 
 <details>
@@ -948,7 +948,7 @@ This technique:
 
 <details>
  <p></p>
-<summary id="self-aware"><h3>SELF-AWARE</h3></summary>
+<summary id="self"><h3>SELF-AWARE</h3></summary>
 
 (WIP) 
 
