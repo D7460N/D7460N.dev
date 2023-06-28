@@ -18,8 +18,8 @@
 * [Governing Development Principles](#principles)
   * [Intrinsic Design](#intrinsic-design)
   * [Least Power](#least-power)
-  * [Separation of Concerns](#separation-of-concerns)
-  * [Perfect Storm](#perfect-storm)
+  * [Separation of Concerns](#separation)
+  * [Perfect Storm](#perfect)
 * [Development Techniques](#development-techniques)
   * [Web Components](#web)
   * [Classess CSS](#classless-css)
@@ -87,7 +87,7 @@
 <br />
 
 <i>What if</i> . . . that development project's front-end could be <b>decoupled</b> and <b>independent</b> from, yet <b>compatible</b> with, any standards-compliant JS framework?<br />
-([Separation of Concerns](#separation-of-concerns) - GUI and business logic from data logic)
+([Separation of Concerns](#separation) - GUI and business logic from data logic)
 
 <br />
 
@@ -543,19 +543,19 @@ _Almost as if the web UI is [SELF-AWARE](#self)..._
 > "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br />
 [~ Web Technologies and the Rule of Least Power | W3.org](https://www.w3.org/2001/tag/doc/leastPower.html)
 
-<p>The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation-of-concerns).</p>
+The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation).
 
-<p>Since the D7460N Template separates the HTML and CSS from the JavaScript, it runs natively in the browser with no servers required:
+Since the D7460N Template separates the HTML and CSS from the JavaScript, it runs natively in the browser with no servers required:
 
  * no building
  * no compiling
  * and no serving
-</p>
+ 
 </details>
 
 <details>
  <p></p>
-<summary id="separation-of-concerns"><h3>SEPARATION OF CONCERNS</h3></summary>
+<summary id="separation"><h3>SEPARATION OF CONCERNS</h3></summary>
 
 The D7460N Template follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions common among most web appliation GUIs coupled with ADA [accessibility](#accessibility) and [usability](#usability) guidelines) from the fetch, push, and CRUD data logic, allowing for BOTH to be independently developed, operated, and maintained.
 
@@ -599,16 +599,19 @@ Decoupling GUI logic from business logic allows the D7460N Template to be:
 
 <details>
  <p></p>
-<summary id="perfect-storm"><h3>PERFECT STORM</h3></summary>
+<summary id="perfect"><h3>PERFECT STORM</h3></summary>
 
 **The D7460N Template is a perfect storm of opportunities to affect and inspire positive change** in that it is...
+who what when where and why how
 
-* an enterprise level web application = _high profile_
-* used by tens of thousands of end-users across multiple companies = _wide exposure_
-* used multiple times per day = _will be noticed if made attractive and enjoyable to use_
-* used for hundreds of thousands of documents and email = _will increase productivity if made fast and easy enough to use_
-* static (no dynamic data/no databases) = _removed barriers and enables capabilities not otherwise possible with dynamic applications_
-* Today's modern browsers (not you IE!) now natively do what JavaScript frameworks built to overcome years ago = _technically, JavaScript frameworks are now pure technical debt, fated to eventually go the way of Flash, ActionScript, Ext.js, and the Dodo Bird. 
+The IT web application industry is flush full of monolythic "oppionated" frameworks and low/no-code tools that have virtually killed off innovation. It is a perfect time for an _industry wide refresh/refactor_ and return to user-centric, innovative, minimal independent codebases, and standards driven development. 
+
+WHO - developed starting from the user > screen > HTML/CSS/JS > framwork > database
+WHAT - full featured, standards compliant, sustainable, scalable, flexable, compatable, faster, easier, with a fraction of the codebase
+WHEN - majority browser support for CSS feature/functionality allowing for older slower JS equivalents to be replaced
+WHERE - at a browser near you
+WHY - time for a an _industry wide refresh/refactor_
+HOW - folllow the principles layout out int this document, such as [separation of concerns](#separation) and returning to standards based developement.
 
 </details>
 
