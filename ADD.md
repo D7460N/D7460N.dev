@@ -21,6 +21,7 @@
   * [Separation of Concerns](#separation-of-concerns)
   * [Perfect Storm](#perfect-storm)
 * [Development Techniques](#development-techniques)
+  * [Web Components](#web)
   * [Classess CSS](#classless-css)
   * [Logical Properties](#logical)
   * [CSS @layer](#layer)
@@ -589,31 +590,10 @@ CSS
 
 Decoupling GUI logic from business logic allows the D7460N Template to be:
 * data agnostic
-* JS framework agnostic - see [WEB COMPONENTS](#web-components)
+* JS framework agnostic - see [WEB COMPONENTS](#web)
 * Scalable
 * Modular
 * Independent
-
-</details>
-
-<details>
- <p></p>
-<summary id="web-components"><h3>WEB COMPONENTS (native)</h3></summary>
- 
-(WIP) 
-
-Allows for JS framework independence, neutrality, and flexibility. If <b>Angular</b> or <b>Vue.js</b> is no longer "the thing", and the team feels they want to switch to <b>React</b>, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
-
-> <i><b>Why would you want to try Web Components?</b></i>
->
-> <i>The actual question you should be asking yourself is: why would you only focus on a single framework that could be replaced anytime soon instead of focusing on the standard the entire industry is setting for the future?</i>
-> 
-> <i>Remember, Web Components are a standard to build on top of, they’ve been approved by the major leaders of this industry and are being actively implemented and pushed forward. You’ll be using Web Components in the future whether you know it or not, better get started understanding them now and get a head start.</i>
-> 
-> <i>Learning about Web Components now is an investment for the future.</i><br />
-[~ Web Components are Dead: Long Live Web Components | blog.bitsrc.io](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
-
-* [Web Components | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
 
 </details>
 
@@ -670,6 +650,28 @@ CSS is the driving force behind D7460N design and development. Scripting is purp
 <h2 id="development-techniques">: : DESIGN/DEVELOPMENT TECHNIQUES : :</h2>
 
 <br />
+
+<details>
+ <p></p>
+<summary id="web"><h3>WEB COMPONENTS (native)</h3></summary>
+ 
+(WIP) 
+
+Allows for JS framework independence, neutrality, and flexibility. If <b>Angular</b> or <b>Vue.js</b> is no longer "the thing", and the team feels they want to switch to <b>React</b>, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
+
+> <i><b>Why would you want to try Web Components?</b></i>
+>
+> <i>The actual question you should be asking yourself is: why would you only focus on a single framework that could be replaced anytime soon instead of focusing on the standard the entire industry is setting for the future?</i>
+> 
+> <i>Remember, Web Components are a standard to build on top of, they’ve been approved by the major leaders of this industry and are being actively implemented and pushed forward. You’ll be using Web Components in the future whether you know it or not, better get started understanding them now and get a head start.</i>
+> 
+> <i>Learning about Web Components now is an investment for the future.</i><br />
+[~ Web Components are Dead: Long Live Web Components | blog.bitsrc.io](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
+
+* [Web Components | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
+
+</details>
+
 
 <details>
  <p></p>
