@@ -498,8 +498,12 @@ Offsite link HTML example : :
 ```
 <br />
 
+</details>
+</details>
 
-  <h3 id="sustainability">SUSTAINABILITY</h3>
+<details>
+  <summary id="sustainability"><h3>SUSTAINABILITY</h3></summary>
+
 
 > Sustainability is often considered a technical challenge related to optimizing images, videos, and fonts. But what does it mean for designers? How can we guide our design decisions through the lens of sustainability?<br />
 [~ Whole system thinking | sustainabilityguide.eu](https://sustainabilityguide.eu/ecodesign/design/)
@@ -508,8 +512,6 @@ Sustainability Innovation Framework
 
 (WIP)
 
-
-</details>
 </details>
 
 ---
