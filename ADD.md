@@ -613,6 +613,73 @@ WHERE - at a browser near you
 WHY - time for a an _industry wide refresh/refactor_
 HOW - folllow the principles layout out int this document, such as [separation of concerns](#separation) and returning to standards based developement.
 
+(WIP)
+```
+Traditional [ current ] : :
+ |_ Monolythic
+ |_ Inflexible
+ |_ Controlled by unwitting dependencies
+
+
+                    ____ [ JS framework ]
+                   /          |
+                     Angular, Vue, React
+                  /           |-
+                 /            |-React 
+
+      < < < < < < < < < [ Project workflow ] < < < < < < < < < < < < < < <
+     ____________________________________________________________________
+   /\         \             \          \                                  \
+  //\\         \   Build     \  Action  \   UI/UX                          \
+ //::\\  HTML   \   Compile   \  Script  \                                  \
+//::::\\__CSS____\___Serve_____\__________\                                  \
+\\:::://  JS     /------/------/                                             /
+ \\:://  UI/UX  /      /      /          /                                  /
+  \\//         /      /      /                                             /
+   \/_____________________________________________________________________/
+
+
+
+   /\ \
+  //\\ \
+ //--\\ \
+//-UI-\\ \
+\\-UX-// /
+ \\--// / 
+  \\// / ------>
+   \/ /
+
+    _____                ____
+   /\    \              /\    \
+  /::\    \            /::\    \
+ /::::\    \          /::::\    \
+/::::::\____\ _ _ _ _/_/__\:\    \
+\::::::/    /        \:\__/:/    /
+ \::::/    /          \:\/:/    /
+  \::/    /            \::/    /
+   \/____/              \/____/
+
+  /\
+ /  \
+/    \
+\    /
+ \  /
+  \/
+
+D7460N : :
+    _____
+   /\    \
+  /::\    \
+ /::::\    \
+/::::::\____\
+\::::::/    /
+ \::::/    /
+  \::/    /
+   \/____/
+
+
+```
+
 </details>
 
 <details>
