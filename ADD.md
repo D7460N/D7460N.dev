@@ -22,7 +22,7 @@
   * [Perfect Storm](#perfect)
 * [Development Techniques](#development-techniques)
   * [Web Components](#web)
-  * [Classess CSS](#classless-css)
+  * [Classless CSS](#classless)
   * [Logical Properties](#logical)
   * [CSS @layer](#layer)
   * [Semantic HTML Elements](#semantic)
@@ -852,7 +852,7 @@ HTML : :
  <p></p>
 <summary id="custom-html-elements"><h3>CUSTOM HTML ELEMENTS</h3></summary>
 
-Custom HTML elements are alphanumeric hyphenated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless-css)).
+Custom HTML elements are alphanumeric hyphenated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless)).
 
 [Custom Elements Without JavaScript? | blog.jim-nielsen.com](https://blog.jim-nielsen.com/2021/custom-elements-without-js/)
 
