@@ -1,8 +1,8 @@
-<h1 id="add">: : APPLICATION DESIGN DOCUMENT : :</h1>
+<h1 id="add">APPLICATION DESIGN DOCUMENT : :</h1>
 
 <br />
 
-<h2 id="toc">: : TABLE OF CONTENTS : :</h2>
+<h2 id="toc">TABLE OF CONTENTS : :</h2>
 
 * [Table of Contents](#toc)
 * [Fair Warning](#fair)
@@ -65,7 +65,7 @@
 
 <br />
 
-<h2 id="fair">: : FAIR WARNING : :</h3>
+<h2 id="fair">FAIR WARNING : :</h3>
 
 > Clinical studies have shown that prolonged exposure to _***delusions of grandeur***_ may, in severe cases, be linked to or even cause _industry changing inovativation_.
 >
@@ -77,7 +77,7 @@
 
 <br />
 
-<h2 id="whatif">: : WHAT IF : :</h2>
+<h2 id="whatif">WHAT IF : :</h2>
 
 <i>What if</i> . . . a development project could be set up and running, just as they are typically today with JS frameworks, but . . .
 - in <b>< 50% the time</b>,
@@ -180,7 +180,7 @@ _We shall see . . ._
 
 ---
 
-<!-- <h2 id="measured-goals">: : MEASURED GOALS : :</h2>
+<!-- <h2 id="measured-goals">MEASURED GOALS : :</h2>
 
 <br />
 
@@ -379,7 +379,7 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
 <br />
 
 _Let's start with the..._ 
-<h2 id="must">: : MUST-HAVES : :</h2>
+<h2 id="must">MUST-HAVES : :</h2>
 
 <br />
 
@@ -519,7 +519,7 @@ Sustainability Innovation Framework
 
 <br />
 
-<h2 id="principles">: : GOVERNING DESIGN/DEVELOPMENT PRINCIPLES : :</h2>
+<h2 id="principles">GOVERNING DESIGN/DEVELOPMENT PRINCIPLES : :</h2>
 
 <br />
 
@@ -717,7 +717,7 @@ CSS is the driving force behind D7460N design and development. Scripting is purp
 
 <br />
 
-<h2 id="development-techniques">: : DESIGN/DEVELOPMENT TECHNIQUES : :</h2>
+<h2 id="development-techniques">DESIGN/DEVELOPMENT TECHNIQUES : :</h2>
 
 <br />
 
@@ -980,15 +980,15 @@ _There is a better way!_
 
 The D7460N Template leverages an undocumented but valid **3 STEP** layout technique using just native HTML and CSS. This technique allows for dynamic functionality normally relegated to and implemented with expensive JavaScript tracking and poling. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive-design), and sets the groundwork for [end-user customization options](#customization). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
 
-<h4>: : STEP 1 : :</h4>
+<h4>STEP 1 : :</h4>
 
 Rather than declaring height for DOM elements, set the inner most child DOM element's padding or margin (such as buttons and form elements) to `padding: 1rem;`. This allows the DOM elements that govern interaction and content to grow on their own, up to the height of the browser, minus structural layout wrapper elements.
 
-<h4>: : STEP 2 : :</h4>
+<h4>STEP 2 : :</h4>
 
 Set the layout/structure HTML DOM wrapper element `<app-container>` to `height: 100vh;`. This pushes the structural layout elements, such as `<header>`, `<app-container>`, and `<footer>` to vertically fill the entire browser. This allows the remaining middle space to naturally adjust and natively scroll when overflowing content.
 
-<h4>: : STEP 3 : :</h4>
+<h4>STEP 3 : :</h4>
 
 Set all descendent structural layout elements that do not adjust or scroll when overflowing to `overflow: hidden;`. Then set the DOM elements that should adjust or scroll when overflowing to `overflow: auto;`. 
 
@@ -1140,7 +1140,7 @@ Customization options : :
 
 <br />
 
-<h2 id="seo">: : SEARCH ENGINE OPTIMIZATION (SEO) : :</h2>
+<h2 id="seo">SEARCH ENGINE OPTIMIZATION (SEO) : :</h2>
 
 > Semantic HTML tags are important for SEO (search engine optimization) because they indicate the role of the content within the tags. 
 >
@@ -1159,7 +1159,7 @@ Customization options : :
 
 <br />
 
-<h2 id="style-guide">: : STYLE GUIDE : :</h2>
+<h2 id="style-guide">STYLE GUIDE : :</h2>
 
 <br />
 
@@ -1207,7 +1207,7 @@ The D7460N logo changes color dynamically depending on its `background-color` so
 
 <br />
 
-<h2 id="architecture">: : ARCHITECTURE : :</h2>
+<h2 id="architecture">ARCHITECTURE : :</h2>
 
 <br />
 
@@ -1245,7 +1245,7 @@ The two halves are connected only via the IDs in the static (JAMStack) front-loa
 
 <br />
 
-<h2 id="spa">: : SINGLE PAGE APPLICATION : :</h2>
+<h2 id="spa">SINGLE PAGE APPLICATION : :</h2>
 
 <br />
 
@@ -1275,7 +1275,7 @@ D7460N has optional alternate layout configurations that optimize master/detail 
  
 <details>
  <p></p>
-<summary id="pwa"><h2>: : PROGRESSIVE WEB APPLICATION (PWA) : :</h2></summary>
+<summary id="pwa"><h2>PROGRESSIVE WEB APPLICATION (PWA) : :</h2></summary>
 
 <br />
 
@@ -1380,7 +1380,7 @@ A fully capable Progressive Web Application can provide the following advantages
 
 <details>
  <p></p>
-<summary id="security"><h2>: : SECURITY : :</h2></summary>
+<summary id="security"><h2>SECURITY : :</h2></summary>
 
 <br />
 
@@ -1425,7 +1425,7 @@ A fully capable Progressive Web Application can provide the following advantages
 
 <br />
  
-<h2 id="browser-compatibility">: : BROWSER COMPATIBILITY : :</h2>
+<h2 id="browser-compatibility">BROWSER COMPATIBILITY : :</h2>
 
 <br />
 
@@ -1440,7 +1440,7 @@ A fully capable Progressive Web Application can provide the following advantages
 
 <br />
  
-<h2 id="directory-structure">: : DIRECTORY STRUCTURE : :</h2>
+<h2 id="directory-structure">DIRECTORY STRUCTURE : :</h2>
 
 <br />
 
