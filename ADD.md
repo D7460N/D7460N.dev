@@ -515,7 +515,6 @@ Sustainability Innovation Framework
 
 Framework first (back to front) perspective
 ```
-< < < < < < < < < < < < < < < < < < < < < < < < < < < < < <
 
 UI/UX integrated with framework : :
  |_ Monolythic
@@ -525,8 +524,9 @@ UI/UX integrated with framework : :
  |_ Custom changes break upgrade/security path dooming project 
 
  
-      [ GUI, business, and data logic integrated with framework ]                                           |
-                                 _ _ _ _ | _ _ _ _ 
+
+       [ END HERE ]                                       __[ START HERE ]                                                  
+       _ _ _|_ _ _                                  _ _ _/_ _ _
        _________________________________________________________
       /\    HTML   \             \                 \           .\
      /::\    CSS    \   Build     \  Action Script  \    Back .  \
@@ -536,19 +536,20 @@ UI/UX integrated with framework : :
 \ \::::::::/           /      /      /                 /    .       /
  \ \::::::/   Data    /      /------/  GUI, business  /      .     /
   \ \::::/           /      /      /  & data logic   /        .   /
- / \ \::/           /      /------/                 /          . /
-|   \ \/___________/______/______/________________ /____________/
-|                   _ _ _ _ _ _ _     |                              
-[ What users see ]        |  
-           [ Made compatable with browsers ]
+   \ \::/           /      /------/                 /          . /
+    \ \/___________/______/______/________________ /____________/
+     |              _ _ _ _ _ _    _ _ _ _ _ _ _ _                                  
+[ What users see ]        |               |
+[ Made compatable with browsers ]         |
+[ GUI, business, and data logic integrated with framework ]
 ```
 
 User first (front to back) perspective
 ```
 > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
 
-[ GUI & business logic ]                                       [ Data logic ]
-       _ _ _|_ _ _                                            _ _ _ _ | _ _ _ _  
+     [ START HERE ]                                                             [ END HERE ]
+       _ _ _|_ _ _                                                              _ _ _ | _ _ _  
        ____________         [ Air gap ]         ______________________________________________
       /\    HTML   \ -                .      - /\              \                 \           .\
      /::\    CSS    \ -               .     - /::\    Build     \  Action Script  \   Back  .  \   
@@ -558,10 +559,11 @@ User first (front to back) perspective
 \ \::::::::/           / -  dynamic   .  - \::::::::/       /      /                 /    .       /
  \ \::::::/   Data    / -   data      .   - \::::::/       /------/                 /      .     /
   \ \::::/           / -    hooks ]   .    - \::::/       /      /   Data logic    /        .   /
- / \ \::/           / -               .     - \::/       /------/                 /          . /
-|   \ \/___________/ -                .      - \/_______/______/_________________/____________/
-|                           [ Air gap ]
+   \ \::/           / -               .     - \::/       /------/                 /          . /
+    \ \/___________/ -                .      - \/_______/______/_________________/____________/
+     |                      [ Air gap ]
 [ What users see ]
+[ GUI & business logic ]
 [ Decoupled & Independent ]
 [ Separation of Concerns ]
 
