@@ -615,70 +615,52 @@ HOW - folllow the principles layout out int this document, such as [separation o
 
 (WIP)
 ```
-Traditional [ current ] : :
+UI/UX integrated with framework : :
  |_ Monolythic
- |_ Inflexible
- |_ Controlled by unwitting dependencies
+ |_ Huge codebase/digital footprint
+ |_ Inflexible/oppinionated design/development "happy path"
+ |_ Upgrade/security path controlled by hundreds of dependencies
+ |_ Custom changes break upgrade/security path dooming project 
 
-
-                     ____ [ JS framework ]
-                    /          |-Angular
-                   /           |-Vue
-                  /            |-React
-                 / 
-     < < < < [ Framework first perspective ] < < < < < < < <
-     < < < < < < < < < < < < < < < < < < < < < < < < < < < <
-
- ___[ What users see ]
-|
-|   [ GUI & business logic & data logic ]__  
-|      ____________________________________|___________________
- \   /\    HTML   \             \         /       \           .\
-  \ /::\    CSS    \   Build     \  Action Script  \    Back .  \
-   \::::\    JS     \   Compile   \  JavaScript     \    end.    \
-  /:\::::\    UI/UX  \   Serve     \                 \     .      \
- /::|+|:::\____Data___\_____________\_________________\   .        \
- \::::::::/           /------/      /                 /    .       /
-  \::::::/           /      /------/  Business &     /      .     /
-   \::::/           /------/      /  GUI Logic      /        .   /
-    \::/           /      /------/                 /          . /
-     \/___________/______/______/________________ /____________/
-
-
-
-     > > > > > > [ User first perspective] > > > > > > > > > > > > > > > > > > > > > > >
-     > > > > > > [ Separation of Concerns ] > > > > > > > > > > > > > > > > > > > > > > >
-     > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
-
- ___[ What users see ]
-|
-|   [ GUI & business logic
-|     Decoupled & independent ]          ____[ Data logic ]  
-|     ____________            |         |    ______________________________________________
- \   /\    HTML   \          /          |   /\              \                 \           .\
-  \ /::\    CSS    \\_______/            \ /::\    Build     \  Action Script  \    Back .  \   
-   \::::\    JS     \                     \::::\    Compile   \  JavaScript     \    end.    \
-  /:\_:::\    UI/UX  \ <- [ Sematic      /:\_:::\    Serve(?)  \                 \     .      \
- /::|+|:::\____Data___\     HTML tags   /::|+|:::\______________\_________________\   .        \
- \::::::::/           /     for         \::/:::::/------/       /  ____________   /    .       /
-  \::::::/ ________  /      data         \/:::::/      /-------/  /      \    /  /      .     /
-   \::::/ /   +\  / /       hooks ] -> __/\::::/------/       /  /     v  \  /  /        .   /
-    \::/ /____^_\/ /                       \::/      /-------/  /______v___\/  /          . /
-     \/_______^___/                         \/______/_______/__________v______/____________/
-              ^                                                        v
-              ^ < < < < [ HTML/CSS for Business & GUI Logic ] < < < < <
  
+      [ GUI, business, and data logic ingrated with framework ]                                           |
+       _ _ _ _ _ _ _ _ _ _ _ _ _ _|_ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+       _________________________________________________________
+      /\    HTML   \             \        _/_      \           .\
+     /::\    CSS    \   Build     \  Action Script  \    Back .  \
+    /::::\    JS     \   Compile   \  JavaScript     \    end.    \
+   /::::::\    UI/UX  \   Serve     \                 \     .      \
+  /::::::::\___________\_____________\_________________\   .        \
+\ \::::::::/           /------/      /                 /    .       /
+ \ \::::::/   Data    /      /------/  Business &     /      .     /
+  \ \::::/           /------/      /  GUI Logic      /        .   /
+ / \ \::/           /      /------/                 /          . /
+|   \ \/___________/______/______/________________ /____________/
+|
+[ What users see ]
 
 
-    _____                ____
-   /\    \              /\    \
-  /::\    \            /::\    \
- /::::\    \          /::::\    \
-/::::::\____\ _ _ _ _/_/__\:\    \
-\::::::/    /        \:\__/:/    /
- \::::/    /          \:\/:/    /
-  \::/    /            \::/    /
-   \/____/              \/____/
+
+[ User first perspective ]
+[ Separation of Concerns ]
+[ GUI & business logic ]
+            |
+[ Decoupled & Independent ]                                  [ Data logic ]
+       _ _ _|_ _ _                              _ _ _ _ _ _ _ _ _ _|_ _ _ _ _ _ _ _ _ _ _ _ 
+       ____________         [ Air gap ]         ______________________________________________
+      /\    HTML   \ -                .      - /\              \                 \           .\
+     /::\    CSS    \ -               .     - /::\    Build     \  Action Script  \   Back  .  \   
+    /::::\    JS     \ -  [ Semantic  .    - /::::\    Compile   \  JavaScript     \   end .    \
+   /::::::\    UI/UX  \ -   Custom    .   - /::::::\    Serve     \                 \     .      \
+  /::::::::\___________\ -  HTML for  .  - /::::::::\______________\_________________\   .        \
+\ \::::::::/           / -  dynamic   .  - \::::::::/       /      /                 /    .       /
+ \ \::::::/   Data    / -   data      .   - \::::::/       /------/                 /      .     /
+  \ \::::/           / -    hooks ]   .    - \::::/       /      /                 /        .   /
+ / \ \::/           / -               .     - \::/       /------/                 /          . /
+|   \ \/___________/ -                .      - \/_______/______/_________________/____________/
+|                           [ Air gap ]
+[ What users see ]
+
 
 ```
 
