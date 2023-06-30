@@ -547,26 +547,26 @@ UI/UX integrated with framework : :
 User first (front to back) perspective
 ```
 
-     [ START HERE ] >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >   [ END HERE ]
-       _ _ _|_ _ _                                                              _ _ _ | _ _ _  
-       ____________         [ Air gap ]         ______________________________________________
-      /\    HTML   \ -                .      - /\              \                 \           .\
-     /::\    CSS    \ -               .     - /::\    Build     \  Action Script  \   Back  .  \   
-    /::::\    JS     \ -  [ Semantic  .    - /::::\    Compile   \  JavaScript     \   end .    \
-   /::::::\    UI/UX  \ -   Custom    .   - /::::::\    Serve     \                 \     .      \
-  /::::::::\___________\ -  HTML for  .  - /::::::::\______________\_________________\   .        \
-\ \::::::::/           / -  dynamic   .  \ \::::::::/       /      /                 /    .       /
- \ \::::::/   Data    / -   data      .   \ \::::::/       /------/                 /      .     /
-  \ \::::/           / -    hooks ]   .    \ \::::/       /      /   Data logic    /        .   /
-   \ \::/           / -               .     \ \::/       /------/                 /          . /
-    \ \/___________/ -                .      \ \/_______/______/_________________/____________/
-     |                      [ Air gap ]       |  
-     [ GUI agnostic ]                         [ Framework Agnostic ]
-     [ What users see ]                         |_ Angular
-     [ GUI & business logic ]                   |_ Vue
-     [ Separation of Concerns ]                 |_ React
+     [ START HERE ] >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  > [ END HERE ]
+       _ _ _|_ _ _                                                         _ _ _ | _ _ _  
+       ____________       [ Air gap ]      ______________________________________________
+      /\    HTML   \ -         .          /\              \                 \           .\
+     /::\    CSS    \ -        .         /::\    Build     \  Action Script  \   Back  .  \   
+    /::::\    JS     \ -       .        /::::\    Compile   \  JavaScript     \   end .    \
+   /::::::\    UI/UX  \ -      .       /::::::\    Serve     \                 \     .      \
+  /::::::::\___________\ -     .      /::::::::\______________\_________________\   .        \
+\ \::::::::/           / -     .    \ \::::::::/       /      /                 /    .       /
+ \ \::::::/   Data    / -      .     \ \::::::/       /------/                 /      .     /
+  \ \::::/           / -       .      \ \::::/       /      /   Data logic    /        .   /
+   \ \::/           / -        .       \ \::/       /------/                 /          . /
+    \ \/___________/ -         .        \ \/_______/______/_________________/____________/
+     |                    [ Air gap ]    |  
+     [ GUI agnostic ]                    [ Framework Agnostic ]
+     [ What users see ]                    |_ Angular
+     [ GUI & business logic ]              |_ Vue
+     [ Separation of Concerns ]            |_ React
      [ Decoupled & Independent ]                 
-
+     [ Semantic custom HTML for dynamic data hooks ]
 
 ```
 <br />
