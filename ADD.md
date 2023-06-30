@@ -531,12 +531,12 @@ UI/UX integrated with framework : :
       /\    HTML   \             \                 \           .\
      /::\    CSS    \   Build     \  Action Script  \    Back .  \
     /::::\    JS     \   Compile   \  JavaScript     \    end.    \
-   /::::::\    UI/UX  \   Serve     \                 \     .      \
+   /::::::\           \   Serve     \                 \     .      \
   /::::::::\___________\_____________\_________________\   .        \
 \ \::::::::/           /      /      /                 /    .       /
  \ \::::::/   Data    /      /------/  GUI, business  /      .     /
   \ \::::/           /      /      /  & data logic   /        .   /
-   \ \::/           /      /------/                 /          . /
+   \ \::/           /      /------/  UI/UX          /          . /
     \ \/___________/______/______/________________ /____________/
      |              _ _ _ _ _ _    _ _ _ _ _ _ _ _                                  
      [ What users see ]   |               |
