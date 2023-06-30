@@ -502,8 +502,7 @@ Offsite link HTML example : :
 </details>
 </details>
 
-<details>
-  <summary id="sustainability"><h3>SUSTAINABILITY</h3></summary>
+<h3 id="sustainability">SUSTAINABILITY</h3>
 
 
 > Sustainability is often considered a technical challenge related to optimizing images, videos, and fonts. But what does it mean for designers? How can we guide our design decisions through the lens of sustainability?<br />
@@ -513,7 +512,61 @@ Sustainability Innovation Framework
 
 (WIP)
 
-</details>
+
+Framework first (back to front) perspective
+```
+< < < < < < < < < < < < < < < < < < < < < < < < < < < < < <
+
+UI/UX integrated with framework : :
+ |_ Monolythic
+ |_ Huge codebase/digital footprint
+ |_ Inflexible/oppinionated design/development "happy path"
+ |_ Upgrade/security path controlled by hundreds of dependencies
+ |_ Custom changes break upgrade/security path dooming project 
+
+ 
+      [ GUI, business, and data logic integrated with framework ]                                           |
+                                 _ _ _ _ | _ _ _ _ 
+       _________________________________________________________
+      /\    HTML   \             \                 \           .\
+     /::\    CSS    \   Build     \  Action Script  \    Back .  \
+    /::::\    JS     \   Compile   \  JavaScript     \    end.    \
+   /::::::\    UI/UX  \   Serve     \                 \     .      \
+  /::::::::\___________\_____________\_________________\   .        \
+\ \::::::::/           /      /      /                 /    .       /
+ \ \::::::/   Data    /      /------/  GUI, business  /      .     /
+  \ \::::/           /      /      /  & data logic   /        .   /
+ / \ \::/           /      /------/                 /          . /
+|   \ \/___________/______/______/________________ /____________/
+|                   _ _ _ _ _ _ _     |                              
+[ What users see ]        |  
+           [ Made compatable with browsers ]
+```
+
+User first (front to back) perspective
+```
+> > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+
+[ GUI & business logic ]                                       [ Data logic ]
+       _ _ _|_ _ _                                            _ _ _ _ | _ _ _ _  
+       ____________         [ Air gap ]         ______________________________________________
+      /\    HTML   \ -                .      - /\              \                 \           .\
+     /::\    CSS    \ -               .     - /::\    Build     \  Action Script  \   Back  .  \   
+    /::::\    JS     \ -  [ Semantic  .    - /::::\    Compile   \  JavaScript     \   end .    \
+   /::::::\    UI/UX  \ -   Custom    .   - /::::::\    Serve     \                 \     .      \
+  /::::::::\___________\ -  HTML for  .  - /::::::::\______________\_________________\   .        \
+\ \::::::::/           / -  dynamic   .  - \::::::::/       /      /                 /    .       /
+ \ \::::::/   Data    / -   data      .   - \::::::/       /------/                 /      .     /
+  \ \::::/           / -    hooks ]   .    - \::::/       /      /   Data logic    /        .   /
+ / \ \::/           / -               .     - \::/       /------/                 /          . /
+|   \ \/___________/ -                .      - \/_______/______/_________________/____________/
+|                           [ Air gap ]
+[ What users see ]
+[ Decoupled & Independent ]
+[ Separation of Concerns ]
+
+```
+<br />
 
 ---
 
@@ -614,57 +667,6 @@ WHY - time for a an _industry wide refresh/refactor_
 HOW - folllow the principles layout out int this document, such as [separation of concerns](#separation) and returning to standards based developement.
 
 (WIP)
-```
-UI/UX integrated with framework : :
- |_ Monolythic
- |_ Huge codebase/digital footprint
- |_ Inflexible/oppinionated design/development "happy path"
- |_ Upgrade/security path controlled by hundreds of dependencies
- |_ Custom changes break upgrade/security path dooming project 
-
- 
-      [ GUI, business, and data logic integrated with framework ]                                           |
-       _ _ _ _ _ _ _ _ _ _ _ _ _ _|_ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-       _________________________________________________________
-      /\    HTML   \             \                 \           .\
-     /::\    CSS    \   Build     \  Action Script  \    Back .  \
-    /::::\    JS     \   Compile   \  JavaScript     \    end.    \
-   /::::::\    UI/UX  \   Serve     \                 \     .      \
-  /::::::::\___________\_____________\_________________\   .        \
-\ \::::::::/           /      /      /                 /    .       /
- \ \::::::/   Data    /      /------/  GUI, business  /      .     /
-  \ \::::/           /      /      /  & data logic   /        .   /
- / \ \::/           /      /------/                 /          . /
-|   \ \/___________/______/______/________________ /____________/
-|
-[ What users see ]
-
-
-
-[ User first perspective ]
-
-[ GUI & business logic ]
-            |
-[ Separation of Concerns ]
-            |
-[ Decoupled & Independent ]                                  [ Data logic ]
-       _ _ _|_ _ _                              _ _ _ _ _ _ _ _ _ _|_ _ _ _ _ _ _ _ _ _ _ _ 
-       ____________         [ Air gap ]         ______________________________________________
-      /\    HTML   \ -                .      - /\              \                 \           .\
-     /::\    CSS    \ -               .     - /::\    Build     \  Action Script  \   Back  .  \   
-    /::::\    JS     \ -  [ Semantic  .    - /::::\    Compile   \  JavaScript     \   end .    \
-   /::::::\    UI/UX  \ -   Custom    .   - /::::::\    Serve     \                 \     .      \
-  /::::::::\___________\ -  HTML for  .  - /::::::::\______________\_________________\   .        \
-\ \::::::::/           / -  dynamic   .  - \::::::::/       /      /                 /    .       /
- \ \::::::/   Data    / -   data      .   - \::::::/       /------/                 /      .     /
-  \ \::::/           / -    hooks ]   .    - \::::/       /      /   Data logic    /        .   /
- / \ \::/           / -               .     - \::/       /------/                 /          . /
-|   \ \/___________/ -                .      - \/_______/______/_________________/____________/
-|                           [ Air gap ]
-[ What users see ]
-
-
-```
 
 </details>
 
