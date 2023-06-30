@@ -539,9 +539,9 @@ UI/UX integrated with framework : :
    \ \::/           /      /------/                 /          . /
     \ \/___________/______/______/________________ /____________/
      |              _ _ _ _ _ _    _ _ _ _ _ _ _ _                                  
-[ What users see ]        |               |
-[ Made compatable with browsers ]         |
-[ GUI, business, and data logic integrated with framework ]
+     [ What users see ]   |               |
+     [ Made compatable with browsers ]    |
+     [ GUI, business, and data logic integrated with framework ]
 ```
 
 User first (front to back) perspective
@@ -555,16 +555,16 @@ User first (front to back) perspective
     /::::\    JS     \ -  [ Semantic  .    - /::::\    Compile   \  JavaScript     \   end .    \
    /::::::\    UI/UX  \ -   Custom    .   - /::::::\    Serve     \                 \     .      \
   /::::::::\___________\ -  HTML for  .  - /::::::::\______________\_________________\   .        \
-\ \::::::::/           / -  dynamic   .  - \::::::::/       /      /                 /    .       /
- \ \::::::/   Data    / -   data      .   - \::::::/       /------/                 /      .     /
-  \ \::::/           / -    hooks ]   .    - \::::/       /      /   Data logic    /        .   /
-   \ \::/           / -               .     - \::/       /------/                 /          . /
-    \ \/___________/ -                .      - \/_______/______/_________________/____________/
-     |                      [ Air gap ]
-[ What users see ]
-[ GUI & business logic ]
-[ Decoupled & Independent ]
-[ Separation of Concerns ]
+\ \::::::::/           / -  dynamic   .  \ \::::::::/       /      /                 /    .       /
+ \ \::::::/   Data    / -   data      .   \ \::::::/       /------/                 /      .     /
+  \ \::::/           / -    hooks ]   .    \ \::::/       /      /   Data logic    /        .   /
+   \ \::/           / -               .     \ \::/       /------/                 /          . /
+    \ \/___________/ -                .      \ \/_______/______/_________________/____________/
+     |                      [ Air gap ]       |  
+     [ What users see ]                       [ Framework Agnostic ]
+     [ GUI & business logic ]                   |_ Angular
+     [ Decoupled & Independent ]                |_ Vue
+     [ Separation of Concerns ]                 |_ React
 
 ```
 <br />
