@@ -623,17 +623,17 @@ UI/UX integrated with framework : :
  |_ Custom changes break upgrade/security path dooming project 
 
  
-      [ GUI, business, and data logic ingrated with framework ]                                           |
+      [ GUI, business, and data logic integrated with framework ]                                           |
        _ _ _ _ _ _ _ _ _ _ _ _ _ _|_ _ _ _ _ _ _ _ _ _ _ _ _ _ 
        _________________________________________________________
-      /\    HTML   \             \        _/_      \           .\
+      /\    HTML   \             \                 \           .\
      /::\    CSS    \   Build     \  Action Script  \    Back .  \
     /::::\    JS     \   Compile   \  JavaScript     \    end.    \
    /::::::\    UI/UX  \   Serve     \                 \     .      \
   /::::::::\___________\_____________\_________________\   .        \
-\ \::::::::/           /------/      /                 /    .       /
- \ \::::::/   Data    /      /------/  Business &     /      .     /
-  \ \::::/           /------/      /  GUI Logic      /        .   /
+\ \::::::::/           /      /      /                 /    .       /
+ \ \::::::/   Data    /      /------/  GUI, business  /      .     /
+  \ \::::/           /      /      /  & data logic   /        .   /
  / \ \::/           /      /------/                 /          . /
 |   \ \/___________/______/______/________________ /____________/
 |
@@ -642,8 +642,10 @@ UI/UX integrated with framework : :
 
 
 [ User first perspective ]
-[ Separation of Concerns ]
+
 [ GUI & business logic ]
+            |
+[ Separation of Concerns ]
             |
 [ Decoupled & Independent ]                                  [ Data logic ]
        _ _ _|_ _ _                              _ _ _ _ _ _ _ _ _ _|_ _ _ _ _ _ _ _ _ _ _ _ 
@@ -655,7 +657,7 @@ UI/UX integrated with framework : :
   /::::::::\___________\ -  HTML for  .  - /::::::::\______________\_________________\   .        \
 \ \::::::::/           / -  dynamic   .  - \::::::::/       /      /                 /    .       /
  \ \::::::/   Data    / -   data      .   - \::::::/       /------/                 /      .     /
-  \ \::::/           / -    hooks ]   .    - \::::/       /      /                 /        .   /
+  \ \::::/           / -    hooks ]   .    - \::::/       /      /   Data logic    /        .   /
  / \ \::/           / -               .     - \::/       /------/                 /          . /
 |   \ \/___________/ -                .      - \/_______/______/_________________/____________/
 |                           [ Air gap ]
