@@ -561,10 +561,12 @@ User first (front to back) perspective
    \ \::/           / -               .     \ \::/       /------/                 /          . /
     \ \/___________/ -                .      \ \/_______/______/_________________/____________/
      |                      [ Air gap ]       |  
-     [ What users see ]                       [ Framework Agnostic ]
-     [ GUI & business logic ]                   |_ Angular
-     [ Decoupled & Independent ]                |_ Vue
-     [ Separation of Concerns ]                 |_ React
+     [ GUI agnostic ]                         [ Framework Agnostic ]
+     [ What users see ]                         |_ Angular
+     [ GUI & business logic ]                   |_ Vue
+     [ Decoupled & Independent ]                |_ React
+     [ Separation of Concerns ]                 
+
 
 ```
 <br />
