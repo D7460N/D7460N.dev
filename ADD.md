@@ -564,8 +564,8 @@ User first (front to back) perspective
      [ GUI agnostic ]                         [ Framework Agnostic ]
      [ What users see ]                         |_ Angular
      [ GUI & business logic ]                   |_ Vue
-     [ Decoupled & Independent ]                |_ React
-     [ Separation of Concerns ]                 
+     [ Separation of Concerns ]                 |_ React
+     [ Decoupled & Independent ]                 
 
 
 ```
