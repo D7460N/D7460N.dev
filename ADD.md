@@ -525,8 +525,8 @@ UI/UX integrated with framework : :
 
  
 
-       [ END HERE ]                                       __[ START HERE ]                                                  
-       _ _ _|_ _ _                                  _ _ _/_ _ _
+       [ END HERE ]  <  <  <  <  <  <  <  <  <  <  [ START HERE ]                                                  
+       _ _ _|_ _ _                                  _ _ _|_ _ _
        _________________________________________________________
       /\    HTML   \             \                 \           .\
      /::\    CSS    \   Build     \  Action Script  \    Back .  \
@@ -546,9 +546,8 @@ UI/UX integrated with framework : :
 
 User first (front to back) perspective
 ```
-> > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
 
-     [ START HERE ]                                                             [ END HERE ]
+     [ START HERE ] >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >   [ END HERE ]
        _ _ _|_ _ _                                                              _ _ _ | _ _ _  
        ____________         [ Air gap ]         ______________________________________________
       /\    HTML   \ -                .      - /\              \                 \           .\
