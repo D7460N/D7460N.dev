@@ -554,24 +554,24 @@ UI/UX <b>separated from</b> framework : :
  |_ Upgrade/security path NOT controlled by third party dependencies
  |_ Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
-     [ START HERE ] >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  > [ END HERE ]
-       _ _ _|_ _ _                                                         _ _ _ | _ _ _  
-       ____________       [ Air gap ]      ______________________________________________
-      /\    HTML   \ -         .          /\              \                 \           .\
-     /::\    CSS    \ -        .         /::\    Build     \  Action Script  \   Back  .  \   
-    /::::\    JS     \ -       .        /::::\    Compile   \  JavaScript     \   end .    \
-   /::::::\    UI/UX  \ -      .       /::::::\    Serve     \                 \     .      \
-  /::::::::\___________\ -     .      /::::::::\______________\_________________\   .        \
-\ \::::::::/           / -     .    \ \::::::::/       /      /                 /    .       /
- \ \::::::/   Data    / -      .     \ \::::::/       /------/                 /      .     /
-  \ \::::/           / -       .      \ \::::/       /      /   Data logic    /        .   /
-   \ \::/           / -        .       \ \::/       /------/                 /          . /
-    \ \/___________/ -         .        \ \/_______/______/_________________/____________/
-     \                    [ Air gap ]    \  
-      |_GUI agnostic                      |_Framework Agnostic
-      |_What users see                      |_ Angular
-      |_GUI & business logic                |_ Vue
-      |_Separation of Concerns              |_ React
+     [ START HERE ]  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  > [ END HERE ]
+       _ _ _|_ _ _                                                 _ _ _ | _ _ _  
+       ____________                ______________________________________________
+      /\    HTML   \ -            /\              \                 \           .\
+     /::\    CSS    \ -          /::\    Build     \  Action Script  \   Back  .  \   
+    /::::\    JS     \ -        /::::\    Compile   \  JavaScript     \   end .    \
+   /::::::\    UI/UX  \ -      /::::::\    Serve     \                 \     .      \
+  /::::::::\___________\ -    /::::::::\______________\_________________\   .        \
+\ \::::::::/           / -  \ \::::::::/       /      /                 /    .       /
+ \ \::::::/   Data    / -    \ \::::::/       /------/                 /      .     /
+  \ \::::/           / -      \ \::::/       /      /   Data logic    /        .   /
+   \ \::/           / -        \ \::/       /------/                 /          . /
+    \ \/___________/ -          \ \/_______/______/_________________/____________/
+     \                           \  
+      |_GUI agnostic              |_Framework Agnostic
+      |_What users see              |_ Angular
+      |_GUI & business logic        |_ Vue
+      |_Separation of Concerns      |_ React
       |_Decoupled & Independent
       |_Semantic custom HTML and native web components for dynamic data hooks
 
