@@ -516,14 +516,12 @@ Sustainability Innovation Framework
 Framework first (back to front) perspective
 ```
 
-UI/UX integrated with framework : :
+UI/UX <b>integrated with</b> framework : :
  |_ Monolythic
  |_ Huge codebase/digital footprint
- |_ Inflexible/oppinionated design/development "happy path"
+ |_ Inflexible/opinionated design/development "happy path"
  |_ Upgrade/security path controlled by hundreds of dependencies
  |_ Custom changes break upgrade/security path dooming project 
-
- 
 
        [ END HERE ]  <  <  <  <  <  <  <  <  <  <  [ START HERE ]                                                  
        _ _ _|_ _ _                                  _ _ _|_ _ _
@@ -538,14 +536,23 @@ UI/UX integrated with framework : :
   \ \::::/           /      /      /  & data logic   /        .   /
    \ \::/           /      /------/  UI/UX          /          . /
     \ \/___________/______/______/________________ /____________/
-     |              _ _ _ _ _ _    _ _ _ _ _ _ _ _                                  
-     [ What users see ]   |               |
-     [ Made compatable with browsers ]    |
-     [ GUI, business, and data logic integrated with framework ]
+     \              _ _ _ _ _ _    _ _ _ _ _ _ _ _                                  
+      |_What users see    |              |
+      |_Made compatable with browsers    |
+      |_GUI, business, and data logic integrated with framework
+
+
 ```
 
 User first (front to back) perspective
 ```
+
+UI/UX <b>separated from</b> framework : :
+ |_ Compatible 
+ |_ Small codebase/digital footprint
+ |_ Flexible/unopinionated design/development
+ |_ Upgrade/security path NOT controlled by third party dependencies
+ |_ Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
      [ START HERE ] >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  > [ END HERE ]
        _ _ _|_ _ _                                                         _ _ _ | _ _ _  
@@ -560,13 +567,14 @@ User first (front to back) perspective
   \ \::::/           / -       .      \ \::::/       /      /   Data logic    /        .   /
    \ \::/           / -        .       \ \::/       /------/                 /          . /
     \ \/___________/ -         .        \ \/_______/______/_________________/____________/
-     |                    [ Air gap ]    |  
-     [ GUI agnostic ]                    [ Framework Agnostic ]
-     [ What users see ]                    |_ Angular
-     [ GUI & business logic ]              |_ Vue
-     [ Separation of Concerns ]            |_ React
-     [ Decoupled & Independent ]                 
-     [ Semantic custom HTML for dynamic data hooks ]
+     \                    [ Air gap ]    \  
+      |_GUI agnostic                      |_Framework Agnostic
+      |_What users see                      |_ Angular
+      |_GUI & business logic                |_ Vue
+      |_Separation of Concerns              |_ React
+      |_Decoupled & Independent
+      |_Semantic custom HTML and native web components for dynamic data hooks
+
 
 ```
 <br />
