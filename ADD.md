@@ -411,7 +411,10 @@ _Let's start with the..._
  <p></p>
   <summary id="accessibility"><h3>ACCESSIBILITY</h3></summary>
 
-<p>Accessibility relates to the technical side of a website, while usability refers to the quality of a person's experience when interacting with it. Accessibility guidelines can improve usability for all users, including those with disabilities or impairments.</p>
+> Accessibility isn’t about compliance. It’s not about ticking off checkboxes in an accessibility checklist. It’s not about accessibility overlays either. Instead, it’s about designing with a wide range of people in mind. It’s about including and respecting everyone — independent of what skills and preferences they have.<br />
+[~ Smashing Magazine Newsletter Issue #412 - July 4, 2023](https://mailchi.mp/smashingmagazine/412-accessibility-and-inclusive-design?e=af6b6893ef)
+
+Accessibility relates to the technical side of a website, while usability refers to the quality of a person's experience when interacting with it. Accessibility guidelines can improve usability for all users, including those with disabilities or impairments.
 
 <p><b>ACCESSIBILITY IS NOT USABILITY.</b> A screen full of unstructured unformatted unstyled data is accessible, but hardly usable. Accessibility is the beginning of usability best practices.</p> 
 
