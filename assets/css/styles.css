@@ -9,13 +9,21 @@
     background-color: var(--bg-color);
   }
 /*
-https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/
-Baseline for default links */
-a:not([class]) {
-  /* Relatively sized thickness and offset */
-  text-decoration-thickness: max(0.08em, 1px);
-  text-underline-offset: 0.15em;
-}
+https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/ */
+  /* Baseline for default links */
+  a:not([class]) {
+    /* Relatively sized thickness and offset */
+    text-decoration-thickness: max(0.08em, 1px);
+    text-underline-offset: 0.15em;
+  }
+
+  :focus-visible {
+    --outline-size: max(2px, 0.15em);
+
+    outline: var(--outline-width, var(--outline-size)) var(--outline-style, solid)
+      var(--outline-color, currentColor);
+    outline-offset: var(--outline-offset, var(--outline-size));
+  }
 
 /*  LAYOUT | Vertical --------------------------------
 */  :root {
