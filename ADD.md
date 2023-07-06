@@ -726,11 +726,14 @@ CSS is the driving force behind D7460N design and development. Scripting is purp
 
 <details>
  <p></p>
-<summary id="web"><h3>WEB COMPONENTS (native)</h3></summary>
+<summary id="components"><h3>WEB COMPONENTS (native)</h3></summary>
  
 (WIP) 
 
-Allows for JS framework independence, neutrality, and flexibility. If <b>Angular</b> or <b>Vue.js</b> is no longer "the thing", and the team feels they want to switch to <b>React</b>, you can with the D7460N Template because it is compatible with all web standards compliant JS frameworks. 
+> <i>Web components are custom, reusable web elements which encapsulate functionality, markup structure and styling by using vanilla javascript/HTML/CSS along with native Web APIs.</i><br />
+[~ Custom elements teach the browser new tricks while preserving the benefits of HTML](https://web.dev)
+
+Web components allow for JS framework independence, neutrality, and independent flexibility. If, for example, <b>Angular</b> or <b>Vue.js</b> are no longer "the thing", and the team needs to switch to <b>React</b>, they can with the D7460N Template through vanilla web components. It is compatible with all web standards compliant JS frameworks. 
 
 > <i><b>Why would you want to try Web Components?</b></i>
 >
