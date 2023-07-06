@@ -6,59 +6,59 @@
 
 * [Table of Contents](#toc)
 * [Fair Warning](#fair)
-* [What if?](#whatif)
+* [What if?](#what)
 * [Must Haves](#must)
   * [Standards](#standards)
   * [W3C](#w3c)
-  * [Accessibility](#accessibility)
-  * [Usability](#usability)
-  * [User Experience (UX)](#user-experience)
-    * [UX To Remember](#ux-to-remember)
-  * [Sustainability](#sustainability)
+  * [Accessibility](#access)
+  * [Usability](#usable)
+  * [User Experience (UX)](#user)
+    * [UX To Remember](#ux)
+  * [Sustainability](#sustain)
 * [Governing Development Principles](#principles)
-  * [Intrinsic Design](#intrinsic-design)
-  * [Least Power](#least-power)
+  * [Intrinsic Design](#intrinsic)
+  * [Least Power](#least)
   * [Separation of Concerns](#separation)
   * [Perfect Storm](#perfect)
-* [Development Techniques](#development-techniques)
-  * [Web Components](#web)
+* [Development Techniques](#dev)
+  * [Web Components](#components)
   * [Classless CSS](#classless)
   * [Logical Properties](#logical)
   * [CSS @layer](#layer)
   * [Semantic HTML Elements](#semantic)
   * [DIV-less HTML](#divless)
-  * [Custom (semantic) HTML](#custom-html-elements)
-  * [CSS Variables](#css-variables)
-  * [Responsive Design](#responsive-design)
-  * [Progressive Enhancement](#progressive-enhancement)
-  * [Minimal Third Party Dependencies](#minimal-third-party-dependencies)
-  * [Squishy Layout](#squishy-layout)
+  * [Custom (semantic) HTML](#custom)
+  * [CSS Variables](#variables)
+  * [Responsive Design](#responsive)
+  * [Progressive Enhancement](#progress)
+  * [Minimal Third Party Dependencies](#minimal)
+  * [Squishy Layout](#squishy)
   * [Self-Aware](#self)
   * [Natural "Truthful" Loading State](#loading)
-  * [Customization](#customization)
+  * [Customization](#custom)
 * [Search Engine Optimization (SEO)](#seo)
-* [Style Guide](#style-guide)
-  * [Color Themes](#color-themes)
-  * [Corporate Branding](#corporate-branding)
-* [Architecture](#architecture)
-  * [JAMstack](#jamstack)
-  * [HTML/CSS](#html-css)
+* [Style Guide](#style)
+  * [Color Themes](#themes)
+  * [Corporate Branding](#corporate)
+* [Architecture](#arc)
+  * [JAMstack](#jam)
+  * [HTML/CSS](#html)
   <!-- * [JavaScript Rules Engine](#javascript-rules-engine) -->
 * [Single Page Application (SPA)](#spa)
   * [Perspective](#perspective)
-  * [Alternate Layouts](#alternate-layouts)
+  * [Alternate Layouts](#alt)
 * [Progressive Web Application (PWA)](#pwa)
-  * [Cross Platform Interoperability](#cross-platform-interoperability)
-  * [Immersive Experience](#immersive-experience)
-  * [Progressively Enhanced](#progressively-enhanced)
-  * [It's A Desktop App](#desktop-app)
+  * [Cross Platform Interoperability](#cross)
+  * [Immersive Experience](#immersive)
+  * [Progressively Enhanced](#progress)
+  * [It's A Desktop App](#desktop)
   * [It's A Website](#website)
   * [Advantages](#advantages)
 * [Security](#security)
   * [Content Security Policy](#csp)
   * [HTTP/3 | QUIC](#http3)
-* [Browser Compatibility](#browser-compatibility)
-* [Directory Structure](#directory-structure)
+* [Browser Compatibility](#compatible)
+* [Directory Structure](#directory)
 <br />
 
 ---
@@ -77,7 +77,7 @@
 
 <br />
 
-<h2 id="whatif">WHAT IF : :</h2>
+<h2 id="what">WHAT IF : :</h2>
 
 <i>What if</i> . . . a development project could be set up and running, just as they are typically today with JS frameworks, but . . .
 - in <b>< 50% the time</b>,
@@ -172,7 +172,7 @@ This front-end would be a win for developers, end-users, and stakeholders alike.
 
 ***These are the questions this project seeks to answer.***
 
-New(_ish_) browser support for modern HTML and CSS functionality and accompanying design and development techniques may allow for these questions to be answered by literally "doing more with less". ([Least Power Principle](#least-power))
+New(_ish_) browser support for modern HTML and CSS functionality and accompanying design and development techniques may allow for these questions to be answered by literally "doing more with less". ([Least Power Principle](#least))
 
 _We shall see . . ._
 
@@ -409,7 +409,7 @@ _Let's start with the..._
 
 <details>
  <p></p>
-  <summary id="accessibility"><h3>ACCESSIBILITY</h3></summary>
+  <summary id="access"><h3>ACCESSIBILITY</h3></summary>
 
 > Accessibility isn’t about compliance. It’s not about ticking off checkboxes in an accessibility checklist. It’s not about accessibility overlays either. Instead, it’s about designing with <b>a wide range of people in mind</b>. It’s about including and respecting everyone — independent of what skills and preferences they have.<br />
 [~ Smashing Magazine Newsletter-Issue #412, July 4, 2023](https://mailchi.mp/smashingmagazine/412-accessibility-and-inclusive-design?e=af6b6893ef)
@@ -431,7 +431,7 @@ Accessibility relates to the technical side of a website, while usability refers
 
 <details>
  <p></p>
-  <summary id="usability"><h3>USABILITY</h3></summary>
+  <summary id="usable"><h3>USABILITY</h3></summary>
 
 <p>For many end-users (not all), the difference between Apple and Microsoft is design over function (respectively). For many developers (not all), the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. </p>
 
@@ -449,7 +449,7 @@ Accessibility relates to the technical side of a website, while usability refers
 
 <details>
  <p></p>
-  <summary id="user-experience"><h3>USER EXPERIENCE (UX)</h3></summary>
+  <summary id="user"><h3>USER EXPERIENCE (UX)</h3></summary>
 
   <p>User Experience (UX) is the intersection of accessibility and usability. It encapsulates the entire journey of a user, from the moment they input the web application's URL, to the point they click the "X" in the upper right corner to close the application, and even beyond.</p>
 
@@ -478,7 +478,7 @@ Such as:
 
 <details>
  <p></p>
-  <summary id="ux-to-remember"><h3>UX TO REMEMBER</h3></summary>
+  <summary id="ux"><h3>UX TO REMEMBER</h3></summary>
 
 * **No dead ends** - Provide end-users and obvious way forward and a way back. A way forward example would be, links to the support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner. 
 * **Link Offsite References** - Whenever an offsite source is reference, link to the reference. 
@@ -505,13 +505,13 @@ Offsite link HTML example : :
 </details>
 </details>
 
-<h3 id="sustainability">SUSTAINABILITY</h3>
+<h3 id="sustain">SUSTAINABILITY (FUTURE PROOFING)</h3>
 
 
 > Sustainability is often considered a technical challenge related to optimizing images, videos, and fonts. But what does it mean for designers? How can we guide our design decisions through the lens of sustainability?<br />
 [~ Whole system thinking | sustainabilityguide.eu](https://sustainabilityguide.eu/ecodesign/design/)
 
-Sustainability Innovation Framework
+Future Proofing
 
 (WIP)
 
@@ -593,7 +593,7 @@ UI/UX <b>separated from</b> framework : :
 
 <details>
  <p></p>
-  <summary id="intrinsic-design"><h3>INTRINSIC DESIGN</h3></summary>
+  <summary id="intrinsic"><h3>INTRINSIC DESIGN</h3></summary>
 
 Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed | YouTube.com](https://www.youtube.com/watch?v=jBwBACbRuGY). 
 
@@ -604,7 +604,7 @@ _Almost as if the web UI is [SELF-AWARE](#self)..._
 
 <details>
  <p></p>
-  <summary id="least-power"><h3>LEAST POWER</h3></summary>
+  <summary id="least"><h3>LEAST POWER</h3></summary>
 
 <p>The "Least Power" principle simplifies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks.</p>
 
@@ -625,7 +625,7 @@ Since the D7460N Template separates the HTML and CSS from the JavaScript, it run
  <p></p>
 <summary id="separation"><h3>SEPARATION OF CONCERNS</h3></summary>
 
-The D7460N Template follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions common among most web appliation GUIs coupled with ADA [accessibility](#accessibility) and [usability](#usability) guidelines) from the fetch, push, and CRUD data logic, allowing for BOTH to be independently developed, operated, and maintained.
+The D7460N Template follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions common among most web appliation GUIs coupled with ADA [accessibility](#access) and [usability](#usable) guidelines) from the fetch, push, and CRUD data logic, allowing for BOTH to be independently developed, operated, and maintained.
 
 If possible, their should not be any "touch points" between the GUI and data logic as they are defined above. While this may require a "heavier lift" up front without necessarily seeing the benefits right away, the long term strategi benefits and LoE savings are well worth it. 
 
@@ -658,7 +658,7 @@ CSS
 
 Decoupling GUI logic from business logic allows the D7460N Template to be:
 * data agnostic
-* JS framework agnostic - see [WEB COMPONENTS](#web)
+* JS framework agnostic - see [WEB COMPONENTS](#components)
 * Scalable
 * Modular
 * Independent
@@ -687,7 +687,7 @@ HOW - folllow the principles layout out int this document, such as [separation o
 
 <details>
  <p></p>
-<summary id="css-first"><h3>CSS FIRST</h3></summary>
+<summary id="first"><h3>CSS FIRST</h3></summary>
 
 Strongly hinted in the [Least Power](#least) section, but bears emphasizing... _What can't be done in HTML is done in CSS_.
 
@@ -704,14 +704,14 @@ CSS's always on, always reactive nature combined with newly enable CSS `has();` 
 
 CSS is the driving force behind D7460N design and development. Scripting is purposely minimal so as to avoid negating the natural benefits of such CSS first, data centric design and development. This focus on CSS is neither custom nor new. It is actually the original intent and purpose behind how and why CSS was created. 
 
->HTML and CSS over JS : :<br />
->Whenever possible, we (Bootstrap) prefer to write HTML and CSS over JavaScript. In general, HTML and CSS are more prolific and accessible to more people of all different experience levels. HTML and CSS are also faster in your browser than JavaScript, and your browser generally provides a great deal of functionality for you.
+> <i>HTML and CSS over JS : :</i><br />
+> <i>Whenever possible, we (Bootstrap) prefer to write HTML and CSS over JavaScript. In general, HTML and CSS are more prolific and accessible to more people of all different experience levels. HTML and CSS are also faster in your browser than JavaScript, and your browser generally provides a great deal of functionality for you.</i>
 >
->This principle is our first-class JavaScript API using data attributes. You don’t need to write nearly any JavaScript to use our JavaScript plugins; instead, write HTML.
+> <i>This principle is our first-class JavaScript API using data attributes. You don’t need to write nearly any JavaScript to use our JavaScript plugins; instead, write HTML.</i>
 >
->Lastly, our styles build on the fundamental behaviors of common web elements. Whenever possible, we prefer to use what the browser provides. 
+> <i>Lastly, our styles build on the fundamental behaviors of common web elements. Whenever possible, we prefer to use what the browser provides.</i>
 >
->The same goes for more complex components. While we could write our own form validation plugin to add classes to a parent element based on an input’s state, thereby allowing us to style the text say red, we prefer using the :valid/:invalid pseudo-elements every browser provides us.<br />
+> <i>The same goes for more complex components. While we could write our own form validation plugin to add classes to a parent element based on an input’s state, thereby allowing us to style the text say red, we prefer using the :valid/:invalid pseudo-elements every browser provides us.</i><br />
 [~ HTML and CSS over JS | getbootstrap.com](https://getbootstrap.com/docs/5.3/extend/approach/#html-and-css-over-js)
 
 </details>
@@ -720,7 +720,7 @@ CSS is the driving force behind D7460N design and development. Scripting is purp
 
 <br />
 
-<h2 id="development-techniques">DESIGN/DEVELOPMENT TECHNIQUES : :</h2>
+<h2 id="dev">DESIGN/DEVELOPMENT TECHNIQUES : :</h2>
 
 <br />
 
@@ -748,7 +748,7 @@ Allows for JS framework independence, neutrality, and flexibility. If <b>Angular
 
 <details>
  <p></p>
-<summary id="classless-css"><h3>CLASSLESS CSS</h3></summary>
+<summary id="classless"><h3>CLASSLESS CSS</h3></summary>
 
 Classless CSS is a minimalist development technique that allows developers to define [semantic](#semantic) html layouts and form elements in CSS without needing to use class selectors or "hooks" in the HTML. This reduces HTML bloat, page load size, helps boost [SEO](#seo) and helps to keep the HTML clean, readable, and intuitive for developers.
 
@@ -784,6 +784,12 @@ CSS `@layer` is utilized by the D7460N Template to lessen the precedence of the 
 >
 > Rules within a cascade layer cascade together, giving more control over the cascade to web developers. Any styles not in a layer are gathered together and placed into a single anonymous layer that comes after all the declared layers, named and anonymous. This means that any styles declared outside of a layer will override styles declared in a layer, regardless of specificity.<br />
 [~ CSS @layer | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer)
+
+`@layer` Order
+```
+@layer reset, theme, global, layout, components, utilities, states;
+
+```
 
 </details>
 
@@ -866,7 +872,7 @@ HTML : :
 
 <details>
  <p></p>
-<summary id="custom-html-elements"><h3>CUSTOM HTML ELEMENTS</h3></summary>
+<summary id="custom"><h3>CUSTOM HTML ELEMENTS</h3></summary>
 
 Custom HTML elements are alphanumeric hyphenated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless)).
 
@@ -907,7 +913,7 @@ HTML : :
 
 <details>
  <p></p>
-<summary id="css-variables"><h3>CSS CUSTOM PROPERTIES (AKA CSS VARIABLES)</h3></summary>
+<summary id="variables"><h3>CSS CUSTOM PROPERTIES (AKA CSS VARIABLES)</h3></summary>
 
 The D7460N Template leverages CSS custom properties or variables to predefine layout states, color theme, user preferences, and many other dynamic GUI logic features. 
 
@@ -920,7 +926,7 @@ Custom properties (sometimes referred to as CSS variables or cascading variables
 
 <details>
  <p></p>
-<summary id="responsive-design"><h3>RESPONSIVE DESIGN</h3></summary>
+<summary id="responsive"><h3>RESPONSIVE DESIGN</h3></summary>
 
 (WIP)
 
@@ -933,7 +939,7 @@ Responsive web design (RWD) is a web design approach to make web pages render we
 
 <details>
  <p></p>
-<summary id="progressive-enhancement"><h3>PROGRESSIVE ENHANCEMENT</h3></summary>
+<summary id="progress"><h3>PROGRESSIVE ENHANCEMENT</h3></summary>
 
 **Progressive Enhancement** is a design philosophy that provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code. 
 
@@ -954,7 +960,7 @@ Feature detection is generally used to determine whether browsers can handle mor
 
 <details>
  <p></p>
-<summary id="minimal-third-party-dependencies"><h3>MINIMAL THIRD PARTY DEPENDENCIES</h3></summary>
+<summary id="minimal"><h3>MINIMAL THIRD PARTY DEPENDENCIES</h3></summary>
 
 Third party dependencies such as JS libraries like jQuery, EXT.js, Prototype.js and JavaScript frameworks like Angular, Vue, and React are helpful for launching features and or entire software projects quickly and when browsers don't support needed functionality natively. 
 
@@ -982,9 +988,9 @@ _There is a better way!_
 
 <details>
  <p></p>
-<summary id="squishy-layout"><h3>SQUISHY LAYOUT</h3></summary>
+<summary id="squishy"><h3>SQUISHY LAYOUT</h3></summary>
 
-The D7460N Template leverages an undocumented but valid **3 STEP** layout technique using just native HTML and CSS. This technique allows for dynamic functionality normally relegated to and implemented with expensive JavaScript tracking and poling. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive-design), and sets the groundwork for [end-user customization options](#customization). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
+The D7460N Template leverages an undocumented but valid **3 STEP** layout technique using just native HTML and CSS. This technique allows for dynamic functionality normally relegated to and implemented with expensive JavaScript tracking and poling. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive), and sets the groundwork for [end-user customization options](#custom). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
 
 <h4>STEP 1 : :</h4>
 
@@ -1053,7 +1059,7 @@ What if a web GUI could natively (no third-party plug-ins or dependencies) knows
 It would : :
 * revolutionize web design/development as we know it. Web GUIs would largely run themselves, making decisions about how they behave depending on the data (data/business logic) occurring inside them
 * split web design/development in half along the "separation of concerns" divide so sharply and completely that buttons would do nothing but fetch data 
-* work with JavaScript disabled (pure CSS), the "Holy Grail" of [Accessibility](#accessibility)
+* work with JavaScript disabled (pure CSS), the "Holy Grail" of [Accessibility](#access)
 * result in automated templates for designers, far less code logic for developers, smaller digital footprint, and a much richer experience for end-users.
 
 <b>Web browsers have the ability to persistently and actively watch for and react to (live without penalty) changes in the DOM. All without the use of heavy slow JS frameworks or any front-end or back-end scripting.</b> 
@@ -1122,7 +1128,7 @@ The default D7460N Template automatically shows a minimal CSS only loading anima
 
 <details>
  <p></p>
-<summary id="counting"><h3>COUNTING QUERIES</h3></summary>
+<summary id="count"><h3>COUNTING QUERIES</h3></summary>
 
 (WIP)
 
@@ -1130,7 +1136,7 @@ The default D7460N Template automatically shows a minimal CSS only loading anima
 
 <details>
  <p></p>
-<summary id="customization"><h3>CUSTOMIZATION</h3></summary>
+<summary id="custom"><h3>CUSTOMIZATION</h3></summary>
 
 Allow end-users to feel like they can make D7460N their own, through customization options. 
 
@@ -1165,15 +1171,15 @@ Customization options : :
 
 <br />
 
-<h2 id="style-guide">STYLE GUIDE : :</h2>
+<h2 id="style-">STYLE GUIDE : :</h2>
 
 <br />
 
 <details>
  <p></p>
-<summary id="color-themes"><h3>COLOR THEMES</h3></summary>
+<summary id="themes"><h3>COLOR THEMES</h3></summary>
 
-D7460N color themes are independent from the GUI and are set via [CSS Variables](#css-variables). Light and dark version are provided for each color theme. 
+D7460N color themes are independent from the GUI and are set via [CSS Variables](#variables). Light and dark version are provided for each color theme. 
 
 Absolute black `#000000` and absolute white `#FFFFFF` are reserved colors for accent, shading, and 3D angled perspectives.
 
@@ -1186,7 +1192,7 @@ awaiting base theme CSS
 
 <details>
  <p></p>
-<summary id="corporate-branding"><h3>CORPORATE BRANDING</h3></summary>
+<summary id="corporate"><h3>CORPORATE BRANDING</h3></summary>
 
 LOGO : :
 
@@ -1202,10 +1208,10 @@ The D7460N logo conforms to the following requirements : :
 * No relational context
 * No copyright
 
-> <span id="logo-note">NOTE : : Accessibility requirements do not apply to logos and or incidental graphics, but is nevertheless best practices for [Usability](#usability).<br />
+> <span id="logo">NOTE : : Accessibility requirements do not apply to logos and or incidental graphics, but is nevertheless best practices for [Usability](#usable).<br />
 [Color and Contrast | accessibility.digital.gov](https://accessiblity.digital.gov/visual-design/color-and-contrast/)
 
-The D7460N logo changes color dynamically depending on its `background-color` so as to maintain the contextual theme and standard accessibility contrast ratio of `4.5:1`. The color of `#999999` is defaulted as a safe fallback color that works in both light and dark themes. Note: (see [Accessibility](#accessibility) note above).
+The D7460N logo changes color dynamically depending on its `background-color` so as to maintain the contextual theme and standard accessibility contrast ratio of `4.5:1`. The color of `#999999` is defaulted as a safe fallback color that works in both light and dark themes. Note: (see [Accessibility](#access) note above).
 
 </details>
 
@@ -1213,13 +1219,13 @@ The D7460N logo changes color dynamically depending on its `background-color` so
 
 <br />
 
-<h2 id="architecture">ARCHITECTURE : :</h2>
+<h2 id="arc">ARCHITECTURE : :</h2>
 
 <br />
 
 <details>
  <p></p>
-<summary id="jamstack"><h3>JAMStack</h3></summary>
+<summary id="jam"><h3>JAMStack</h3></summary>
  
 (WIP) 
 
@@ -1229,7 +1235,7 @@ D7460N Template is a static Single Page Application (SPA) GUI with a JAMStack ar
 
 <details>
  <p></p>
-<summary id="html-css"><h3>HTML/CSS</h3></summary>
+<summary id="html"><h3>HTML/CSS</h3></summary>
  
 To separate and isolate GUI logic from business logic, the D7460N GUI is strictly separated into two exclusive halves. The HTML/CSS (GUI logic) and JavaScript (business logic).
  
@@ -1267,7 +1273,7 @@ This is an important usability technique in that it allows for uninterrupted con
 
 <details>
  <p></p>
-<summary id="alternate-layouts"><h3>ALTERNATE LAYOUTS</h3></summary>
+<summary id="alt"><h3>ALTERNATE LAYOUTS</h3></summary>
 
 D7460N has optional alternate layout configurations that optimize master/detail workflow conventions from left to right and right to left. 
 
@@ -1303,7 +1309,7 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 
 <details>
  <p></p>
-<summary id="cross-platform-interoperability"><h3>CROSS-PLATFORM-INTEROPERABILITY</h3></summary>
+<summary id="cross"><h3>CROSS-PLATFORM-INTEROPERABILITY</h3></summary>
 
 (WIP)
  
@@ -1311,7 +1317,7 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 
 <details>
  <p></p>
-<summary id="immersive-experience"><h3>EMERSIVE EXPERIENCE</h3></summary>
+<summary id="immersive"><h3>EMERSIVE EXPERIENCE</h3></summary>
 
 (WIP)
 
@@ -1321,7 +1327,7 @@ These new web development capabilities provide great opportunities to build imme
 
 <details>
  <p></p>
-<summary id="progressively-enhanced"><h3>PROGRESSIVELY ENHANCED</h3></summary>
+<summary id="progress"><h3>PROGRESSIVELY ENHANCED</h3></summary>
 
 (WIP)
 
@@ -1331,7 +1337,7 @@ PWAs are websites that are progressively enhanced to function like installed, na
 
 <details>
  <p></p>
-<summary id="desktop-app"><h3>IT'S A DESKTOP APP</h3></summary>
+<summary id="desktop"><h3>IT'S A DESKTOP APP</h3></summary>
  
 The qualities of a PWA combine the best of the web and compiled apps. PWAs run in browsers, like websites. But PWAs also have access to desktop features.
 
@@ -1401,7 +1407,7 @@ A fully capable Progressive Web Application can provide the following advantages
 
 <details>
  <p></p>
-<summary id="web-application-firewall"><h3>WEB APPLICATION FIREWALL (WAF)</h3></summary>
+<summary id="firewall"><h3>WEB APPLICATION FIREWALL (WAF)</h3></summary>
 
 > A web application firewall enhances and complements traditional firewalls which have no visibility into the content of encrypted HTTPS traffic and therefore can’t block dangerous HTTPs streams.
 >
@@ -1431,7 +1437,7 @@ A fully capable Progressive Web Application can provide the following advantages
 
 <br />
  
-<h2 id="browser-compatibility">BROWSER COMPATIBILITY : :</h2>
+<h2 id="compatible">BROWSER COMPATIBILITY : :</h2>
 
 <br />
 
@@ -1446,7 +1452,7 @@ A fully capable Progressive Web Application can provide the following advantages
 
 <br />
  
-<h2 id="directory-structure">DIRECTORY STRUCTURE : :</h2>
+<h2 id="directory">DIRECTORY STRUCTURE : :</h2>
 
 <br />
 
