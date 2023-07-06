@@ -8,7 +8,14 @@
     body,html,iframe,app-container {
     background-color: var(--bg-color);
   }
-
+/*
+https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/
+Baseline for default links */
+a:not([class]) {
+  /* Relatively sized thickness and offset */
+  text-decoration-thickness: max(0.08em, 1px);
+  text-underline-offset: 0.15em;
+}
 
 /*  LAYOUT | Vertical --------------------------------
 */  :root {
