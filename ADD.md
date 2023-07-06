@@ -689,7 +689,7 @@ HOW - folllow the principles layout out int this document, such as [separation o
  <p></p>
 <summary id="css-first"><h3>CSS FIRST</h3></summary>
 
-Strongly hinted in the [Least Power](#least-power) section, but bears emphasizing... _What can't be done in HTML is done in CSS_.
+Strongly hinted in the [Least Power](#least) section, but bears emphasizing... _What can't be done in HTML is done in CSS_.
 
 How do you create a modern future-proofed web presence that is more accessible and more enjoyable with less effort, less time, and less resources?
 
@@ -775,7 +775,10 @@ Classless CSS is a minimalist development technique that allows developers to de
  <p></p>
 <summary id="layer"><h3>CSS @LAYER</h3></summary>
 
-CSS `@layer` is utilized by the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, and / or other themes and / or page builders to take precphysic and override default D7460N Template styles. In other words, easier integration with other projects and / or with other tools. 
+> <i>Using `@layer`, we can define groups of rule sets with a pre-determined order to reduce the likelihood of conflicts. Being able to assign this order largely prevents the need to use `!important` and enables easier overrides of inherited styles from third-party or framework stylesheets.</i><br />
+[~ Modern CSS For Dynamic Component-Based Architecture](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/)
+
+CSS `@layer` is utilized by the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, and / or other themes and / or auto-page-builders to take precedent and override default D7460N Template styles. In other words, easier integration with other projects and / or with other tools. 
 
 > The `@layer` CSS at-rule is used to declare a cascade layer and can also be used to define the order of precedence in case of multiple cascade layers.
 >
