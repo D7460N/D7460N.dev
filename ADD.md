@@ -519,12 +519,12 @@ Future Proofing
 Framework first (back to front) perspective
 ```
 
-UI/UX <b>integrated with</b> framework : :
- [ Monolythic
- [ Huge codebase/digital footprint
- [ Inflexible/opinionated design/development "happy path"
- [ Upgrade/security path controlled by hundreds of dependencies
- [ Custom changes break upgrade/security path dooming project 
+// UI/UX integrated with framework : :
+     // Monolythic
+    // Huge codebase/digital footprint
+   // Inflexible/opinionated design/development "happy path"
+  // Upgrade/security path controlled by hundreds of dependencies
+ // Custom changes break upgrade/security path dooming project 
 
             // END WITH USER    <   <   <   <   <   <   // START WITH FRAMWORK
            /                                           /  
@@ -540,10 +540,10 @@ _ _ _ /::::::\    JS  \     Serve      \                  \     `      \
     \   \::/        /         /------/  UI/UX           /        `   /\
      \   \/________/_________/______/_________________ /____________/  \
       \ _ _ _ _ _ _ _ _ _ _ _\ _ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ _ _ _\
-      |                      |                | 
-      [ What users see       |                |
-      [ Made compatable with browsers         |
-      [ GUI, business, and data logic integrated with framework
+      /                      /                / 
+     // What users see      /                / 
+    // Made compatable with browsers        / 
+   // GUI, business, and data logic integrated with framework
 
 
 ```
@@ -551,38 +551,37 @@ _ _ _ /::::::\    JS  \     Serve      \                  \     `      \
 User first (front to back) perspective
 ```
 
-UI/UX <b>separated from</b> framework : :
- [ Compatible 
- [ Small codebase/digital footprint
- [ Flexible/unopinionated design/development
- [ Upgrade/security path NOT controlled by third party dependencies
- [ Vanilla so custom changes DON'T break upgrade/security path dooming project 
+// UI/UX separated from framework : :
+     // Compatible 
+    // Small codebase/digital footprint
+   // Flexible/unopinionated design/development
+  // Upgrade/security path NOT controlled by third party dependencies
+ // Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
-              // START WITH USER  >   >   >   >   >   >   >   >   >   >   >    // END WITH FRAMEWORK
-             /                                                                / 
-            /        // Separation of Conserns                               /
-           /________/                     /_________________________________/_____________
-          /\  HTML  \  - -          - -  /\                \                 \           `\
-         /::\  CSS   \- -    Air   - -  /::\     Build      \  JS framwork    \   Back  `  \
-        /::::\  JS    \-    Gap   - -  /::::\     Compile    \  Action Script  \   end `    \
- _ _ _ /::::::\  UI/UX \        _ _ _ /::::::\     Serve      \                 \     `      \
- \    /::::::::\________\       \    /::::::::\________________\_________________\   `        \
-  \   \::::::::/        /        \   \::::::::/         /      /                 /  `         /
-   \   \::::::/  Data  /          \   \::::::/         /------/                 /    `       /
-    \   \::::/        /            \   \::::/         /      /   Data logic    /      `     /
-     \   \::/        /\             \   \::/         /------/                 /        `   /\
-      \   \/________/  \             \   \/_________/______/_________________/____________/  \
-       \_ _ _ _ _ _ _ __\             \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
-       |                              |
-       [ JAMstack                     [ Framework Agnostic
-       [ Flexible                        [ Angular
-       [ Modular                         [ Vue
-       [ GUI agnostic                    [ React
-       [ What users see                  [ ...
-       [ GUI & business logic  
-       [ Separation of Concerns  
-       [ Decoupled & Independent  
-       [ Semantic custom HTML and native web components for dynamic data hooks
+               // START WITH USER  >   >   >   >   >   >   >   >   >   >   >    // END WITH FRAMEWORK
+              /                                                                / 
+             /        // Separation of Conserns                               /
+            /________/                     /_________________________________/_____________
+           /\  HTML  \  - -          - -  /\                \                 \           `\
+          /::\  CSS   \- -    Air   - -  /::\     Build      \  JS framwork    \   Back  `  \
+         /::::\  JS    \-    Gap   - -  /::::\     Compile    \  Action Script  \   end `    \
+  _ _ _ /::::::\  UI/UX \        _ _ _ /::::::\     Serve      \                 \     `      \
+  \    /::::::::\________\       \    /::::::::\________________\_________________\   `        \
+   \   \::::::::/        /        \   \::::::::/         /      /                 /  `         /
+    \   \::::::/  Data  /          \   \::::::/         /------/                 /    `       /
+     \   \::::/        /            \   \::::/         /      /   Data logic    /      `     /
+      \   \::/        /\             \   \::/         /------/                 /        `   /\
+       \   \/________/  \             \   \/_________/______/_________________/____________/  \
+        \_ _ _ _ _ _ _ __\             \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+        // JAMstack                     // Framework Agnostic
+       // Flexible                        // Angular
+      // Modular                         // Vue
+     // GUI agnostic                    // React
+    // What users see                  // ...
+   // GUI & business logic  
+  // Separation of Concerns  
+ // Decoupled & Independent  
+// Semantic custom HTML and native web components for dynamic data hooks
 
 
 ```
