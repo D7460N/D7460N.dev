@@ -595,41 +595,40 @@ Front Front END (FFE)
 // Buttons just push and fetch data
 
      
-     // Developer swimlane                           // Developer swimlane    
-    /                                               /           
-    \      // Principal of Least Power              \
-     \    // START WITH HTML                         \    // END WITH
-      \  /         // then CSS                        \  // Framework
-       \/         /            // then JS              \/
-        \         \            \                        \
-         \  // Separation of Conserns                    \
-          \/__        \___        \___                    \__ _
-          /\  \       /\  \       /\  \  - -         - -  /\  
-         /::\  \     /::\  \     /::\  \- -   Air   - -  /::\
-        /::::\  \   /::::\  \   /::::\  \-   Gap   - -  /::::\ 
- _ _ _ /::::::\  \_/::::::\  \_/::::::\  \       _ _ _ /::::::\
- \    /: HTML :\__\: CSS ::\__\:: JS ::\__\      \    /Framwork\__ _ _
-  \   \::::::::/  /::::::::/  /::::::::/  /       \   \::::::::/
-   \   \::::::/  / \::::::/  / \::::::/  /         \   \::::::/
-    \   \::::/  /   \::::/  /   \::::/  /           \   \::::/
-     \   \::/  / \   \::/  / \   \::/    \           \   \::/
-      \   \/__/   \   \/__/   \   \/__/   \           \   \/__ _
-       \_ _ _ _ _ _\_ _ _ _ _ _\_ _ _ _ _ _\           \_ _ _ _  _   _ 
-       /           /           /           /           / 
-      // Semantic // Modern   // Minimal  /           //Framework uses custom HTML elements as unique selectors vice IDs 
-     // Custom el//Classless // Native   /__
-    // Minimal n// Native   // Fetch data  // Connected to HTML via minimal dynamic data points (withing custom tags)
-   // Native   // Usability// Push data   // Referenced to intuitive custom HTML elements
-  // No JS    /_____      // Remote      // Web components (without Shadow DOM)
- // Accessibility  /                    // CSS is already natively scoped (no leakage) 
-                  // GUI logic
-                 // Business logic
-                // Self-aware (watches for and responss to internal dynamic changes)
-                  // :has()  
-                 // variables
-                // viewport units
-               // container queries
-              // ... 
+      // Developer swimlane                             // Developer swimlane    
+     /                                                 /           
+     \      // Principal of Least Power                \
+      \    // START WITH HTML                           \    // END WITH
+       \  /          // then CSS                         \  // Framework
+        \/          /             // then JS              \/
+         \           \            \                        \
+          \  // Separation of Concerns                      \
+           \/__         \___         \___                    \__ _
+           /\  \        /\  \        /\  \  - -         - -  /\  
+          /::\  \      /::\  \      /::\  \- -   Air   - -  /::\
+         /::::\  \    /::::\  \    /::::\  \-   Gap   - -  /::::\ 
+ _ _ _  /::::::\  \_ /::::::\  \_ /::::::\  \       _ _ _ /::::::\
+ \     /: HTML :\__\ : CSS ::\__\ :: JS ::\__\      \    /Framwork\__ _ _
+  \    \::::::::/  / ::::::::/  / ::::::::/  /       \   \::::::::/
+   \    \::::::/  /  \::::::/  /  \::::::/  /         \   \::::::/
+    \    \::::/  /    \::::/  /    \::::/  /           \   \::::/
+     \    \::/  / \    \::/  / \    \::/    \           \   \::/
+      \    \/__/   \    \/__/   \    \/__/   \           \   \/__ _
+       \_ _ _ _ _ _ \_ _ _ _ _ _ \_ _ _ _ _ _ \           \_ _ _ _  _   _ 
+       /            /            /           /            / 
+      // Semantic  // Modern    // Minimal  /            //Framework uses custom HTML elements as unique selectors vice IDs 
+     // Custom el // Classless // Native   /___
+    // Minimal n // Native    // Fetch data  // Connected to HTML via minimal dynamic data points (withing custom tags)
+   // Native    // Usability // Push data   // Referenced to intuitive custom HTML elements
+  // No JS     /_____       // Remote      // Web components (without Shadow DOM)
+ // Accessibility   // GUI logic          // CSS is already natively scoped (no leakage) 
+                   // Business logic 
+                  // Self-aware (natively watches for and responss to internal dynamic changes) 
+                   // :has()
+                   // variables   
+                  // viewport units
+                 // container queries 
+                // ... 
 
 
 ```
