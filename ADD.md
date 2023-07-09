@@ -558,21 +558,22 @@ User first (front to back) perspective
   // Upgrade/security path NOT controlled by third party dependencies
  // Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
-               // START WITH USER  >   >   >   >   >   >   >   >   >   >   >    // END WITH FRAMEWORK
-              /                                                                / 
-             /        // Separation of Conserns                               /
-            /________/                     /_________________________________/_____________
-           /\  HTML  \  - -          - -  /\                \                 \           `\
-          /::\  CSS   \- -    Air   - -  /::\     Build      \  JS framwork    \   Back  `  \
-         /::::\  JS    \-    Gap   - -  /::::\     Compile    \  Action Script  \   end `    \
-  _ _ _ /::::::\  UI/UX \        _ _ _ /::::::\     Serve      \                 \     `      \
-  \    /::::::::\________\       \    /::::::::\________________\_________________\   `        \
-   \   \::::::::/        /        \   \::::::::/         /      /                 /  `         /
-    \   \::::::/  Data  /          \   \::::::/         /------/                 /    `       /
-     \   \::::/        /            \   \::::/         /      /   Data logic    /      `     /
-      \   \::/        /\             \   \::/         /------/                 /        `   /\
-       \   \/________/  \             \   \/_________/______/_________________/____________/  \
-        \_ _ _ _ _ _ _ __\             \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+                // START WITH USER  >   >   >   >   >   >   >   >   >   >   >    // END WITH FRAMEWORK
+               /                                                                / 
+              /        // Separation of Conserns                               /
+             /________/                     /_________________________________/_____________
+            /\  HTML  \  - -          - -  /\                \                 \           `\
+           /::\  CSS   \- -    Air   - -  /::\     Build      \  JS framwork    \   Back  `  \
+          /::::\  JS    \-    Gap   - -  /::::\     Compile    \  Action Script  \   end `    \
+   _ _ _ /::::::\  UI/UX \        _ _ _ /::::::\     Serve      \                 \     `      \
+   \    /::::::::\________\       \    /::::::::\________________\_________________\   `        \
+    \   \::::::::/        /        \   \::::::::/         /      /                 /  `         /
+     \   \::::::/  Data  /          \   \::::::/         /------/                 /    `       /
+      \   \::::/        /            \   \::::/         /      /   Data logic    /      `     /
+       \   \::/        /\             \   \::/         /------/                 /        `   /\
+        \   \/________/  \             \   \/_________/______/_________________/____________/  \
+         \_ _ _ _ _ _ _ __\             \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+         /                               / 
         // JAMstack                     // Framework Agnostic
        // Flexible                        // Angular
       // Modular                         // Vue
@@ -589,8 +590,8 @@ User first (front to back) perspective
 Front Front END (FFE)
 ```
           
-|_Separate, clean, modular, flexable, maintainable
-|_Buttons just push and fetch data
+ // Separate, clean, modular, flexable, maintainable
+// Buttons just push and fetch data
 
      
      // Developer swimlane                           // Developer swimlane    
@@ -613,19 +614,20 @@ Front Front END (FFE)
      \   \::/  / \   \::/  / \   \::/    \           \   \::/
       \   \/__/   \   \/__/   \   \/__/   \           \   \/__ _
        \_ _ _ _ _ _\_ _ _ _ _ _\_ _ _ _ _ _\           \_ _ _ _  _   _ 
-       |           |           |           |           |
-       |_Semantic  |_Modern    |_Minimal   |           |_Framework uses custom HTML elements as unique selectors vice IDs 
-       |_Custom el |_Classless |_Native    |_
-       |_Minimal n |_Native    |_Fetch data  |_Connected to HTML via minimal dynamic data points (withing custom tags)
-       |_Native    |_Usability |_Push data   |_Referenced to intuitive custom HTML elements
-       |_No JS     |_GUI logic |_Remote        |_Web components (without Shadow DOM)
-       |_Accessibility   |                     |_CSS is already natively scoped (no leakage) 
-                         |_Business logic
-                           |_Self-aware (watches for and responss to internal dynamic changes)
-                             |_:has()  
-                             |_variables
-                             |_viewport units
-                             |_container queries
+       /           /           /           /           / 
+      // Semantic // Modern   // Minimal  /           //Framework uses custom HTML elements as unique selectors vice IDs 
+     // Custom el//Classless // Native   /__
+    // Minimal n// Native   // Fetch data  // Connected to HTML via minimal dynamic data points (withing custom tags)
+   // Native   // Usability// Push data   // Referenced to intuitive custom HTML elements
+  // No JS    /_____      // Remote      // Web components (without Shadow DOM)
+ // Accessibility  /                    // CSS is already natively scoped (no leakage) 
+                  // GUI logic
+                 // Business logic
+                // Self-aware (watches for and responss to internal dynamic changes)
+                  // :has()  
+                 // variables
+                // viewport units
+               // container queries
 
 
 ```
