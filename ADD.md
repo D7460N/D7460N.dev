@@ -592,19 +592,17 @@ Front Front END (FFE)
           
 |_Separate, clean, modular, flexable, maintainable
 |_Buttons just push and fetch data
-|_Defines developer swimlanes
 
-
-              // Developer swimlane  /                        // Developer swimlane
-             /                      /                        /
-            /                      /                        /
-           // Principal of Least Power                     /
-          // START HERE          /                        // END HERE
-         // HTML>> / then CSS >>/ then JS >>             // Framework                
-        /         /            /                        /
+     
+     // Developer swimlane                           // Developer swimlane    
+    /                                               /           
+    \      // Principal of Least Power              \
+     \    // START HERE                              \    // END HERE
+      \  // HTML>> / then CSS >>/ then JS >>          \  // Framework                
+       \/         /            /                       \/
         \         \            \                        \
          \  // Separation of Conserns                    \
-          \/__        \___        \___/                   \__ _
+          \/__        \___        \___                    \__ _
           /\  \       /\  \       /\  \  - -         - -  /\  
          /::\  \     /::\  \     /::\  \- -   Air   - -  /::\
         /::::\  \   /::::\  \   /::::\  \-   Gap   - -  /::::\ 
