@@ -526,25 +526,25 @@ Framework first perspective (back to front)
   // Upgrade/security path controlled by hundreds of dependencies
  // Custom changes break upgrade/security path dooming project 
 
-            // END WITH USER    <   <   <   <   <   <   // START WITH FRAMWORK
-           /                                           /  
-          /___________________________________________/_____________
-         /\        \                \                  \           `\
-        /::\  HTML  \     Build      \  JS framework    \    Back `  \
-       /::::\   CSS  \     Compile    \  Action Script   \    end`    \
-_ _ _ /::::::\    JS  \     Serve      \                  \     `      \
-\    /::::::::\________\________________\__________________\   `        \
- \   \::::::::/        /         /      /                  /  `         /
-  \   \::::::/  Data  /         /------/  GUI, business   /    `       /
-   \   \::::/        /         /      /  & data logic    /      `     /
-    \   \::/        /         /------/  UI/UX           /        `   /\
-     \   \/________/_________/______/_________________ /____________/  \
-      \_ _ _ _ _ _ _\ _ _ _ _ _ _ _ _\ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
-      /             /                / 
-     // User       // Made          // GUI, 
-    // facing     // compatable    // business, 
-   // product    // with          // and data logic
-                // browsers      // integrated with framework
+             // END WITH USER    <   <   <   <   <   <   // START WITH FRAMWORK
+            /                                           /  
+           /___________________________________________/_____________
+          /\        \                \                  \           `\
+         /::\  HTML  \     Build      \  JS framework    \    Back `  \
+        /::::\   CSS  \     Compile    \  Action Script   \    end`    \
+_ _ _ _/::::::\    JS  \     Serve      \                  \     `      \
+\     /::::::::\________\________________\__________________\   `        \
+ \    \::::::::/        /         /      /                  /  `         /
+  \    \::::::/  Data  /         /------/  GUI, business   /    `       /
+   \    \::::/        /         /      /  & data logic    /      `     /
+    \    \::/        /         /------/  UI/UX           /        `   / \
+     \    \/________/_________/______/_________________ /____________/   \
+      \_ _ _ _ _ _ _ \_ _ _ _ _ _ _ _ \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+      /              /                / 
+     // User        // Made          // GUI, 
+    // facing      // compatable    // business, 
+   // product     // with          // and data logic
+                 // browsers      // integrated with framework
 
 
 ```
@@ -559,27 +559,27 @@ User first (front to back) perspective
   // Upgrade/security path NOT controlled by third party dependencies
  // Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
-                // START WITH USER>   >   >   >   >   >   >   >   >   >   >    // END WITH FRAMEWORK
-               /                                                              / 
-              /        // Separation of Concerns                             /
-             /________/                   __________________________________/_____________
-            /\  HTML  \  - -        - -  /\                \                 \           `\
-           /::\  CSS   \- -   Air  - -  /::\     Build      \  JS framwork    \   Back  `  \
-          /::::\  JS    \-   Gap  - -  /::::\     Compile    \  Action Script  \   end `    \
-   _ _ _ /::::::\  UI/UX \      _ _ _ /::::::\     Serve      \                 \     `      \
-   \    /::::::::\________\     \    /::::::::\________________\_________________\   `        \
-    \   \::::::::/        /      \   \::::::::/         /      /                 /  `         /
-     \   \::::::/  Data  /        \   \::::::/         /------/                 /    `       /
-      \   \::::/        /          \   \::::/         /      /   Data logic    /      `     /
-       \   \::/        / \          \   \::/         /------/                 /        `   /\
-        \   \/________/   \          \   \/_________/______/_________________/____________/  \
-         \_ _ _ _ _ _ _ _ _\          \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
-         /                            / 
-        // JAMstack                  // Framework Agnostic
-       // Flexible                     // Angular
-      // Modular                      // Vue
-     // GUI agnostic                 // React
-    // What users see               // ...
+                // START WITH USER   >   >   >   >   >   >   >   >   >   >    // END WITH FRAMEWORK
+               /                                                             / 
+              /        // Separation of Concerns                            /
+             /________/                  __________________________________/_____________
+            /\  HTML  \  - -       - -  /\                \                 \           `\
+           /::\  CSS   \- -  Air  - -  /::\     Build      \  JS framwork    \   Back  `  \
+          /::::\  JS    \-  Gap  - -  /::::\     Compile    \  Action Script  \   end `    \
+   _ _ _ /::::::\  UI/UX \     _ _ _ /::::::\     Serve      \                 \     `      \
+   \    /::::::::\________\    \    /::::::::\________________\_________________\   `        \
+    \   \::::::::/        /     \   \::::::::/         /      /                 /  `         /
+     \   \::::::/  Data  /       \   \::::::/         /------/                 /    `       /
+      \   \::::/        /         \   \::::/         /      /   Data logic    /      `     /
+       \   \::/        / \         \   \::/         /------/                 /        `   /\
+        \   \/________/   \         \   \/_________/______/_________________/____________/  \
+         \_ _ _ _ _ _ _ _ _\         \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+         /                           / 
+        // JAMstack                 // Framework Agnostic
+       // Flexible                    // Angular
+      // Modular                     // Vue
+     // GUI agnostic                // React
+    // What users see              // ...
    // GUI & business logic  
   // Separation of Concerns  
  // Decoupled & Independent  
@@ -597,16 +597,16 @@ Front Front END (FFE)
      
          // Developer swimlane                             // Developer swimlane
         /                                                 /
-       /         // Least Power Principal                /           
-       \        // START WITH                            \   
+       /         // Least Power Principal                /
+       \        // START WITH                            \
         \      // HTML only  // CSS only   // JS only   > \ >   >   >   >   >   >   >   >   >   >  // END WITH FRAMEWORK
-         \    /             /             /                \                                      /             
-          \  /  // Separation of Concerns/                  \                                    /   
+         \    /             /             /                \                                      /
+          \  /  // Separation of Concerns/                  \                                    / 
            \/__/          /__           /__                  \__________________________________/_____________
            /\  \         /\  \         /\  \  - -       - -  /\                \                 \           `\  
           /::\  \       /::\  \       /::\  \- -  Air  - -  /::\     Build      \  JS framwork    \   Back  `  \
          /::::\  \     /::::\  \     /::::\  \-  Gap  - -  /::::\     Compile    \  Action Script  \   end `    \
- _ _ _  /::::::\  \_  /::::::\  \_  /::::::\  \     _ _ _ /::::::\     Serve      \                 \     `      \
+ _ _ _  /::::::\  \ _ /::::::\  \ _ /::::::\  \     _ _ _ /::::::\     Serve      \                 \     `      \
  \     /: HTML :\__\ /: CSS ::\__\ /:: JS ::\__\    \    /Framwork\________________\_________________\   `        \
   \    \::::::::/  / \::::::::/  / \::::::::/  /     \   \::::::::/         /      /                 /  `         /
    \    \::::::/  /   \::::::/  /   \::::::/  /       \   \::::::/         /------/                 /    `       /
