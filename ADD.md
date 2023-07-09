@@ -525,10 +525,9 @@ UI/UX <b>integrated with</b> framework : :
  |_ Inflexible/opinionated design/development "happy path"
  |_ Upgrade/security path controlled by hundreds of dependencies
  |_ Custom changes break upgrade/security path dooming project 
-        __________
-       |          |  <  <  <  <  <  <  <  <  <  <  [ START HERE ]                                                  
-       | END HERE |                                 _ _ _|_ _ _
-       |__________|
+
+   [ START HERE ]  >  >  >  >  >  >  >  >  >  >  >  [ END HERE ]
+       _ _|_ _                                       _ _ _|_ _ _  
        _________________________________________________________
       /\        \                \                 \           .\
      /::\  HTML  \     Build      \  Action Script  \    Back .  \
@@ -541,9 +540,9 @@ UI/UX <b>integrated with</b> framework : :
    \ \::/        /         /------/  UI/UX          /          . /
     \ \/________/_________/______/________________ /____________/
      \              _ _ _ _ _ _    _ _ _ _ _ _ _ _                                  
-      |_What users see    |              |
-      |_Made compatable with browsers    |
-      |_GUI, business, and data logic integrated with framework
+      |_ What users see   |              |
+      |_ Made compatable with browsers   |
+      |_ GUI, business, and data logic integrated with framework
 
 
 ```
@@ -572,12 +571,12 @@ UI/UX <b>separated from</b> framework : :
    \ \::/        / -        \ \::/       /------/                 /          . /
     \ \/________/ -          \ \/_______/______/_________________/____________/
      \                        \  
-      |_GUI agnostic           |_Framework Agnostic
-      |_What users see           |_ Angular
-      |_GUI & business logic     |_ Vue
-      |_Separation of Concerns   |_ React
-      |_Decoupled & Independent
-      |_Semantic custom HTML and native web components for dynamic data hooks
+      |_ GUI agnostic          |_Framework Agnostic
+      |_ What users see          |_ Angular
+      |_ GUI & business logic    |_ Vue
+      |_ Separation of Concerns  |_ React
+      |_ Decoupled & Independent
+      |_ Semantic custom HTML and native web components for dynamic data hooks
 
 
 ```
