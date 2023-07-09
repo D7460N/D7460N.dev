@@ -526,9 +526,9 @@ UI/UX <b>integrated with</b> framework : :
  [ Upgrade/security path controlled by hundreds of dependencies
  [ Custom changes break upgrade/security path dooming project 
 
-          [ END WITH USER ]   <   <   <   <   <   <   [ START WITH FRAMWORK ]
-          |                                           |  
-          |___________________________________________|_____________
+            // END WITH USER    <   <   <   <   <   <   // START WITH FRAMWORK
+           /                                           /  
+          /___________________________________________/_____________
          /\        \                \                  \           `\
         /::\  HTML  \     Build      \  JS framework    \    Back `  \
        /::::\   CSS  \     Compile    \  Action Script   \    end`    \
@@ -558,10 +558,10 @@ UI/UX <b>separated from</b> framework : :
  [ Upgrade/security path NOT controlled by third party dependencies
  [ Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
-           [ START WITH USER ]   >   >   >   >   >   >   >   >   >   >   >  [ END WITH FRAMEWORK ]
-           |                                                                |  
-           |       [Separation of Conserns]                                 |
-           |_______|                      |_________________________________|_____________
+              // START WITH USER  >   >   >   >   >   >   >   >   >   >   >    // END WITH FRAMEWORK
+             /                                                                / 
+            /        // Separation of Conserns                               /
+           /________/                     /_________________________________/_____________
           /\  HTML  \  - -          - -  /\                \                 \           `\
          /::\  CSS   \- -    Air   - -  /::\     Build      \  JS framwork    \   Back  `  \
         /::::\  JS    \-    Gap   - -  /::::\     Compile    \  Action Script  \   end `    \
@@ -595,15 +595,16 @@ Front Front END (FFE)
 |_Defines developer swimlanes
 
 
-    [ Principal of Least Power
-    | START WITH...                                 | END WITH...
-    | HTML     | then CSS  | then JS                | then Framework                
-     \          \           \                        \
-      \ [  Developer swimlane\ ]                      \ [ Developer swimlane ]
-       \|         \           \                        \|
-        \          \           \                        \
-         \ [  Separation of Conserns  ]                  \
-          \|__        \___        \___|                   \__ _
+              // Developer swimlane  /                        // Developer swimlane
+             /                      /                        /
+            /                      /                        /
+           // Principal of Least Power                     /
+          // START HERE          /                        // END HERE
+         // HTML>> / then CSS >>/ then JS >>             // Framework                
+        /         /            /                        /
+        \         \            \                        \
+         \  // Separation of Conserns                    \
+          \/__        \___        \___/                   \__ _
           /\  \       /\  \       /\  \  - -         - -  /\  
          /::\  \     /::\  \     /::\  \- -   Air   - -  /::\
         /::::\  \   /::::\  \   /::::\  \-   Gap   - -  /::::\ 
@@ -614,7 +615,7 @@ Front Front END (FFE)
     \   \::::/  /   \::::/  /   \::::/  /           \   \::::/
      \   \::/  / \   \::/  / \   \::/    \           \   \::/
       \   \/__/   \   \/__/   \   \/__/   \           \   \/__ _
-       \_ _ _ _ _ _\_ _ _ _ _ _\_ _ _ _ _ _\           \_ _ _ _  _    _ 
+       \_ _ _ _ _ _\_ _ _ _ _ _\_ _ _ _ _ _\           \_ _ _ _  _   _ 
        |           |           |           |           |
        |_Semantic  |_Modern    |_Minimal   |           |_Framework uses custom HTML elements as unique selectors vice IDs 
        |_Custom el |_Classless |_Native    |_
