@@ -559,8 +559,9 @@ UI/UX <b>separated from</b> framework : :
  [ Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
            [ START WITH USER ]   >   >   >   >   >   >   >   >   >   >   >  [ END WITH FRAMEWORK ]
-           |                                                                |
-           |________                      __________________________________|_____________
+           |                                                                |  
+           |       [Separation of Conserns]                                 |
+           |_______|                      |_________________________________|_____________
           /\  HTML  \  - -          - -  /\                \                 \           `\
          /::\  CSS   \- -    Air   - -  /::\     Build      \  JS framwork    \   Back  `  \
         /::::\  JS    \-    Gap   - -  /::::\     Compile    \  Action Script  \   end `    \
@@ -588,44 +589,16 @@ UI/UX <b>separated from</b> framework : :
 
 Front Front END (FFE)
 ```
+           [  Principal of Least Power  ]
+           HTML   >>>   CSS   >>>    JS         >>>        Framework
 
-UI/UX <b>separated from</b> framework : :
- [ HTML, CSS, and JS are separate 
- [ No scripting in HTML to minimize rework or broken functionality
- [ 
- [ Upgrade/security path NOT controlled by third party dependencies
- [ Vanilla so custom changes DON'T break upgrade/security path dooming project 
+          
+           |_Separate, clean, modular, flexable, maintainable
+           |_Buttons just push and fetch data
+           |_Defines developer swimlanes
 
-
-            
-
-[ Principal of Least Power ]
-           Try HTML_
-                    [ then_           then     JS        then       framwork
-                           |___CSS              
-
- -
-|_HTML from CSS from JS from framwork
-
-also follows Principle of Least Power
-
-
-
-               [ Separate, clean, modular, flexable, maintainable
-               [ Buttons just push and fetch data
-               [ Defines developer swimlanes
-
-
-     /_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _/
-    / Separation of Concerns                /
-   /_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _/ 
-  /  Principal of Least Power             /
- /  HTML then CSS then JS then Framwork  /
-/_ _ _ _ _ _ _ 
-              /
-             / 
-            /_ _ _ _ / UI/UX /_ _ _ _ _
-           /__         ___         ___/                    __ _ 
+           [  Separation of Conserns  ]
+           |__         ___         ___|                    __ _ 
           /\  \       /\  \       /\  \  - -         - -  /\  
          /::\  \     /::\  \     /::\  \- -   Air   - -  /::\
         /::::\  \   /::::\  \   /::::\  \-   Gap   - -  /::::\ 
@@ -637,13 +610,19 @@ also follows Principle of Least Power
      \   \::/  / \   \::/  / \   \::/    \           \   \::/
       \   \/__/   \   \/__/   \   \/__/   \           \   \/__ _
        \_ _ _ _ _ _\_ _ _ _ _ _\_ _ _ _ _ _\           \_ _ _ _ _ _ 
-       |           |           |           |
-       |_Semantic  |_Modern    |_Minimal   |_Connected to HTML via ] 
-       |_Semantic  |_Classless |_Native      |_ Custom HTML elements 
-       |_Custom    |_Native    |_Native      |_ Web components (without Shadow DOM)
-       |_Minimal   |_          |_              |_ CSS is already scoped
-       |_Native
-
+       |           |           |           |           |
+       |_Semantic  |_Modern    |_Minimal   |           |
+       |_Custom    |_Classless |_Native    |_Connected to HTML via minimal dynamic data points
+       |_Minimal   |_Native    |_Fetch data  |_Referenced to intuitive custom HTML elements 
+       |_Native    |_Usability |_Push data   |_Web components (without Shadow DOM)
+       |_No JS     |_GUI logic                 |_CSS is already natively scoped (no leakage)
+       |_Accessibility
+                   |_Business logic
+                     |_Self-aware
+                       |_:has()
+                       |_variables
+                       |_viewport units
+                       |_container queries
 
 
 ```
