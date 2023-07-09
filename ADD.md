@@ -539,11 +539,12 @@ _ _ _ /::::::\    JS  \     Serve      \                  \     `      \
    \   \::::/        /         /      /  & data logic    /      `     /
     \   \::/        /         /------/  UI/UX           /        `   /\
      \   \/________/_________/______/_________________ /____________/  \
-      \ _ _ _ _ _ _ _ _ _ _ _\ _ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ _ _ _\
-      /                      /                / 
-     // What users see      /                / 
-    // Made compatable with browsers        / 
-   // GUI, business, and data logic integrated with framework
+      \_ _ _ _ _ _ _\ _ _ _ _ _ _ _ _\ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+      /             /                / 
+     // User       // Made          // GUI, 
+    // facing     // compatable    // business, 
+   // product    // with          // and data logic
+                // browsers      // integrated with framework
 
 
 ```
@@ -628,6 +629,7 @@ Front Front END (FFE)
                  // variables
                 // viewport units
                // container queries
+              // ... 
 
 
 ```
