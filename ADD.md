@@ -597,9 +597,9 @@ Front Front END (FFE)
      // Developer swimlane                           // Developer swimlane    
     /                                               /           
     \      // Principal of Least Power              \
-     \    // START HERE                              \    // END HERE
-      \  // HTML>> / then CSS >>/ then JS >>          \  // Framework                
-       \/         /            /                       \/
+     \    // START WITH HTML                         \    // END WITH
+      \  /         // then CSS                        \  // Framework
+       \/         /            // then JS              \/
         \         \            \                        \
          \  // Separation of Conserns                    \
           \/__        \___        \___                    \__ _
