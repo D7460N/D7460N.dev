@@ -526,8 +526,8 @@ UI/UX <b>integrated with</b> framework : :
  |_ Upgrade/security path controlled by hundreds of dependencies
  |_ Custom changes break upgrade/security path dooming project 
 
-   [ START HERE ]  >  >  >  >  >  >  >  >  >  >  >  [ END HERE ]
-       _ _|_ _                                       _ _ _|_ _ _  
+     [ END HERE ]  <  <  <  <  <  <  <  <  <  <  [ START HERE ]
+       _ _|_ _    <  <  <  <  <  <  <  <  <  <  < _ _ _ | _ _ _  
        _________________________________________________________
       /\        \                \                 \           .\
      /::\  HTML  \     Build      \  Action Script  \    Back .  \
@@ -557,8 +557,8 @@ UI/UX <b>separated from</b> framework : :
  |_ Upgrade/security path NOT controlled by third party dependencies
  |_ Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
-   [ START HERE ]  >  >  >  >  >  >  >  >  >  >  >  >  >  >  > [ END HERE ]
-       _ _|_ _                                                   _ _ _|_ _ _  
+    [ START HERE ]  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  [ END HERE ]
+       _ _|_ _     >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  _ _ _ | _ _ _  
        _________                ______________________________________________
       /\  HTML  \ -            /\              \                 \           .\
      /::\  CSS   \ -          /::\    Build     \  Action Script  \   Back  .  \   
