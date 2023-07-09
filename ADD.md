@@ -516,7 +516,7 @@ Future Proofing
 (WIP)
 
 
-Framework first (back to front) perspective
+Framework first perspective (back to front) 
 ```
 
 // UI/UX integrated with framework : :
@@ -559,27 +559,27 @@ User first (front to back) perspective
   // Upgrade/security path NOT controlled by third party dependencies
  // Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
-                // START WITH USER  >   >   >   >   >   >   >   >   >   >   >    // END WITH FRAMEWORK
-               /                                                                / 
-              /        // Separation of Concerns                               /
-             /________/                     /_________________________________/_____________
-            /\  HTML  \  - -          - -  /\                \                 \           `\
-           /::\  CSS   \- -    Air   - -  /::\     Build      \  JS framwork    \   Back  `  \
-          /::::\  JS    \-    Gap   - -  /::::\     Compile    \  Action Script  \   end `    \
-   _ _ _ /::::::\  UI/UX \        _ _ _ /::::::\     Serve      \                 \     `      \
-   \    /::::::::\________\       \    /::::::::\________________\_________________\   `        \
-    \   \::::::::/        /        \   \::::::::/         /      /                 /  `         /
-     \   \::::::/  Data  /          \   \::::::/         /------/                 /    `       /
-      \   \::::/        /            \   \::::/         /      /   Data logic    /      `     /
-       \   \::/        / \            \   \::/         /------/                 /        `   /\
-        \   \/________/   \            \   \/_________/______/_________________/____________/  \
-         \_ _ _ _ _ _ _ _ _\            \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
-         /                              / 
-        // JAMstack                    // Framework Agnostic
-       // Flexible                       // Angular
-      // Modular                        // Vue
-     // GUI agnostic                   // React
-    // What users see                 // ...
+                // START WITH USER>   >   >   >   >   >   >   >   >   >   >    // END WITH FRAMEWORK
+               /                                                              / 
+              /        // Separation of Concerns                             /
+             /________/                   __________________________________/_____________
+            /\  HTML  \  - -        - -  /\                \                 \           `\
+           /::\  CSS   \- -   Air  - -  /::\     Build      \  JS framwork    \   Back  `  \
+          /::::\  JS    \-   Gap  - -  /::::\     Compile    \  Action Script  \   end `    \
+   _ _ _ /::::::\  UI/UX \      _ _ _ /::::::\     Serve      \                 \     `      \
+   \    /::::::::\________\     \    /::::::::\________________\_________________\   `        \
+    \   \::::::::/        /      \   \::::::::/         /      /                 /  `         /
+     \   \::::::/  Data  /        \   \::::::/         /------/                 /    `       /
+      \   \::::/        /          \   \::::/         /      /   Data logic    /      `     /
+       \   \::/        / \          \   \::/         /------/                 /        `   /\
+        \   \/________/   \          \   \/_________/______/_________________/____________/  \
+         \_ _ _ _ _ _ _ _ _\          \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+         /                            / 
+        // JAMstack                  // Framework Agnostic
+       // Flexible                     // Angular
+      // Modular                      // Vue
+     // GUI agnostic                 // React
+    // What users see               // ...
    // GUI & business logic  
   // Separation of Concerns  
  // Decoupled & Independent  
@@ -595,27 +595,27 @@ Front Front END (FFE)
 // Buttons just push and fetch data
 
      
-         // Developer swimlane                               // Developer swimlane
-        /                                                   /
-       /         // Least Power Principal                  /           
-       \        /                                          \
-        \      // START WITH    >   >   >   >   >   >   >   >   >   >   >   >   >   >   >   >   >   // END WITH FRAMEWORK
-         \    // HTML       // CSS        // JS              \                                     /
-          \  // Separation of Concerns   /                    \                                   /   
-           \/__           /__           /__                    \_________________________________/_____________
-           /\  \         /\  \         /\  \  - -         - -  /\                \                 \           `\  
-          /::\  \       /::\  \       /::\  \- -   Air   - -  /::\     Build      \  JS framwork    \   Back  `  \
-         /::::\  \     /::::\  \     /::::\  \-   Gap   - -  /::::\     Compile    \  Action Script  \   end `    \
- _ _ _  /::::::\  \_  /::::::\  \_  /::::::\  \       _ _ _ /::::::\     Serve      \                 \     `      \
- \     /: HTML :\__\ /: CSS ::\__\ /:: JS ::\__\      \    /Framwork\________________\_________________\   `        \
-  \    \::::::::/  / \::::::::/  / \::::::::/  /       \   \::::::::/         /      /                 /  `         /
-   \    \::::::/  /   \::::::/  /   \::::::/  /         \   \::::::/         /------/                 /    `       /
-    \    \::::/  /\    \::::/  /     \::::/  /           \   \::::/         /      /   Data logic    /      `     /
-     \    \::/  /  \    \::/  /  \    \::/    \           \   \::/         /------/                 /        `   /\
-      \    \/__/    \    \/__/    \    \/__/   \           \   \/_________/______/_________________/____________/  \
-       \_ _ _ _ _ _ _\_ _ _ _ _ _ _\_ _ _ _ _ _ \           \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ 
-       /             /             /            /           / 
-      // Semantic   // Modern     // Minimal   /           //Framework uses custom HTML elements as unique selectors vice IDs 
+         // Developer swimlane                             // Developer swimlane
+        /                                                 /
+       /         // Least Power Principal                /           
+       \        // START WITH                            \   
+        \      // HTML only  // CSS only   // JS only   > \ >   >   >   >   >   >   >   >   >   >  // END WITH FRAMEWORK
+         \    /             /             /                \                                      /             
+          \  /  // Separation of Concerns/                  \                                    /   
+           \/__/          /__           /__                  \__________________________________/_____________
+           /\  \         /\  \         /\  \  - -       - -  /\                \                 \           `\  
+          /::\  \       /::\  \       /::\  \- -  Air  - -  /::\     Build      \  JS framwork    \   Back  `  \
+         /::::\  \     /::::\  \     /::::\  \-  Gap  - -  /::::\     Compile    \  Action Script  \   end `    \
+ _ _ _  /::::::\  \_  /::::::\  \_  /::::::\  \     _ _ _ /::::::\     Serve      \                 \     `      \
+ \     /: HTML :\__\ /: CSS ::\__\ /:: JS ::\__\    \    /Framwork\________________\_________________\   `        \
+  \    \::::::::/  / \::::::::/  / \::::::::/  /     \   \::::::::/         /      /                 /  `         /
+   \    \::::::/  /   \::::::/  /   \::::::/  /       \   \::::::/         /------/                 /    `       /
+    \    \::::/  /\    \::::/  /     \::::/  /         \   \::::/         /      /   Data logic    /      `     /
+     \    \::/  /  \    \::/  /  \    \::/    \         \   \::/         /------/                 /        `   /\
+      \    \/__/    \    \/__/    \    \/__/   \         \   \/_________/______/_________________/____________/  \
+       \_ _ _ _ _ _ _\_ _ _ _ _ _ _\_ _ _ _ _ _ \         \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ 
+       /             /             /            /         / 
+      // Semantic   // Modern     // Minimal   /         // Framework uses custom HTML elements as unique selectors vice IDs 
      // Custom el  // Classless  // Native    /___
     // Minimal n  // Native     // Fetch data   // Connected to HTML via minimal dynamic data points (withing custom tags)
    // Native     // Usability  // Push data    // Referenced to intuitive custom HTML elements
