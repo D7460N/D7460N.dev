@@ -589,40 +589,45 @@ UI/UX <b>separated from</b> framework : :
 
 Front Front END (FFE)
 ```
-           [  Principal of Least Power  ]
-           HTML   >>>   CSS   >>>    JS         >>>        Framework
-
           
-           |_Separate, clean, modular, flexable, maintainable
-           |_Buttons just push and fetch data
-           |_Defines developer swimlanes
+|_Separate, clean, modular, flexable, maintainable
+|_Buttons just push and fetch data
+|_Defines developer swimlanes
 
-           [  Separation of Conserns  ]
-           |__         ___         ___|                    __ _ 
+
+    [ Principal of Least Power
+    | START WITH...                                 | END WITH...
+    | HTML     | then CSS  | then JS                | then Framework                
+     \          \           \                        \
+      \ [  Developer swimlane\ ]                      \ [ Developer swimlane ]
+       \|         \           \                        \|
+        \          \           \                        \
+         \ [  Separation of Conserns  ]                  \
+          \|__        \___        \___|                   \__ _
           /\  \       /\  \       /\  \  - -         - -  /\  
          /::\  \     /::\  \     /::\  \- -   Air   - -  /::\
         /::::\  \   /::::\  \   /::::\  \-   Gap   - -  /::::\ 
- _ _ _ /::::::\  \ /::::::\  \ /::::::\  \       _ _ _ /::::::\
+ _ _ _ /::::::\  \_/::::::\  \_/::::::\  \       _ _ _ /::::::\
  \    /: HTML :\__\: CSS ::\__\:: JS ::\__\      \    /Framwork\__ _ _
   \   \::::::::/  /::::::::/  /::::::::/  /       \   \::::::::/
    \   \::::::/  / \::::::/  / \::::::/  /         \   \::::::/
     \   \::::/  /   \::::/  /   \::::/  /           \   \::::/
      \   \::/  / \   \::/  / \   \::/    \           \   \::/
       \   \/__/   \   \/__/   \   \/__/   \           \   \/__ _
-       \_ _ _ _ _ _\_ _ _ _ _ _\_ _ _ _ _ _\           \_ _ _ _ _ _ 
+       \_ _ _ _ _ _\_ _ _ _ _ _\_ _ _ _ _ _\           \_ _ _ _  _    _ 
        |           |           |           |           |
-       |_Semantic  |_Modern    |_Minimal   |           |
-       |_Custom    |_Classless |_Native    |_Connected to HTML via minimal dynamic data points
-       |_Minimal   |_Native    |_Fetch data  |_Referenced to intuitive custom HTML elements 
-       |_Native    |_Usability |_Push data   |_Web components (without Shadow DOM)
-       |_No JS     |_GUI logic                 |_CSS is already natively scoped (no leakage)
-       |_Accessibility
-                   |_Business logic
-                     |_Self-aware
-                       |_:has()
-                       |_variables
-                       |_viewport units
-                       |_container queries
+       |_Semantic  |_Modern    |_Minimal   |           |_Framework uses custom HTML elements as unique selectors vice IDs 
+       |_Custom el |_Classless |_Native    |_
+       |_Minimal n |_Native    |_Fetch data  |_Connected to HTML via minimal dynamic data points (withing custom tags)
+       |_Native    |_Usability |_Push data   |_Referenced to intuitive custom HTML elements
+       |_No JS     |_GUI logic |_Remote        |_Web components (without Shadow DOM)
+       |_Accessibility   |                     |_CSS is already natively scoped (no leakage) 
+                         |_Business logic
+                           |_Self-aware (watches for and responss to internal dynamic changes)
+                             |_:has()  
+                             |_variables
+                             |_viewport units
+                             |_container queries
 
 
 ```
