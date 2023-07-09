@@ -526,9 +526,9 @@ UI/UX <b>integrated with</b> framework : :
  |_ Upgrade/security path controlled by hundreds of dependencies
  |_ Custom changes break upgrade/security path dooming project 
 
-        [ END HERE ]  <  <  <  <  <  <  <  <  <  <  [ START HERE ]
-          _ _|_ _                                    _ _ _ | _ _ _  
-          __________________________________________________________
+          [ END WITH USER ]   <   <   <   <   <   <   [ START WITH FRAMWORK ]
+          |                                           |  
+          |___________________________________________|_____________
          /\        \                \                  \           `\
         /::\  HTML  \     Build      \  JS framework    \    Back `  \
        /::::\   CSS  \     Compile    \  Action Script   \    end`    \
@@ -540,9 +540,10 @@ _ _ _ /::::::\    JS  \     Serve      \                  \     `      \
     \   \::/        /         /------/  UI/UX           /        `   /\
      \   \/________/_________/______/_________________ /____________/  \
       \_ _ _ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+      |                   |               | 
       |_ What users see   |               |
-      |_ Made compatable with browsers    |
-      |_ GUI, business, and data logic integrated with framework
+         Made compatable with browsers    |
+         GUI, business, and data logic integrated with framework
 
 
 ```
@@ -557,25 +558,28 @@ UI/UX <b>separated from</b> framework : :
  |_ Upgrade/security path NOT controlled by third party dependencies
  |_ Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
-        [ START HERE ]  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  >  [ END HERE ]
-           _ _|_ _                                                         _ _ _ | _ _ _  
-           ____\____                      _______________________________________\________
-          /\  HTML  \                    /\                \                 \           `\
-         /::\  CSS   \                  /::\     Build      \  JS framwork    \   Back  `  \   
-        /::::\  JS    \                /::::\     Compile    \  Action Script  \   end `    \
+           [ START WITH USER ]   >   >   >   >   >   >   >   >   >   >   >  [ END WITH FRAMEWORK ]
+           |                                                                |
+           |________                      __________________________________|_____________
+          /\  HTML  \  - -          - -  /\                \                 \           `\
+         /::\  CSS   \- -    Air   - -  /::\     Build      \  JS framwork    \   Back  `  \   
+        /::::\  JS    \-    Gap   - -  /::::\     Compile    \  Action Script  \   end `    \
  _ _ _ /::::::\  UI/UX \        _ _ _ /::::::\     Serve      \                 \     `      \
  \    /::::::::\________\       \    /::::::::\________________\_________________\   `        \
   \   \::::::::/        /        \   \::::::::/         /      /                 /  `         /
-   \   \::::::/  Data  /  Air     \   \::::::/         /------/                 /    `       /
-    \   \::::/        /    Gap     \   \::::/         /      /   Data logic    /      `     /
+   \   \::::::/  Data  /          \   \::::::/         /------/                 /    `       /
+    \   \::::/        /            \   \::::/         /      /   Data logic    /      `     /
      \   \::/        /\             \   \::/         /------/                 /        `   /\
       \   \/________/  \             \   \/_________/______/_________________/____________/  \
        \_ _ _ _ _ _ _ __\             \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
-       |                              | 
-       |_ GUI agnostic                |_Framework Agnostic
-       |_ What users see                |_ Angular
-       |_ GUI & business logic          |_ Vue
-       |_ Separation of Concerns        |_ React
+       |                              |
+       |_ JAMstack                    |_ [ Framework Agnostic ]         
+       |_ Flexible                       |_ Angular                 
+       |_ Modular                        |_ Vue
+       |_ GUI agnostic                   |_ React
+       |_ What users see                 |_ ...
+       |_ GUI & business logic
+       |_ Separation of Concerns
        |_ Decoupled & Independent
        |_ Semantic custom HTML and native web components for dynamic data hooks
 
