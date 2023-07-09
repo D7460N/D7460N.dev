@@ -520,11 +520,11 @@ Framework first (back to front) perspective
 ```
 
 UI/UX <b>integrated with</b> framework : :
- |_ Monolythic
- |_ Huge codebase/digital footprint
- |_ Inflexible/opinionated design/development "happy path"
- |_ Upgrade/security path controlled by hundreds of dependencies
- |_ Custom changes break upgrade/security path dooming project 
+ [ Monolythic
+ [ Huge codebase/digital footprint
+ [ Inflexible/opinionated design/development "happy path"
+ [ Upgrade/security path controlled by hundreds of dependencies
+ [ Custom changes break upgrade/security path dooming project 
 
           [ END WITH USER ]   <   <   <   <   <   <   [ START WITH FRAMWORK ]
           |                                           |  
@@ -539,11 +539,11 @@ _ _ _ /::::::\    JS  \     Serve      \                  \     `      \
    \   \::::/        /         /      /  & data logic    /      `     /
     \   \::/        /         /------/  UI/UX           /        `   /\
      \   \/________/_________/______/_________________ /____________/  \
-      \_ _ _ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
-      |                   |               | 
-      |_ What users see   |               |
-         Made compatable with browsers    |
-         GUI, business, and data logic integrated with framework
+      \ _ _ _ _ _ _ _ _ _ _ _\ _ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ _ _ _\
+      |                      |                | 
+      [ What users see       |                |
+      [ Made compatable with browsers         |
+      [ GUI, business, and data logic integrated with framework
 
 
 ```
@@ -552,17 +552,17 @@ User first (front to back) perspective
 ```
 
 UI/UX <b>separated from</b> framework : :
- |_ Compatible 
- |_ Small codebase/digital footprint
- |_ Flexible/unopinionated design/development
- |_ Upgrade/security path NOT controlled by third party dependencies
- |_ Vanilla so custom changes DON'T break upgrade/security path dooming project 
+ [ Compatible 
+ [ Small codebase/digital footprint
+ [ Flexible/unopinionated design/development
+ [ Upgrade/security path NOT controlled by third party dependencies
+ [ Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
            [ START WITH USER ]   >   >   >   >   >   >   >   >   >   >   >  [ END WITH FRAMEWORK ]
            |                                                                |
            |________                      __________________________________|_____________
           /\  HTML  \  - -          - -  /\                \                 \           `\
-         /::\  CSS   \- -    Air   - -  /::\     Build      \  JS framwork    \   Back  `  \   
+         /::\  CSS   \- -    Air   - -  /::\     Build      \  JS framwork    \   Back  `  \
         /::::\  JS    \-    Gap   - -  /::::\     Compile    \  Action Script  \   end `    \
  _ _ _ /::::::\  UI/UX \        _ _ _ /::::::\     Serve      \                 \     `      \
  \    /::::::::\________\       \    /::::::::\________________\_________________\   `        \
@@ -573,15 +573,77 @@ UI/UX <b>separated from</b> framework : :
       \   \/________/  \             \   \/_________/______/_________________/____________/  \
        \_ _ _ _ _ _ _ __\             \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
        |                              |
-       |_ JAMstack                    |_ [ Framework Agnostic ]         
-       |_ Flexible                       |_ Angular                 
-       |_ Modular                        |_ Vue
-       |_ GUI agnostic                   |_ React
-       |_ What users see                 |_ ...
-       |_ GUI & business logic
-       |_ Separation of Concerns
-       |_ Decoupled & Independent
-       |_ Semantic custom HTML and native web components for dynamic data hooks
+       [ JAMstack                     [ Framework Agnostic
+       [ Flexible                        [ Angular
+       [ Modular                         [ Vue
+       [ GUI agnostic                    [ React
+       [ What users see                  [ ...
+       [ GUI & business logic  
+       [ Separation of Concerns  
+       [ Decoupled & Independent  
+       [ Semantic custom HTML and native web components for dynamic data hooks
+
+
+```
+
+Front Front END (FFE)
+```
+
+UI/UX <b>separated from</b> framework : :
+ [ HTML, CSS, and JS are separate 
+ [ No scripting in HTML to minimize rework or broken functionality
+ [ 
+ [ Upgrade/security path NOT controlled by third party dependencies
+ [ Vanilla so custom changes DON'T break upgrade/security path dooming project 
+
+
+            
+
+[ Principal of Least Power ]
+           Try HTML_
+                    [ then_           then     JS        then       framwork
+                           |___CSS              
+
+ -
+|_HTML from CSS from JS from framwork
+
+also follows Principle of Least Power
+
+
+
+               [ Separate, clean, modular, flexable, maintainable
+               [ Buttons just push and fetch data
+               [ Defines developer swimlanes
+
+
+     /_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _/
+    / Separation of Concerns                /
+   /_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _/ 
+  /  Principal of Least Power             /
+ /  HTML then CSS then JS then Framwork  /
+/_ _ _ _ _ _ _ 
+              /
+             / 
+            /_ _ _ _ / UI/UX /_ _ _ _ _
+           /__         ___         ___/                    __ _ 
+          /\  \       /\  \       /\  \  - -         - -  /\  
+         /::\  \     /::\  \     /::\  \- -   Air   - -  /::\
+        /::::\  \   /::::\  \   /::::\  \-   Gap   - -  /::::\ 
+ _ _ _ /::::::\  \ /::::::\  \ /::::::\  \       _ _ _ /::::::\
+ \    /: HTML :\__\: CSS ::\__\:: JS ::\__\      \    /Framwork\__ _ _
+  \   \::::::::/  /::::::::/  /::::::::/  /       \   \::::::::/
+   \   \::::::/  / \::::::/  / \::::::/  /         \   \::::::/
+    \   \::::/  /   \::::/  /   \::::/  /           \   \::::/
+     \   \::/  / \   \::/  / \   \::/    \           \   \::/
+      \   \/__/   \   \/__/   \   \/__/   \           \   \/__ _
+       \_ _ _ _ _ _\_ _ _ _ _ _\_ _ _ _ _ _\           \_ _ _ _ _ _ 
+       |           |           |           |
+       |_Semantic  |_Modern    |_Minimal   |_Connected to HTML via ] 
+       |_Semantic  |_Classless |_Native      |_ Custom HTML elements 
+       |_Custom    |_Native    |_Native      |_ Web components (without Shadow DOM)
+       |_Minimal   |_          |_              |_ CSS is already scoped
+       |_Native
+
 
 
 ```
