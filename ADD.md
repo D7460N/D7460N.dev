@@ -619,15 +619,16 @@ Front Front END (FFE)
      // Custom el  // Classless  // Native    /___
     // Minimal n  // Native     // Fetch data   // Connected to HTML via minimal dynamic data points (withing custom tags)
    // Native     // Usability  // Push data    // Referenced to intuitive custom HTML elements
-  // No JS      /______       // Remote       // Web components (without Shadow DOM)
- // Accessibility    // GUI logic            // CSS is already natively scoped (no leakage) 
-                    // Business logic 
-                   // Self-aware (natively watches for and responss to internal dynamic changes) 
-                    // :has()
-                   // variables   
-                  // viewport units
-                 // container queries 
-                // ... 
+  // No JS      /_____        // Remote       // Web components (without Shadow DOM)
+ // Accessibility    /                       // CSS is already natively scoped (no leakage) 
+                    // GUI logic
+                   // Business logic 
+                  // Self-aware (natively watches for and responss to internal dynamic changes) 
+                   // :has()
+                  // variables   
+                 // viewport units
+                // container queries 
+               // ... 
 
 
 ```
