@@ -588,37 +588,31 @@ User first perspective (front to back)
 
 ```
 
-Front Front END (FFE)<br />
-Front Back End (FBE)<br />
-Back Front End (BFE)<br />
-Back Back End (BBE)
+Separate HTML from CSS from JS
 
 ```
           
  // Separate, clean, modular, flexable, maintainable
 // Buttons just push and fetch data
 
-     
-         // Developer swimlane                             // Developer swimlane                            // Developer swimlane      // Developer swimlane
-        /                                                 /                                                /                          /
-       /         // Least Power Principal                /                                                /                          /
-       \        // START WITH                            \                                                \                          \
-        \      // HTML only  // CSS only   // JS only   > \ >   >   >   >   >   >   >   >   >   >  // END WITH FRAMEWORK              \
-         \    /             /             /                \                                      /         \                          \
-          \  /  // Separation of Concerns/                  \                                    /           \                          \
-           \/__/          /__           /__                  \__________________________________/             \_____________             \___________
-           /\  \         /\  \         /\  \  - -       - -  /\                \                 \            /\             \           /\           \  
-          /::\  \       /::\  \       /::\  \- -  Air  - -  /::\     Build      \  JS framwork    \          /::\    Back     \         /::\  Back     \
-         /::::\  \     /::::\  \     /::::\  \-  Gap  - -  /::::\     Compile    \  Action Script  \        /::::\    front    \       /::::\  back     \
- _ _ _  /::::::\  \ _ /::::::\  \ _ /::::::\  \     _ _ _ /::::::\     Serve      \                 \_ _ _ /::::::\    end      \ _ _ /::::::\  end      \
- \     /: HTML :\__\ /: CSS ::\__\ /:: JS ::\__\    \    /Framwork\________________\_________________\    /::::::::\_____________\   /::::::::\___________\
-  \    \::::::::/  / \::::::::/  / \::::::::/  /     \   \::::::::/         /      /                 /\   \::::::::/   Python    /   \::::::::/           /
-   \    \::::::/  /   \::::::/  /   \::::::/  /       \   \::::::/         /------/                 /  \   \::::::/             / \   \::::::/           /
-    \    \::::/  /\    \::::/  /     \::::/  /         \   \::::/         /      /   Data logic    /    \   \::::/             /   \   \::::/           /
-     \    \::/  /  \    \::/  /  \    \::/    \         \   \::/         /------/                 / \    \   \::/             /\    \   \::/           /\
-      \    \/__/    \    \/__/    \    \/__/   \         \   \/_________/______/_________________/   \    \   \/_____________/  \    \   \/___________/  \
-       \_ _ _ _ _ _ _\_ _ _ _ _ _ _\_ _ _ _ _ _ \         \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\    \_ _ _ _ _ _ _ _ _ _ _\    \_ _ _ _ _ _ _ _ _ _\  
-        // Front Front End [ FFE ]                         // Front Back End [ FBE ]                       // Back Front End [ BFE ]  // Back Back End [ BBE ]
+
+                 // Least Power Principal
+                // START WITH
+               // HTML only  // CSS only   // JS only   >   >   >   >   >   >   >   >   >   >   >  // END WITH FRAMEWORK               
+              /             /             /                                                       /
+             /  // Separation of Concerns/                                                       /
+            /__/          /__           /__                   __________________________________/
+           /\  \         /\  \         /\  \  - -       - -  /\                \                 \  
+          /::\  \       /::\  \       /::\  \- -  Air  - -  /::\     Build      \  JS framwork    \
+         /::::\  \     /::::\  \     /::::\  \-  Gap  - -  /::::\     Compile    \  Action Script  \
+ _ _ _  /::::::\  \ _ /::::::\  \ _ /::::::\  \     _ _ _ /::::::\     Serve      \                 \
+ \     /: HTML :\__\ /: CSS ::\__\ /:: JS ::\__\    \    /Framwork\________________\_________________\
+  \    \::::::::/  / \::::::::/  / \::::::::/  /     \   \::::::::/         /      /                 /
+   \    \::::::/  /   \::::::/  /   \::::::/  /       \   \::::::/         /------/                 /
+    \    \::::/  /\    \::::/  /     \::::/  /         \   \::::/         /      /   Data logic    /
+     \    \::/  /  \    \::/  /  \    \::/    \         \   \::/         /------/                 / \
+      \    \/__/    \    \/__/    \    \/__/   \         \   \/_________/______/_________________/   \
+       \_ _ _ _ _ _ _\_ _ _ _ _ _ _\_ _ _ _ _ _ \         \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\  
        /             /             /            /         / 
       // Semantic   // Modern     // Minimal   /         // Framework uses custom HTML elements as unique selectors vice IDs 
      // Custom el  // Classless  // Native    /___
@@ -637,8 +631,41 @@ Back Back End (BBE)
 
 
 ```
+
 <br />
 
+Better defined developer swimlanes
+
+Front Front END (FFE)<br />
+Front Back End (FBE)<br />
+Back Front End (BFE)<br />
+Back Back End (BBE)
+
+```
+
+       // Developer swimlane             /   // Developer swimlane    // Developer swimlane   // Developer swimlane 
+      /                                 /   /                        /                       /  
+      \  // GUI/Business Logic         /    \  // Data Logic         \                       \
+       \/                             /      \/                       \                       \
+        \  // Front Front End        /        \  // Front Back End     \  // Back Front End    \  // Back Back End 
+         \/__                       /          \/_________              \/________              \/__________
+         /\__\  ___                /           /\          \            /\         \            /\           \  
+        /:/  / /\__\  ___         /           /::\          \          /::\         \          /::\           \
+       /:/  / /:/  / /\__\       /           /::::\          \        /::::\         \        /::::\           \
+  ____/:/  /_/:/  /_/:/  /      /      _ _ _/::::::\          \  _ _ /::::::\         \  _ _ /::::::\           \
+  ___/:/  /_/:/  /_/:/  /___    \      \   /::::::::\__________\ \  / :::::::\_________\ \  /::::::::\___________\
+     \/__/ /:/  / /:/  /         \      \  \::::::::/          /  \ \ :::::::/         /  \ \::::::::/           /
+           \/__/ /:/  /           \      \  \::::::/          /    \ \::::::/         /    \ \::::::/           /
+                 \/__/             \      \  \::::/          /      \ \::::/         /      \ \::::/           /
+                                    \      \  \::/          /        \ \::/         /        \ \::/           /
+                                     \      \  \/__________/ \        \ \/_________/ \        \ \/___________/\
+                                      \      \__ _ _ _ _ _ _ _\        \ _ _ _ _ _ _ _\        \_ _ _ _ _ _ _ _\ 
+       /                                     /                         /                       /  
+      //                                    //                        //                      // 
+     // [ FFE ]                            // [ FBE ]                // [ BFE ]              // [ BBE ]
+
+
+```
 ---
 
 <br />
