@@ -94,7 +94,7 @@ This is your last chance. After this, there is no turning back. You take the blu
 Andy Wachowski & Larry Wachowski
 
 
-Given a JAMstack architecture (front-loading) and the ability to 'react' to dynamic changes with :has(), contextual view-port units, and other new and upcoming features, it would be interesting to see how much GUI and business logic can be off-loaded onto pure native CSS. That would be an interesting experiment. 
+Given a (front-loading) JAMstack architecture and the ability to 'react' to dynamic changes with :has(), contextual view-port units, and other new and upcoming features, it would be interesting to see how much GUI and business logic can be off-loaded onto pure native CSS. That would be an interesting experiment. 
 
 <br />
 
