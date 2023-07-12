@@ -88,13 +88,15 @@ I was looking for an answer. It's the question that drives us, Neo. It's the que
 ~ The Matrix<br />
 Andy Wachowski & Larry Wachowski 
 
-Given a JAMstack architecture (front-loading) and the ability to 'react' to dynamic changes with :has(), contextual view-port units, and other new and upcoming features, it would be interesting to see how much GUI and business logic can be off-loaded onto pure native CSS. That would be an interesting experiment. 
-
 > <i><b>Morpheus</b>:<br />
 This is your last chance. After this, there is no turning back. You take the blue pill - the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill - you stay in Wonderland and I show you how deep the rabbit hole goes.</i><br />
 ~ The Matrix<br />
-Andy Wachowski & Larry Wachowski 
+Andy Wachowski & Larry Wachowski
 
+
+Given a JAMstack architecture (front-loading) and the ability to 'react' to dynamic changes with :has(), contextual view-port units, and other new and upcoming features, it would be interesting to see how much GUI and business logic can be off-loaded onto pure native CSS. That would be an interesting experiment. 
+
+<br />
 
 ---
 
