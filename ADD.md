@@ -75,6 +75,10 @@
 
 ---
 
+<br />
+
+<h2 id="question">THE QUESTION : :</h3>
+
 > <i><b>Trinity</b>: I was looking for an answer. It's the question that drives us, Neo. It's the question that brought you here. You know the question, just as I did.<br />
 <b>Neo</b>: What is the matrix?</i><br />
 > <i><b>Trinity</b>: The answer is out there, Neo. It's looking for you. And it will find you, if you want it to.</i><br />
@@ -82,7 +86,7 @@
 Andy Wachowski & Larry Wachowski 
 
 
-Given a JAMstack architecture and the ability to 'react' to dynamic changes with :has(), contextual view-port units, and other new and upcoming features, it would be interesting to see how much GUI and business logic can be off-loaded onto pure native CSS. That would be an interesting experiment. 
+> Given a JAMstack architecture (front-loading) and the ability to 'react' to dynamic changes with :has(), contextual view-port units, and other new and upcoming features, it would be interesting to see how much GUI and business logic can be off-loaded onto pure native CSS. That would be an interesting experiment. 
 
 ---
 
