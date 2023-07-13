@@ -555,14 +555,14 @@ Framework first perspective (back to front)
              // END WITH USER  <  <  <  <  <  <  <  <  <  <  < // START WITH FRAMEWORK
             /                                                 /
            // FRONT END                                      /        // BACK END
-          /_________________________________________________/        /__________ 
+          /_________________________________________________/        /___________
          /\  <   <   <  \  <   <   < \  <   <   <   <   <   \       /\         ` \
-        /::\  Bloated    \  Build     \  Framework driven    \     /::\  Back `   \
-       /::::\  HTML       \  Compile   \  "happy path" design \   /::::\  end`     \
-_ _ _ /::::::\  CSS        \  Serve     \  and development     \_/::::::\   `       \
-\    /::::::::\_____________\____________\______________________\::::::::\_`_ _ _ _ _\
- \   \::::::::/             /            /  GUI, business, and  /::::::::/ `         /
-  \   \::::::/  Data       /            /  data logic          / \::::::/   `       /
+        /::\             \  Build     \  Framework driven    \     /::\       `   \
+       /::::\             \  Compile   \  "happy path" design \   /::::\     `     \
+_ _ _ /::::::\             \  Serve     \  and development     \_/::::::\   `       \
+\    /Bloated:\_____________\____________\______________________\::::::::\_`_ _ _ _ _\
+ \   \::HTML::/             /            /  GUI, business, and  /::::::::/ `         /
+  \   \:CSS::/             /            /  data logic          / \::::::/   `       /
    \   \::::/             /            /  integrated with     /   \::::/     `     /
     \   \::/             /            /  Framework           / \   \::/       `   / \
      \   \/_____________/____________/______________________/   \   \/___________/   \
@@ -587,27 +587,27 @@ User first perspective (front to back)
  // Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
 
-                // START WITH USER  >  >  >  >  >  >  >  >  >  >  >  // END WITH FRAMEWORK
-               /                                                    /  
-              // FRONT END          // MIDDLEWARE                  /        // BACK END
-             /________             /______________________________/        /__________
-            /\        \  - AIR -  /\            \                 \       /\         ` \
-           /::\  HTML  \- GAP -  /::\  Build     \  Framework      \     /::\  Back `   \
-          /::::\  CSS   \       /::::\  Compile   \                 \   /::::\  end`     \
-   _ _ _ /::::::\  JS    \ _ _ /::::::\  Serve     \                 \_/::::::\   `       \
-   \    /::::::::\________\   /::::::::\____________\_________________\::::::::\_`_ _ _ _ _\
-    \   \::::::::/        /   \::::::::/            /                 /::::::::/ `         /
-     \   \::::::/  UI/UX / \   \::::::/            /  Data logig     / \::::::/   `       /
-      \   \::::/        /   \   \::::/            /    only         /   \::::/     `     /
-       \   \::/        / \   \   \::/            /                 / \   \::/       `   / \
-        \   \/________/   \   \   \/____________/_________________/   \   \/___________/   \
-         \_ _ _ _ _ _ _ _ _\   \_ _ _ _ _ _ _ _ \ _ _ _ _ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ \
-         /                                      / 
-        // JAMstack                            // Framework Agnostic
-       // Flexible                            // Angular
-      // Modular                             // Vue
-     // GUI agnostic                        // React
-    // What users see                      // ...
+                // START WITH USER  >  >  >  >  >  >  >  >  >  >   // END WITH FRAMEWORK
+               /                                                  /  
+              // FRONT END        // MIDDLEWARE                  /        // BACK END
+             /______             /______________________________/        /___________
+            /\      \-   AIR  - /\            \                 \       /\         ` \
+           /::\  UI  \  GAP  - /::\  Build     \  Framework      \     /::\       `   \
+          /::::\      \       /::::\  Compile   \                 \   /::::\     `     \
+   _ _ _ /::::::\      \ _ _ /::::::\  Serve     \                 \_/::::::\   `       \
+   \    /: HTML :\______\   /: Frame:\____________\_________________\::::::::\_`_ _ _ _ _\
+    \   \: CSS ::/      /   \: work :/            /                 /::::::::/ `         /
+     \   \ JS  :/  UX  / \   \::::::/            /  Data logic     / \::::::/   `       /
+      \   \::::/      /   \   \::::/            /  only           /   \::::/     `     /
+       \   \::/      / \   \   \::/            /                 / \   \::/       `   / \
+        \   \/______/   \   \   \/____________/_________________/   \   \/___________/   \
+         \_ _ _ _ __ _ __\   \_ _ _ _ _ _ _ _ \ _ _ _ _ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ \
+         /                                    / 
+        // JAMstack                          // Framework Agnostic
+       // Flexible                          // Angular
+      // Modular                           // Vue
+     // GUI agnostic                      // React
+    // What users see                    // ...
    // GUI & business logic  
   // Separation of Concerns  
  // Decoupled & Independent  
@@ -624,23 +624,19 @@ Separate HTML from CSS from JS
 // Buttons just push and fetch data
 
 
-                 // Least Power Principal
-                // START WITH
-               // HTML only  // CSS only   // JS only   >   >   >   >   >   >   >   >   >   >   >  // END WITH FRAMEWORK
-              /             /             /                                                       /
-             /  // Separation of Concerns/                                                       /
-            /__/          /__           /__                   __________________________________/
-           /\  \         /\  \         /\  \  - -       - -  /\                \                 \  
-          /::\  \       /::\  \       /::\  \- -  Air  - -  /::\     Build      \  JS framwork    \
-         /::::\  \     /::::\  \     /::::\  \-  Gap  - -  /::::\     Compile    \  Action Script  \
- _ _ _  /::::::\  \ _ /::::::\  \ _ /::::::\  \     _ _ _ /::::::\     Serve      \                 \
- \     /: HTML :\__\ /: CSS ::\__\ /:: JS ::\__\    \    /Framwork\________________\_________________\
-  \    \::::::::/  / \::::::::/  / \::::::::/  /     \   \::::::::/         /      /                 /
-   \    \::::::/  /   \::::::/  /   \::::::/  /       \   \::::::/         /------/                 /
-    \    \::::/  /\    \::::/  /     \::::/  /         \   \::::/         /      /   Data logic    /
-     \    \::/  /  \    \::/  /  \    \::/    \         \   \::/         /------/                 / \
-      \    \/__/    \    \/__/    \    \/__/   \         \   \/_________/______/_________________/   \
-       \_ _ _ _ _ _ _\_ _ _ _ _ _ _\_ _ _ _ _ _ \         \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\  
+           // FRONT END                             // MIDDLEWARE                      
+          /_           __           __             /_______________ 
+         /\ \         /\ \         /\ \-   AIR  - /\                 
+        /::\ \       /::\ \       /::\ \  GAP  - /::\     Build    
+       /::::\ \     /::::\ \     /::::\ \       /::::\     Compile 
+ _ _ _/::::::\ \_ _/::::::\ \_ _/::::::\ \_ _ _/::::::\     Serve  
+ \   /: HTML :\_\ /: CSS  :\_\ /:  JS  :\_\   /Framwork\___________
+  \  \: only :/ / \: only :/ / \: only :/ /\  \::::::::/         / 
+   \  \::::::/ /\  \::::::/ /\  \::::::/ /  \  \::::::/         /--
+    \  \::::/ /  \  \::::/ /  \  \::::/ /    \  \::::/         /   
+     \  \::/ /    \  \::/ /    \  \::/ /      \  \::/         /----
+      \  \/_/ \    \  \/_/ \    \  \/_/ \      \  \/_________/_____
+       \_ _ _ _\    \_ _ _ _\    \_ _ _ _\      \_ _ _ _ _ _ _ _ _   
        /             /             /            /         / 
       // Semantic   // Modern     // Minimal   /         // Framework uses custom HTML elements as unique selectors vice IDs 
      // Custom el  // Classless  // Native    /___
