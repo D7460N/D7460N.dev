@@ -623,7 +623,8 @@ Separate HTML from CSS from JS
  // Separate, clean, modular, flexable, maintainable
 // Buttons just push and fetch data
 
-
+             // START WITH LEAST POWERFUL LANG > > >  // END WITH REQUIRED POWERFUL LANG
+            /                                        /  
            // FRONT END                             // MIDDLEWARE                      
           /_           __           __             /_______________ 
          /\ \         /\ \         /\ \-   AIR  - /\                 
