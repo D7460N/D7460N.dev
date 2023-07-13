@@ -566,12 +566,12 @@ _ _ _ _/::::::\        \  Serve      \                     \     `      \
    \    \::::/        /  data       /    CSS   /   UX     /      `     /
     \    \::/        /  logic      /    JS    /          /        `   / \
      \    \/________/_____________/_________/___________/____________/   \
-      \_ _ _ _ _ _ _\_ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
-      /             /               / 
-     // User       // Made         // GUI, 
-    // facing     // compatable   // business, 
-   // product    // with         // and data logic
-                // browsers     // integrated with framework
+      \_ _ _ _ _ _ _\_ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+      /             /             / 
+     // User       // Made       // GUI, 
+    // facing     // compatable // business, 
+   // product    // with       // and data logic
+                // browsers   // integrated with framework
 
 
 ```
