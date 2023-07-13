@@ -589,19 +589,19 @@ User first perspective (front to back)
 
                 // START WITH USER  >  >  >  >  >  >  >  >  >  >   // END WITH FRAMEWORK
                /                                                  /  
-              // FRONT END        // MIDDLEWARE                  /        // BACK END
+              // FRONT END        // MIDDLE-WARE                  /        // BACK END
              /______             /______________________________/        /___________
             /\      \-   AIR  - /\            \                 \       /\         ` \
            /::\  UI  \  GAP  - /::\  Build     \  Framework      \     /::\       `   \
           /::::\      \       /::::\  Compile   \                 \   /::::\     `     \
-   _ _ _ /::::::\      \ _ _ /::::::\  Serve     \                 \_/::::::\   `       \
-   \    /: HTML :\______\   /: Frame:\____________\_________________\::::::::\_`_ _ _ _ _\
-    \   \: CSS ::/      /   \: work :/            /                 /::::::::/ `         /
+   _ _ _ /::::::\      \_ _ _/::::::\  Serve     \                 \_/::::::\   `       \
+   \    /: HTML :\______\   /Framwork\____________\_________________\::::::::\_`_ _ _ _ _\
+    \   \: CSS ::/      /   \::::::::/            /                 /::::::::/ `         /
      \   \ JS  :/  UX  / \   \::::::/            /  Data logic     / \::::::/   `       /
       \   \::::/      /   \   \::::/            /  only           /   \::::/     `     /
        \   \::/      / \   \   \::/            /                 / \   \::/       `   / \
         \   \/______/   \   \   \/____________/_________________/   \   \/___________/   \
-         \_ _ _ _ __ _ __\   \_ _ _ _ _ _ _ _ \ _ _ _ _ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ \
+         \_ _ _ _ _ _ _ _\   \_ _ _ _ _ _ _ _ \ _ _ _ _ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ \
          /                                    / 
         // JAMstack                          // Framework Agnostic
        // Flexible                          // Angular
@@ -625,7 +625,7 @@ Separate HTML from CSS from JS
 
              // START WITH LEAST POWERFUL LANG > > >  // END WITH REQUIRED POWERFUL LANG
             /                                        /  
-           // FRONT END                             // MIDDLEWARE                      
+           // FRONT END                             // MIDDLE-WARE                      
           /_           __           __             /_______________ 
          /\ \         /\ \         /\ \-   AIR  - /\                 
         /::\ \       /::\ \       /::\ \  GAP  - /::\     Build    
@@ -637,9 +637,9 @@ Separate HTML from CSS from JS
     \  \::::/ /  \  \::::/ /  \  \::::/ /    \  \::::/         /   
      \  \::/ /    \  \::/ /    \  \::/ /      \  \::/         /----
       \  \/_/ \    \  \/_/ \    \  \/_/ \      \  \/_________/_____
-       \_ _ _ _\    \_ _ _ _\    \_ _ _ _\      \_ _ _ _ _ _ _ _ _   
-       /             /             /            /         / 
-      // Semantic   // Modern     // Minimal   /         // Framework uses custom HTML elements as unique selectors vice IDs 
+       \_ _ _ _\    \_ _ _ _\    \_ _ _ _\      \_ _ _ _ _ _ \ _ _   
+       /             /             /            /            / 
+      // Semantic   // Modern     // Minimal   /            // Framework uses custom HTML elements as unique selectors vice IDs 
      // Custom el  // Classless  // Native    /___
     // Minimal n  // Native     // Fetch data   // Connected to HTML via minimal dynamic data points (withing custom tags)
    // Native     // Usability  // Push data    // Referenced to intuitive custom HTML elements
