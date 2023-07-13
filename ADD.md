@@ -587,7 +587,7 @@ User first perspective (front to back)
  // Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
 
-                // START WITH USER     >     >     >     >     >     // END WITH FRAMEWORK
+                // START WITH USER  >  >  >  >  >  >  >  >  >  >  >  // END WITH FRAMEWORK
                /                                                    /  
               // FRONT END          // MIDDLEWARE                  /        // BACK END
              /________             /______________________________/        /__________
