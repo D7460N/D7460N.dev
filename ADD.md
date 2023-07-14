@@ -14,12 +14,12 @@
   * [Usability](#usable)
   * [User Experience (UX)](#user)
     * [UX To Remember](#ux)
-  * [Integration](#inte)
-    * Frameworks (WIP)
+  * [Integration (WIP)](#inte)
+    * Frameworks
       * Angular
       * Vue.js
       * React 
-    * Content Management Systems (WIP)
+    * Content Management Systems (CMS)
       * WordPress
       * Drupal
       * Magento
