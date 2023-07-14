@@ -16,8 +16,9 @@
     * [UX To Remember](#ux)
   * [Security](#security)
     * [Content Security Policy](#csp)
+    * [Web Application Firewall](#waf)
     * [HTTP/3 | QUIC](#http3)
-    * [Sustainability](#sustain)
+  * [Sustainability](#sustain)
 * [Governing Development Principles](#principles)
   * [Intrinsic Design](#intrinsic)
   * [Least Power](#least)
@@ -547,7 +548,7 @@ Future Proofing<br />
 </details>
 
 <details>
-<summary id="firewall"><h3>WEB APPLICATION FIREWALL (WAF)</h3></summary>
+<summary id="waf"><h3>WEB APPLICATION FIREWALL (WAF)</h3></summary>
 
 > A web application firewall enhances and complements traditional firewalls which have no visibility into the content of encrypted HTTPS traffic and therefore can’t block dangerous HTTPs streams.
 >
