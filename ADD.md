@@ -530,7 +530,10 @@ Offsite link HTML example : :
 </details>
 </details>
 
-<h3 id="sustain">SUSTAINABILITY (FUTURE PROOFING)</h3>
+
+<details>
+ <p></p>
+  <summary id="sustain"><h3>SUSTAINABILITY (FUTURE PROOFING)</h3></summary>
 
 
 > Sustainability is often considered a technical challenge related to optimizing images, videos, and fonts. But what does it mean for designers? How can we guide our design decisions through the lens of sustainability?<br />
@@ -539,12 +542,11 @@ Offsite link HTML example : :
 Future Proofing
 
 (WIP)
-
-<br />
+</details>
 
 <details>
  <p></p>
- <summary id="security"><h2>SECURITY : :</h2></summary>
+ <summary id="security"><h3>SECURITY : :</h3></summary>
  <br />
  <details>
   <p></p>
