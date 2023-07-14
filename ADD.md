@@ -14,21 +14,21 @@
   * [Usability](#usable)
   * [User Experience (UX)](#user)
     * [UX To Remember](#ux)
-  * [Integration (WIP)](#inte)
-    * Frameworks
-      * Angular
-      * Vue.js
-      * React 
-    * Content Management Systems (CMS)
-      * WordPress
-      * Drupal
-      * Magento
-      * SharePoint
-  * [Security](#security)
+    * [Security](#security)
     * [Content Security Policy (CSP)](#csp)
     * [Web Application Firewall (WAF)](#waf)
     * [HTTP/3 | QUIC](#http3)
   * [Sustainability (Future Proofing)](#sustain)
+* [Integration (WIP)](#inte)
+  * Frameworks
+    * Angular
+    * Vue.js
+    * React 
+  * Content Management Systems (CMS)
+    * WordPress
+    * Drupal
+    * Magento
+    * SharePoint
 * [Infrastructure](#infra)
 * [Governance/Principles](#principles)
   * [Intrinsic Design](#intrinsic)
