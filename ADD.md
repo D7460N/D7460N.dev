@@ -540,6 +540,56 @@ Future Proofing
 
 (WIP)
 
+<br />
+
+<details>
+ <p></p>
+ <summary id="security"><h2>SECURITY : :</h2></summary>
+ <br />
+ <details>
+  <p></p>
+  <summary id="csp"><h3>CONTENT SECURITY POLICY (CSP)</h3></summary>
+
+> The HTTP Content-Security-Policy response header allows website administrators to control resources the user agent is allowed to load for a given page. With a few exceptions, policies mostly involve specifying server origins and script endpoints. This helps guard against cross-site scripting attacks (Cross-site_scripting).<br />
+[~ Content-Security-Policy | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
+
+</details>
+
+<details>
+ <p></p>
+<summary id="firewall"><h3>WEB APPLICATION FIREWALL (WAF)</h3></summary>
+
+> A web application firewall enhances and complements traditional firewalls which have no visibility into the content of encrypted HTTPS traffic and therefore can’t block dangerous HTTPs streams.
+>
+> In contrast to traditional firewalls, WAF operates at Layer 7 of the network stack between standard firewalls and web servers, decrypting HTTPS traffic and inspecting the data within. With anomaly detection and lists of attack methods, the web application firewall can block access to web servers when malicious activity is spotted.<br />
+[~ What is a Web Application Firewall (WAF) and Why Do You Need One? | progress.com](https://www.progress.com/blogs/what-web-application-firewall-waf-why-you-need-one)
+
+</details>
+ 
+<details>
+ <p></p>
+<summary id="http3"><h3>HTTP/3 | QUIC</h3></summary>
+
+> QUIC understands that a site is made up of multiple files, and it won’t blight the entire connection just because one file hasn’t finished loading.
+>
+>The other trend that QUIC follows up on is built-in security. Whereas encryption was optional before (i.e. HTTP or HTTPS) QUIC is always encrypted. It is a given these days that every site should be encrypted — despite the overhead. This isn’t just to ensure that a man in the middle can’t see what type of orange juice you are ordering; it confirms that you are actually talking to your genuine orange juice supplier.<br />
+[~ HTTP/3 Is Now a Standard: Why Use It and How to Get Started | thenewstack.io](https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/)
+
+* [What is HTTP/3? | cloudflare.com](https://www.cloudflare.com/learning/performance/what-is-http3/)<br />
+* [What is QUIC? | en.wikipedia.org](https://en.wikipedia.org/wiki/QUIC)<br />
+* [HTTP/3: the past, the present, and the future | blog.cloudflare.com](https://blog.cloudflare.com/http3-the-past-present-and-future/)
+* [A Comprehensive Guide To HTTP/3 And QUIC | debugbear.com](https://www.debugbear.com/blog/http3-quic-protocol-guide)
+
+</details>
+</details>
+ <p></p>
+
+<h3>INFRASTRUCTUE</h3>
+
+> Pictures are worth a thousand words...<br />
+~ (Fred Bernard)[https://en.m.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words]
+
+<br />
 
 Framework first perspective (back to front) 
 ```
