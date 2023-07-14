@@ -407,7 +407,7 @@ _Let's start with the..._
 <h2 id="must">MUST-HAVES : :</h2>
 <details>
   <summary id="standards"><h3>WEB STANDARDS</h3></summary>
-  <p></p>
+  
   <p><i>Web standards are the building blocks of a consistent and harmonious digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the Web.</i></p>
 
   <p><i>W3C is an international community where Member organizations, a full-time staff, and the public work together to develop web standards.</i></p>
@@ -415,7 +415,6 @@ _Let's start with the..._
 </details>
 
 <details>
- <p></p>
   <summary id="w3c"><h3>W3C/WHATWG "LIVING" STANDARD</h3></summary>
 
   <p>To ensure future compatibility for websites or web applications, adherence to W3C/WHATWG standards is crucial. Additionally, accessibility across any device equipped with an authorized network-connected web browser, from any location worldwide, is key.</p>
@@ -430,7 +429,6 @@ _Let's start with the..._
 </details>
 
 <details>
- <p></p>
   <summary id="access"><h3>ACCESSIBILITY</h3></summary>
 
 > Accessibility isn’t about compliance. It’s not about ticking off checkboxes in an accessibility checklist. It’s not about accessibility overlays either. Instead, it’s about designing with <b>a wide range of people in mind</b>. It’s about including and respecting everyone — independent of what skills and preferences they have.<br />
@@ -452,7 +450,6 @@ Accessibility relates to the technical side of a website, while usability refers
 </details>
 
 <details>
- <p></p>
   <summary id="usable"><h3>USABILITY</h3></summary>
 
 <p>For many end-users (not all), the difference between Apple and Microsoft is design over function (respectively). For many developers (not all), the inevitable form/function fork on their development roadmap determines whether a web application succeeds or fails. </p>
@@ -470,7 +467,6 @@ Accessibility relates to the technical side of a website, while usability refers
 </details>
 
 <details>
- <p></p>
   <summary id="user"><h3>USER EXPERIENCE (UX)</h3></summary>
 
   <p>User Experience (UX) is the intersection of accessibility and usability. It encapsulates the entire journey of a user, from the moment they input the web application's URL, to the point they click the "X" in the upper right corner to close the application, and even beyond.</p>
@@ -499,7 +495,6 @@ Such as:
 <img src="/assets/images/ux3d.svg#gh-light-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." /> -->
 
 <details>
- <p></p>
   <summary id="ux"><h3>UX TO REMEMBER</h3></summary>
 
 * **No dead ends** - Provide end-users and obvious way forward and a way back. A way forward example would be, links to the support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner. 
@@ -529,7 +524,6 @@ Offsite link HTML example : :
 
 
 <details>
- <p></p>
   <summary id="sustain"><h3>SUSTAINABILITY (FUTURE PROOFING)</h3></summary>
 
 
@@ -542,11 +536,9 @@ Future Proofing<br />
 </details>
 
 <details>
- <p></p>
  <summary id="security"><h3>SECURITY</h3></summary>
  
  <details>
-  <p></p>
   <summary id="csp"><h3>CONTENT SECURITY POLICY (CSP)</h3></summary>
 
 > The HTTP Content-Security-Policy response header allows website administrators to control resources the user agent is allowed to load for a given page. With a few exceptions, policies mostly involve specifying server origins and script endpoints. This helps guard against cross-site scripting attacks (Cross-site_scripting).<br />
@@ -555,7 +547,6 @@ Future Proofing<br />
 </details>
 
 <details>
- <p></p>
 <summary id="firewall"><h3>WEB APPLICATION FIREWALL (WAF)</h3></summary>
 
 > A web application firewall enhances and complements traditional firewalls which have no visibility into the content of encrypted HTTPS traffic and therefore can’t block dangerous HTTPs streams.
@@ -566,7 +557,6 @@ Future Proofing<br />
 </details>
  
 <details>
- <p></p>
 <summary id="http3"><h3>HTTP/3 | QUIC</h3></summary>
 
 > QUIC understands that a site is made up of multiple files, and it won’t blight the entire connection just because one file hasn’t finished loading.
@@ -581,7 +571,8 @@ Future Proofing<br />
 
 </details>
 </details>
- <p></p>
+
+ <br/>
 
 <h3>INFRASTRUCTUE</h3>
 
@@ -751,7 +742,6 @@ Back Back End (BBE)
 <br />
 
 <details>
- <p></p>
   <summary id="intrinsic"><h3>INTRINSIC DESIGN</h3></summary>
 
 Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" event in 2019 titled, [Everything you know about web design has just changed | YouTube.com](https://www.youtube.com/watch?v=jBwBACbRuGY). 
@@ -762,7 +752,6 @@ _Almost as if the web UI is [SELF-AWARE](#self)..._
 </details>
 
 <details>
- <p></p>
   <summary id="least"><h3>LEAST POWER</h3></summary>
 
 <p>The "Least Power" principle simplifies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks.</p>
@@ -781,7 +770,6 @@ Since the D7460N Template separates the HTML and CSS from the JavaScript, it run
 </details>
 
 <details>
- <p></p>
 <summary id="separation"><h3>SEPARATION OF CONCERNS</h3></summary>
 
 The D7460N Template follows the "separation of concerns" principle. That is, in the D7460N Template, most (if not all) scripting is separate from the CSS and HTML. This creates an "air gap" between the two, affectively separating the GUI logic (commonly followed design patterns and conventions common among most web appliation GUIs coupled with ADA [accessibility](#access) and [usability](#usable) guidelines) from the fetch, push, and CRUD data logic, allowing for BOTH to be independently developed, operated, and maintained.
@@ -825,7 +813,6 @@ Decoupling GUI logic from business logic allows the D7460N Template to be:
 </details>
 
 <details>
- <p></p>
 <summary id="perfect"><h3>PERFECT STORM</h3></summary>
 
 **The D7460N Template is a perfect storm of opportunities to affect and inspire positive change** in that it is...
@@ -845,7 +832,6 @@ HOW - folllow the principles layout out int this document, such as [separation o
 </details>
 
 <details>
- <p></p>
 <summary id="first"><h3>CSS FIRST</h3></summary>
 
 Strongly hinted in the [Least Power](#least) section, but bears emphasizing... _What can't be done in HTML is done in CSS_.
@@ -884,7 +870,6 @@ CSS is the driving force behind D7460N design and development. Scripting is purp
 <br />
 
 <details>
- <p></p>
 <summary id="components"><h3>WEB COMPONENTS (native)</h3></summary>
  
 (WIP) 
@@ -909,7 +894,6 @@ Web components allow for JS framework independence, neutrality, and flexibility.
 
 
 <details>
- <p></p>
 <summary id="classless"><h3>CLASSLESS CSS</h3></summary>
 
 Classless CSS is a minimalist development technique that allows developers to define [semantic](#semantic) html layouts and form elements in CSS without needing to use class selectors or "hooks" in the HTML. This reduces HTML bloat, page load size, helps boost [SEO](#seo) and helps to keep the HTML clean, readable, and intuitive for developers.
@@ -918,7 +902,6 @@ Classless CSS is a minimalist development technique that allows developers to de
 
 
 <details>
- <p></p>
 <summary id="logical"><h3>LOGICAL PROPERTIES</h3></summary>
 
 > <i>The CSS logical properties and values module introduces logical properties and values that provide the ability to control layout through logical, rather than physical, direction and dimension mappings. The module also defines logical properties and values for properties previously defined in CSS 2.1.</i>
@@ -934,7 +917,6 @@ Classless CSS is a minimalist development technique that allows developers to de
 </details>
 
 <details>
- <p></p>
 <summary id="layer"><h3>CSS @LAYER</h3></summary>
 
 > <i>Using `@layer`, we can define groups of rule sets with a pre-determined order to reduce the likelihood of conflicts. Being able to assign this order largely prevents the need to use `!important` and enables easier overrides of inherited styles from third-party or framework stylesheets.</i><br />
@@ -956,7 +938,6 @@ CSS `@layer` is utilized by the D7460N Template to lessen the precedence of the 
 </details>
 
 <details>
- <p></p>
 <summary id="supports"><h3>CSS @SUPPORTS</h3></summary>
 
 CSS `@support` is utilized for feature detection and <b>Progressive Enhancement</b>.
@@ -969,7 +950,6 @@ The `@supports` CSS at-rule lets you specify CSS declarations that depend on a b
 </details>
 
 <details>
- <p></p>
 <summary id="semantic"><h3>SEMANTIC HTML ELEMENTS</h3></summary>
 
 Web accessibility and usability utilize semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully. 
@@ -1022,7 +1002,6 @@ HTML : :
 </details>
 
 <details>
- <p></p>
 <summary id="divless"><h3>DIV-LESS HTML</h3></summary>
 
 > <i>DIVs are played out. We all love our `<div>` tags. They've been around for decades, and for decades they've been the go-to element when you need to wrap some stuff in a block for styling or structural purposes. It's still very common to look through production websites.</i><br />
@@ -1033,7 +1012,6 @@ HTML : :
 </details>
 
 <details>
- <p></p>
 <summary id="custom"><h3>CUSTOM HTML ELEMENTS</h3></summary>
 
 Custom HTML elements are alphanumeric hyphenated phrases that are used to extend HTML with [semantic](#semantic) meaning, reduce HTML bloat, and provide development hooks in-leu-of CSS classes (see [Classless CSS](#classless)).
@@ -1074,7 +1052,6 @@ HTML : :
 </details>
 
 <details>
- <p></p>
 <summary id="variables"><h3>CSS CUSTOM PROPERTIES (AKA CSS VARIABLES)</h3></summary>
 
 The D7460N Template leverages CSS custom properties or variables to predefine layout states, color theme, user preferences, and many other dynamic GUI logic features. 
@@ -1087,7 +1064,6 @@ Custom properties (sometimes referred to as CSS variables or cascading variables
 </details>
 
 <details>
- <p></p>
 <summary id="responsive"><h3>RESPONSIVE DESIGN</h3></summary>
 
 (WIP)
@@ -1100,7 +1076,6 @@ Responsive web design (RWD) is a web design approach to make web pages render we
 </details>
 
 <details>
- <p></p>
 <summary id="progress"><h3>PROGRESSIVE ENHANCEMENT</h3></summary>
 
 **Progressive Enhancement** is a design philosophy that provides a baseline of essential content and functionality to as many users as possible, while delivering the best possible experience only to users of the most modern browsers that can run all the required code. 
@@ -1121,7 +1096,6 @@ Feature detection is generally used to determine whether browsers can handle mor
 </details>
 
 <details>
- <p></p>
 <summary id="minimal"><h3>MINIMAL THIRD PARTY DEPENDENCIES</h3></summary>
 
 Third party dependencies such as JS libraries like jQuery, EXT.js, Prototype.js and JavaScript frameworks like Angular, Vue, and React are helpful for launching features and or entire software projects quickly and when browsers don't support needed functionality natively. 
@@ -1149,7 +1123,6 @@ _There is a better way!_
 </details>
 
 <details>
- <p></p>
 <summary id="squishy"><h3>SQUISHY LAYOUT</h3></summary>
 
 The D7460N Template leverages an undocumented but valid **3 STEP** layout technique using just native HTML and CSS. This technique allows for dynamic functionality normally relegated to and implemented with expensive JavaScript tracking and poling. This technique maximizes layout flexibility, [RESPONSIVEness](#responsive), and sets the groundwork for [end-user customization options](#custom). All while avoiding declaring, poling, or otherwise calculating heights and or widths throughout the GUI with slower JavaScript. 
@@ -1209,7 +1182,6 @@ This technique:
 </details>
 
 <details>
- <p></p>
 <summary id="self"><h3>SELF-AWARE</h3></summary>
 
 (WIP) 
@@ -1235,7 +1207,6 @@ For example, the `:has()` pseudo-class function allows for watching one or more 
 </details>
 
 <details>
- <p></p>
 <summary id="loading"><h3>NATURAL "TRUTHFUL" LOADING STATE</h3></summary>
 
 Between when an end-user clicks a button to fetch data and when the data arrives and is ready to be displayed, is a natural built-in "truthful" loading state where loading spinners and / or helpful informative messages can be displayed. No JavaScript or third-party plug-ins or dependencies needed.
@@ -1258,7 +1229,6 @@ The default D7460N Template automatically shows a minimal CSS only loading anima
 </details>
 
 <details>
- <p></p>
 <summary id="container"><h3>CONTAINER QUERIES</h3></summary>
 
 (WIP)
@@ -1272,7 +1242,6 @@ The default D7460N Template automatically shows a minimal CSS only loading anima
 </details>
 
 <details>
- <p></p>
 <summary id="style"><h3>STYLE QUERIES</h3></summary>
 
 > The [CSS Containment Module Level 3 spec | drafts.csswg.org](https://drafts.csswg.org/css-contain-3/), which covers size and style queries, allows for any styles to be queried from a parent, including property and value pairs such as `font-weight: 800`. However, in the rollout of this feature, style queries currently only work with CSS custom property values. This is still very useful for combining styles and separating data from design. Let’s take a look at how you use style queries with CSS custom properties.
@@ -1289,7 +1258,6 @@ The default D7460N Template automatically shows a minimal CSS only loading anima
 </details>
 
 <details>
- <p></p>
 <summary id="count"><h3>COUNTING QUERIES</h3></summary>
 
 (WIP)
@@ -1297,7 +1265,6 @@ The default D7460N Template automatically shows a minimal CSS only loading anima
 </details>
 
 <details>
- <p></p>
 <summary id="custom"><h3>CUSTOMIZATION</h3></summary>
 
 Allow end-users to feel like they can make D7460N their own, through customization options. 
@@ -1338,7 +1305,6 @@ Customization options : :
 <br />
 
 <details>
- <p></p>
 <summary id="themes"><h3>COLOR THEMES</h3></summary>
 
 D7460N color themes are independent from the GUI and are set via [CSS Variables](#variables). Light and dark version are provided for each color theme. 
@@ -1353,7 +1319,6 @@ awaiting base theme CSS
 </details>
 
 <details>
- <p></p>
 <summary id="corporate"><h3>CORPORATE BRANDING</h3></summary>
 
 LOGO : :
@@ -1386,7 +1351,6 @@ The D7460N logo changes color dynamically depending on its `background-color` so
 <br />
 
 <details>
- <p></p>
 <summary id="jam"><h3>JAMStack</h3></summary>
  
 (WIP) 
@@ -1396,7 +1360,6 @@ D7460N Template is a static Single Page Application (SPA) GUI with a JAMStack ar
 </details>
 
 <details>
- <p></p>
 <summary id="html"><h3>HTML/CSS</h3></summary>
  
 To separate and isolate GUI logic from business logic, the D7460N GUI is strictly separated into two exclusive halves. The HTML/CSS (GUI logic) and JavaScript (business logic).
@@ -1424,7 +1387,6 @@ The two halves are connected only via the IDs in the static (JAMStack) front-loa
 <br />
 
 <details>
- <p></p>
 <summary id="perspective"><h3>PERSPECTIVE</h3></summary>
 
 Single Page Applications are defined differently depending on context. In web design/layout world, a SPA is a web application designed and laid out using techniques that allow end-users access to all information and or functionality without ever leaving the _single page_ they are on. This includes not using the overused dreaded modal dialogue, if at all possible. 
@@ -1434,7 +1396,6 @@ This is an important usability technique in that it allows for uninterrupted con
 </details>
 
 <details>
- <p></p>
 <summary id="alt"><h3>ALTERNATE LAYOUTS</h3></summary>
 
 D7460N has optional alternate layout configurations that optimize master/detail workflow conventions from left to right and right to left. 
@@ -1448,7 +1409,6 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 <br />
  
 <details>
- <p></p>
 <summary id="pwa"><h2>PROGRESSIVE WEB APPLICATION (PWA) : :</h2></summary>
 
 <br />
@@ -1470,7 +1430,6 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 <br />
 
 <details>
- <p></p>
 <summary id="cross"><h3>CROSS-PLATFORM-INTEROPERABILITY</h3></summary>
 
 (WIP)
@@ -1478,7 +1437,6 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 </details>
 
 <details>
- <p></p>
 <summary id="immersive"><h3>EMERSIVE EXPERIENCE</h3></summary>
 
 (WIP)
@@ -1488,7 +1446,6 @@ These new web development capabilities provide great opportunities to build imme
 </details>
 
 <details>
- <p></p>
 <summary id="progress"><h3>PROGRESSIVELY ENHANCED</h3></summary>
 
 (WIP)
@@ -1498,7 +1455,6 @@ PWAs are websites that are progressively enhanced to function like installed, na
 </details>
 
 <details>
- <p></p>
 <summary id="desktop"><h3>IT'S A DESKTOP APP</h3></summary>
  
 The qualities of a PWA combine the best of the web and compiled apps. PWAs run in browsers, like websites. But PWAs also have access to desktop features.
@@ -1520,7 +1476,6 @@ For example : :
 </details>
 
 <details>
- <p></p>
 <summary id="website"><h3>IT'S A WEBSITE</h3></summary>
 
 PWAs have the same functionality and reach as websites:
@@ -1532,7 +1487,6 @@ PWAs have the same functionality and reach as websites:
 </details>
 
 <details>
- <p></p>
 <summary id="advantages"><h3>ADVANTAGES</h3></summary>
 
 A fully capable Progressive Web Application can provide the following advantages for end-users:
@@ -1553,13 +1507,11 @@ A fully capable Progressive Web Application can provide the following advantages
 <br />
 
 <details>
- <p></p>
 <summary id="security"><h2>SECURITY : :</h2></summary>
 
 <br />
 
 <details>
- <p></p>
 <summary id="csp"><h3>CONTENT SECURITY POLICY (CSP)</h3></summary>
 
 > The HTTP Content-Security-Policy response header allows website administrators to control resources the user agent is allowed to load for a given page. With a few exceptions, policies mostly involve specifying server origins and script endpoints. This helps guard against cross-site scripting attacks (Cross-site_scripting).<br />
@@ -1568,7 +1520,6 @@ A fully capable Progressive Web Application can provide the following advantages
 </details>
 
 <details>
- <p></p>
 <summary id="firewall"><h3>WEB APPLICATION FIREWALL (WAF)</h3></summary>
 
 > A web application firewall enhances and complements traditional firewalls which have no visibility into the content of encrypted HTTPS traffic and therefore can’t block dangerous HTTPs streams.
@@ -1579,7 +1530,6 @@ A fully capable Progressive Web Application can provide the following advantages
 </details>
  
 <details>
- <p></p>
 <summary id="http3"><h3>HTTP/3 | QUIC</h3></summary>
 
 > QUIC understands that a site is made up of multiple files, and it won’t blight the entire connection just because one file hasn’t finished loading.
