@@ -14,13 +14,23 @@
   * [Usability](#usable)
   * [User Experience (UX)](#user)
     * [UX To Remember](#ux)
+  * [Integration](#inte)
+    * Frameworks (WIP)
+      * Angular
+      * Vue.js
+      * React 
+    * Content Management Systems (WIP)
+      * WordPress
+      * Drupal
+      * Magento
+      * SharePoint
   * [Security](#security)
     * [Content Security Policy (CSP)](#csp)
     * [Web Application Firewall (WAF)](#waf)
     * [HTTP/3 | QUIC](#http3)
   * [Sustainability (Future Proofing)](#sustain)
 * [Infrastructure](#infra)
-* [Governing Principles](#principles)
+* [Governance/Principles](#principles)
   * [Intrinsic Design](#intrinsic)
   * [Least Power](#least)
   * [Separation of Concerns](#separation)
@@ -524,6 +534,63 @@ Offsite link HTML example : :
 </details>
 </details>
 
+<details>
+  <summary id="inte"><h3>INTEGRATION</h3></summary>
+
+  <details>
+   <summary id="inte"><h3>FRAMWORKS</h3></summary>
+  
+   <details>
+    <summary id="Angular"><h3>Angular</h3></summary>
+    Coming soon (WIP)
+   </details>
+
+   <details>
+    <summary id="vue"><h3>Vue.js</h3></summary>
+    Coming soon (WIP)
+   </details>
+
+   <details>
+    <summary id="react"><h3>React</h3></summary>
+    Coming soon (WIP)
+   </details>
+
+  </details>
+
+  <details>
+   <summary id="cms"><h3>CONTENT MANAGEMENT SYSTEMS (CMS)</h3></summary>
+
+   <details>
+    <summary id="word"><h3>WordPress</h3></summary>
+    Coming soon (WIP)
+   </details>
+
+   <details>
+    <summary id="joomla"><h3>Joomla</h3></summary>
+    Coming soon (WIP)
+   </details>
+
+   <details>
+    <summary id="drupal"><h3>Drupal</h3></summary>
+    Coming soon (WIP)
+   </details>
+
+   <details>
+    <summary id="magento"><h3>Magento</h3></summary>
+    Coming soon (WIP)
+   </details>
+  
+   <details>
+    <summary id="share"><h3>SharePoint</h3></summary>
+    Coming soon (WIP)
+   </details>
+  
+  </details>
+
+ </details>
+ 
+</details>
+
 
 <details>
   <summary id="sustain"><h3>SUSTAINABILITY (FUTURE PROOFING)</h3></summary>
@@ -739,9 +806,7 @@ Back Back End (BBE)
 
 <br />
 
-<h2 id="principles">GOVERNING DESIGN/DEVELOPMENT PRINCIPLES : :</h2>
-
-<br />
+<h2 id="principles">GOVERNANCE/PRINCIPLES : :</h2>
 
 <details>
   <summary id="intrinsic"><h3>INTRINSIC DESIGN</h3></summary>
