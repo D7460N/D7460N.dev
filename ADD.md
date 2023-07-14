@@ -15,11 +15,12 @@
   * [User Experience (UX)](#user)
     * [UX To Remember](#ux)
   * [Security](#security)
-    * [Content Security Policy](#csp)
-    * [Web Application Firewall](#waf)
+    * [Content Security Policy (CSP)](#csp)
+    * [Web Application Firewall (WAF)](#waf)
     * [HTTP/3 | QUIC](#http3)
-  * [Sustainability](#sustain)
-* [Governing Development Principles](#principles)
+  * [Sustainability (Future Proofing)](#sustain)
+* [Infrastructure](#infra)
+* [Governing Principles](#principles)
   * [Intrinsic Design](#intrinsic)
   * [Least Power](#least)
   * [Separation of Concerns](#separation)
@@ -575,7 +576,7 @@ Future Proofing<br />
 
  <br/>
 
-<h3>INFRASTRUCTUE</h3>
+<h3 id="infra">INFRASTRUCTUE</h3>
 
 > Pictures are worth a thousand words...<br />
 ~ (Fred Bernard)[https://en.m.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words]
