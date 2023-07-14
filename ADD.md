@@ -405,9 +405,6 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
 
 _Let's start with the..._ 
 <h2 id="must">MUST-HAVES : :</h2>
-
-<br />
-
 <details>
   <summary id="standards"><h3>WEB STANDARDS</h3></summary>
   <p></p>
@@ -539,15 +536,15 @@ Offsite link HTML example : :
 > Sustainability is often considered a technical challenge related to optimizing images, videos, and fonts. But what does it mean for designers? How can we guide our design decisions through the lens of sustainability?<br />
 [~ Whole system thinking | sustainabilityguide.eu](https://sustainabilityguide.eu/ecodesign/design/)
 
-Future Proofing
-
+Future Proofing<br />
 (WIP)
+
 </details>
 
 <details>
  <p></p>
- <summary id="security"><h3>SECURITY : :</h3></summary>
- <br />
+ <summary id="security"><h3>SECURITY</h3></summary>
+ 
  <details>
   <p></p>
   <summary id="csp"><h3>CONTENT SECURITY POLICY (CSP)</h3></summary>
