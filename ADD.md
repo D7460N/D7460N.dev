@@ -578,7 +578,7 @@ Future Proofing<br />
 
 <h3 id="infra">INFRASTRUCTUE</h3>
 
-> Pictures are worth a thousand words...<br />
+> <i>Pictures are worth a thousand words.</i><br />
 ~ [Fred Bernard](https://en.m.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words)
 
 <br />
