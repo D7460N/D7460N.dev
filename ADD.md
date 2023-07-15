@@ -96,9 +96,15 @@ This is your last chance. After this, there is no turning back. You take the blu
 ~ [The Matrix](https://abovelogic.org/)
 > <br />
 Andy Wachowski & Larry Wachowski
-> 
+>
+>  
+<br />
 
-> Given a (front-loading) JAMstack architecture and the ability to passively 'react' to dynamic changes with `:has()` (without JS), container queries, contextual view-port units, and other new exciting upcoming features, it is time to finally find out how much GUI and business logic can be off-loaded onto pure native CSS.<br />
+---
+
+<br />
+
+> Given a (front-loading) JAMstack architecture and the ability to _PASSIVELY_ 'react' to dynamic changes with `:has()` (without JS), container queries, contextual view-port units, and other new exciting upcoming features, it is time to finally find out how much GUI and business logic can be off-loaded onto pure native CSS.<br />
 ~ Unknown
 
 <br />
