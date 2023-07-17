@@ -79,9 +79,9 @@
 
 <h2 id="fair">FAIR WARNING : :</h3>
 
-> Eleven out of ten clinical studies have shown that prolonged exposure to _***delusions of grandeur***_ may, in severe cases, be linked to or even cause _industry changing inovativation_.
+> Eleven out of ten clinical trials have shown that prolonged exposure to _***delusions of grandeur***_ may, in severe cases, be linked to or even cause _industry changing inovativation_.
 >
-> PROCEED WITH CAUTION
+> _PROCEED WITH CAUTION_
 
 <br />
 
