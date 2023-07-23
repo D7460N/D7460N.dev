@@ -20,7 +20,7 @@
     * [HTTP/3 | QUIC](#http3)
   * [Sustainability (Future Proofing)](#sustain)
 * [Integration (WIP)](#inte)
-  * Frameworks
+  * [Frameworks](#frameworks)
     * Angular
     * Vue.js
     * React 
@@ -537,7 +537,7 @@ Offsite link HTML example : :
   <summary id="inte"><h3>INTEGRATION</h3></summary>
 
   <details>
-   <summary id="inte"><h3>FRAMWORKS</h3></summary>
+   <summary id="frameworks"><h4>FRAMWORKS</h4></summary>
 
 
 Angular, Vue, and React demos call the same FFE and BBR data source files. 
@@ -581,17 +581,17 @@ Angular, Vue, and React demos call the same FFE and BBR data source files.
 
   
    <details>
-    <summary id="Angular"><h3>Angular</h3></summary>
+    <summary id="Angular"><h4>Angular</h4></summary>
     Coming soon (WIP)
    </details>
 
    <details>
-    <summary id="vue"><h3>Vue.js</h3></summary>
+    <summary id="vue"><h4>Vue.js</h4></summary>
     Coming soon (WIP)
    </details>
 
    <details>
-    <summary id="react"><h3>React</h3></summary>
+    <summary id="react"><h4>React</h4></summary>
     Coming soon (WIP)
    </details>
 
@@ -601,27 +601,27 @@ Angular, Vue, and React demos call the same FFE and BBR data source files.
    <summary id="cms"><h3>CONTENT MANAGEMENT SYSTEMS (CMS)</h3></summary>
 
    <details>
-    <summary id="word"><h3>WordPress</h3></summary>
+    <summary id="word"><h4>WordPress</h4></summary>
     Coming soon (WIP)
    </details>
 
    <details>
-    <summary id="joomla"><h3>Joomla</h3></summary>
+    <summary id="joomla"><h4>Joomla</h4></summary>
     Coming soon (WIP)
    </details>
 
    <details>
-    <summary id="drupal"><h3>Drupal</h3></summary>
+    <summary id="drupal"><h4>Drupal</h4></summary>
     Coming soon (WIP)
    </details>
 
    <details>
-    <summary id="magento"><h3>Magento</h3></summary>
+    <summary id="magento"><h4>Magento</h4></summary>
     Coming soon (WIP)
    </details>
   
    <details>
-    <summary id="share"><h3>SharePoint</h3></summary>
+    <summary id="share"><h4>SharePoint</h4></summary>
     Coming soon (WIP)
    </details>
   
