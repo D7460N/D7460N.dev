@@ -860,7 +860,8 @@ _Almost as if the web UI is [SELF-AWARE](#self)..._
 </details>
 
 <details>
- <summary id="single"><h3>Single Responsibility </h3>
+ <summary id="single"><h3>Single Responsibility </h3></summary>
+ <br />
   ~ [SOLID: Single Responsibility | dev.to](https://dev.to/ggorantala/solid-single-responsibility-principle-with-examples-h0f)
 </details>
 
