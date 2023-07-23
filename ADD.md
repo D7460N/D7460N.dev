@@ -536,6 +536,10 @@ Offsite link HTML example : :
 <details>
   <summary id="inte"><h3>INTEGRATION</h3></summary>
 
+  <details>
+   <summary id="inte"><h3>FRAMWORKS</h3></summary>
+
+
 Angular, Vue, and React demos call the same FFE and BBR data source files. 
 
 ```
@@ -545,7 +549,7 @@ Angular, Vue, and React demos call the same FFE and BBR data source files.
                                   /::\  FRAMEWORK DEMO              \
                                  /::::\  D7460N-ANGULAR              \
                           _ _ _ /::::::\                              \
-                          \    / ANGULAR\______________________________\_                      // BBE
+                          \    / ANGULAR\______________________________\ _                     // BBE
               // FFE       \   \::::::::/                              /  \                   /_______
              /______        \   \::::::/   ___________________________/___ \                 /\       \
             /\      \   _ _ _\   \::::/   /\                              \ \    `          /::\       \
@@ -565,17 +569,16 @@ Angular, Vue, and React demos call the same FFE and BBR data source files.
              `      LANE     `       \_ _ _\   \::::/                             /            `                `
               `               `             \   \::/                             /\
                                              \   \/_____________________________/  \
-                                              \_____________________________________\
-                                               `                                     `
-                                                `                 DEV                 `
-                                                 `                 SWIM                `
-                                                  `                 LANE                `
-                                                   `                                     `
+                                              \                                     \   
+                                               \_____________________________________\
+                                                `                                     `
+                                                 `                 DEV                 `
+                                                  `                 SWIM                `
+                                                   `                 LANE                `
+                                                    `                                     `
 
 ```
 
-  <details>
-   <summary id="inte"><h3>FRAMWORKS</h3></summary>
   
    <details>
     <summary id="Angular"><h3>Angular</h3></summary>
