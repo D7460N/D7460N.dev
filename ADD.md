@@ -32,6 +32,7 @@
 * [Infrastructure](#infra)
 * [Governance/Principles](#principles)
   * [Intrinsic Design](#intrinsic)
+  * [Single Responsibility](#single)
   * [Least Power](#least)
   * [Separation of Concerns](#separation)
   * [Perfect Storm](#perfect)
@@ -856,6 +857,11 @@ Intrinsic Design is a principle introduced by Jen Simmons at an "Event Apart" ev
 Most developers use CSS to control and or lockdown their web UIs. Intrinsic design leverages modern design engineering techniques, fueled by new(<i>er</i>) CSS functionality such as `Grid`, `Flexbox`, `:has()`, `custom-properties(variables)`, and `container-queries` that allow web UIs to **intrinsically** or **naturally** or **natively** present content on its own. Instead of gues-timating `break-points` with hard-coded units, Intrinsic design allows the browser to naturally determine content placement. This approach minimizes code complexity and fosters more maintainable and adaptable solutions. 
 
 _Almost as if the web UI is [SELF-AWARE](#self)..._
+</details>
+
+<details>
+ <summary id="single"><h3>Single Responsibility </h3>
+  ~ [SOLID: Single Responsibility | dev.to](https://dev.to/ggorantala/solid-single-responsibility-principle-with-examples-h0f)
 </details>
 
 <details>
