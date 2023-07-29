@@ -139,7 +139,7 @@ https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/ */
       grid-template-columns: var(--app-container-grid-template-columns);
       gap: var(--grid-gap);
       padding: 1rem;
-      height: 100vh; /* push HEADER/FOOTER to the top/bottom of viewport */
+      height: 100dvh; /* push HEADER/FOOTER to the top/bottom of viewport */
       overflow: hidden;
     }
 
