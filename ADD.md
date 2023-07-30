@@ -419,6 +419,49 @@ _Let's start with the..._
 <h2 id="must">MUST-HAVES : :</h2>
 <details>
   <summary id="standards"><h3>WEB STANDARDS</h3></summary>
+
+  <table>
+   <tr>
+     <td><b>Name</b></td>
+     <td><b>Standards Compliant</b></td>
+     <td><b>Backwards Compatible</b></td>
+     <td><b>Future Proofed</b></td>
+     <td><b>% Complete</b></td>
+   </tr>
+   <tr></tr>
+   <tr>
+     <td>Name</td>
+     <td>[ x ]</td>
+     <td>[ x ]</td>
+     <td>[ x ]</td>
+     <td>100%</td>
+   </tr>
+   <tr></tr>
+   <tr>     
+     <td>Name</td>
+     <td>[ x ]</td>
+     <td>[ x ]</td>
+     <td>[ x ]</td>
+     <td>100%</td>
+   </tr>
+   <tr></tr>
+   <tr>
+     <td>Name</td>
+     <td>[ x ]</td>
+     <td>[ x ]</td>
+     <td>[ x ]</td>
+     <td>100%</td>
+   </tr>
+   <tr></tr>
+   <tr>
+     <td>Name</td>
+     <td>[ x ]</td>
+     <td>[ x ]</td>
+     <td>[ x ]</td>
+     <td>100%</td>
+   </tr>
+ </table>
+  
   
   <p><i>Web standards are the building blocks of a consistent and harmonious digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the Web.</i></p>
 
