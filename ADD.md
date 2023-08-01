@@ -1432,6 +1432,12 @@ Customization options : :
 * Data-text density (spacious, comfortable, compact)
 * Save cross session
 
+<h3>SECRET PERFORMANCE MODE</h3>
+
+Performance mode options appear only when certain performance criteria are present. These are tested via CSS feature queries and other validations are validated. 
+
+https://codepen.io/dragontheory/details/jOvBLaW
+
 </details>
 
 ---
