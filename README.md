@@ -1,4 +1,6 @@
 <h1 align="center">D7460N UI</h1>
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 <p align="center">
 <img
   src="assets/images/logo.svg"
