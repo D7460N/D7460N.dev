@@ -12,6 +12,8 @@
   * [W3C](#w3c)
   * [Accessibility](#access)
   * [Usability](#usable)
+  * [Web Developer Experience (WEBDX)](#webdx)
+    * [Minimal Abstraction](#abstraction)
   * [User Experience (UX)](#user)
     * [UX To Remember](#ux)
     * [Security](#security)
@@ -519,6 +521,25 @@ Accessibility relates to the technical side of a website, while usability refers
   <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG 2 Overview | Web Accessibility Initiative (WAI) - W3C</a></li>
   <li><a href="https://www.ada.gov/resources/web-guidance/">Guidance on Web Accessibility and the ADA</a></li>
 </ul>
+</details>
+
+<details>
+ <summary id="webdx"><h3>WEB DEVLOPER EXPERIENCE (WEBDX)</h3></summary>
+ 
+ > The @w3c WebDX #CommunityGroup has been working on a cartography of the  Web Platform as a set of features, with focus on surfacing the interoperable ones based on their implementation  status across browsers. This work is at the core of this @MozDevNet baseline concept<br />
+~ [W3C Developers | twitter.com](https://twitter.com/w3cdevs/status/1658489662758092804)
+
+ <ul)
+ <li>[WEBDX | w3.org](https://www.w3.org/blog/2022/webdx-improving-the-experience-for-web-developers/)</li>
+ <li>[Introducing Baseline: a unified view of stable web features | developer.mozilla.org](https://developer.mozilla.org/en-US/blog/baseline-unified-view-stable-web-features/)</li>
+</ul>
+
+ <details>
+  <summary id="abstraction"><h4>MINIMAL ABSTRACTION</h4></summary>
+
+  <p>(WIP)</p>
+  
+  </details>
 </details>
 
 <details>
