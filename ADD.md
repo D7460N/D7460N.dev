@@ -529,6 +529,7 @@ Accessibility relates to the technical side of a website, while usability refers
  > The [@w3c](https://twitter.com/w3c) WebDX [#CommunityGroup](https://twitter.com/hashtag/CommunityGroup?src=hashtag_click) has been working on a cartography of the  Web Platform as a set of features, with focus on surfacing the interoperable ones based on their implementation  status across browsers. This work is at the core of this [@MozDevNet](https://twitter.com/MozDevNet) baseline concept<br />
 ~ [W3C Developers | twitter.com](https://twitter.com/w3cdevs/status/1658489662758092804)
 
+ - [Web DNA Report | mdn.dev](https://mdn.dev/archives/insights/)
  - [WEBDX COMMUNITY GROUP | w3c.org](https://www.w3.org/community/webdx/)
  - [web-platform-dx | github.com](https://github.com/web-platform-dx)
  - [WEBDX | w3.org](https://www.w3.org/blog/2022/webdx-improving-the-experience-for-web-developers/)
