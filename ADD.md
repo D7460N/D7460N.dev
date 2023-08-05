@@ -7,6 +7,7 @@
 * [Table of Contents](#toc)
 * [Fair Warning](#fair)
 * [What if?](#what)
+* [Definitions](#definitions)
 * [Must Haves](#must)
   * [Standards](#standards)
   * [W3C](#w3c)
@@ -109,6 +110,21 @@ Andy Wachowski & Larry Wachowski
 
 > Given a (front-loading) JAMstack architecture and the ability to _PASSIVELY_ 'react' to dynamic changes with `:has()` (no scripting), container queries, contextual view-port units, and other new exciting upcoming features, it is time to finally find out how much GUI and business logic can be off-loaded onto pure native CSS.<br />
 ~ Unknown
+
+<br />
+
+---
+
+<br />
+
+<h2 id="definitions">DEFINITIONS : :</h2>
+
+HIGH LEVEL:
+
+- Front-End (FE) === all things (data agnostic) GUI related<br />
+Vanilla HTML, CSS, and (minimal) JS 
+- Back-End (BE) === all things (GUI agnostic) data related 
+- middleware (MW) === API abstract to connect both front and back ends
 
 <br />
 
