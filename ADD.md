@@ -227,7 +227,7 @@ HIGH LEVEL:<br />
 
 - <b>Front-Front-End</b> (FFE) === All things end-user related other than data (data agnostic)<br />
 *Vanilla HTML, CSS, and (minimal presentation related) JS*
-- <b>Air-Gap</b> (AG) === separation of concerns for modularity and 
+- <b>Air-Gap</b> (AG) === Separation of Concerns (GUI logic from data logic)
   - Pre-rendered, pre-delivered, divless, classless, structural HTML
   - No scripting in HTML (inline)
   - No CSS in HTML (inline) 
