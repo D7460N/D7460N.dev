@@ -231,7 +231,7 @@ HIGH LEVEL:<br />
   - Pre-rendered, pre-delivered, divless, classless, structural HTML
   - No scripting in HTML (inline)
   - No CSS in HTML (inline) 
-  - Modern self-aware CSS (natively/passively/reactively governs all layout, environment, platform, and interactive elements based on dynamic <b>data</> changes)
+  - Modern self-aware CSS (natively/passively/reactively governs all layout, environment, platform, and interactive elements based on dynamic <b>data</b> changes)
 - <b>Front-Back-End</b> (FBE) === API abstract connecting front and back ends (middleware) 
 - <b>Back-Front-End</b> (BFE) === all things data related (GUI agnostic)
 - <b>Back-Back-End</b> (BBE) === Database and or other raw data source
