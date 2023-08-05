@@ -6,8 +6,8 @@
 
 * [Table of Contents](#toc)
 * [Fair Warning](#fair)
-* [What if?](#what)
 * [Definitions](#definitions)
+* [What if?](#what)
 * [Must Haves](#must)
   * [Standards](#standards)
   * [W3C](#w3c)
@@ -117,21 +117,6 @@ Andy Wachowski & Larry Wachowski
 
 <br />
 
-<h2 id="definitions">DEFINITIONS : :</h2>
-
-HIGH LEVEL:
-
-- Front-End (FE) === all things (data agnostic) GUI related<br />
-Vanilla HTML, CSS, and (minimal) JS 
-- Back-End (BE) === all things (GUI agnostic) data related 
-- middleware (MW) === API abstract to connect both front and back ends
-
-<br />
-
----
-
-<br />
-
 <h2 id="what">WHAT IF : :</h2>
 
 <i>What if</i> . . . a development project could be set up and running, just as they are typically today with JS frameworks, but . . .
@@ -232,6 +217,20 @@ New(_ish_) browser support for modern HTML and CSS functionality and accompanyin
 _We shall see . . ._
 
 
+---
+
+<br />
+
+<h2 id="definitions">DEFINITIONS : :</h2>
+
+HIGH LEVEL:
+
+- Front-End (FE) === all things GUI related (data agnostic)<br />
+Vanilla HTML, CSS, and (minimal presentation related) JS
+- Middleware (MW) === API abstract to connect both front and back ends
+- Back-End (BE) === all things data related (GUI agnostic)
+
+<br />
 
 ---
 
