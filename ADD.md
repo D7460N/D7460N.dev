@@ -223,12 +223,23 @@ _We shall see . . ._
 
 <h2 id="definitions">DEFINITIONS : :</h2>
 
-HIGH LEVEL:
+HIGH LEVEL:<br />
 
-- Front-End (FE) === all things GUI related (data agnostic)<br />
-Vanilla HTML, CSS, and (minimal presentation related) JS
-- Middleware (MW) === API abstract to connect both front and back ends
-- Back-End (BE) === all things data related (GUI agnostic)
+- Front-Front-End (FFE) === All things end-user related other than data (data agnostic)<br />
+*Vanilla HTML, CSS, and (minimal presentation related) JS*
+- Air-Gap (AG) === separation of concerns for modularity and 
+  - Pre-rendered, pre-delivered, divless, classless, structural HTML
+  - No scripting in HTML (inline)
+  - No CSS in HTML (inline) 
+  - Modern self-aware CSS (natively/passively/reactively governs all layout, environment, platform, and interactive elements based on dynamic <b>data</> changes)
+- Front-Back-End (FBE) === API abstract connecting front and back ends (middleware) 
+- Back-Front-End (BFE) === all things data related (GUI agnostic)
+- Back-Back-End (BBE) === Database and or other raw data source
+
+```
+
+
+```
 
 <br />
 
