@@ -225,16 +225,16 @@ _We shall see . . ._
 
 HIGH LEVEL:<br />
 
-- Front-Front-End (FFE) === All things end-user related other than data (data agnostic)<br />
+- <b>Front-Front-End</b> (FFE) === All things end-user related other than data (data agnostic)<br />
 *Vanilla HTML, CSS, and (minimal presentation related) JS*
-- Air-Gap (AG) === separation of concerns for modularity and 
+- <b>Air-Gap</b> (AG) === separation of concerns for modularity and 
   - Pre-rendered, pre-delivered, divless, classless, structural HTML
   - No scripting in HTML (inline)
   - No CSS in HTML (inline) 
   - Modern self-aware CSS (natively/passively/reactively governs all layout, environment, platform, and interactive elements based on dynamic <b>data</> changes)
-- Front-Back-End (FBE) === API abstract connecting front and back ends (middleware) 
-- Back-Front-End (BFE) === all things data related (GUI agnostic)
-- Back-Back-End (BBE) === Database and or other raw data source
+- <b>Front-Back-End</b> (FBE) === API abstract connecting front and back ends (middleware) 
+- <b>Back-Front-End</b> (BFE) === all things data related (GUI agnostic)
+- <b>Back-Back-End</b> (BBE) === Database and or other raw data source
 
 ```
 
