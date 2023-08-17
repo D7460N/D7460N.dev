@@ -1,4 +1,3 @@
-<h1 align="center">D7460N UI</h1>
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 <p align="center">
@@ -8,10 +7,10 @@
   title="D7460N"
   width="400" />
 </p>
+<h1 align="center">D7460N UI</h1>
+<h2 align="center"><b><i>Your data your way | Fast/easy/secure</i></b></h2>
 
-<p align="center"><b><i>Your data your way | Fast/easy/secure</i></b></p>
-
-<p align="center">Data/framework/resolution/platform/browser agnostic,<br />minimal,<br />scalable,<br />simantic,<br />standards compliant,<br />responsive,<br />self-aware,<br />modern CSS/HTML/SPA/PWA,<br />micro-frontend,<br />GUI template</p>
+<p align="center">Data/framework/resolution/platform/browser agnostic,<br />minimal,<br />scalable,<br />accessible,<br />simantic,<br />standards compliant,<br />responsive,<br />self-aware,<br />modern CSS/HTML/SPA/PWA,<br />micro-frontend,<br />GUI template</p>
 
 ---
 
