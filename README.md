@@ -17,7 +17,7 @@
 
 <p align="center">
 : : To run : :<br />
-Download, extract, and double click <i>index.html</i> to load template into default browser.</p>
+Download, extract, and double click <i>index.html</i><br />to load D7460N into default browser.</p>
 <p align="center">
 Done.<br />
 * no building<br />
