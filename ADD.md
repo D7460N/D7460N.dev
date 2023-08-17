@@ -60,6 +60,7 @@
   * [Color Themes](#themes)
   * [Corporate Branding](#corporate)
 * [Architecture](#arc)
+  * [Micro-frontend](#micro)
   * [JAMstack](#jam)
   * [HTML/CSS](#html)
   <!-- * [JavaScript Rules Engine](#javascript-rules-engine) -->
@@ -1560,6 +1561,16 @@ The D7460N logo changes color dynamically depending on its `background-color` so
 <h2 id="arc">ARCHITECTURE : :</h2>
 
 <br />
+
+<details>
+<summary id="micro"><h3>MICRO-FRONTEND</h3></summary>
+ 
+(WIP) 
+
+D7460N Template is a static Single Page Application (SPA) GUI with a MICRO-FRONTEND architecture.
+
+</details>
+
 
 <details>
 <summary id="jam"><h3>JAMStack</h3></summary>
