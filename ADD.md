@@ -230,29 +230,32 @@ _We shall see . . ._
 
 HIGH LEVEL : :<br />
 
-- <b>Front-Front</b> (FE) === Gui, business, and data logic integrated with and controlled by Framework<br />
+- <b>Front-End</b> (FE) === Gui, business, and data logic integrated with and controlled by Framework<br />
 
-- <b>Back-END</b> (FE) === Data storage, database(s), data source(s) of various types, formats, and configurations<br />
+- <b>Back-End</b> (FE) === Data storage, database(s), data source(s) of various types, formats, and configurations<br />
+
+- <b>User Agent</b> === Web browser
 
 Typical setup : :
 
 ```
 
                                 //////////////////
-                           //////  MONOLYTHIC  //////
+                             ////  MONOLYTHIC \////
            // FRONT END       //////////////////                          // BACK END
           /___________________________________________________           /_____ _  _ _
-         /\                                                   \         /\          `
-        /::\ Framework driven "happy path" design/development  \       /::\ mystery`
-       /::::\ Build \ Comile \ serve                            \     /::::\ meat `
-_ _ _ / User \ Typescript made compatible with browsers          \___/::::::\    `
-\    / facing \___________________________________________________\ /::::::::\__`___ _   _
- \   \:: UI ::/                                                   / \::::::::/ `
-  \   \::::::/ Gui, business, and data logic integrated with     /   \::::::/   `
-   \   \::::/ and controlled by Framework                       / \   \::::/     `
-    \   \::/                                                   /\  \   \::/       ` 
-     \   \/___________________________________________________/  \  \   \/______ _ `_
-      \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\  \_ _ _ _ _ _ _ _ _ _ _  _  
+         /\                                                   \         /\                 `
+        /::\ Framework driven "happy path" design/development  \       /::\  mystery      `
+       /::::\ Build \ Comile \ serve to make Typescirpt         \     /::::\  meat       `
+_ _ _ /::::::\ compatible with browsers                          \___/::::::\           `
+\    /::User::\___________________________________________________\ /::::::::\_______ _`  _
+ \   \:Agent::/                                                   / \::::::::/` ` ` ` `
+  \   \::::::/ Gui, business, and data logic integrated with     /   \::::::/          `
+   \   \::::/ and controlled by Framework                       / \   \::::/            `
+    \   \::/                                                   /\  \   \::/              ` 
+     \   \/___________________________________________________/  \  \   \/______ __  _    `
+      \                                                           \  \
+       \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\  \_ _ _ _ _ _ _ _ _   _  
 
 
 ```
