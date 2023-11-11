@@ -298,16 +298,9 @@ HIGH LEVEL : :
 
 - <b>Front-Back-End</b> (FBE) === Optional framework. API abstract connecting front and back ends (middleware)
 
-- <b>Back-Front-End</b> (BFE) === all things data related (GUI agnostic)
-
-- <b>Back-Back-End</b> (BBE) === Database and or other raw data source
-
----
-
-User first perspective (front to back) 
 ```
 
-// UI/UX separated from framework : :
+      // UI/UX separated from framework : :
      // Compatible 
     // Small codebase/digital footprint
    // Flexible/unopinionated design/development
@@ -333,8 +326,8 @@ User first perspective (front to back)
           /                  -   /                 
          // JAMstack          - // Separation of Concerns
         // Flexible            // Framework agnostic
-       // Scalable
-      // Secure
+       // Scalable            // Connected via API
+      // Secure              // Web components
      // Modular
     // Dat and platform agnostic                
    // GUI & business logic
