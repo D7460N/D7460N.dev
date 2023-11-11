@@ -217,7 +217,7 @@ This front-end would be a win for developers, end-users, and stakeholders alike.
 
 ***These are the questions this project seeks to answer.***
 
-New(_ish_) browser support for modern HTML and CSS functionality and accompanying design and development techniques may allow for these questions to be answered by literally "doing more with less". ([Least Power Principle](#least))
+Native browser support for modern HTML and CSS functionality and accompanying design and development techniques may allow for these questions to be answered by literally "doing more with less". ([Least Power Principle](#least))
 
 _We shall see . . ._
 
@@ -267,11 +267,11 @@ PROs and CONs : :
 | Free                       |        | Large initial cognative load                                  |
 | CLI quick setup            |        | Forced development "happy paths"                              |
 | Handles complex data logic |        | Vendor lock                                                   |
-|                            |        | Upgrade pergatory                                             |
-|                            |        | Squelched innovation                                          |
-|                            |        | Hundreds of 3rd party dependencies                            |
-|                            |        | Dependency hampsterwheel (latest fad)                         |
-|                            |        | Custom work breaks upgrade path                               |
+| Large dev community        |        | Upgrade pergatory                                             |
+| Reusable components        |        | Squelched innovation                                          |
+| Encourages modular approach|        | Hundreds of 3rd party dependencies                            |
+| Uniform developement       |        | Dependency hampsterwheel (latest fad)                         |
+| Pre-built common tasks     |        | Custom work breaks upgrade path                               |
 |                            |        | TOTAL SDLC time/effort/money > most other comparable solutions|
 |                            |        | Encourages "elite" dev class                                  |
 |                            |        | Not standard - requires compilation for browser compatibility |
