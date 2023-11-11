@@ -1220,6 +1220,10 @@ Web components allow for JS framework independence, neutrality, and flexibility.
 
 Classless CSS is a minimalist development technique that allows developers to define [semantic](#semantic) html layouts and form elements in CSS without needing to use class selectors or "hooks" in the HTML. This reduces HTML bloat, page load size, helps boost [SEO](#seo) and helps to keep the HTML clean, readable, and intuitive for developers.
 
+> In 1994, [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) invented CSS (Cascading Style Sheets) to add extended styles for semantic HTML-based documents. Developers started writing CSS libraries with pre-developed CSS classes to help web developers style HTML pages without writing long CSS source files themselves. As a result, nowadays, most front-end developers style their web pages with fully-featured, class-based CSS frameworks like Bootstrap, Tailwind, Materialize, etc.
+
+https://levelup.gitconnected.com/the-future-of-web-styling-classless-and-class-light-css-0bcd3fadab8f
+
 </details>
 
 <details>
