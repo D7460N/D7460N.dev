@@ -226,13 +226,13 @@ _We shall see . . ._
 
 <br />
 
-<h2 id="def">DEFINITIONS : :</h2>
+DEFINITIONS : :
 
-HIGH LEVEL : :<br />
+HIGH LEVEL : :
 
-- <b>Front-End</b> (FE) === Gui, business, and data logic integrated with and controlled by Framework<br />
+- <b>Front-End</b> (FE) === Gui, business, and data logic integrated with and controlled by Framework
 
-- <b>Back-End</b> (FE) === Data storage, database(s), data source(s) of various types, formats, and configurations<br />
+- <b>Back-End</b> (FE) === Data storage, database(s), data source(s) of various types, formats, and configurations
 
 - <b>User Agent</b> === Web browser
 
@@ -240,15 +240,13 @@ Typical setup : :
 
 ```
 
-                                //////////////////
-                             ////  MONOLYTHIC \////
-           // FRONT END       //////////////////                          // BACK END
-          /___________________________________________________           /_____ _  _ _
+           // FRONT END - - - - - - - - - - - - - - - - - - - //          // BACK END             
+          /___________________________________________________/          /_____ _  _ _
          /\                                                   \         /\                 `
         /::\ Framework driven "happy path" design/development  \       /::\  mystery      `
-       /::::\ Build \ Compile \ Serve for Typescirpt browser    \     /::::\  meat       `
-_ _ _ /::::::\ compatibility                                     \___/::::::\           `
-\    /::User::\___________________________________________________\ /::::::::\_______ _`  _
+       /::::\ Build \ Compile \ Serve for Typescirpt and        \     /::::\  meat       `
+_ _ _ /::::::\ cross browser compatibility                       \___/::::::\           `
+\    /: User::\___________________________________________________\ /::::::::\_______ _`  _
  \   \:Agent::/                                                   / \::::::::/` ` ` ` `
   \   \::::::/ Gui, business, and data logic integrated with     /   \::::::/          `
    \   \::::/ and controlled by Framework                       / \   \::::/            `
@@ -272,7 +270,7 @@ PROs and CONs : :
 | Encourages modular approach|        | Hundreds of 3rd party dependencies                            |
 | Uniform developement       |        | Dependency hampsterwheel (latest fad)                         |
 | Pre-built common tasks     |        | Custom work breaks upgrade path                               |
-|                            |        | TOTAL SDLC time/effort/money > most other comparable solutions|
+| Developer perspective      |        | TOTAL SDLC time/effort/money > most other comparable solutions|
 |                            |        | Encourages "elite" dev class                                  |
 |                            |        | Not standard - requires compilation for browser compatibility |
 |                            |        | Obfuscates standard browser core langs                        |
@@ -284,23 +282,67 @@ PROs and CONs : :
 
 ---
 
-D7460N setup : :
+DEFINITIONS : :
+
+HIGH LEVEL : :
 
 - <b>Front-Front-End</b> (FFE) === All things end-user related other than data (data agnostic)<br />
 *Standards compliant vanilla HTML, modern CSS, and (minimal presentation related) JS*
+
 - <b>Air-Gap</b> (AG) === Separation of Concerns (GUI logic from data logic)
   - Pre-rendered, pre-delivered, divless, classless, structural/layout HTML
   - No scripting in HTML (inline)
-  - No CSS in HTML (inline) 
+  - CSS must be HTML (inline)
   - Modern self-aware CSS (natively/passively/reactively governs all layout, environment, platform, and interactive elements based on dynamic <b>data</b> changes)
-- <b>Front-Back-End</b> (FBE) === API abstract connecting front and back ends (middleware) 
+  - Secure 
+
+- <b>Front-Back-End</b> (FBE) === Optional framework. API abstract connecting front and back ends (middleware)
+
 - <b>Back-Front-End</b> (BFE) === all things data related (GUI agnostic)
+
 - <b>Back-Back-End</b> (BBE) === Database and or other raw data source
 
+---
 
+User first perspective (front to back) 
 ```
 
+// UI/UX separated from framework : :
+     // Compatible 
+    // Small codebase/digital footprint
+   // Flexible/unopinionated design/development
+  // Upgrade/security path NOT controlled by third party dependencies
+ // Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
+                // FRONT-END - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
+               /                                                                    /
+              // FRONT-FRONT-END     // FRONT-BACK-END                             /
+             /____         -        /_____________________________________________/
+            /\    \       -        /\         \                                   \ 
+           /::\HTML\     -        /::\ Build   \ Angular                           \
+          /::::\CSS \   -        /::::\ Compile \ Vue                               \
+   _ _ _ /::::::\JS  \ -  _ _ _ /::::::\ Serve   \ React...                          \
+  /\    /: User :\____\  /\    /Optional\_________\___________________________________\
+ /  \   \: Agent:/    /    \   \Framwork/         /                                   /
+     \   \::::::/ UI / -    \   \::::::/         /  Typescript                       /
+      \   \::::/ UX /  AIR   \   \::::/         /  Data logic                       /
+       \   \::/    /\   GAP   \   \::/         /                                   /\
+        \   \/____/  \    -    \   \/_________/___________________________________/  \
+         \            \    -    \                                                     \
+          \_ _ _ _ _ _ \    -    \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+          /                  -   /                 
+         // JAMstack          - // Separation of Concerns
+        // Flexible            // Framework agnostic
+       // Scalable
+      // Secure
+     // Modular
+    // Dat and platform agnostic                
+   // GUI & business logic
+  // Separation of Concerns
+ // Decoupled and independent
+// Semantic HTML and native web components for dynamic data hooks
+// Leverages native CSS passive reactiveness
+// Built in "truthful" loading state 
 
 ```
 
@@ -509,10 +551,11 @@ All issues and metrics are driven (at least in part) by JIRA and Lighthouse and 
 
 _Let's start with the..._ 
 <h2 id="must">MUST-HAVES : :</h2>
+
 <details>
   <summary id="standards"><h3>WEB STANDARDS</h3></summary>
 
-  <table>
+<!--  <table>
    <tr>
      <td><b>Name</b></td>
      <td><b>Standards Compliant</b></td>
@@ -552,7 +595,7 @@ _Let's start with the..._
      <td>[ x ]</td>
      <td>100%</td>
    </tr>
- </table>
+ </table> -->
   
   
   <p><i>Web standards are the building blocks of a consistent and harmonious digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the Web.</i></p>
