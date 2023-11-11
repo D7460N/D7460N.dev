@@ -1541,9 +1541,13 @@ The default D7460N Template automatically shows a minimal CSS only loading anima
 
 (WIP)
 
-> Container queries enable you to apply styles to an element based on the size of the element's container. If, for example, a container has less space available in the surrounding context, you can hide certain elements or use smaller fonts. Container queries are an alternative to media queries, which apply styles to elements based on viewport size or other device characteristics.<br> > [~ CSS Container Queries | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries)
+> Container queries enable you to apply styles to an element based on the size of the element's container. If, for example, a container has less space available in the surrounding context, you can hide certain elements or use smaller fonts. Container queries are an alternative to media queries, which apply styles to elements based on viewport size or other device characteristics.<br>
 
-> A new approach to responsive design is upon us and follows a Component-Driven (CDD) pattern. CDD is not a new concept. For decades, modularization has been a fundamental principle of software engineering.<br> > [~ A Complete Guide To CSS Container Queries | lambdatest.com](https://www.lambdatest.com/blog/css-container-queries/)
+[~ CSS Container Queries | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries)
+
+> A new approach to responsive design is upon us and follows a Component-Driven (CDD) pattern. CDD is not a new concept. For decades, modularization has been a fundamental principle of software engineering.<br> 
+
+[~ A Complete Guide To CSS Container Queries | lambdatest.com](https://www.lambdatest.com/blog/css-container-queries/)
 
 </details>
 
@@ -1554,7 +1558,9 @@ The default D7460N Template automatically shows a minimal CSS only loading anima
 >
 > Style queries are particularly useful when you either have a reusable component with multiple variations, or when you don’t have control over all of your styles but need to apply changes in certain cases.
 >
-> There’s a structural benefit of separating the data layer (DOM that would be rendered on the page) from the styles applied. The styles are written as possible variants that live within the components style, while an endpoint could send the data that it would then use to style the component by.<br> > [~ Getting Started with Style Queries | developer.chrome.com](https://developer.chrome.com/blog/style-queries/)
+> There’s a structural benefit of separating the data layer (DOM that would be rendered on the page) from the styles applied. The styles are written as possible variants that live within the components style, while an endpoint could send the data that it would then use to style the component by.<br>
+
+> [~ Getting Started with Style Queries | developer.chrome.com](https://developer.chrome.com/blog/style-queries/)
 
 - [A Primer On CSS Container Queries | smashingmagazine.com](https://www.smashingmagazine.com/2021/05/complete-guide-css-container-queries/)
 - [CSS Style Queries | ishadeed.com](https://ishadeed.com/article/css-container-style-queries/)
