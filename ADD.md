@@ -8,7 +8,7 @@ title: "APPLICATION DESIGN DOCUMENT : :"
 
 <h2 id="toc">TABLE OF CONTENTS : :</h2>
 
-* [Table of Contents](#toc)
+* [Table of Contents](#table-of-contents)
 * [Fair Warning](#fair)
 * [Definitions](#definitions)
 * [What if?](#what)
