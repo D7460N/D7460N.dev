@@ -243,25 +243,21 @@ HIGH LEVEL:<br />
 
 Typical setup : :
 
-Front-End (FE): 
-- Mololythic
-
 ```
 
-              // FRONT END                                                   // BACK END
-             /                  //////////////////                          /
+             // FRONT END       //////////////////                          // BACK END
             /              //////  MONOLYTHIC  //////                      /
            /                  //////////////////                          /
           /___________________________________________________           /_____ _  _ _
-         /\                                                 ` \         /\          `
+         /\                                                   \         /\          `
         /::\ Framework driven "happy path" design/development  \       /::\        `
-       /::::\                                            `      \     /::::\      `
-_ _ _ /:User:\ Compile / Comile / serve                 `        \___/::::::\    `
-\    /:facing:\___________________________________________________\ /::::::::\__`___ _   _
- \   \::app:::/                                         `         / \::::::::/ `
-  \   \::::::/  Gui, business, and data logic intagrated with    /   \::::::/   `
-   \   \::::/  Framework                                  `     / \   \::::/     `
-    \   \::/  Typescript made compatible with browsers     `   /\  \   \::/       ` 
+       /::::\ Build \ Comile \ serve                            \     /::::\      `
+_ _ _ / User \ Typescript made compatible with browsers          \___/::::::\    `
+\    / facing \___________________________________________________\ /::::::::\__`___ _   _
+ \   \:: UI ::/                                                   / \::::::::/ `
+  \   \::::::/  Gui, business, and data logic integrated with    /   \::::::/   `
+   \   \::::/  and controlled by Framework                      / \   \::::/     `
+    \   \::/                                                   /\  \   \::/       ` 
      \   \/___________________________________________________/  \  \   \/______ _ `_
       \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\  \_ _ _ _ _ _ _ _ _ _ _  _  
 
