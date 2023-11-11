@@ -1563,7 +1563,13 @@ The default D7460N Template automatically shows a minimal CSS only loading anima
 </details>
 
 <details>
-<summary id="count"><h3>COUNTING QUERIES</h3></summary>
+<summary id="count"><h3>QUANTITY QUERIES</h3></summary>
+
+> The CSS `:has()` selector has unlocked a bunch of new possibilities to select elements using CSS. A while ago I detailed how you can select elements based on the number of children they have using CSS `:has()`. Today we’ll look into using `:has()` to select the first, second, …, last element from an “island of elements” that all have a certain class.
+
+https://www.bram.us/2022/12/13/quantity-queries-for-islands-of-elements-with-the-same-class-thanks-to-css-has/
+
+https://www.smashingmagazine.com/2023/01/level-up-css-skills-has-selector/
 
 (WIP)
 
