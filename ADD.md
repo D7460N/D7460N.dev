@@ -880,7 +880,7 @@ Future Proofing<br />
 </details>
 </details>
 
- <br/>
+ <!-- <br/>
 
 <h3 id="infra">INFRASTRUCTUE</h3>
 
@@ -1043,7 +1043,7 @@ Back Back End (BBE)
 
 ---
 
-<br />
+<br /> -->
 
 <h2 id="principles">GOVERNANCE/PRINCIPLES : :</h2>
 
