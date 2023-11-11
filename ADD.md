@@ -1059,6 +1059,9 @@ _Almost as if the web UI is [SELF-AWARE](#self)..._
 
 <details>
  <summary id="single"><h3>Single Responsibility </h3></summary>
+
+The principle states that a class should have only one reason to change and one responsibility. This principle is intended to promote modularity and help developers create easier code to understand, modify, and maintain.
+
  <br />
  [SOLID: Single Responsibility | dev.to](https://dev.to/ggorantala/solid-single-responsibility-principle-with-examples-h0f)
 </details>
