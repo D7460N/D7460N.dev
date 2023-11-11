@@ -230,11 +230,11 @@ TYPICAL SETUP : :
 
 DEFINITIONS : :
 
-- <b>User Agent</b> === Web browser
+- <b>User Agent</b> = Web browser
 
-- <b>Front-End</b> (FE) === Gui, business, and data logic integrated with and controlled by Framework
+- <b>Front-End</b> (FE) = Gui, business, and data logic integrated with and controlled by Framework
 
-- <b>Back-End</b> (FE) === Data storage, database(s), data source(s) of various types, formats, and configurations
+- <b>Back-End</b> (FE) = Data storage, database(s), data source(s) of various types, formats, and configurations
 
 
 
