@@ -230,11 +230,11 @@ DEFINITIONS : :
 
 HIGH LEVEL : :
 
+- <b>User Agent</b> === Web browser
+
 - <b>Front-End</b> (FE) === Gui, business, and data logic integrated with and controlled by Framework
 
 - <b>Back-End</b> (FE) === Data storage, database(s), data source(s) of various types, formats, and configurations
-
-- <b>User Agent</b> === Web browser
 
 Typical setup : :
 
@@ -286,58 +286,55 @@ DEFINITIONS : :
 
 HIGH LEVEL : :
 
-- <b>Front-Front-End</b> (FFE) === All things end-user related other than data (data agnostic)<br />
+<b>Front-Front-End</b> (FFE) = All things end-user related other than data (data agnostic)<br />
 *Standards compliant vanilla HTML, modern CSS, and (minimal presentation related) JS*
 
-- <b>Air-Gap</b> (AG) === Separation of Concerns (GUI logic from data logic)
+<b>Front-Back-End</b> (FBE) = Optional framework. API abstract connecting FFE and FBE in combination with web components
+
+<b>Air-Gap</b> (AG) = Separation of Concerns (GUI logic from data logic)
   - Pre-rendered, pre-delivered, divless, classless, structural/layout HTML
   - No scripting in HTML (inline)
-  - CSS must be HTML (inline)
-  - Modern self-aware CSS (natively/passively/reactively governs all layout, environment, platform, and interactive elements based on dynamic <b>data</b> changes)
+  - CSS must (eventually) be HTML (inline)
+  - Modern native "self-aware" CSS leverages passively reactive change detection to govern all layout, environment, platform, and interactive elements based on dynamic <b>data</b> changes
   - Secure 
 
-- <b>Front-Back-End</b> (FBE) === Optional framework. API abstract connecting front and back ends (middleware)
 
 ```
 
-      // UI/UX separated from framework : :
-     // Compatible 
-    // Small codebase/digital footprint
-   // Flexible/unopinionated design/development
-  // Upgrade/security path NOT controlled by third party dependencies
- // Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
-                   // FRONT-END - - - - - - - - - - - - - - - - - - - - - - - - - -//
-                  /                                                                /
-FRONT-FRONT-END //                  // FRONT-BACK-END                             /
-                /____   -       -  /_____________________________________________/
-               /\    \ -  AIR  -  /\         \                                   \ 
-              /::\HTML\  GAP  -  /::\ Build   \ Angular                           \
-             /::::\CSS \     -  /::::\ Compile \ Vue                               \
-      _ _ _ /::::::\JS  \_ _-_ /::::::\ Serve   \ React...                          \
-     /\    /: User :\____\    /Optional\_________\___________________________________\
-    /  \   \: Agent:/    /\   \Framwork/         /                                   /
-        \   \::::::/ UI /  \   \::::::/         /  Typescript                       /
-         \   \::::/ UX /    \   \::::/         /  Data logic                       /
-          \   \::/    /\     \   \::/         /                                   /\
-           \   \/____/  \     \   \/_________/___________________________________/  \
-            \            \     \                                                     \
-             \_ _ _ _ _ _ \     \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
-             /            /     /                 
-            // JAMstack        // Separation of Concerns
-           // Flexible        // Connected via API       
+    // Built-in "truthful" loading state
+   // Upgrade/security path NOT controlled by third party dependencies
+  // Custom (vanilla) changes DON'T break upgrade/security path
+ // Flexible, unopinionated, user-driven (front to back) design and development 
+
+                   // FRONT-END - - - - - - - - - - - - - - - - - - - - - - - - - //
+                  /                                                               /
+                 // FFE            // FBE                                        /
+                /____   -       - /_____________________________________________/
+               /\    \ -  AIR  - /\         \                                   \ 
+              /::\HTML\  GAP  - /::\ Build   \ Angular                           \
+             /::::\CSS \     - /::::\ Compile \ Vue                               \
+      _ _ _ /::::::\JS  \_ _-_/::::::\ Serve   \ React...                          \
+     /\    /: User :\____\ - /Optional\_________\___________________________________\
+    /  \   \: Agent:/    /-  \Framwork/         /                                   /
+        \   \::::::/ UI / \   \::::::/         /  Typescript                       /
+         \   \::::/ UX /   \   \::::/         /  Data logic                       /
+          \   \::/    /\    \   \::/         /                                   /\
+           \   \/____/  \    \   \/_________/___________________________________/  \
+            \            \    \                                                     \
+             \_ _ _ _ _ _ \    \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+             /            /    /                 
+            // JAMstack       // Separation of Concerns (decoupled GUI logic from data logic)
+           // Flexible       // Connected via API       
           // Scalable
          // Secure
         // Modular
-       // Dat and platform agnostic                
+       // Framework, data, and platform agnostic                
       // GUI & business logic
-     // Separation of Concerns
-    // Decoupled and independent
-   // Semantic HTML and native web components for dynamic data hooks
-  // Leverages native CSS passive reactiveness
- // Built in "truthful" loading state 
-// Web components
-\// Framework agnostic
+     // Decoupled and independent GUI allows templating accross applications
+    // Semantic HTML and native web components for dynamic data hooks
+   // Leverages native CSS passive reactiveness
+  // Smaller codebase
 
 ```
 
