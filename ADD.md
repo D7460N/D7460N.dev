@@ -228,7 +228,60 @@ _We shall see . . ._
 
 <h2 id="definitions">DEFINITIONS : :</h2>
 
-HIGH LEVEL:<br />
+HIGH LEVEL : :<br />
+
+- <b>Front-Front</b> (FE) === Gui, business, and data logic integrated with and controlled by Framework<br />
+
+- <b>Back-END</b> (FE) === Data storage, database(s), data source(s) of various types, formats, and configurations<br />
+
+Typical setup : :
+
+```
+
+                                //////////////////
+                           //////  MONOLYTHIC  //////
+           // FRONT END       //////////////////                          // BACK END
+          /___________________________________________________           /_____ _  _ _
+         /\                                                   \         /\          `
+        /::\ Framework driven "happy path" design/development  \       /::\        `
+       /::::\ Build \ Comile \ serve                            \     /::::\      `
+_ _ _ / User \ Typescript made compatible with browsers          \___/::::::\    `
+\    / facing \___________________________________________________\ /::::::::\__`___ _   _
+ \   \:: UI ::/                                                   / \::::::::/ `
+  \   \::::::/ Gui, business, and data logic integrated with     /   \::::::/   `
+   \   \::::/ and controlled by Framework                       / \   \::::/     `
+    \   \::/                                                   /\  \   \::/       ` 
+     \   \/___________________________________________________/  \  \   \/______ _ `_
+      \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\  \_ _ _ _ _ _ _ _ _ _ _  _  
+
+
+```
+
+PROs and CONs : :
+
+| Pros                       |        | Cons                                                          |
+| :---                       | :----: | :---                                                          |
+| Free                       |        | Large initial cognative load                                  |
+| CLI quick setup            |        | Forced development "happy paths"                              |
+| Handles complex data logic |        | Vendor lock                                                   |
+|                            |        | Upgrade pergatory                                             |
+|                            |        | Squelched innovation                                          |
+|                            |        | Hundreds of 3rd party dependencies                            |
+|                            |        | Dependency hampsterwheel (latest fad)                         |
+|                            |        | Custom work breaks upgrade path                               |
+|                            |        | TOTAL SDLC time/effort/money > most other comparable solutions|
+|                            |        | Encourages "elite" dev class                                  |
+|                            |        | Not standard - requires compilation for browser compatibility |
+|                            |        | Obfuscates standard browser core langs                        |
+|                            |        | Never as fast as direct core langs                            |
+|                            |        | Bloated markup                                                |
+|                            |        | Slow cumbersome process to update GUI descurages said updates |
+
+
+
+---
+
+D7460N setup : :
 
 - <b>Front-Front-End</b> (FFE) === All things end-user related other than data (data agnostic)<br />
 *Standards compliant vanilla HTML, modern CSS, and (minimal presentation related) JS*
@@ -241,28 +294,13 @@ HIGH LEVEL:<br />
 - <b>Back-Front-End</b> (BFE) === all things data related (GUI agnostic)
 - <b>Back-Back-End</b> (BBE) === Database and or other raw data source
 
-Typical setup : :
 
 ```
 
-             // FRONT END       //////////////////                          // BACK END
-            /              //////  MONOLYTHIC  //////                      /
-           /                  //////////////////                          /
-          /___________________________________________________           /_____ _  _ _
-         /\                                                   \         /\          `
-        /::\ Framework driven "happy path" design/development  \       /::\        `
-       /::::\ Build \ Comile \ serve                            \     /::::\      `
-_ _ _ / User \ Typescript made compatible with browsers          \___/::::::\    `
-\    / facing \___________________________________________________\ /::::::::\__`___ _   _
- \   \:: UI ::/                                                   / \::::::::/ `
-  \   \::::::/  Gui, business, and data logic integrated with    /   \::::::/   `
-   \   \::::/  and controlled by Framework                      / \   \::::/     `
-    \   \::/                                                   /\  \   \::/       ` 
-     \   \/___________________________________________________/  \  \   \/______ _ `_
-      \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\  \_ _ _ _ _ _ _ _ _ _ _  _  
 
 
 ```
+
 
 <br />
 
