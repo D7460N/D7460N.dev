@@ -27,7 +27,7 @@ title: "APPLICATION DESIGN DOCUMENT : :"
     * [HTTP/3 | QUIC](#http3)
   * [Sustainability (Future Proofing)](#sustain)
 * [Integration (WIP)](#inte)
-  * [Frameworks](#frameworks)
+  * [Frameworks/CMSs](#frameworks) [ coming soon ]
     * Angular
     * Vue.js
     * React 
@@ -241,7 +241,35 @@ HIGH LEVEL:<br />
 - <b>Back-Front-End</b> (BFE) === all things data related (GUI agnostic)
 - <b>Back-Back-End</b> (BBE) === Database and or other raw data source
 
+Typical setup : :
+
+Front-End (FE): 
+- Mololythic
+
 ```
+
+             //- - - - - - - - - - FRONT END - - - - - - - - - -//        // BACK END
+            /                                                   /        /
+           /                                                   /        /
+          /___________________________________________________/        /__________
+         /\ Monolythic                                        \       /\        ` \
+        /::\                 Compile / Comile / serve          \     /::\      `   \
+       /::::\ Framework driven "happy path" design/development  \   /::::\    `     \
+_ _ _ /::::::\                                                   \_/::::::\  `       \
+\    /::::::::\___________________________________________________\::::::::\`_ _ _ _ _\
+ \   \::::::::/                                                   /::::::::/`         /
+  \   \::::::/  Gui, business, and data logic intagrated with    / \::::::/  `       /
+   \   \::::/  Framework                                        /   \::::/    `     /
+    \   \::/                                                   / \   \::/      `   / \
+     \   \/_____________/______________/______________________/   \   \/__________/   \
+      \_ _ _ _ _ _ _ _ _\ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ _ _ _ _\_ _ _ _  _ _ _ _ _ \
+      /                 /              / 
+     // User           // Made        // GUI,
+    // facing         // compatable  // business, 
+   // product        // with        // and data logic
+                    // browsers    // integrated with framework
+                                  //  Monlythic 
+
 
 
 ```
