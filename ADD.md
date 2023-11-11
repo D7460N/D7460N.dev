@@ -288,6 +288,16 @@ PROPOSED SETUP : :
 DEFINITIONS : :
 
 <b>Front-Front-End</b> (FFE) = Decoupled standards compliant vanilla HTML, modern CSS, and (minimal presentation and or fallback related) JS. See [Least Power Principle](#least).
+  - User focused design/development
+  - Accessibility
+  - Usability
+  - Input validation
+  - Responsiveness
+  - Themes
+  - Progressive enhancement
+  - Graceful degredation
+  - Modern HTML and CSS techniques
+  - Template based rapid development/deployment
 
 <b>Front-Back-End</b> (FBE) = Optional framework and or other means by which to write the data logic. API abstract connecting FFE and FBE in combination with web components. See [Saparation of Concerns](#separation).
 
