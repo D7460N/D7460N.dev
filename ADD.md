@@ -258,6 +258,7 @@ _ _ _ /::::::\ cross browser compatibility                       \___/::::::\   
 
 ```
 
+<!--
 PROs and CONs : :
 
 | Pros                       |        | Cons                                                          |
@@ -277,7 +278,7 @@ PROs and CONs : :
 |                            |        | Never as fast as direct core langs                            |
 |                            |        | Bloated markup                                                |
 |                            |        | Slow cumbersome process to update GUI descurages said updates |
-
+-->
 
 
 ---
