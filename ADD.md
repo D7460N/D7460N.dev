@@ -8,9 +8,9 @@ title: "APPLICATION DESIGN DOCUMENT : :"
 
 <h2 id="toc">TABLE OF CONTENTS : :</h2>
 
-* [Table of Contents](#table-of-contents)
+* [Table of Contents](#toc)
 * [Fair Warning](#fair)
-* [Definitions](#definitions)
+* [Definitions](#def)
 * [What if?](#what)
 * [Must Haves](#must)
   * [Standards](#standards)
@@ -18,10 +18,10 @@ title: "APPLICATION DESIGN DOCUMENT : :"
   * [Accessibility](#access)
   * [Usability](#usable)
   * [Web Developer Experience (WEBDX)](#webdx)
-    * [Minimal Abstraction](#abstraction)
-  * [User Experience (UX)](#user)
-    * [UX To Remember](#ux)
-    * [Security](#security)
+    * [Minimal Abstraction](#abstract)
+  * [User Experience (UX)](#ux)
+    * [UX To Remember](#ux2)
+    * [Security](#sec2)
     * [Content Security Policy (CSP)](#csp)
     * [Web Application Firewall (WAF)](#waf)
     * [HTTP/3 | QUIC](#http3)
@@ -226,7 +226,7 @@ _We shall see . . ._
 
 <br />
 
-<h2 id="definitions">DEFINITIONS : :</h2>
+<h2 id="def">DEFINITIONS : :</h2>
 
 HIGH LEVEL : :<br />
 
@@ -626,7 +626,7 @@ Accessibility relates to the technical side of a website, while usability refers
  - [Introducing Baseline: a unified view of stable web features | developer.mozilla.org](https://developer.mozilla.org/en-US/blog/baseline-unified-view-stable-web-features/)
 
  <details>
-  <summary id="abstraction"><h4>MINIMAL ABSTRACTION</h4></summary>
+  <summary id="abstract"><h4>MINIMAL ABSTRACTION</h4></summary>
 
   <p>(WIP)</p>
   
@@ -634,7 +634,7 @@ Accessibility relates to the technical side of a website, while usability refers
 </details>
 
 <details>
-  <summary id="user"><h3>USER EXPERIENCE (UX)</h3></summary>
+  <summary id="ux"><h3>USER EXPERIENCE (UX)</h3></summary>
 
   <p>User Experience (UX) is the intersection of accessibility and usability. It encapsulates the entire journey of a user, from the moment they input the web application's URL, to the point they click the "X" in the upper right corner to close the application, and even beyond.</p>
 
@@ -662,7 +662,7 @@ Such as:
 <img src="/assets/images/ux3d.svg#gh-light-mode-only" alt="UX is where accessibility and usability come together." width="600" title="UX is where accessibility and usability come together." /> -->
 
 <details>
-  <summary id="ux"><h3>UX TO REMEMBER</h3></summary>
+  <summary id="ux2"><h3>UX TO REMEMBER</h3></summary>
 
 * **No dead ends** - Provide end-users and obvious way forward and a way back. A way forward example would be, links to the support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner. 
 * **Link Offsite References** - Whenever an offsite source is reference, link to the reference. 
@@ -801,7 +801,7 @@ Future Proofing<br />
 </details>
 
 <details>
- <summary id="security"><h3>SECURITY</h3></summary>
+ <summary id="sec"><h3>SECURITY</h3></summary>
  
  <details>
   <summary id="csp"><h3>CONTENT SECURITY POLICY (CSP)</h3></summary>
@@ -1787,49 +1787,8 @@ A fully capable Progressive Web Application can provide the following advantages
 </details>
 </details>
 
- ---
-
 <br />
 
-<details>
-<summary id="security"><h2>SECURITY : :</h2></summary>
-
-<br />
-
-<details>
-<summary id="csp"><h3>CONTENT SECURITY POLICY (CSP)</h3></summary>
-
-> The HTTP Content-Security-Policy response header allows website administrators to control resources the user agent is allowed to load for a given page. With a few exceptions, policies mostly involve specifying server origins and script endpoints. This helps guard against cross-site scripting attacks (Cross-site_scripting).<br />
-[~ Content-Security-Policy | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
-
-</details>
-
-<details>
-<summary id="firewall"><h3>WEB APPLICATION FIREWALL (WAF)</h3></summary>
-
-> A web application firewall enhances and complements traditional firewalls which have no visibility into the content of encrypted HTTPS traffic and therefore can’t block dangerous HTTPs streams.
->
-> In contrast to traditional firewalls, WAF operates at Layer 7 of the network stack between standard firewalls and web servers, decrypting HTTPS traffic and inspecting the data within. With anomaly detection and lists of attack methods, the web application firewall can block access to web servers when malicious activity is spotted.<br />
-[~ What is a Web Application Firewall (WAF) and Why Do You Need One? | progress.com](https://www.progress.com/blogs/what-web-application-firewall-waf-why-you-need-one)
-
-</details>
- 
-<details>
-<summary id="http3"><h3>HTTP/3 | QUIC</h3></summary>
-
-> QUIC understands that a site is made up of multiple files, and it won’t blight the entire connection just because one file hasn’t finished loading.
->
->The other trend that QUIC follows up on is built-in security. Whereas encryption was optional before (i.e. HTTP or HTTPS) QUIC is always encrypted. It is a given these days that every site should be encrypted — despite the overhead. This isn’t just to ensure that a man in the middle can’t see what type of orange juice you are ordering; it confirms that you are actually talking to your genuine orange juice supplier.<br />
-[~ HTTP/3 Is Now a Standard: Why Use It and How to Get Started | thenewstack.io](https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/)
-
-* [What is HTTP/3? | cloudflare.com](https://www.cloudflare.com/learning/performance/what-is-http3/)<br />
-* [What is QUIC? | en.wikipedia.org](https://en.wikipedia.org/wiki/QUIC)<br />
-* [HTTP/3: the past, the present, and the future | blog.cloudflare.com](https://blog.cloudflare.com/http3-the-past-present-and-future/)
-* [A Comprehensive Guide To HTTP/3 And QUIC | debugbear.com](https://www.debugbear.com/blog/http3-quic-protocol-guide)
-
-</details>
-</details>
- 
 ---
 
 <br />
