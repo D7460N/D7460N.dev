@@ -307,35 +307,37 @@ HIGH LEVEL : :
   // Upgrade/security path NOT controlled by third party dependencies
  // Vanilla so custom changes DON'T break upgrade/security path dooming project 
 
-                // FRONT-END - - - - - - - - - - - - - - - - - - - - - - - - - - - -//
-               /                                                                    /
-              // FRONT-FRONT-END     // FRONT-BACK-END                             /
-             /____         -        /_____________________________________________/
-            /\    \       -        /\         \                                   \ 
-           /::\HTML\     -        /::\ Build   \ Angular                           \
-          /::::\CSS \   -        /::::\ Compile \ Vue                               \
-   _ _ _ /::::::\JS  \ -  _ _ _ /::::::\ Serve   \ React...                          \
-  /\    /: User :\____\  /\    /Optional\_________\___________________________________\
- /  \   \: Agent:/    /    \   \Framwork/         /                                   /
-     \   \::::::/ UI / -    \   \::::::/         /  Typescript                       /
-      \   \::::/ UX /  AIR   \   \::::/         /  Data logic                       /
-       \   \::/    /\   GAP   \   \::/         /                                   /\
-        \   \/____/  \    -    \   \/_________/___________________________________/  \
-         \            \    -    \                                                     \
-          \_ _ _ _ _ _ \    -    \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
-          /                  -   /                 
-         // JAMstack          - // Separation of Concerns
-        // Flexible            // Framework agnostic
-       // Scalable            // Connected via API
-      // Secure              // Web components
-     // Modular
-    // Dat and platform agnostic                
-   // GUI & business logic
-  // Separation of Concerns
- // Decoupled and independent
-// Semantic HTML and native web components for dynamic data hooks
-// Leverages native CSS passive reactiveness
-// Built in "truthful" loading state 
+                   // FRONT-END - - - - - - - - - - - - - - - - - - - - - - - - - -//
+                  /                                                                /
+FRONT-FRONT-END //                  // FRONT-BACK-END                             /
+                /____   -       -  /_____________________________________________/
+               /\    \ -  AIR  -  /\         \                                   \ 
+              /::\HTML\  GAP  -  /::\ Build   \ Angular                           \
+             /::::\CSS \     -  /::::\ Compile \ Vue                               \
+      _ _ _ /::::::\JS  \_ _-_ /::::::\ Serve   \ React...                          \
+     /\    /: User :\____\    /Optional\_________\___________________________________\
+    /  \   \: Agent:/    /\   \Framwork/         /                                   /
+        \   \::::::/ UI /  \   \::::::/         /  Typescript                       /
+         \   \::::/ UX /    \   \::::/         /  Data logic                       /
+          \   \::/    /\     \   \::/         /                                   /\
+           \   \/____/  \     \   \/_________/___________________________________/  \
+            \            \     \                                                     \
+             \_ _ _ _ _ _ \     \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+             /            /     /                 
+            // JAMstack        // Separation of Concerns
+           // Flexible        // Connected via API       
+          // Scalable
+         // Secure
+        // Modular
+       // Dat and platform agnostic                
+      // GUI & business logic
+     // Separation of Concerns
+    // Decoupled and independent
+   // Semantic HTML and native web components for dynamic data hooks
+  // Leverages native CSS passive reactiveness
+ // Built in "truthful" loading state 
+// Web components
+\// Framework agnostic
 
 ```
 
