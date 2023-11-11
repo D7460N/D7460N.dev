@@ -1675,6 +1675,10 @@ The D7460N logo changes color dynamically depending on its `background-color` so
 <details>
 <summary id="micro"><h3>MICRO-FRONTEND</h3></summary>
 
+> Micro Frontends is an architectural pattern that draws inspiration from microservices, focusing specifically on the front-end layer. It involves breaking down a monolithic front-end application into smaller, loosely coupled, and independently deployable components.
+
+https://medium.com/appfoster/a-comprehensive-guide-to-micro-frontend-architecture-cc0e31e0c053
+
 (WIP)
 
 D7460N Template is a static Single Page Application (SPA) GUI with a MICRO-FRONTEND architecture.
