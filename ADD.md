@@ -248,28 +248,22 @@ Front-End (FE):
 
 ```
 
-             //- - - - - - - - - - FRONT END - - - - - - - - - -//        // BACK END
-            /                                                   /        /
-           /                                                   /        /
-          /___________________________________________________/        /__________
-         /\ Monolythic                                        \       /\        ` \
-        /::\                 Compile / Comile / serve          \     /::\      `   \
-       /::::\ Framework driven "happy path" design/development  \   /::::\    `     \
-_ _ _ /::::::\                                                   \_/::::::\  `       \
-\    /::::::::\___________________________________________________\::::::::\`_ _ _ _ _\
- \   \::::::::/                                                   /::::::::/`         /
-  \   \::::::/  Gui, business, and data logic intagrated with    / \::::::/  `       /
-   \   \::::/  Framework                                        /   \::::/    `     /
-    \   \::/                                                   / \   \::/      `   / \
-     \   \/_____________/______________/______________________/   \   \/__________/   \
-      \_ _ _ _ _ _ _ _ _\ _ _ _ _ _ _ _\_ _ _ _ _ _ _ _ _ _ _ _ _ _\_ _ _ _  _ _ _ _ _ \
-      /                 /              / 
-     // User           // Made        // GUI,
-    // facing         // compatable  // business, 
-   // product        // with        // and data logic
-                    // browsers    // integrated with framework
-                                  //  Monlythic 
-
+              // FRONT END                                                   // BACK END
+             /                  //////////////////                          /
+            /              //////  MONOLYTHIC  //////                      /
+           /                  //////////////////                          /
+          /___________________________________________________           /_____ _  _ _
+         /\                                                 ` \         /\          `
+        /::\ Framework driven "happy path" design/development  \       /::\        `
+       /::::\                                            `      \     /::::\      `
+_ _ _ /:User:\ Compile / Comile / serve                 `        \___/::::::\    `
+\    /:facing:\___________________________________________________\ /::::::::\__`___ _   _
+ \   \::app:::/                                         `         / \::::::::/ `
+  \   \::::::/  Gui, business, and data logic intagrated with    /   \::::::/   `
+   \   \::::/  Framework                                  `     / \   \::::/     `
+    \   \::/  Typescript made compatible with browsers     `   /\  \   \::/       ` 
+     \   \/___________________________________________________/  \  \   \/______ _ `_
+      \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\  \_ _ _ _ _ _ _ _ _ _ _  _  
 
 
 ```
