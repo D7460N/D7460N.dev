@@ -101,10 +101,11 @@ title: "APPLICATION DESIGN DOCUMENT : :"
 
 > <i><b>Morpheus</b>:<br>
 > This is your last chance. After this, there is no turning back. You take the blue pill - the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill - you stay in Wonderland and I show you how deep the rabbit hole goes.</i><br>
-> ~ [The Matrix](https://abovelogic.org/) > <br>
-> Andy Wachowski & Larry Wachowski
->
-> <br>
+
+~ [The Matrix](https://abovelogic.org/)<br>
+Andy Wachowski & Larry Wachowski
+
+<br>
 
 ---
 
@@ -607,20 +608,26 @@ _Let's start with the..._
 >
 > <i>For example, the [HTML Living Standard](https://html.spec.whatwg.org/multipage/) describes exactly how HTML (all the HTML elements, and their associated APIs, and other surrounding technologies) should be implemented.</i>
 >
-> <i>Web standards are created by standards bodies — institutions that invite groups of people from different technology companies to come together and agree on how the technologies should work in the best way to fulfill all of their use cases. The W3C is the best known web standards body, but there are others such as the [WHATWG](https://whatwg.org/) (who maintain the living standards for the HTML language), [ECMA](https://www.ecma-international.org/) (who publish the standard for ECMAScript, which JavaScript is based on), [Khronos](https://www.khronos.org/) (who publish technologies for 3D graphics, such as WebGL), and others.</i><br> > <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards">~ The Web and Web Standards | MDN Web Docs</a>
+> <i>Web standards are created by standards bodies — institutions that invite groups of people from different technology companies to come together and agree on how the technologies should work in the best way to fulfill all of their use cases. The W3C is the best known web standards body, but there are others such as the [WHATWG](https://whatwg.org/) (who maintain the living standards for the HTML language), [ECMA](https://www.ecma-international.org/) (who publish the standard for ECMAScript, which JavaScript is based on), [Khronos](https://www.khronos.org/) (who publish technologies for 3D graphics, such as WebGL), and others.</i><br>
+
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards">~ The Web and Web Standards | MDN Web Docs</a>
 
 </details>
 
 <details>
   <summary id="access"><h3>ACCESSIBILITY</h3></summary>
 
-> Accessibility isn’t about compliance. It’s not about ticking off checkboxes in an accessibility checklist. It’s not about accessibility overlays either. Instead, it’s about designing with <b>a wide range of people in mind</b>. It’s about including and respecting everyone — independent of what skills and preferences they have.<br> > [~ Smashing Magazine Newsletter-Issue #412, July 4, 2023](https://mailchi.mp/smashingmagazine/412-accessibility-and-inclusive-design?e=af6b6893ef)
+> Accessibility isn’t about compliance. It’s not about ticking off checkboxes in an accessibility checklist. It’s not about accessibility overlays either. Instead, it’s about designing with <b>a wide range of people in mind</b>. It’s about including and respecting everyone — independent of what skills and preferences they have.<br>
+
+[~ Smashing Magazine Newsletter-Issue #412, July 4, 2023](https://mailchi.mp/smashingmagazine/412-accessibility-and-inclusive-design?e=af6b6893ef)
 
 Accessibility relates to the technical side of a website, while usability refers to the quality of a person's experience when interacting with it. Accessibility guidelines can improve usability for all users, including those with disabilities or impairments.
 
 <p><b>ACCESSIBILITY IS NOT USABILITY.</b> A screen full of unstructured unformatted unstyled data is accessible, but hardly usable. Accessibility is the beginning of usability best practices.</p>
 
-> <i>"Whereas accessibility relates to the technical side of a website, usability relates to the quality of a person's experience when interacting with your website, the efficiency with which that person can accomplish a task, and the satisfaction of the person completing the task. Although accessibility guidelines focus primarily on people with disabilities and impairments, such as vision loss, many of the guidelines for accessibility can also improve usability for all.</i><br> > <a href="https://blog.usablenet.com/accessibility-vs-usability-what-is-the-difference-to-the-disability-community">~ UsableNet Aug 22, 2022</a>
+> <i>"Whereas accessibility relates to the technical side of a website, usability relates to the quality of a person's experience when interacting with your website, the efficiency with which that person can accomplish a task, and the satisfaction of the person completing the task. Although accessibility guidelines focus primarily on people with disabilities and impairments, such as vision loss, many of the guidelines for accessibility can also improve usability for all.</i><br>
+
+<a href="https://blog.usablenet.com/accessibility-vs-usability-what-is-the-difference-to-the-disability-community">~ UsableNet Aug 22, 2022</a>
 
   <ul>
     <li><a href="https://www.section508.gov/manage/section-508-assessment/">Government-wide Section 508 Assessment | section508.gov</a></li>
@@ -651,7 +658,8 @@ Accessibility relates to the technical side of a website, while usability refers
  <summary id="webdx"><h3>WEB DEVELOPER EXPERIENCE (WEBDX)</h3></summary>
 
 > The [@w3c](https://twitter.com/w3c) WebDX [#CommunityGroup](https://twitter.com/hashtag/CommunityGroup?src=hashtag_click) has been working on a cartography of the Web Platform as a set of features, with focus on surfacing the interoperable ones based on their implementation status across browsers. This work is at the core of this [@MozDevNet](https://twitter.com/MozDevNet) baseline concept<br>
-> ~ [W3C Developers | twitter.com](https://twitter.com/w3cdevs/status/1658489662758092804)
+
+[W3C Developers | twitter.com](https://twitter.com/w3cdevs/status/1658489662758092804)
 
 - [Web DNA Report | mdn.dev](https://mdn.dev/archives/insights/)
 - [WEBDX COMMUNITY GROUP | w3c.org](https://www.w3.org/community/webdx/)
@@ -825,7 +833,9 @@ Angular, Vue, and React demos call the same FFE and BBR data source files.
 <details>
   <summary id="sustain"><h3>SUSTAINABILITY (FUTURE PROOFING)</h3></summary>
 
-> Sustainability is often considered a technical challenge related to optimizing images, videos, and fonts. But what does it mean for designers? How can we guide our design decisions through the lens of sustainability?<br> > [~ Whole system thinking | sustainabilityguide.eu](https://sustainabilityguide.eu/ecodesign/design/)
+> Sustainability is often considered a technical challenge related to optimizing images, videos, and fonts. But what does it mean for designers? How can we guide our design decisions through the lens of sustainability?<br>
+
+[~ Whole system thinking | sustainabilityguide.eu](https://sustainabilityguide.eu/ecodesign/design/)
 
 Future Proofing<br>
 (WIP)
@@ -838,7 +848,9 @@ Future Proofing<br>
  <details>
   <summary id="csp"><h3>CONTENT SECURITY POLICY (CSP)</h3></summary>
 
-> The HTTP Content-Security-Policy response header allows website administrators to control resources the user agent is allowed to load for a given page. With a few exceptions, policies mostly involve specifying server origins and script endpoints. This helps guard against cross-site scripting attacks (Cross-site_scripting).<br> > [~ Content-Security-Policy | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
+> The HTTP Content-Security-Policy response header allows website administrators to control resources the user agent is allowed to load for a given page. With a few exceptions, policies mostly involve specifying server origins and script endpoints. This helps guard against cross-site scripting attacks (Cross-site_scripting).<br>
+
+[~ Content-Security-Policy | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
 
 </details>
 
@@ -847,7 +859,9 @@ Future Proofing<br>
 
 > A web application firewall enhances and complements traditional firewalls which have no visibility into the content of encrypted HTTPS traffic and therefore can’t block dangerous HTTPs streams.
 >
-> In contrast to traditional firewalls, WAF operates at Layer 7 of the network stack between standard firewalls and web servers, decrypting HTTPS traffic and inspecting the data within. With anomaly detection and lists of attack methods, the web application firewall can block access to web servers when malicious activity is spotted.<br> > [~ What is a Web Application Firewall (WAF) and Why Do You Need One? | progress.com](https://www.progress.com/blogs/what-web-application-firewall-waf-why-you-need-one)
+> In contrast to traditional firewalls, WAF operates at Layer 7 of the network stack between standard firewalls and web servers, decrypting HTTPS traffic and inspecting the data within. With anomaly detection and lists of attack methods, the web application firewall can block access to web servers when malicious activity is spotted.<br>
+
+[~ What is a Web Application Firewall (WAF) and Why Do You Need One? | progress.com](https://www.progress.com/blogs/what-web-application-firewall-waf-why-you-need-one)
 
 </details>
 
@@ -856,7 +870,9 @@ Future Proofing<br>
 
 > QUIC understands that a site is made up of multiple files, and it won’t blight the entire connection just because one file hasn’t finished loading.
 >
-> The other trend that QUIC follows up on is built-in security. Whereas encryption was optional before (i.e. HTTP or HTTPS) QUIC is always encrypted. It is a given these days that every site should be encrypted — despite the overhead. This isn’t just to ensure that a man in the middle can’t see what type of orange juice you are ordering; it confirms that you are actually talking to your genuine orange juice supplier.<br> > [~ HTTP/3 Is Now a Standard: Why Use It and How to Get Started | thenewstack.io](https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/)
+> The other trend that QUIC follows up on is built-in security. Whereas encryption was optional before (i.e. HTTP or HTTPS) QUIC is always encrypted. It is a given these days that every site should be encrypted — despite the overhead. This isn’t just to ensure that a man in the middle can’t see what type of orange juice you are ordering; it confirms that you are actually talking to your genuine orange juice supplier.<br>
+
+[~ HTTP/3 Is Now a Standard: Why Use It and How to Get Started | thenewstack.io](https://thenewstack.io/http-3-is-now-a-standard-why-use-it-and-how-to-get-started/)
 
 - [What is HTTP/3? | cloudflare.com](https://www.cloudflare.com/learning/performance/what-is-http3/)<br>
 - [What is QUIC? | en.wikipedia.org](https://en.wikipedia.org/wiki/QUIC)<br>
@@ -1058,7 +1074,9 @@ The principle states that a class should have only one reason to change and one 
 
 <p>The "Least Power" principle simplifies the codebase and development workflow processes by prioritizing the least powerful core web languages first and core languages before JS frameworks.</p>
 
-> "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br> > [~ Web Technologies and the Rule of Least Power | W3.org](https://www.w3.org/2001/tag/doc/leastPower.html)
+> "<i>Many Web technologies are designed to exploit the Rule of Least Power. HTML is intentionally designed not to be a full programming language, so that many different things can be done with an HTML document: software can present the document in various styles, extract tables of contents, index it, and so on. Similarly, CSS is a declarative styling language that is easily analyzed. The Semantic Web is an attempt, largely, to map large quantities of existing data onto a common language so that the data can be analyzed in ways never dreamed of by its creators.</i>"<br>
+
+[~ Web Technologies and the Rule of Least Power | W3.org](https://www.w3.org/2001/tag/doc/leastPower.html)
 
 The Least Power Principle allows developers to more easily separate data or business logic (JavaScript) form GUI logic (HTML/CSS). See [SEPARATION OF CONCERNS](#separation).
 
@@ -1150,13 +1168,17 @@ CSS's always on, always reactive nature combined with newly enable CSS `has();` 
 
 CSS is the driving force behind D7460N design and development. Scripting is purposely minimal so as to avoid negating the natural benefits of such CSS first, data centric design and development. This focus on CSS is neither custom nor new. It is actually the original intent and purpose behind how and why CSS was created.
 
-> <i>HTML and CSS over JS : :</i><br> > <i>Whenever possible, we (Bootstrap) prefer to write HTML and CSS over JavaScript. In general, HTML and CSS are more prolific and accessible to more people of all different experience levels. HTML and CSS are also faster in your browser than JavaScript, and your browser generally provides a great deal of functionality for you.</i>
+> <i>HTML and CSS over JS : :</i><br>
+>
+> <i>Whenever possible, we (Bootstrap) prefer to write HTML and CSS over JavaScript. In general, HTML and CSS are more prolific and accessible to more people of all different experience levels. HTML and CSS are also faster in your browser than JavaScript, and your browser generally provides a great deal of functionality for you.</i>
 >
 > <i>This principle is our first-class JavaScript API using data attributes. You don’t need to write nearly any JavaScript to use our JavaScript plugins; instead, write HTML.</i>
 >
 > <i>Lastly, our styles build on the fundamental behaviors of common web elements. Whenever possible, we prefer to use what the browser provides.</i>
 >
-> <i>The same goes for more complex components. While we could write our own form validation plugin to add classes to a parent element based on an input’s state, thereby allowing us to style the text say red, we prefer using the :valid/:invalid pseudo-elements every browser provides us.</i><br> > [~ HTML and CSS over JS | getbootstrap.com](https://getbootstrap.com/docs/5.3/extend/approach/#html-and-css-over-js)
+> <i>The same goes for more complex components. While we could write our own form validation plugin to add classes to a parent element based on an input’s state, thereby allowing us to style the text say red, we prefer using the :valid/:invalid pseudo-elements every browser provides us.</i><br>
+
+[~ HTML and CSS over JS | getbootstrap.com](https://getbootstrap.com/docs/5.3/extend/approach/#html-and-css-over-js)
 
 </details>
 
@@ -1173,7 +1195,9 @@ CSS is the driving force behind D7460N design and development. Scripting is purp
 
 (WIP)
 
-> <i>Web components are custom, reusable web elements which encapsulate functionality, markup structure and styling by using vanilla javascript/HTML/CSS along with native Web APIs.</i><br> > [~ Custom elements teach the browser new tricks while preserving the benefits of HTML](https://web.dev)
+> <i>Web components are custom, reusable web elements which encapsulate functionality, markup structure and styling by using vanilla javascript/HTML/CSS along with native Web APIs.</i><br>
+
+[~ Custom elements teach the browser new tricks while preserving the benefits of HTML](https://web.dev)
 
 Web components allow for JS framework independence, neutrality, and flexibility. For example, if <b>Angular</b> or <b>Vue.js</b> are no longer "the thing", and the team needs to switch to <b>React</b>, they can with relative ease using the D7460N Template. This is because (native) web components are compatible with all web standards compliant JS frameworks.
 
@@ -1183,7 +1207,9 @@ Web components allow for JS framework independence, neutrality, and flexibility.
 >
 > <i>Remember, Web Components are a standard to build on top of, they’ve been approved by the major leaders of this industry and are being actively implemented and pushed forward. You’ll be using Web Components in the future whether you know it or not, better get started understanding them now and get a head start.</i>
 >
-> <i>Learning about Web Components now is an investment for the future.</i><br> > [~ Web Components are Dead: Long Live Web Components | blog.bitsrc.io](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
+> <i>Learning about Web Components now is an investment for the future.</i><br>
+
+[~ Web Components are Dead: Long Live Web Components | blog.bitsrc.io](https://blog.bitsrc.io/web-components-are-dead-long-live-web-components-1de76ab4890d)
 
 - [Web Components | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
 
@@ -1214,13 +1240,17 @@ Classless CSS is a minimalist development technique that allows developers to de
 <details>
 <summary id="layer"><h3>CSS @LAYER</h3></summary>
 
-> <i>Using `@layer`, we can define groups of rule sets with a pre-determined order to reduce the likelihood of conflicts. Being able to assign this order largely prevents the need to use `!important` and enables easier overrides of inherited styles from third-party or framework stylesheets.</i><br> > [~ Modern CSS For Dynamic Component-Based Architecture](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/)
+> <i>Using `@layer`, we can define groups of rule sets with a pre-determined order to reduce the likelihood of conflicts. Being able to assign this order largely prevents the need to use `!important` and enables easier overrides of inherited styles from third-party or framework stylesheets.</i><br>
+
+[~ Modern CSS For Dynamic Component-Based Architecture](https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/)
 
 CSS `@layer` is utilized by the D7460N Template to lessen the precedence of the default CSS. This allows for custom, third party, and / or other themes and / or auto-page-builders to take precedent and override default D7460N Template styles. In other words, easier integration with other projects and / or with other tools.
 
 > The `@layer` CSS at-rule is used to declare a cascade layer and can also be used to define the order of precedence in case of multiple cascade layers.
 >
-> Rules within a cascade layer cascade together, giving more control over the cascade to web developers. Any styles not in a layer are gathered together and placed into a single anonymous layer that comes after all the declared layers, named and anonymous. This means that any styles declared outside of a layer will override styles declared in a layer, regardless of specificity.<br> > [~ CSS @layer | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer)
+> Rules within a cascade layer cascade together, giving more control over the cascade to web developers. Any styles not in a layer are gathered together and placed into a single anonymous layer that comes after all the declared layers, named and anonymous. This means that any styles declared outside of a layer will override styles declared in a layer, regardless of specificity.<br>
+
+[~ CSS @layer | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer)
 
 `@layer` Order
 
@@ -1248,7 +1278,9 @@ The `@supports` CSS at-rule lets you specify CSS declarations that depend on a b
 
 Web accessibility and usability utilize semantic structural HTML. Semantic structural HTML lays the foundation upon which assistive and other technologies leverage, build, and operate successfully.
 
-> Elements in HTML can have semantics, meaning they are one of several predefined things, and not another. Semantics answer the question ‘what is this thing?’, out of a list of standardized things. This information is then relied upon by browsers and assistive technologies in their UIs.<br> > [~ Semantics in HTML | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
+> Elements in HTML can have semantics, meaning they are one of several predefined things, and not another. Semantics answer the question ‘what is this thing?’, out of a list of standardized things. This information is then relied upon by browsers and assistive technologies in their UIs.<br>
+
+[~ Semantics in HTML | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
 
 - https://hidde.blog/popover-semantics/<br>
 - https://www.pluralsight.com/guides/semantic-html
@@ -1300,7 +1332,9 @@ HTML : :
 <details>
 <summary id="divless"><h3>DIV-LESS HTML</h3></summary>
 
-> <i>DIVs are played out. We all love our `<div>` tags. They've been around for decades, and for decades they've been the go-to element when you need to wrap some stuff in a block for styling or structural purposes. It's still very common to look through production websites.</i><br> > [~ Stop Using So Many Divs - An Intro to Semantic HTML | dev.to](https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i)
+> <i>DIVs are played out. We all love our `<div>` tags. They've been around for decades, and for decades they've been the go-to element when you need to wrap some stuff in a block for styling or structural purposes. It's still very common to look through production websites.</i><br>
+
+[~ Stop Using So Many Divs - An Intro to Semantic HTML | dev.to](https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i)
 
 (WIP) (WIP) (WIP)
 
@@ -1386,7 +1420,9 @@ This is done with CSS [@support](#support) to detect feature support.
 
 Feature detection is generally used to determine whether browsers can handle more modern functionality, while polyfills are often used to "fill-in" for missing features with JavaScript.
 
-> **Progressive Enhancement** is a useful technique that allows web developers to focus on developing the best possible websites while making websites work multiple unknown user agents. **Graceful degradation** is related but not the same thing and is often seen as going in the opposite direction to progressive enhancement. In reality, both approaches are valid and can often complement one another.<br> > [~ Progressive Enhancement | MDN Web Docs](https://developer.mozilla.com/en-US/docs/Glassary/Progressive_Enhancement/)
+> **Progressive Enhancement** is a useful technique that allows web developers to focus on developing the best possible websites while making websites work multiple unknown user agents. **Graceful degradation** is related but not the same thing and is often seen as going in the opposite direction to progressive enhancement. In reality, both approaches are valid and can often complement one another.<br>
+
+[~ Progressive Enhancement | MDN Web Docs](https://developer.mozilla.com/en-US/docs/Glassary/Progressive_Enhancement/)
 
 </details>
 
@@ -1560,7 +1596,7 @@ The default D7460N Template automatically shows a minimal CSS only loading anima
 >
 > There’s a structural benefit of separating the data layer (DOM that would be rendered on the page) from the styles applied. The styles are written as possible variants that live within the components style, while an endpoint could send the data that it would then use to style the component by.<br>
 
-> [~ Getting Started with Style Queries | developer.chrome.com](https://developer.chrome.com/blog/style-queries/)
+[~ Getting Started with Style Queries | developer.chrome.com](https://developer.chrome.com/blog/style-queries/)
 
 - [A Primer On CSS Container Queries | smashingmagazine.com](https://www.smashingmagazine.com/2021/05/complete-guide-css-container-queries/)
 - [CSS Style Queries | ishadeed.com](https://ishadeed.com/article/css-container-style-queries/)
@@ -1621,7 +1657,9 @@ https://blog.logrocket.com/fluid-vs-responsive-typography-css-clamp/
 >
 > That information gives search engine crawlers, like Googlebot, a better understanding of your content. This increases the chances that your content will be selected as a candidate for ranking on the search engine results page (SERP) for relevant keywords.
 >
-> To put it simply, pages with correctly implemented semantic HTML have an advantage in SEO over those that don’t.<br> > [~ Semantic HTML5 Guide | semrush.com](https://www.semrush.com/blog/semantic-html5-guide/)
+> To put it simply, pages with correctly implemented semantic HTML have an advantage in SEO over those that don’t.<br>
+
+[~ Semantic HTML5 Guide | semrush.com](https://www.semrush.com/blog/semantic-html5-guide/)
 
 ...and or with semantically meaningless `<div>` elements. (see [DIV-less](#divless))
 
@@ -1670,7 +1708,9 @@ The D7460N logo conforms to the following requirements : :
 - No relational context
 - No copyright
 
-> <span id="logo">NOTE : : Accessibility requirements do not apply to logos and or incidental graphics, but is nevertheless best practices for [Usability](#usable).<br> > [Color and Contrast | accessibility.digital.gov](https://accessiblity.digital.gov/visual-design/color-and-contrast/)
+> <span id="logo">NOTE : : Accessibility requirements do not apply to logos and or incidental graphics, but is nevertheless best practices for [Usability](#usable).<br>
+
+[Color and Contrast | accessibility.digital.gov](https://accessiblity.digital.gov/visual-design/color-and-contrast/)
 
 The D7460N logo changes color dynamically depending on its `background-color` so as to maintain the contextual theme and standard accessibility contrast ratio of `4.5:1`. The color of `#999999` is defaulted as a safe fallback color that works in both light and dark themes. Note: (see [Accessibility](#access) note above).
 
@@ -1774,11 +1814,15 @@ D7460N has optional alternate layout configurations that optimize master/detail 
 > - It appears when you search for apps on the device.
 > - It opens in a standalone window, wholly separated from a browser's user interface.
 > - It has access to higher levels of integration with the OS, for example, URL handling or title bar customization.
-> - It works offline.<br> > [~ Progressive Web Apps | web.dev](https://web.dev/learn/pwa/progressive-web-apps/)
+> - It works offline.<br>
+
+[~ Progressive Web Apps | web.dev](https://web.dev/learn/pwa/progressive-web-apps/)
 
 > PWAs are websites that are progressively enhanced to function like installed, native apps on supporting platforms, while functioning like regular websites on other browsers.
 >
-> Progressive Web Apps (PWAs) provide access to open web technologies, to provide cross-platform interoperability. PWAs provide users with an app-like experience that’s customized for their devices.<br> > [~ Progressive Web Applications: The Best Of Web And Native | inrhythm.com](https://www.inrhythm.com/pwas-best-of-web-and-native/)
+> Progressive Web Apps (PWAs) provide access to open web technologies, to provide cross-platform interoperability. PWAs provide users with an app-like experience that’s customized for their devices.<br>
+
+[~ Progressive Web Applications: The Best Of Web And Native | inrhythm.com](https://www.inrhythm.com/pwas-best-of-web-and-native/)
 
 <br>
 
