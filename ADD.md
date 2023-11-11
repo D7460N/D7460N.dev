@@ -1229,7 +1229,7 @@ Classless CSS is a minimalist development technique that allows developers to de
 >
 > <i>Logical properties define direction‐relative equivalents of their corresponding physical properties.</i>
 
-(WIP) (WIP) (WIP) (WIP) (WIP)
+(WIP)
 
 - [CSS Logical Properties and Values Level 1 | drafts.csswg.org](https://drafts.csswg.org/css-logical/)<br>
 - [CSS logical properties and values | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values)<br>
@@ -1269,7 +1269,7 @@ CSS `@support` is utilized for feature detection and <b>Progressive Enhancement<
 The `@supports` CSS at-rule lets you specify CSS declarations that depend on a browser's support for CSS features. Using this at-rule is commonly called a feature query. The rule must be placed at the top level of your code or nested inside any other conditional group at-rule.<br >
 [CSS @supports | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports)
 
-(WIP) (WIP) (WIP)
+(WIP)
 
 </details>
 
@@ -1336,7 +1336,7 @@ HTML : :
 
 [~ Stop Using So Many Divs - An Intro to Semantic HTML | dev.to](https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i)
 
-(WIP) (WIP) (WIP)
+(WIP)
 
 </details>
 
@@ -1389,7 +1389,7 @@ The D7460N Template leverages CSS custom properties or variables to predefine la
 Custom properties (sometimes referred to as CSS variables or cascading variables) are entities defined by CSS authors that contain specific values to be reused throughout a document. They are set using custom property notation (e.g., `--main-color: black;`) and are accessed using the `var()` function (e.g., `color: var(--main-color);`).<br>
 [~ Using CSS Custom Properties | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
-(WIP) (WIP) (WIP)
+(WIP)
 
 </details>
 
@@ -1663,7 +1663,7 @@ https://blog.logrocket.com/fluid-vs-responsive-typography-css-clamp/
 
 ...and or with semantically meaningless `<div>` elements. (see [DIV-less](#divless))
 
-(WIP) (WIP) (WIP)
+(WIP)
 
 <br>
 
@@ -1922,7 +1922,7 @@ A fully capable Progressive Web Application can provide the following advantages
 
 ---
 
-<br> 
+<br>
 <h2 id="directory">DIRECTORY STRUCTURE : :</h2>
 
 <br>
