@@ -226,9 +226,9 @@ _We shall see . . ._
 
 <br />
 
-DEFINITIONS : :
+TYPICAL SETUP : :
 
-HIGH LEVEL : :
+DEFINITIONS : :
 
 - <b>User Agent</b> === Web browser
 
@@ -236,7 +236,7 @@ HIGH LEVEL : :
 
 - <b>Back-End</b> (FE) === Data storage, database(s), data source(s) of various types, formats, and configurations
 
-Typical setup : :
+
 
 ```
 
@@ -283,14 +283,13 @@ PROs and CONs : :
 
 ---
 
+PROPOSED SETUP : :
+
 DEFINITIONS : :
 
-HIGH LEVEL : :
+<b>Front-Front-End</b> (FFE) = Decoupled standards compliant vanilla HTML, modern CSS, and (minimal presentation and or fallback related) JS. See [Least Power Principle](#least).
 
-<b>Front-Front-End</b> (FFE) = All things end-user related other than data (data agnostic)<br />
-*Standards compliant vanilla HTML, modern CSS, and (minimal presentation related) JS*
-
-<b>Front-Back-End</b> (FBE) = Optional framework. API abstract connecting FFE and FBE in combination with web components
+<b>Front-Back-End</b> (FBE) = Optional framework and or other means by which to write the data logic. API abstract connecting FFE and FBE in combination with web components. See [Saparation of Concerns](#separation).
 
 <b>Air-Gap</b> (AG) = Separation of Concerns (GUI logic from data logic)
   - Pre-rendered, pre-delivered, divless, classless, structural/layout HTML
@@ -301,8 +300,6 @@ HIGH LEVEL : :
 
 
 ```
-
-
     // Built-in "truthful" loading state
    // Upgrade/security path NOT controlled by third party dependencies
   // Custom (vanilla) changes DON'T break upgrade/security path
