@@ -1592,13 +1592,10 @@ https://codepen.io/dragontheory/details/jOvBLaW
 <details>
 <summary id="custom"><h3>FLUID TYPOGRAPHY</h3></summary>
 
-Using the fluid typography technique, our font will always adjust to the screen size. For every pixel the screen increases, there will be an increment in font size.
+> Typography is a very important aspect of a website, setting the tone and adding aesthetic appeal. The use of typographic elements like scale, spacing, and size can impact usability, readability, and accessibility. In this article, we’ll focus on the first element: scale.
 
-> "Caio, what kind of witchcraft is this? How is that possible?"
+https://blog.logrocket.com/fluid-vs-responsive-typography-css-clamp/
 
-It's not witchcraft, but a powerful CSS function: `clamp()`.
-
-https://dev.to/marcelluscaio/fluid-typography-1mfl
 
 </details>
 
