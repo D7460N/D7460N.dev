@@ -246,8 +246,8 @@ Typical setup : :
           /___________________________________________________           /_____ _  _ _
          /\                                                   \         /\                 `
         /::\ Framework driven "happy path" design/development  \       /::\  mystery      `
-       /::::\ Build \ Compile \ serve to make Typescirpt        \     /::::\  meat       `
-_ _ _ /::::::\ compatible with browsers                          \___/::::::\           `
+       /::::\ Build \ Compile \ Serve for Typescirpt browser    \     /::::\  meat       `
+_ _ _ /::::::\ compatibility                                     \___/::::::\           `
 \    /::User::\___________________________________________________\ /::::::::\_______ _`  _
  \   \:Agent::/                                                   / \::::::::/` ` ` ` `
   \   \::::::/ Gui, business, and data logic integrated with     /   \::::::/          `
