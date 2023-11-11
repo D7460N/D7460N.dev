@@ -1590,11 +1590,11 @@ https://codepen.io/dragontheory/details/jOvBLaW
 </details>
 
 <details>
-<summary id="custom"><h3>Fluid Typography</h3></summary>
+<summary id="custom"><h3>FLUID TYPOGRAPHY</h3></summary>
 
 Using the fluid typography technique, our font will always adjust to the screen size. For every pixel the screen increases, there will be an increment in font size.
 
-"Caio, what kind of witchcraft is this? How is that possible?"
+> "Caio, what kind of witchcraft is this? How is that possible?"
 
 It's not witchcraft, but a powerful CSS function: `clamp()`.
 
