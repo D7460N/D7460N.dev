@@ -1554,9 +1554,9 @@ This technique:
 
 (WIP)
 
-What if a web GUI could natively (no third-party plug-ins or dependencies) knows what is happening inside it, when it happens, and what to do about it? All without JavaScript? We would not have to handle each state of the DOM, resulting in less logic and code to write.
+> What if a web GUI could natively (no third-party plug-ins or dependencies) knows what is happening inside it, when it happens, and what to do about it? All without JavaScript? We would not have to handle each state of the DOM, resulting in less logic and code to write.
 
-- [Hiding an Element If Its Empty | tobiasahlin.com](https://tobiasahlin.com/blog/hiding-an-element-if-its-empty/)
+[Hiding an Element If Its Empty | tobiasahlin.com](https://tobiasahlin.com/blog/hiding-an-element-if-its-empty/)
 
 It would : :
 
