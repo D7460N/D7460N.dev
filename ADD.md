@@ -9,6 +9,7 @@ title: "APPLICATION DESIGN DOCUMENT : :"
 <h2 id="toc">TABLE OF CONTENTS : :</h2>
 
 - [Table of Contents](#toc)
+- [TL;DR](#tldr)
 - [Fair Warning](#fair)
 - [What if?](#what)
 - [Must Haves](#must)
@@ -80,6 +81,26 @@ title: "APPLICATION DESIGN DOCUMENT : :"
 - [Browser Compatibility](#compatible)
 - [Directory Structure](#directory)
   <br>
+
+---
+
+<h3 id="tldr">TL;DR</h3>
+
+* D7460N Me - 20+ years of designing and creating clean inclusive enjoyable user experiences for the <em>Wild Wild Web</em>.
+
+* D7460N UI - Minimal professional passively-reactive HTML/CSS seed/template for building fast, robust, adaptable, and scalable web applications and websites. All native. No 3rd party dependencies.
+
+* D7460N Theory - Modern CSS will supplant much of the GUI logic JS does today. Decoupling GUI logic from data logic allows both to thrive. This in turn will change the way see, interact, design and develope the <em>Wild Wild Web</em>
+
+* Separation of Concerns (data from UI) = JS framework agnostic = no monolithic, "opinionated" (AKA controlled) development decision trees.
+
+* Modern CSS functionality = no preprocessors, less LOE, and at 100 to 1K times faster rendering speed than JS and other language equivalents
+
+* Vanilla and native to the browser = no extra deployment or build steps to get around non-native JS framework browser incompatibility, no version upgrade purgatory, no vendor lock, minimal dependencies, and no NPM/NVM security vulnerabilities.
+
+* No/build/compile/serve process required = faster more productive development
+
+* No training developers on third party software (js frameworks) = time and taxpayer savings
 
 ---
 
