@@ -86,21 +86,25 @@ title: "APPLICATION DESIGN DOCUMENT : :"
 
 <h3 id="tldr">TL;DR</h3>
 
-* D7460N Me - 20+ years of designing and creating clean inclusive enjoyable user experiences for the <em>Wild Wild Web</em>.
+<b>D7460N Me</b> - 20+ years of designing and creating clean inclusive enjoyable user experiences for the <em>Wild Wild Web</em>.
 
-* D7460N UI - Minimal professional passively-reactive HTML/CSS seed/template for building fast, robust, adaptable, and scalable web applications and websites. All native. No 3rd party dependencies.
+<b>D7460N UI</b> - Minimal professional passively-reactive HTML/CSS seed/template for building fast, robust, adaptable, and scalable web applications and websites. All native. No 3rd party dependencies.
 
-* D7460N Theory - Modern CSS will supplant much of the GUI logic JS does today. Decoupling GUI logic from data logic allows both to thrive. This in turn will change the way see, interact, design and develope the <em>Wild Wild Web</em>
+<b>D7460N Theory</b> - Modern CSS will supplant much of the GUI logic JS does today. Decoupling GUI logic from data logic allows both to thrive. These combined will change the way see, interact, design and develope the <em>Wild Wild Web</em>
 
-* Separation of Concerns (data from UI) = JS framework agnostic = no monolithic, "opinionated" (AKA controlled) development decision trees.
+Let the CSS renaissance begin . . .
 
-* Modern CSS functionality = no preprocessors, less LOE, and at 100 to 1K times faster rendering speed than JS and other language equivalents
+<em>Coming soon to a browser near you</em>
 
-* Vanilla and native to the browser = no extra deployment or build steps to get around non-native JS framework browser incompatibility, no version upgrade purgatory, no vendor lock, minimal dependencies, and no NPM/NVM security vulnerabilities.
+> <b>Separation of Concerns</b> (GUI logic from data logic) = JS framework agnostic = no monolithic, "opinionated" (AKA controlled) development decision trees.
 
-* No/build/compile/serve process required = faster more productive development
+> <b>Modern CSS functionality</b> = no preprocessors, less LOE, and at 100 to 1K times faster rendering speed than JS and other language equivalents
 
-* No training developers on third party software (js frameworks) = time and taxpayer savings
+> <b>Vanilla and native to the browser</b> = no extra deployment or build steps required to get around non-native JS framework browser incompatibility, no version upgrade purgatory, no vendor lock, minimal dependencies, and no NPM/NVM security vulnerabilities.
+
+>  <b>No/build/compile/serve process required</b> = faster more productive development
+
+> <b>No requirement</b> to train developers on third party software (js frameworks) = time and taxpayer savings
 
 ---
 
@@ -1554,9 +1558,9 @@ This technique:
 
 (WIP)
 
-> What if a web GUI could natively (no third-party plug-ins or dependencies) knows what is happening inside it, when it happens, and what to do about it? All without JavaScript? We would not have to handle each state of the DOM, resulting in less logic and code to write.
+What if a web GUI could natively (no third-party plug-ins or dependencies) knows what is happening inside it, when it happens, and what to do about it? All without JavaScript? We would not have to handle each state of the DOM, resulting in less logic and code to write.
 
-[Hiding an Element If Its Empty | tobiasahlin.com](https://tobiasahlin.com/blog/hiding-an-element-if-its-empty/)
+- [Hiding an Element If Its Empty | tobiasahlin.com](https://tobiasahlin.com/blog/hiding-an-element-if-its-empty/)
 
 It would : :
 
