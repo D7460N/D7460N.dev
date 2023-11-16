@@ -131,10 +131,6 @@ https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/ */
       }
     }
 
-    /* Define a default variable for the message */
-    :root {
-        --support: "Your browser does not support some advanced features (':has()' is not supported).";
-    }
 
 /*  WRAPPER ----------------------------------
 */  app-container {
@@ -462,18 +458,18 @@ html:after {
       display: grid;
     }
 
-    /* Use the variable for the content of the message */
-    .support {
-      display: block;
-      content: var(--support);
-    }
+/* Default message for browsers that do not support :has() */
+.suport::before {
+    content: "Your browser does not support some advanced features (':has()' is not supported).";
+    display: block;
+}
 
-    /* Change the variable's value if ':has()' is supported */
-    @supports (selector(:has(*))) {
-      :root {
-        --support: "Great! Your browser supports advanced features (':has()' is supported).";
-      }
+/* Change the message for browsers that support :has() */
+@supports (selector(:has(*))) {
+    .support::before {
+        content: "Great! Your browser supports advanced features (':has()' is supported).";
     }
+}
 
 span-bold {font-weight: 900;}
 
