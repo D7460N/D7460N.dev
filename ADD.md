@@ -103,7 +103,7 @@ Let the CSS renaissance begin . . .
 > * no monolithic "opinionated" (AKA controlled) development decision trees
 
 > <b>Modern CSS functionality</b>
-> * no preprocessors,
+> * no preprocessors
 > * much less LOE
 > * 100 to 1K times faster rendering speed than JS equivalents
 
@@ -115,7 +115,7 @@ Let the CSS renaissance begin . . .
 > * minimal dependencies
 > * no NPM/NVM security vulnerabilities
 
->  <b>No/build/compile/serve process required</b> =
+>  <b>No/build/compile/serve process required</b>
 > * faster and more productive development
 
 > <b>No training requirement</b> for third party software (js frameworks)
