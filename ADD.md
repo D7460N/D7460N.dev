@@ -96,15 +96,30 @@ Let the CSS renaissance begin . . .
 
 <em>Coming soon to a browser near you</em>
 
-> <b>Separation of Concerns</b> (GUI logic from data logic) = JS framework agnostic = no monolithic, "opinionated" (AKA controlled) development decision trees.
+<br>
 
-> <b>Modern CSS functionality</b> = no preprocessors, less LOE, and at 100 to 1K times faster rendering speed than JS and other language equivalents
+> <b>Separation of Concerns</b> (GUI logic from data logic)
+> * JS framework agnostic
+> * no monolithic "opinionated" (AKA controlled) development decision trees
 
-> <b>Vanilla and native to the browser</b> = no extra deployment or build steps required to get around non-native JS framework browser incompatibility, no version upgrade purgatory, no vendor lock, minimal dependencies, and no NPM/NVM security vulnerabilities.
+> <b>Modern CSS functionality</b>
+> * no preprocessors,
+> * much less LOE
+> * 100 to 1K times faster rendering speed than JS equivalents
 
->  <b>No/build/compile/serve process required</b> = faster more productive development
+> <b>Future proofed</b>
+> * vanilla/native to the browser
+> * no extra deployment or build steps required to get around non-native JS framework browser incompatibility
+> * no version upgrade purgatory
+> * no vendor lock
+> * minimal dependencies
+> * no NPM/NVM security vulnerabilities
 
-> <b>No requirement</b> to train developers on third party software (js frameworks) = time and taxpayer savings
+>  <b>No/build/compile/serve process required</b> =
+> * faster and more productive development
+
+> <b>No training requirement</b> for third party software (js frameworks)
+> * time and taxpayer savings
 
 ---
 
