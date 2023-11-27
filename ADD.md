@@ -708,7 +708,7 @@ Accessibility relates to the technical side of a website, while usability refers
 - [Introducing Baseline: a unified view of stable web features | developer.mozilla.org](https://developer.mozilla.org/en-US/blog/baseline-unified-view-stable-web-features/)
 
  <details>
-  <summary id="abstract"><h4>MINIMAL ABSTRACTION</h4></summary>
+  <summary id="abstract"><h3>MINIMAL ABSTRACTION</h3></summary>
 
   <p>(WIP)</p>
 
@@ -747,6 +747,7 @@ Such as:
 <details>
   <summary id="ux2"><h3>UX TO REMEMBER</h3></summary>
 
+- **Link padding** increases click-space for buttons. 
 - **No dead ends** - Provide end-users and obvious way forward and a way back. A way forward example would be, links to the support desk on `404` pages. A way back example would be a consistent visible "anchor" to the web application home page such as the conventional web application logo in the upper left corner.
 - **Link Offsite References** - Whenever an offsite source is reference, link to the reference.
 - **Off-site links open in new browser tab/window** - Open off-site links in a new browser tab or window with `target="_new"`.
