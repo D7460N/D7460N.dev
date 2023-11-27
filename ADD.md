@@ -88,7 +88,7 @@ title: "APPLICATION DESIGN DOCUMENT : :"
 
 <b>D7460N Me</b> - 20+ years of designing and creating clean inclusive enjoyable user experiences for the <em>Wild Wild Web</em>.
 
-<b>D7460N UI</b> - Minimal professional passively-reactive HTML/CSS seed/template for building fast, robust, adaptable, and scalable web applications and websites. All native. No 3rd party dependencies.
+<b>D7460N UI</b> - Minimal professional passively-reactive HTML/CSS seed/template for building fast, robust, adaptable, and scalable web applications and websites. All native. Minimal 3rd party dependencies.
 
 <b>D7460N Theory</b> - Modern CSS will supplant much of the GUI logic JS does today. Decoupling GUI logic from data logic allows both to thrive. These combined will change the way see, interact, design and develope the <em>Wild Wild Web</em>
 
