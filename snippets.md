@@ -8,4 +8,6 @@
 | Nav bar using html and css | Simple nav bar implementation using html and css | [codesandbox](https://codesandbox.io/s/navbar-html-css-bqew8?file=/index.html) 
 | Responsive nav bar html and css | Simple responsive nav bar implementation using html and css | [codesandbox](https://codesandbox.io/s/responsive-menu-html-css-5t709?file=/index.html) 
 
+---
+
 <i>Barrowed from: https://github.com/chilupa/css-snippets</i>
