@@ -1,8 +1,8 @@
 # Contribution Guidelines
 
-First of all, thank you for your contribution. No matter if it is a few lines of code or a one line code or whole together a junk of code, everything counts. Keep it cool in your own way :wink:
+First of all, thank you for your contribution. Please ensure all contributions adhere to the overall goal of the [Application Design Document](https://github.com/D7460N/D7460N.dev/blob/main/ADD.md). No matter if it is a few lines of code or a one line code or whole together a junk of code, everything counts. Keep it cool in your own way :wink:
 
-Here's how you can contribute
+Here's how you can contribute:
 
 1. Write your code in any of these online editors of your choice.
 https://github.com/D7460N/D7460N.dev/blob/main/snippets.md
