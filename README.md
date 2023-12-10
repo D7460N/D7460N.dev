@@ -25,3 +25,9 @@ Download, extract, and double-click <code>index.html</code><br />to load D7460N 
 * no 3rd party plug-ins<br />
 * no worries 
 </p>
+
+---
+
+Please see [CONTRIBUTING.md](https://github.com/D7460N/D7460N.dev/blob/main/snippets.md) that you are looking for.
+
+Please refer to [Contribution Guidelines](https://github.com/D7460N/D7460N.dev/blob/main/CONTRIBUTING.md) before creating Pull requests. And lastly, don't hesitate. Feel free to shoot me questions :smile:
