@@ -26,3 +26,8 @@ In order to create a Pull request
 - Push to remote repository and then create a Pull request.
 - Give your Pull request a brief name that describes your snippet.
 - After reviewing your code, the PRs will be merged and you can see your changes live :rocket:
+
+---
+
+<i>Barrowed from: https://github.com/chilupa/css-snippets</i>
+
