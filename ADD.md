@@ -351,34 +351,34 @@ DEFINITIONS : :
   // Custom (vanilla) changes DON'T break upgrade/security path
  // Flexible, unopinionated, user-driven (front to back) design and development
 
-                   // FRONT-END - - - - - - - - - - - - - - - - - - - - - - - - - //
-                  /                                                               /
-                 // FFE            // FBE                                        /
-                /____   -       - /_____________________________________________/
-               /\    \ -  AIR  - /\         \                                   \
-              /::\HTML\  GAP  - /::\ Build   \ Angular                           \
-             /::::\CSS \     - /::::\ Compile \ Vue                               \
-      _ _ _ /::::::\JS  \_ _-_/::::::\ Serve   \ React...                          \
-     /\    /: User :\____\ - /Optional\_________\___________________________________\
-    /  \   \: Agent:/    /-  \Framwork/         /                                   /
-        \   \::::::/ UI / \   \::::::/         /  Typescript                       /
-         \   \::::/ UX /   \   \::::/         /  Data logic                       /
-          \   \::/    /\    \   \::/         /                                   /\
-           \   \/____/  \    \   \/_________/___________________________________/  \
-            \            \    \                                                     \
-             \_ _ _ _ _ _ \    \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
-             /            /    /
-            // JAMstack       // Separation of Concerns (decoupled GUI logic from data logic)
-           // Flexible       // Connected via API
-          // Scalable
-         // Secure
-        // Modular
-       // Framework, data, and platform agnostic
-      // GUI & business logic
-     // Decoupled and independent GUI allows templating across applications
-    // Semantic HTML and native web components for dynamic data hooks
-   // Leverages native CSS passive reactiveness
-  // Smaller codebase
+                    // FRONT-END - - - - - - - - - - - - - - - - - - - - //
+                   /                                                     /
+                  // FFE         // FBE         // Framework(s)         /
+                 // Micro-FE    /              // CMS(s)               /
+                /____          /____          /_______________________/
+               /\    \   AIR  /\    \   AIR  /\          \            \
+              /::\HTML\ GAP  /::\REST\ GAP  /::\  Build   \  Data      \
+             /::::\CSS \    /::::\JSON\    /::::\  Compile \  Logic     \
+      _ _ _ /::::::\JS  \_ /::::::\XML \_ /::::::\  Serve   \            \
+     /\    /: User :\____\/: API ::\____\/::::::::\__________\____________\
+    /  \   \: Agent:/    /\::::::::/    /\::::::::/          /            /
+        \   \::::::/ UI /  \::::::/    /  \::::::/  Angular / Typescript /
+         \   \::::/ UX / \  \::::/    / \  \::::/  Vue     / JavaScript /
+          \   \::/ DX /   \  \::/    /   \  \::/  React   /            /
+           \   \/____/ \   \  \/____/ \   \  \/__________/____________/ \
+            \_ _ _ _ _ _\   \_ _ _ _ _ \   \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _\
+            /           /   /              /                             /
+           // JAMstack     // Separation of Concerns (decoupled GUI logic from data logic)
+          // Flexible     // Connected via API.                       /
+         // Scalable                    /                            /
+        // Secure                      /                            /
+       // Modular                     /
+      // Framework, data, and platform agnostic
+     // GUI & business logic       /
+    // Decoupled and independent GUI allows templating across applications
+   // Semantic HTML and native web components for dynamic data hooks
+  // Leverages native CSS passive reactiveness
+ // Smaller codebase
 
 ```
 
