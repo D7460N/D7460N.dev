@@ -6,6 +6,13 @@ title: "APPLICATION DESIGN DOCUMENT : :"
 
 <br>
 
+> "Decoupling GUI and data logic enables a single, reusable UI for multiple sites/apps. With global support for the :has() CSS function, GUIs become "self-aware," leveraging CSS's passive reactivity to dynamically manage states without scripting. This approach is significantly faster and eliminates the need for JS polling or third-party dependencies, offloading JavaScript to handle heavier tasks. This marks a transformative shift in web design and development."
+
+> Less JS in the browser means less security risk for users.
+
+> No JS mode. 
+
+
 <h2 id="toc">TABLE OF CONTENTS : :</h2>
 
 - [Table of Contents](#toc)
